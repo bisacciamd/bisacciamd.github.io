@@ -1,5 +1,6 @@
 ---
 title: "About"
+author: G.Bisaccia
 ---
 
 About this site
