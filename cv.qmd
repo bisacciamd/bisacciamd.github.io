@@ -1,0 +1,12 @@
+---
+title: "CV"
+author: G.Bisaccia
+format: 
+  dashboard:
+    nav-buttons: [github, twitter, linkedin]
+    github: https://github.com/giandomd/
+    linkedin: https://linkedin.com/in/bisacciamd
+    twitter: https://x.com/giandomd
+    orientation: rows
+    scrolling: false
+---
