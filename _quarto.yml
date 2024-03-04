@@ -10,6 +10,7 @@ website:
         text: Home
       - about.qmd
       - cv.qmd
+      - publist.qmd
     right: 
       - icon: github
         href: https://github.com/giandomd
