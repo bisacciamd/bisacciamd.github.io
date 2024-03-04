@@ -12,7 +12,7 @@ website:
       - cv.qmd
     right: 
       - icon: github
-        href: github: https://github.com/giandomd
+        href: https://github.com/giandomd
       - icon: twitter
         href: https://x.com/giandomd
       - icon: linkedin
