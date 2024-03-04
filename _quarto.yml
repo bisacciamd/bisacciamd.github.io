@@ -3,16 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "giandomd.github.io"
+  title: "G. Bisaccia, MD"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - cv.qmd
+    right: 
+      - icon: github
+        href: github: https://github.com/giandomd
+      - icon: twitter
+        href: https://x.com/giandomd
+      - icon: linkedin
+        href: https://linkedin.com/in/bisacciamd
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true
 
