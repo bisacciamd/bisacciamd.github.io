@@ -1,5 +1,12 @@
 ---
 title: Portfolio
+author: 
+    name: G. Bisaccia
+    degrees: MD, PhD
+    orcid: 0000-0003-4606-3093
+    affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy
+bibliography: cv.bib
+
 ---
 ## Quarto dashboards
 ### Diagnostic test assessment
@@ -24,7 +31,7 @@ A script allowing batch extraction of selected images (stress and rest perfusion
 
 ### Methods
 #### Survival analysis
-- survival analysis with restricted cubic spline modeling of the hazard ratio on a continuous variable.
+- survival analysis with modeling of the hazard ratio on a continuous variable as in @RN31.
 
 #### Diagnostic test accuracy
 - diagnostic test accuracy meta-analysis with the split component synthesis method.
@@ -34,4 +41,9 @@ A script allowing batch extraction of selected images (stress and rest perfusion
 
 ### Data visualization
 #### Sankey chart
+This was used in @RN21.
+
 #### 
+
+:::{refs}
+:::

@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="G. Bisaccia">
 
 <title>G. Bisaccia, MD, PhD - Portfolio</title>
 <style>
@@ -20,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -187,10 +208,23 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">G. Bisaccia, MD, PhD <a href="https://orcid.org/0000-0003-4606-3093" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Gabriele d’Annunzio University of Chieti and Pescara, Italy
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
   
     
   </div>
@@ -242,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="survival-analysis" class="level4">
 <h4 class="anchored" data-anchor-id="survival-analysis">Survival analysis</h4>
 <ul>
-<li>survival analysis with restricted cubic spline modeling of the hazard ratio on a continuous variable.</li>
+<li>survival analysis with modeling of the hazard ratio on a continuous variable as in <span class="citation" data-cites="RN31">Sinigiani et al. (<a href="#ref-RN31" role="doc-biblioref">2024</a>)</span>.</li>
 </ul>
 </section>
 <section id="diagnostic-test-accuracy" class="level4">
@@ -259,16 +293,25 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="data-visualization">Data visualization</h3>
 <section id="sankey-chart" class="level4">
 <h4 class="anchored" data-anchor-id="sankey-chart">Sankey chart</h4>
-</section>
-<section id="section" class="level4">
-<h4 class="anchored" data-anchor-id="section"></h4>
+<p>This was used in <span class="citation" data-cites="RN21">Liang et al. (<a href="#ref-RN21" role="doc-biblioref">2023</a>)</span>. ####</p>
+<div class="{refs}">
+
+</div>
 
 
+
 </section>
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-RN21" class="csl-entry" role="listitem">
+Liang, K., G. Bisaccia, I. Leo, M. G. L. Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson, and C. Bucciarelli-Ducci. 2023. <span>“CMR Reclassifies the Majority of Patients with Suspected MINOCA and Non MINOCA.”</span> Journal Article. <em>Eur Heart J Cardiovasc Imaging</em>, jead182. <a href="https://doi.org/10.1093/ehjci/jead182">https://doi.org/10.1093/ehjci/jead182</a>.
+</div>
+<div id="ref-RN31" class="csl-entry" role="listitem">
+Sinigiani, Giulio, Laura De Michieli, Aldostefano Porcari, Chiara Zocchi, Anna Sorella, Carlotta Mazzoni, Giandomenico Bisaccia, et al. 2024. <span>“Atrial Electro-Functional Predictors of Incident Atrial Fibrillation in Cardiac Amyloidosis.”</span> Journal Article. <em>Heart Rhythm</em>. <a href="https://doi.org/10.1016/j.hrthm.2024.01.056">https://doi.org/10.1016/j.hrthm.2024.01.056</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
