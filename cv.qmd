@@ -21,7 +21,7 @@ about:
 - Investigated the value of noninvasive cardiovascular testing in patients with acute and stable chest pain, and following cardiac transplantation
 - Improved research productivity among peers in various research groups
 - Developed MATLAB software for automated handling of DICOM studies for extraction of relevant images
-- Streamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reduced data collection times by more than 4-fold
+- Streamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reducing data collection times by > 4-fold
 - Was awarded 3 travel grants from major cardiovascular societies in 2023
 
 **2022** | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK. Course director: Prof. Dudley J. Pennell
