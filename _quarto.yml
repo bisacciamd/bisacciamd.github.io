@@ -13,8 +13,10 @@ website:
       - about.qmd
       - href: portfolio.qmd
         text: Portfolio
-      - cv.qmd
-      - publist.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Publications
+        href: publist.qmd
     right: 
       - icon: mortarboard
         text: MD thesis
