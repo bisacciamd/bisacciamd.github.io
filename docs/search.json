@@ -221,6 +221,6 @@
     "href": "portfolio.html#matlab-software",
     "title": "Portfolio",
     "section": "MATLAB software",
-    "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.\n\n\nMethods\n\nSurvival analysis\n\nsurvival analysis with modeling of the hazard ratio on a continuous variable as in Sinigiani et al. (2024).\n\n\n\nDiagnostic test accuracy\n\ndiagnostic test accuracy meta-analysis with the split component synthesis method.\n\n\n\nClinical utility and net benefit\n\n\n\nData visualization\n\nSankey chart\nThis was used in Liang et al. (2023). ####"
+    "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.\n\n\nMethods\n\nDiagnostic test accuracy analysis\n\ndiagnostic test accuracy meta-analysis with the split component synthesis method, as used in Ricci et al. (2023).\n\n\n\nSurvival analysis\n\nsurvival analysis with modeling of the hazard ratio on a continuous variable as in Sinigiani et al. (2024).\n\n\n\nDecision curve analysis\nI used this in my PhD thesis to evaluate the clinical utility of quantitative stress perfusion CMR after heart transplantation.\n\n\n\nData visualization\n\nSankey chart\nThis was used in Liang et al. (2023)."
   }
 ]
