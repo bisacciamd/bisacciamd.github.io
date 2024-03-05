@@ -1,10 +1,11 @@
 ---
 title: My first blog post
 subtitle: Yes that's a first
-author: G. Bisaccia
-orcid: https://orcid.org/0000-0003-4606-3093
+author: 
+    name: G. Bisaccia
+    orcid: 0000-0003-4606-3093
 description: I tried my best with this one
 date: last-modified
 date-format: medium
-image: "images/apps/dta.png"
+#image: 
 ---

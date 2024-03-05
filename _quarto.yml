@@ -12,20 +12,20 @@ website:
         text: Home
       - href: blog.qmd
         text: Blog
-      - href: portfolio.qmd
-        text: Portfolio
-      - text: CV
-        href: cv.qmd
-      - text: Publications
-        href: publist.qmd
-      - about.qmd
+      - text: Me
+        menu:
+          - about.qmd
+          - href: portfolio.qmd
+            text: Portfolio
+          - text: Publications
+            href: publist.qmd
     right: 
-      - icon: mortarboard
-        text: MD thesis
-        href: md.qmd
+
       - icon: mortarboard-fill
         text: PhD thesis
         href: phd.qmd
+      - text: CV
+        href: cv.qmd
       - icon: github
         href: https://github.com/giandomd
       - icon: twitter
