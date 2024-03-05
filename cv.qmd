@@ -24,8 +24,7 @@ about:
 - Streamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reduced data collection times by more than 4-fold
 - Was awarded 3 travel grants from major cardiovascular societies in 2023
 
-**2022** | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK
-Course director: Prof. Dudley J. Pennell
+**2022** | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK. Course director: Prof. Dudley J. Pennell
 
 - Underwent full-time training in CMR under CMR Level 3 certified experts 
 - Contributed to the CMR service of the hospital
