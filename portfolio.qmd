@@ -1,0 +1,27 @@
+---
+title: Portfolio
+---
+## Quarto dashboards
+### Diagnostic test assessment
+A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. [Link](https://nweex5-g-bisaccia.shinyapps.io/dta-dashboard/)
+
+### Randomized clinical trial appraisal
+A dashboard that provides basic insight into 2-arm RCT results. [Link](https://nweex5-g-bisaccia.shinyapps.io/rct-appraise/)
+
+## Shiny applications
+### cviBaker2042
+Custom-made application for exportation of Circle CVi42 study reports to [Redcap](https://www.project-redcap.org) import-ready CSV files. Shared upon request.
+
+### Methods
+#### Survival analysis
+- survival analysis with restricted cubic spline modeling of the hazard ratio on a continuous variable.
+
+#### Diagnostic test accuracy
+- diagnostic test accuracy meta-analysis with the split component synthesis method.
+
+#### Clinical utility and net benefit
+
+
+### Data visualization
+#### Sankey chart
+#### 

@@ -2,6 +2,4 @@
 title: "Home"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome. Have a look at my [portfolio](portfolio.qmd), [scientific publications](publist.qmd), [CV](cv.qmd) or just read a [short introduction about myself](about.qmd).

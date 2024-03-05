@@ -11,16 +11,24 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: portfolio.qmd
+        text: Portfolio
       - cv.qmd
       - publist.qmd
     right: 
+      - icon: mortarboard
+        text: MD thesis
+        href: md.qmd
+      - icon: mortarboard-fill
+        text: PhD thesis
+        href: phd.qmd
       - icon: github
         href: https://github.com/giandomd
       - icon: twitter
         href: https://x.com/giandomd
       - icon: linkedin
         href: https://linkedin.com/in/bisacciamd
-  page-footer: "Copyright 2024, Giandomenico Bisaccia" 
+  page-footer: "Giandomenico Bisaccia 2024" 
   reader-mode: false
 format:
   html:
