@@ -1,3 +1,15 @@
 ---
-title: "MD thesis (2021)"
+title: "CARDIOVASCULAR MAGNETIC RESONANCE REFERENCE VALUES OF MITRAL AND TRICUSPID ANNULAR DIMENSIONS: THE UK BIOBANK COHORT"
+subtitle: MD thesis, 2021
+author: 
+    name: G. Bisaccia
+    degrees: MD, PhD
+    orcid: 0000-0003-4606-3093
+    affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy. Degree with Honours in Medicine and Surgery (2014-2021)
 ---
+
+# Abstract
+Over the last century, a sharp transition in the spectrum of valvular heart disease has been recognized, so that most valve pathology is now degenerative. Mitral and tricuspid regurgitation are reported the most common subtypes of valvular heart disease, and the rise of transcatheter valve technology has renewed the interest in atrioventricular valves annular geometry, which is essential to our understanding of the mechanism of regurgitation and planning of intervention. 
+
+With the aim of accurately characterizing mitral and tricuspid annular geometry, we performed mitral and tricuspid annulus measurements on cardiovascular magnetic resonance imaging scans derived from the UK Biobank, forming a cohort of 721 truly healthy participants.
+

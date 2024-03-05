@@ -9,7 +9,7 @@ author:
 bibliography: phd.bib
 csl: jacc-cvi.csl
 ---
-Supervisors: Prof. Sabina Gallina, Prof. Chiara Bucciarelli-Ducci, Prof. Fabrizio Ricci
+Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc
 
 ## Abstract
 **Background**: Heart transplantation is the treatment of choice in select patients with advanced heart failure. Since its introduction in the early 1970s, it has delivered significant benefits in survival and quality of life of these patients. However, despite significant progress in the selection of patients, technical aspects of the procedures and long-term outcomes, HT recipients face a significant risk of future complications, namely graft rejection and cardiac allograft vasculopathy, which warrant regular invasive monitoring with cardiac catheterisation. Stress perfusion cardiac magnetic resonance imaging (stress CMR) is recommended in the international guidelines in class I in patients with known or suspected coronary artery disease, but its role in post-HT surveillance is yet to be established. We sought to assess the safety and feasibility profile, as well as the diagnostic and prognostic yield and the overall clinical utility of quantitative stress CMR in HT recipients referred for assessment of cardiac allograft vasculopathy (CAV).

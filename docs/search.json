@@ -25,7 +25,7 @@
     "href": "phd.html",
     "title": "VALUE OF QUANTITATIVE STRESS PERFUSION CARDIOVASCULAR MAGNETIC RESONANCE IN THE LONG-TERM ASSESSMENT OF CARDIAC TRANSPLANTATION RECIPIENTS",
     "section": "",
-    "text": "Supervisors: Prof. Sabina Gallina, Prof. Chiara Bucciarelli-Ducci, Prof. Fabrizio Ricci"
+    "text": "Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc"
   },
   {
     "objectID": "phd.html#abstract",
@@ -138,5 +138,12 @@
     "title": "About",
     "section": "",
     "text": "I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d’Annunzio University of Chieti and Pescara, Italy. I am currently a student in the London School of Economics Master’s in Health Economics, Outcomes and Management in Clinical Sciences, class of 2025. My main research interest is cardiology, particularly cardiovascular imaging. I have presented at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). I was a finalist in the Early Career Award clinical track at London CMR 2024."
+  },
+  {
+    "objectID": "md.html",
+    "href": "md.html",
+    "title": "CARDIOVASCULAR MAGNETIC RESONANCE REFERENCE VALUES OF MITRAL AND TRICUSPID ANNULAR DIMENSIONS: THE UK BIOBANK COHORT",
+    "section": "",
+    "text": "Abstract\nOver the last century, a sharp transition in the spectrum of valvular heart disease has been recognized, so that most valve pathology is now degenerative. Mitral and tricuspid regurgitation are reported the most common subtypes of valvular heart disease, and the rise of transcatheter valve technology has renewed the interest in atrioventricular valves annular geometry, which is essential to our understanding of the mechanism of regurgitation and planning of intervention.\nWith the aim of accurately characterizing mitral and tricuspid annular geometry, we performed mitral and tricuspid annulus measurements on cardiovascular magnetic resonance imaging scans derived from the UK Biobank, forming a cohort of 721 truly healthy participants."
   }
 ]
