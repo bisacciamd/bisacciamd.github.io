@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "G. Bisaccia’s Research Endeavours",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum vitae",
-    "section": "",
-    "text": "2022-2023 | Clinical Research Fellowship in Cardiovascular Magnetic Resonance, Harefield Hospital, London, UK. Supervisor: Prof. Chiara Bucciarelli-Ducci\n\nInvestigated the value of noninvasive cardiovascular testing in patients with acute1 and stable chest pain2, and following cardiac transplantation\nImproved research productivity among peers in various research groups\n\nDeveloped MATLAB software for automated handling of DICOM studies for extraction of relevant images\nStreamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reducing data collection times by &gt; 4-fold\n\nWas awarded 3 travel grants from major cardiovascular societies\n\n2022 | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK. Course director: Prof. Dudley J. Pennell\n\nUnderwent full-time training in CMR under CMR Level 3 certified experts\nContributed to the CMR service of the hospital"
-  },
-  {
-    "objectID": "cv.html#scientific-societies",
-    "href": "cv.html#scientific-societies",
-    "title": "Curriculum vitae",
-    "section": "Scientific societies",
-    "text": "Scientific societies\n2023-present | American Heart Association (AHA)\n2022-present | American College of Cardiology (ACC), Society for Cardiovascular Magnetic Resonance (SCMR)\n2021-present | European Society of Cardiology (ESC), European Association of Cardiovascular Imaging (EACVI), Italian Society of Cardiology (SIC)"
-  },
-  {
-    "objectID": "cv.html#scientific-working-groups",
-    "href": "cv.html#scientific-working-groups",
-    "title": "Curriculum vitae",
-    "section": "Scientific working groups",
-    "text": "Scientific working groups\n2022-present | SCMR Early Career Group, Fellow in Training ACC, Italian Working groups on Cardiovascular Magnetic Resonance and Gender differences in cardiovascular disease"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d’Annunzio University of Chieti and Pescara, Italy. I am a current student in the London School of Economics Master’s in Health Economics, Outcomes and Management in Clinical Sciences, class of 2025. My main research interest is cardiology, particularly cardiovascular imaging. I have presented at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). I was a finalist in the Early Career Award clinical track at London CMR 2024."
-  },
-  {
     "objectID": "publist.html",
     "href": "publist.html",
     "title": "List of publications",
@@ -77,11 +42,74 @@
     "text": "Cardiovascular medicine\nPost-Acute Sequelae of COVID-19 and Cardiovascular Autonomic Dysfunction: What Do We Know? (2021). G. Bisaccia, F. Ricci, V. Recce, A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A. Fedorowski and S. Gallina. Journal of Cardiovascular Development and Disease. \n\n\n\nFigure from study above.\n\n\nPrognostic Value of High-Sensitivity Cardiac Troponin in Women (2022). G. Bisaccia, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S. Gallina, A. Di Baldassarre and B. Ghinassi. Biomolecules. \nMitochondrial Dysfunction and Heart Disease: Critical Appraisal of an Overlooked Association (2021). G. Bisaccia, F. Ricci, S. Gallina, A. Di Baldassarre and B. Ghinassi. International Journal of Molecular Sciences. \nNonalcoholic fatty liver disease and cardiovascular disease phenotypes (2020). G. Bisaccia, F. Ricci, C. Mantini, C. Tana, G. L. Romani, C. Schiavone and S. Gallina. SAGE Open Medicine."
   },
   {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
+  },
+  {
+    "objectID": "portfolio.html#quarto-dashboards",
+    "href": "portfolio.html#quarto-dashboards",
+    "title": "Portfolio",
+    "section": "",
+    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
+  },
+  {
+    "objectID": "portfolio.html#shiny-applications",
+    "href": "portfolio.html#shiny-applications",
+    "title": "Portfolio",
+    "section": "Shiny applications",
+    "text": "Shiny applications\n\ncviBaker2042\nCustom-made application for exportation of Circle CVi42 study reports to Redcap import-ready CSV files."
+  },
+  {
+    "objectID": "portfolio.html#matlab-software",
+    "href": "portfolio.html#matlab-software",
+    "title": "Portfolio",
+    "section": "MATLAB software",
+    "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.\n\n\nMethods\n\nDiagnostic test accuracy analysis\n\ndiagnostic test accuracy meta-analysis with the split component synthesis method, as used in Ricci et al. (2023).\n\n\n\nSurvival analysis\n\nsurvival analysis with modeling of the hazard ratio on a continuous variable as in Sinigiani et al. (2024).\n\n\n\nDecision curve analysis\nI used this in my PhD thesis to evaluate the clinical utility of quantitative stress perfusion CMR to reduce use of coronary angiography in vasculopathy surveillance after heart transplantation.\n\n\n\nData visualization\n\nSankey chart\nThis was used in Liang et al. (2023)."
+  },
+  {
     "objectID": "md.html",
     "href": "md.html",
     "title": "CARDIOVASCULAR MAGNETIC RESONANCE REFERENCE VALUES OF MITRAL AND TRICUSPID ANNULAR DIMENSIONS: THE UK BIOBANK COHORT",
     "section": "",
     "text": "Supervisors: Prof. Sabina Gallina MD, Prof. Fabrizio Ricci, MD, PhD, MSc\n\n\n\n\n\nLeonardo da Vinci, The left ventricle and mitral valve c.1512-13 © The Royal Collection Trust\n\n\n\n\nAbstract\nOver the last century, a sharp transition in the spectrum of valvular heart disease has been recognized, so that most valve pathology is now degenerative. Mitral and tricuspid regurgitation are reported the most common subtypes of valvular heart disease, and the rise of transcatheter valve technology has renewed the interest in atrioventricular valves annular geometry, which is essential to our understanding of the mechanism of regurgitation and planning of intervention.\nWith the aim of accurately characterizing mitral and tricuspid annular geometry, we performed mitral and tricuspid annulus measurements on cardiovascular magnetic resonance imaging scans derived from the UK Biobank, forming a cohort of 721 truly healthy participants.\n\n\nPublication\nRicci, F., Aung, N., Gallina, S. et al. Cardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort. J Cardiovasc Magn Reson 23, 5 (2021). https://doi.org/10.1186/s12968-020-00688-y"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "2022-2023 | Clinical Research Fellowship in Cardiovascular Magnetic Resonance, Harefield Hospital, London, UK. Supervisor: Prof. Chiara Bucciarelli-Ducci\n\nInvestigated the value of noninvasive cardiovascular testing in patients with acute1 and stable chest pain2, and following cardiac transplantation\nImproved research productivity among peers in various research groups\n\nDeveloped MATLAB software for automated handling of DICOM studies for extraction of relevant images\nStreamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reducing data collection times by &gt; 4-fold\n\nWas awarded 3 travel grants from major cardiovascular societies\n\n2022 | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK. Course director: Prof. Dudley J. Pennell\n\nUnderwent full-time training in CMR under CMR Level 3 certified experts\nContributed to the CMR service of the hospital"
+  },
+  {
+    "objectID": "cv.html#scientific-societies",
+    "href": "cv.html#scientific-societies",
+    "title": "Curriculum vitae",
+    "section": "Scientific societies",
+    "text": "Scientific societies\n2023-present | American Heart Association (AHA)\n2022-present | American College of Cardiology (ACC), Society for Cardiovascular Magnetic Resonance (SCMR)\n2021-present | European Society of Cardiology (ESC), European Association of Cardiovascular Imaging (EACVI), Italian Society of Cardiology (SIC)"
+  },
+  {
+    "objectID": "cv.html#scientific-working-groups",
+    "href": "cv.html#scientific-working-groups",
+    "title": "Curriculum vitae",
+    "section": "Scientific working groups",
+    "text": "Scientific working groups\n2022-present | SCMR Early Career Group, Fellow in Training ACC, Italian Working groups on Cardiovascular Magnetic Resonance and Gender differences in cardiovascular disease"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d’Annunzio University of Chieti and Pescara, Italy. I am a current student in the London School of Economics Master’s in Health Economics, Outcomes and Management in Clinical Sciences, class of 2025. My main research interest is cardiology, particularly cardiovascular imaging. I have presented at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). I was a finalist in the Early Career Award clinical track at London CMR 2024."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "G. Bisaccia’s Research Endeavours",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "index.html",
@@ -194,33 +222,5 @@
     "title": "VALUE OF QUANTITATIVE STRESS PERFUSION CARDIOVASCULAR MAGNETIC RESONANCE IN THE LONG-TERM ASSESSMENT OF CARDIAC TRANSPLANTATION RECIPIENTS",
     "section": "License",
     "text": "License\nThe content of this thesis is licensed under a Creative Commons License, Attribution - Noncommercial - NoDerivative Works 4.0 International: see www.creativecommons.org. The text may be reproduced for non-commercial purposes, provided that credit is given to the original author. I hereby declare that the contents and organisation of this dissertation are the product of my own original work and do not compromise in any way the rights of third parties, including those relating to the security of personal data."
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
-  },
-  {
-    "objectID": "portfolio.html#quarto-dashboards",
-    "href": "portfolio.html#quarto-dashboards",
-    "title": "Portfolio",
-    "section": "",
-    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
-  },
-  {
-    "objectID": "portfolio.html#shiny-applications",
-    "href": "portfolio.html#shiny-applications",
-    "title": "Portfolio",
-    "section": "Shiny applications",
-    "text": "Shiny applications\n\ncviBaker2042\nCustom-made application for exportation of Circle CVi42 study reports to Redcap import-ready CSV files."
-  },
-  {
-    "objectID": "portfolio.html#matlab-software",
-    "href": "portfolio.html#matlab-software",
-    "title": "Portfolio",
-    "section": "MATLAB software",
-    "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.\n\n\nMethods\n\nDiagnostic test accuracy analysis\n\ndiagnostic test accuracy meta-analysis with the split component synthesis method, as used in Ricci et al. (2023).\n\n\n\nSurvival analysis\n\nsurvival analysis with modeling of the hazard ratio on a continuous variable as in Sinigiani et al. (2024).\n\n\n\nDecision curve analysis\nI used this in my PhD thesis to evaluate the clinical utility of quantitative stress perfusion CMR to reduce use of coronary angiography in vasculopathy surveillance after heart transplantation.\n\n\n\nData visualization\n\nSankey chart\nThis was used in Liang et al. (2023)."
   }
 ]
