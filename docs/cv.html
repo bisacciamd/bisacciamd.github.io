@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -195,11 +215,13 @@ ul.task-list li input[type="checkbox"] {
 <h1>Experience</h1>
 <p><strong>2022-2023</strong> | Clinical Research Fellowship in Cardiovascular Magnetic Resonance, Harefield Hospital, London, UK. Supervisor: Prof.&nbsp;Chiara Bucciarelli-Ducci</p>
 <ul>
-<li>Investigated the value of noninvasive cardiovascular testing in patients with acute and stable chest pain, and following cardiac transplantation</li>
-<li>Improved research productivity among peers in various research groups</li>
-<li>Developed MATLAB software for automated handling of DICOM studies for extraction of relevant images</li>
-<li>Streamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reducing data collection times by &gt; 4-fold</li>
-<li>Was awarded 3 travel grants from major cardiovascular societies in 2023</li>
+<li>Investigated the value of noninvasive cardiovascular testing in patients with acute<span class="citation" data-cites="RN21"><sup><a href="#ref-RN21" role="doc-biblioref">1</a></sup></span> and stable chest pain<span class="citation" data-cites="RN15"><sup><a href="#ref-RN15" role="doc-biblioref">2</a></sup></span>, and following <a href="./phd.html">cardiac transplantation</a></li>
+<li>Improved research productivity among peers in various research groups
+<ul>
+<li>Developed <a href="./portfolio.html">MATLAB software</a> for automated handling of DICOM studies for extraction of relevant images</li>
+<li>Streamlined data extraction from DICOM studies with <a href="./portfolio.html">custom R/Shiny software</a>, eliminating manual error and reducing data collection times by &gt; 4-fold</li>
+</ul></li>
+<li>Was awarded <a href="#grants-prizes-and-awards">3 travel grants</a> from major cardiovascular societies</li>
 </ul>
 <p><strong>2022</strong> | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK. Course director: Prof.&nbsp;Dudley J. Pennell</p>
 <ul>
@@ -216,10 +238,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="education" class="level1">
 <h1>Education</h1>
-<p><strong>2023-present</strong> | Executive MSc in Health Economics, Outcomes and Management in Clinical Sciences, London School of Economics, London, UK</p>
+<p><strong>2023-present</strong> | <a href="https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2024/Executive-MSc-Health-Economics-Outcomes-Management-Clinical-Sciences">Executive MSc in Health Economics, Outcomes and Management in Clinical Sciences</a>, London School of Economics, London, UK</p>
 <p><strong>2021-2024</strong> | <a href="./phd.html">PhD in Neuroscience and Imaging</a>, «International Doctorate» G. d’Annunzio University of Chieti and Pescara, Italy. Supervisors: Prof.&nbsp;Sabina Gallina, Prof.&nbsp;Fabrizio Ricci and Prof.&nbsp;Chiara Bucciarelli-Ducci</p>
 <ul>
-<li>Co-authored 14 peer-reviewed publications, including 5 as first author, with focus on disease prevention and use of magnetic resonance imaging to manage patients with cardiovascular disease</li>
+<li>Co-authored 16 peer-reviewed publications, including 5 as first author, with focus on disease prevention and use of magnetic resonance imaging to manage patients with cardiovascular disease</li>
 <li>Analyzed, reported and presented findings for 7 original research studies, including three systematic reviews and meta-analyses, two observational multicenter registries and a randomized clinical trial</li>
 <li>Co-supervised research activity of 12 medical students and 3 cardiology trainees</li>
 </ul>
@@ -248,7 +270,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="scientific-production" class="level1">
 <h1>Scientific production</h1>
-<p>See my <a href="./publist.html">list of publications</a>.</p>
+<p>For detail of my scientific production, please see my complete <a href="./publist.html">list of publications</a>.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-RN21" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Liang, K. <em>et al.</em> CMR reclassifies the majority of patients with suspected MINOCA and non MINOCA. <em>Eur Heart J Cardiovasc Imaging</em> jead182 (2023) doi:<a href="https://doi.org/10.1093/ehjci/jead182">10.1093/ehjci/jead182</a>.</div>
+</div>
+<div id="ref-RN15" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Ricci, F. <em>et al.</em> <a href="https://doi.org/10.1001/jamacardio.2023.1290">Diagnostic and prognostic value of stress cardiovascular magnetic resonance imaging in patients with known or suspected coronary artery disease: A systematic review and meta-analysis</a>. <em>JAMA Cardiol</em> <strong>8</strong>, 662–673 (2023).</div>
+</div>
+</div>
 
 
 </section>
