@@ -2,4 +2,10 @@
 title: "Home"
 ---
 
-Welcome. Have a look at my [portfolio](portfolio.qmd), [scientific publications](publist.qmd), [CV](cv.qmd) or just read a [short introduction about myself](about.qmd).
+Welcome. Have a look at my:
+
+- [portfolio](portfolio.qmd), 
+- [scientific publications](publist.qmd), 
+- [CV](cv.qmd),
+
+or just read a [short introduction about myself](about.qmd).

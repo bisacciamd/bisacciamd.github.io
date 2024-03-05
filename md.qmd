@@ -7,9 +7,13 @@ author:
     orcid: 0000-0003-4606-3093
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy. Degree with Honours in Medicine and Surgery (2014-2021)
 ---
+Supervisors: Prof. Sabina Gallina MD, Prof. Fabrizio Ricci, MD, PhD, MSc
 
 # Abstract
 Over the last century, a sharp transition in the spectrum of valvular heart disease has been recognized, so that most valve pathology is now degenerative. Mitral and tricuspid regurgitation are reported the most common subtypes of valvular heart disease, and the rise of transcatheter valve technology has renewed the interest in atrioventricular valves annular geometry, which is essential to our understanding of the mechanism of regurgitation and planning of intervention. 
 
 With the aim of accurately characterizing mitral and tricuspid annular geometry, we performed mitral and tricuspid annulus measurements on cardiovascular magnetic resonance imaging scans derived from the UK Biobank, forming a cohort of 721 truly healthy participants.
 
+# Publication
+
+Ricci, F., Aung, N., Gallina, S. et al. Cardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort. J Cardiovasc Magn Reson 23, 5 (2021). [https://doi.org/10.1186/s12968-020-00688-y](https://doi.org/10.1186/s12968-020-00688-y)
