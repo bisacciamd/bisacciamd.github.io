@@ -3,8 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "G. Bisaccia, MD"
+  title: "G. Bisaccia, MD, PhD"
+  
   navbar:
+    logo: images/profile.jpg
     left:
       - href: index.qmd
         text: Home
@@ -18,7 +20,8 @@ website:
         href: https://x.com/giandomd
       - icon: linkedin
         href: https://linkedin.com/in/bisacciamd
-
+  page-footer: "Copyright 2024, Giandomenico Bisaccia" 
+  reader-mode: false
 format:
   html:
     theme: lux

@@ -1,6 +1,5 @@
 ---
 title: "List of publications"
-author: G. Bisaccia
 ---
 # Original research
 1.	Ricci F, Aung N, Gallina S et al. Cardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort. J Cardiovasc Magn Reson 2021;23:1-13.

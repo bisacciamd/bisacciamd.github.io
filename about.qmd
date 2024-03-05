@@ -1,6 +1,18 @@
 ---
 title: "About"
-author: G.Bisaccia
+about:
+  template: jolla
+  image: images/profile.jpg
+  links:
+    - icon: github
+      text: github
+      href: https://github.com/giandomd
+    - icon: twitter
+      text: twitter
+      href: https://x.com/giandomd
+    - icon: linkedin
+      text: linkedin
+      href: https://linkedin.com/in/bisacciamd
 ---
 
-About this site
+Giandomenico Bisaccia is an early career medical researcher. He earned his MD (2021) and PhD (2024) from the G. d'Annunzio University of Chieti and Pescara, Italy. He is currently a student in the London School of Economics Master's in Health Economics, Outcomes and Management in Clinical Sciences, class of 2025. His main research interest is cardiology, particularly cardiovascular imaging. Giandomenico has presented at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). He was a finalist in the Early Career Award clinical track at London CMR 2024.
