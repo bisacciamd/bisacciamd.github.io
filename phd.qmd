@@ -93,6 +93,7 @@ We conducted a systematic literature review to appraise the investigation of CMR
 Over the course of 20 years, 15 studies evaluated the use of various CMR components to adjudicate presence or severity of CAV. Sample size refers to the number of heart transplant recipients enrolled to a study.
 
 ## Methods
+This was a retrospective observational study of all outpatients under surveillance for CAV after orthotopic cardiac transplantation at a large tertiary center (Harefield Hospital, London, United Kingdom), in which stress CMR was clinically indicated by the referring cardiologist. The study included a cross-sectional comparison between stress CMR results and the closest angiographic study findings (ICA or, when unavailable, CTCA), as well as a longitudinal component with follow-up for major adverse cardiovascular events. This study received approval of the local institutional review board at Royal Brompton and Harefield Hospitals, Guys’ & St Thomas NHS Trust. Patient informed consent was waived due to the retrospective nature of the study, which did not affect patient management in any way.
 
 ### Design
 
@@ -118,43 +119,120 @@ Over the course of 20 years, 15 studies evaluated the use of various CMR compone
 
 ## Results
 
+```{r accrue}
+#| warning: false
+#| error: false
+#| echo: false
+#| output: false
+source("phd/scripts/main_caller.R") 
+data <- data[!is.na(data$stressor), ]
+data <- data[data$stressor.factor=="adenosine", ]
+sample <- length(data$record_id)
+totalcmr <- sample+sum(!is.na(data$stressor_v2))
+females <- round(table(data$gender.factor)[2]/sample*100, digits=1)
+time <- median(stress$time_from_tx,na.rm = T)
+time_iqr <- quantile(stress$time_from_tx,na.rm = T)
+firstyear <- sum(stress$time_from_tx<1.1,na.rm = T)/sample*100
+thirdyear <- sum(stress$time_from_tx<3.1,na.rm = T)/sample*100
+ischemia <- sum(stress$ischemia=="Yes")/sample*100
+```
+
+Out of 12,755 stress perfusion CMR studies performed at Royal Brompton and Harefield hospitals between 1st January 2015 and 31st December 2023, `r totalcmr` (`r round(totalcmr/12755*100, digits=1)`%) were adenosine stress CMR studies performed in `r sample` outpatient heart transplant recipients (`r females`% females) at a median of `r time` years after transplantation (IQR `r round(time_iqr[2], digits=1)`-`r round(time_iqr[4], digits=1)`); `r thirdyear`% of studies were conducted within the first three years post-transplantation. Median (IQR) time between CMR and angiography was 14.3 (25.4) months and time from CMR to serum testing for positivity to DSA was 36 (11-99) days.
+
 ### Baseline characteristics
+
+Median (IQR) patient age at CMR was 52 years (35 to 60), with 41 (68%) males. Main reason for cardiac transplantation was dilated cardiomyopathy (n = 26, 53%). Hypertension was highly prevalent at 45%, while 28% had a dyslipidemia and 25% of patients had diabetes mellitus. Very few were smokers (n = 2, 3.3%). Atrial fibrillation was reported in 6.6%. None of these characteristics differed significantly between patients with no or mild CAV and patients with moderate or severe CAV. Detailed characteristics of included patients are detailed in **Table**.
 
 ### Angiographic findings
 
+Patients free from CAV on angiography were `r sum(angio$cav_grade=="No CAV", na.rm=T)` (`r round(sum(angio$cav_grade=="No CAV", na.rm=T)/sample*100, digits=1)`%), leaving the majority of patients with mild to severe disease (n = `r sample-sum(angio$cav_grade=="No CAV", na.rm=T)`, `r 100-round(sum(angio$cav_grade=="No CAV", na.rm=T)/sample*100, digits=1)`%), Prevalence of significant (e.g. ISHLT grade 2-3) CAV on index angiography was `r (sum (angio$cav_grade=="Moderate", na.rm=T)+sum (angio$cav_grade=="Severe", na.rm=T))/sample*100`% (n = `r sum (angio$cav_grade=="Moderate", na.rm=T)+sum (angio$cav_grade=="Severe", na.rm=T)` patients). While `r sum(angio$study=="ICA", na.rm=T)/sample*100`% had ICA results available, `r 100-sum(angio$study=="ICA", na.rm=T)/sample*100`% only had CTCA results. Patients referred to CTCA had significantly lower incidence of CAV (61% patients with no CAV on CTCA vs 14% on ICA, p \< 0.001), indicating referral bias towards CTCA for low-risk patients. Still, of `r sum(angio$study=="ICA", na.rm=T)` patients with ICA available, 10 (35.7%) had non-significant CAV. Findings on ICA or CTCA for included patients are detailed in **Table**.
+
 ### CMR findings
 
-### Stress CMR findings 
+At CMR, mean (SD) left ventricular ejection fraction was 61.7% (12.5%), with seven patients (11.7%) having an ejection fraction \<45%. Late gadolinium enhancement was reported in 23 (38.3%) patients, in most of which the scar burden was minimal at 2.91 (5.39) grams (2.25% as a fraction of LV mass). CMR findings are detailed in **Table**.
+
+### Stress CMR findings
 
 #### Feasibility
 
+Adenosine dosage of 140 µg/kg/min was utilized in the majority of studies (n = 37, 62%) while 210 µg/kg/min was reached in 8 patients (13%). During adenosine infusion, the haemodynamic response was highly variable (Figure 5). Heart rate increased from a mean ± SD of 82 ± 14 to 91 ± 18 beats per minute, while systolic blood pressure decreased from 132 ± 16 to 124 ± 14 mm Hg. Overall, 50.1% patients reported chest tightness or chest pain during infusion, 22.4% reported shortness of breath, 17.2% did not experience any symptoms and 10.3% had hot flush. Haemodynamic and symptom response were not dependent on adenosine dosage subgroup (all p-values \> 0.5). **Table** details stress CMR findings.
+
 #### Safety
 
+No life-threatening adverse events, nor brief or prolonged atrioventricular block, or major arrythmias occurred during or immediately after adenosine infusion, with one patient having self-reversed sinus pauses. Mild, transient adverse effects were registered: three patients (4.5%) complained of headache, and another reported nausea.
+
+| Event                                      | n (%)                                             |
+|---------------------------------|---------------------------------------|
+| Death                                      | `r death` (`r death/totalcmr*100`%)               |
+| Myocardial infarction                      | `r mi_stress` (`r mi_stress/totalcmr*100`%)       |
+| Ventricular tachycardia or fibrillation    | `r vtvf` (`r vtvf/totalcmr*100`%)                 |
+| Non-elective hospitalization following CMR | `r hosp_stress` (`r hosp_stress/totalcmr*100`%)   |
+| Asystole                                   | `r asystole` (`r asystole/totalcmr*100`%)         |
+| Sinus pause or arrest                      | `r sinuspause` (`r sinuspause/totalcmr*100`%)     |
+| High-grade atrioventricular block          | `r av_block` (`r av_block/totalcmr*100`%)         |
+| Atrial fibrillation                        | `r afib` (`r afib/totalcmr*100`%)                 |
+| Chest pain                                 | `r chest_pain` (`r chest_pain/totalcmr*100`%)     |
+| Symptomatic hypotension                    | `r hypotension` (`r hypotension/totalcmr*100`%)   |
+| Dyspnea                                    | `r dyspnea` (`r dyspnea/totalcmr*100`%)           |
+| Nausea                                     | `r nausea` (`r nausea/totalcmr*100`%)             |
+| Headache                                   | `r headache` (`r headache/totalcmr*100`%)         |
+| Allergic reaction                          | `r allergic` (`r allergic/totalcmr*100`%)         |
+| Contrast extravasation                     | `r extravas` (`r extravas/totalcmr*100`%)         |
+| Thrombophlebitis                           | `r thrombophleb` (`r thrombophleb/totalcmr*100`%) |
+
+: Adverse events during or following adenosine stress perfusion CMR among patients with orthotopic cardiac transplantation.
+
 #### Quantitative perfusion CMR
+
+Results from the in-line myocardial perfusion mapping algorithm were deemed diagnostic in 52 patients (86.7%). In the remaining 8 patients, sufficient quality in quantitative myocardial perfusion mapping was not achieved due to ECG mistriggering or failed breath-holding. Stress MBF index was normally distributed across the sample and its mean ± SD was 2.2 ± 0.7, while MPR index was not normally distributed and its median (IQR) was 2.0 (1.5 to 2.8). On logistic regression, stress MBF, MPR and their indices were associated with the presence of significant CAV at angiography (Table 5, Figure 6, and Supplemental Table 1).
 
 ### Diagnostic accuracy
 
 #### Inducible ischemia on visual inspection
 
+Inducible ischemia was not correlated to the presence of significant CAV on angiography. Visual ischemia had sensitivity of 27.8% and specificity of 85.4%, along with a positive predictive value of 45.5% and a negative predictive value of 72.9%.
+
 #### MPR index
+
+Overall AUC for significant CAV was 78.8%, with sensitivity 85.7%, specificity 70.3%, positive predictive value of 52.2% and negative predictive value of 92.9% at a threshold of 2.1 based on the Youden index.
 
 #### Stress MBF
 
+Stress MBF yielded an AUC of 66.6% with sensitivity 100%, specificity 36.8%, positive predictive value of 36.8% and negative predictive value of 100%.
+
 #### Rest MBF index
+
+AUC for the rest MBF index was 66.0% with sensitivity 91.9%, specificity 42.9%, positive predictive value of 66.7% and negative predictive value of 81.0%.
+
+Comprehensive results are presented in Table 6 and Supplementary Table zzxz. Visual assessment and a strategy based on MPR index were compared for reclassification across the range of pre-test probability of CAV (Figure 7). A quantitative approach based exclusively on the measurement of stress MPR index, where CAV would be adjudicated for MPR index ≥ 2.1, was effective at ruling-in and ruling-out CAV, while qualitative assessment of ischemia offered almost non-existent ruling-out capacity.
 
 #### Quantitative stress perfusion CMR and donor-specific antibodies
 
+We separately investigated the diagnostic accuracy of quantitative stress perfusion CMR in patients with a positive or negative DSA test result. These findings along with our interpretation of them are available in the Appendix.
+
 ### Clinical utility
+
+The net benefit purported by stress CMR as a gatekeeper to angiography was evaluated over a span of reasonable threshold probabilities of CAV (10-40%). In such analysis, a strategy of quantitative stress perfusion CMR guided by MPR index (angiography for MPR index \< 2.1, no angiography otherwise) was compared with a strategy where guidance was provided by presence of inducible myocardial perfusion defects («visual» ischemia on stress CMR). Quantitative stress perfusion CMR conferred incremental benefit over visual ischemia across the prespecified spectrum of threshold probabilities. Use of MPR index to gatekeep patients to angiography would lead to as much as 42% net reduction in unnecessary angiographies performed, independently of patient-physician preferences (Figure 8 and Table 4).
 
 #### Correction for overfit
 
+Ten-fold cross-validation with 25 repeats was used to evaluate model performance after accounting for overfit. The cross-validated quantitative stress perfusion CMR model yielded similar added benefit to the original model for threshold probabilities from 15% to 40%, while benefit for patients willing to undergo angiography for risk \< 15% was not maintained (Supplemental Figure 1).
+
 ### Prognostic yield
+
+During follow-up, 9 patients underwent unplanned cardiac hospitalization and 2 died, for a total of 11 CV events recorded (18.3%) over a median (IQR) follow-up of 1.8 years (0.9 to 2.7) years.
 
 #### Baseline characteristics
 
+Traditional CV risk predictors such as age and presence of diabetes and dyslipidemia at baseline were not prognostic. Instead, presence of hypertension and a higher resting heart rate were related to higher risk of future MACE.
+
 #### Stress CMR parameters
 
-#### Other CMR parameters 
+Among stress CMR parameters, stress MBFi and MPRi, but not qualitative assessment of ischemia, were prognostic (Table 5). Multivariable adjustment was not attempted due to the low sample size. Exploratory plotting of hazard ratios on the spectrum of stress MPR index values and stratification by MPR index for Kaplan Meier curves demonstrated that patients with an MPR index lower than 2.0 were at significantly increased risk of future MACE (Figure 9 and Supplemental Figure 2).
+
+#### Other CMR parameters
+
+The prognostic value of non-stress perfusion CMR parameters was also investigated. Among these, peak global longitudinal strain was the only significant predictor of future CV events (Supplemental Table 2); other functional parameters, such as left and right ventricular ejection fraction and markers of longitudinal function, were not prognostic in this patient population, consisting mainly of outpatients with well-functioning cardiac grafts. Presence and extent of LGE were not prognostic.
 
 ## Discussion
 
