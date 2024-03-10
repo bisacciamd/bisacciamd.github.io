@@ -11,6 +11,12 @@ source("phd/scripts/db.r")
 source("phd/scripts/stressDB.r")
 source("phd/scripts/angio.r")
 source("phd/scripts/safety.r")
+
+data$cav_composite <- ifelse(test = is.na(data$cav_angio_grade), 
+                             yes = data$cav_ctca_grade, no = data$cav_angio_grade)
+
+data$cav <- as.factor(ifelse(data$cav_composite < 3 | is.na(data$cav_composite), "CAV 0-1", "CAV 2-3"))
+
 #Setting Labels
 
 label(data$record_id) <- "Record ID"

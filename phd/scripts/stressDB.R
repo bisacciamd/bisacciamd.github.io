@@ -145,6 +145,7 @@ label(stress$time_from_tx) <- "Time from transplantation to CMR (years)"
 
 stress$cav=as.factor(data_stress$cav_composite #data_stress$cav_angio_grade
 )
+
 stress$ptt_centroid <- data_stress$ptt_centroid_stress_cmr
 stress$ptt_ptp <- data_stress$ptt_pap_stress_cmr
 
@@ -185,5 +186,6 @@ stress <- upData(stress,
                  units=c(time_cav_cmr='years',
                          time_angio_tx='years',
                          time_from_tx='years'))
+
 
 

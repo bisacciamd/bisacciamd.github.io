@@ -19,12 +19,16 @@ crossref:
       reference-prefix: Supplemental Figure
       space-before-numbering: true
 ---
+```{r chart-theme}
+library(echarts4r)
+e_theme_register("vintage")
+```
 
 Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc
 
 ## 
 
-![“Making Space”, sculpture by Sir Antony Gormley, Magdi Yacoub Institute, Harefield Hospital © Adobe Stock](images/phd/0.png)
+![“Making Space”, sculpture by Sir Antony Gormley, Magdi Yacoub Institute, Harefield Hospital © Adobe Stock](images/phd/harefield.png)
 
 ## Abstract
 
@@ -249,7 +253,34 @@ Out of 12,755 stress perfusion CMR studies performed at Royal Brompton and Haref
 
 ### Baseline characteristics
 
-Median (IQR) patient age at CMR was 52 years (35 to 60), with 41 (68%) males. Main reason for cardiac transplantation was dilated cardiomyopathy (n = 26, 53%). Hypertension was highly prevalent at 45%, while 28% had a dyslipidemia and 25% of patients had diabetes mellitus. Very few were smokers (n = 2, 3.3%). Atrial fibrillation was reported in 6.6%. None of these characteristics differed significantly between patients with no or mild CAV and patients with moderate or severe CAV. Detailed characteristics of included patients are detailed in **Table**.
+Median (IQR) patient age at CMR was 52 years (35 to 60), with 41 (68%) males. Main reason for cardiac transplantation was dilated cardiomyopathy (n = 26, 53%). Hypertension was highly prevalent at 45%, while 28% had a dyslipidemia and 25% of patients had diabetes mellitus. Very few were smokers (n = 2, 3.3%). Atrial fibrillation was reported in 6.6%. None of these characteristics differed significantly between patients with no or mild CAV and patients with moderate or severe CAV. Detailed characteristics of included patients are detailed in @tbl-base.
+
+::: {#tbl-base}
+```{r tbl-base}
+#| tbl-cap: Baseline patient characteristics.
+
+data <- data %>% mutate(
+  smoking=case_when(
+  data$smoking == 1 | is.na(data$smoking) ~ "Never",
+  data$smoking == 2 ~ "Current",
+  data$smoking == 3 ~ "Former"),
+  
+  atrial_fibrillation=case_when(
+    data$atrial_fibrillation == 1 ~ "None",
+    data$atrial_fibrillation == 2 ~ "Paroxysmal",
+    data$atrial_fibrillation == 3 ~ "Persistent or permanent"
+  ))
+
+label(data$smoking) <- "Smoker"
+label(data$atrial_fibrillation) <- "Atrial fibrillation"
+label(data$cause_2.factor) <- "Reason for transplantation"
+label(data$gender.factor) <- "Sex"
+
+data %>% select(c(cav, gender.factor, cause_2.factor, diabetes_mellitus, hypertension, dyslipidemia, smoking, atrial_fibrillation, ckd)) %>% tbl_summary(missing = "no", by = cav) %>% add_p() %>% add_overall() %>% as_gt()
+
+```
+
+:::
 
 ### Angiographic findings
 
@@ -257,13 +288,26 @@ Patients free from CAV on angiography were `r sum(angio$cav_grade=="No CAV", na.
 
 ### CMR findings
 
-At CMR, mean (SD) left ventricular ejection fraction was 61.7% (12.5%), with seven patients (11.7%) having an ejection fraction \<45%. Late gadolinium enhancement was reported in 23 (38.3%) patients, in most of which the scar burden was minimal at 2.91 (5.39) grams (2.25% as a fraction of LV mass). CMR findings are detailed in **Table**.
+At CMR, mean (SD) left ventricular ejection fraction was 61.7% (12.5%), with seven patients (11.7%) having an ejection fraction \<45%. Late gadolinium enhancement was reported in 23 (38.3%) patients, in most of which the scar burden was minimal at 2.91 (5.39) grams (2.25% as a fraction of LV mass). CMR findings are detailed in @tbl-cmr.
+
+::: {#tbl-cmr}
+```{r tbl1}
+#| tbl-cap: Baseline patient characteristics
+library(gtsummary)
+
+data %>% select(c(bsa, lvedvi_cmr, lvesvi_cmr, lvef_cmr, lvci_cmr, rvedvi_cmr, rvesvi_cmr, rvef_cmr, rvci_cmr, mapselat_cmr, tapse_cmr, lax_gls_cmr,lax_grs_cmr,la_ef_cmr,hypokinesia_cmr,dyskinesia_cmr, akinesia_cmr,lge_cmr,lge_mass_per_cmr, cav)) %>% tbl_summary(by = cav, missing = "no") %>% add_overall %>% add_p() %>% as_gt()
+
+```
+
+N (%) or median (IQR).
+:::
+
 
 ### Stress CMR findings
 
 #### Feasibility
 
-Adenosine dosage of 140 µg/kg/min was utilized in the majority of studies (n = 37, 62%) while 210 µg/kg/min was reached in 8 patients (13%). During adenosine infusion, the haemodynamic response was highly variable (@fig-cmr-feas). Heart rate increased from a mean ± SD of 82 ± 14 to 91 ± 18 beats per minute, while systolic blood pressure decreased from 132 ± 16 to 124 ± 14 mm Hg. Overall, 50.1% patients reported chest tightness or chest pain during infusion, 22.4% reported shortness of breath, 17.2% did not experience any symptoms and 10.3% had hot flush. Haemodynamic and symptom response were not dependent on adenosine dosage subgroup (all p-values \> 0.5). 
+Adenosine dosage of 140 µg/kg/min was utilized in the majority of studies (n = 37, 62%) while 210 µg/kg/min was reached in 8 patients (13%). During adenosine infusion, the haemodynamic response was highly variable (@fig-cmr-feas). Heart rate increased from a mean ± SD of 82 ± 14 to 91 ± 18 beats per minute, while systolic blood pressure decreased from 132 ± 16 to 124 ± 14 mm Hg. Overall, 50.1% patients reported chest tightness or chest pain during infusion, 22.4% reported shortness of breath, 17.2% did not experience any symptoms and 10.3% had hot flush. Haemodynamic and symptom response were not dependent on adenosine dosage subgroup (all p-values \> 0.5). Stress CMR findings are detailed in @tbl-stress.
 
 ::: {#fig-cmr-feas}
 ```{r feasibility}
@@ -346,6 +390,17 @@ Safety of stress CMR with adenosine after heart transplant.
 :::
 Adverse events during or following adenosine stress perfusion CMR among patients with orthotopic cardiac transplantation.
 
+::: {#tbl-stress}
+```{r}
+stress$cav <- data$cav
+stress %>% select(-c(age,bsa,stressor,lvef,gls,nosymptom,time_from_tx,time_angio_tx,time_cav_cmr, mace_time, cav_angio,cav_ctca,cav_grade,rejection,death,hosp,mace,tx_old,rmbf, gender, weight, dsa, dsa_fup)) %>% mutate(
+  hr_delta=as.numeric(hr_delta),
+  dbp_delta=as.numeric(dbp_delta),
+  sbp_delta=as.numeric(sbp_delta),
+  rpp=as.numeric(rpp)) %>% 
+  tbl_summary(by = cav, missing = "no") %>% add_overall() %>% add_p() %>% as_gt()
+```
+:::
 
 #### Quantitative perfusion CMR
 
@@ -367,7 +422,9 @@ Univariate logistic regression for significant CAV (ISHLT grade 2-3).
 :::
 
 ::: {#fig-qp-cav}
-![Figure 6 — Stress MBF  (mL/min/g) and MPR index in patients with and without significant CAV (ISHLT grade 2-3).](images/phd/qp-cav.png)
+![](images/phd/qp-cav.png)
+
+Stress MBF  (mL/min/g) and MPR index in patients with and without significant CAV (ISHLT grade 2-3).
 :::
 
 ### Diagnostic accuracy
@@ -439,42 +496,69 @@ A test’s clinical utility can also be expressed as the net reduction in the nu
 
 ![Net benefit](images/phd/dca-netben.png)
 
-![Net reduction in unnecessary angiography](images/phd/dca-netben.png)
+![Net reduction in unnecessary angiography](images/phd/dca-netred.png)
 
 :::
 
 Stress CMR is compared with the standard of angiography, and against a strategy of no testing. A strategy of QP-CMR, guided exclusively by a finding of MPR index < 2.1, conferred incremental benefit over visual assessment of inducible ischemia (@tbl-dca). QP-CMR, quantitative stress perfusion CMR.
 
+
 ::: {#tbl-dca layout-nrow="2" collapse=TRUE}
-|Probability threshold|Angiography to all|No testing|QP-CMR|Visual ischemia|
-|:----|:----|:----|:----|:----|
-|10%|16%|0%|16%|16%|
-|15%|11%|0%|12%|11%|
-|20%|6%|0%|11%|6%|
-|25%|-1%|0%|9%|4%|
-|30%|-8%|0%|7%|3%|
-|35%|-16%|0%|5%|2%|
-|40%|-26%|0%|2%|1%|
+```{r dca-tbl}
+#| tbl-cap: Net benefit of undergoing QP-CMR before any angiography decision {#tbl-netben}
+library(dplyr);library(echarts4r);library(tidyr)
 
-: Net benefit of undergoing QP-CMR before any angiography decision {#tbl-netben}
+data.frame(
+  "ptp" = as.character(c(10, 15, 20, 25, 30, 35, 40)),
+  "angio" = c(16, 11, 6, -1, -8, -16, -26),
+  "none" = c(0, 0, 0, 0, 0, 0, 0),
+  "QP" = c(16, 12, 11, 9, 7, 5, 2),
+  "ischemia" = c(16, 11, 6, 4, 3, 2, 1)
+) %>%
+  pivot_longer(c(angio, none, QP, ischemia)) %>%
+  mutate(name = case_when(
+    name == "angio" ~ "CA\n\nto all",
+    name == "none" ~ "No testing",
+    name == "QP" ~ "MPRi\n\nguided CA",
+    name == "ischemia" ~ "Ischemia\n\nguided CA"
+  )) %>%  
+    e_charts(name) %>% 
+    e_heatmap(ptp, value) %>% 
+        e_visual_map(value,
+        inRange = list(color = c("#202e32", "#586c5c","#dfdcb9"))
+        ) %>% e_labels(position="inside") %>% e_theme("vintage") %>% e_axis_labels(x="Strategy", y ="Threshold probability")
+```
 
-|Probability threshold|Angiography to all|No testing|QP-CMR|Visual ischemia|
-|:----|:----|:----|:----|:----|
-|10%|0|0|0|0|
-|15%|0|0|5|0|
-|20%|0|0|20|0|
-|25%|0|2|29|13|
-|30%|0|19|35|25|
-|35%|0|30|39|34|
-|40%|0|39|42|40|
 
-: Net reduction in angiographies per 100 patients. {#tbl-netred}
+```{r netred}
+#| tbl-cap: Net reduction in angiographies per 100 patients. 
+# Table 2: Net Benefit of QP
+data.frame(
+  "ptp" = as.character(c(10, 15, 20, 25, 30, 35, 40)),
+  "angio" = c(0, 0, 0, 0, 0, 0, 0),
+  "none" = c(0, 0, 0, 2, 19, 30, 39),
+  "QP" = c(0, 5, 20, 29, 35, 39, 42),
+  "ischemia" = c(0, 0, 0, 13, 25, 34, 40)
+) %>% pivot_longer(c(angio, none, QP, ischemia)) %>%
+  mutate(name = case_when(
+    name == "angio" ~ "CA\n\nto all",
+    name == "none" ~ "No testing",
+    name == "QP" ~ "MPRi\n\nguided CA",
+    name == "ischemia" ~ "Ischemia\n\nguided CA"
+  )) %>% 
+    e_charts(name) %>% 
+    e_heatmap(ptp, value) %>% e_visual_map(value, 
+    inRange = list(color = c("#202e32", "#586c5c","#dfdcb9"))
+    ) %>% e_labels(position="inside") %>% e_theme("vintage") %>% e_legend(FALSE) %>% 
+    e_x_axis(name="Strategy", axisLabel=list(position="top")) %>% 
+    e_y_axis(name="Net reduction\n per 100 angiographies", axisLabel=list(position="top"))
+```
 
 Decisional performance of a quantitative versus qualitative stress CMR to guide referral to angiography.
 :::
 
 
-Tabulated results at 5% increments for probability thresholds. A) at a pre-test risk threshold of 10%, neither QP-CMR or visual ischemia conferred additional benefit over a referral to angiography. For risk thresholds 15-40%, a strategy of QP-CMR guidance to further angiographic testing would confer incremental benefit over visual assessment of inducible ischemia. B) for patients at intermediate (> 15%) risk of CAV, a QP-CMR would reduce unnecessary angiographies by 20-42%.
+Tabulated results at 5% increments for probability thresholds (lighter is better). A) at a pre-test risk threshold of 10%, neither QP-CMR or visual ischemia conferred additional benefit over a referral to angiography. For risk thresholds 15-40%, a strategy of QP-CMR guidance to further angiographic testing would confer incremental benefit over visual assessment of inducible ischemia. B) for patients at intermediate (> 15%) risk of CAV, a QP-CMR would reduce unnecessary angiographies by 20-42%.
 
 
 #### Correction for overfit
