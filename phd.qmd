@@ -8,6 +8,16 @@ author:
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy and Harefield Hospital, London, United Kingdom. PhD in Neuroscience and Imaging (XXXVII Cycle)
 bibliography: phd.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
+execute:
+    echo: false
+    warning: false
+    error: false
+crossref:
+  custom:
+    - kind: float
+      key: suppfig
+      reference-prefix: Supplemental Figure
+      space-before-numbering: true
 ---
 
 Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc
@@ -37,7 +47,21 @@ Stress cardiac magnetic resonance (CMR) perfusion imaging is recommended in inte
 Cardiac transplantation is the selected destination treatment in patients with advanced heart failure @RN4. This procedure, introduced in the late 1960s and originally looked upon with skepticism and suspicion, offers unparalleled improvement in both prognosis and quality of life in patients with ongoing symptoms, its use increasing over time and with improving outcomes @RN5 (@fig-htxrates). Patients referred for cardiac transplantation are required to undergo a significant amount of preprocedural testing @RN4 aimed at identifying potential contraindications. Patients deemed fit for transplantation typically undergo orthotopic heart transplantation, in which the native ventricles and all cardiac valves are excised, and anastomoses are created between the atria, aorta, and pulmonary valves of the donor and the recipient; in contrast, in patients undergoing heterotopic heart transplantation, the recipient heart is left in place and connected to the donor heart. As short-term survival improves (\~85-90% at 1 year, and 75% at 5 years @RN5), a growing number of patients are now followed up well beyond the 10th, 20th, or even 30th year since transplantation, which require extensive follow-up for the prevention of long-term complications.
 
 ::: {#fig-htxrates}
-![Rate of heart transplants worldwide, 2011-2022 (Transplant Observatory, adapted).](images/phd/htx-rates.png)
+```{r}
+library(dplyr)
+library(echarts4r)
+df <- data.frame(
+  year = as.character(c(2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022)),
+  rate = c(0.80, 0.80, 0.90, 0.90, 0.90, 1, 1, 1, 1.50, 1.30, 1.40, 1.50)
+)
+
+df %>% e_charts(year) %>% e_bar(rate) %>% e_theme("vintage") %>% e_legend(FALSE) %>% e_x_axis(name = "\nYear", nameLocation = "middle") %>% 
+e_y_axis(name = "Rate per million population\n\n", nameLocation = "middle")
+
+```
+
+Rate of heart transplants worldwide, 2011-2022 ([Global Observatory on Donation and Tranplantation](https://www.transplant-observatory.org), adapted).
+
 :::
 
 ### Complications following cardiac transplantation
@@ -45,7 +69,9 @@ Cardiac transplantation is the selected destination treatment in patients with a
 Notwithstanding the inherent risks of cardiac surgery, heart transplantation recipients are at risk of early- and late-onset complications, which will be briefly outlined (@fig-htxcompl). Cardiac allograft vasculopathy, a late-onset complication, will be discussed in detail in a separate section.
 
 ::: {#fig-htxcompl}
-![Main complications following cardiac transplantation.](images/phd/htx-compl.png)
+![](images/phd/htx-compl.png)
+
+Main complications following cardiac transplantation.
 :::
 
 In the early days up until the first years following cardiac transplantation, the graft recipient is at risk of developing heart failure and acute rejection, which is the leading cause of death in this period. Immunosuppressive therapy which is required for control of the immune response leads to opportunistic infections which typically occur between 30 days and the first year from the procedure. Cardiac allograft vasculopathy is commonly found in patients at \> 2 years from transplantation and is partially addressable with pharmacological treatment. Other late complications of cardiac transplantation include malignancies – mainly as a consequence of viral infections, chronic kidney disease (CKD), and the onset of diabetes, hypertension, dyslipidemia, depression and anxiety, gout, and osteoporosis @RN6.
@@ -71,13 +97,17 @@ New onset of a malignancy following cardiac transplantation is estimated at 11% 
 Cardiac allograft vasculopathy (CAV) has been labelled the «Achilles heel» of cardiac transplantation @RN10. It consists in the diffuse intimal thickening and luminal narrowing in the coronary tree, possibly leading to focal occlusion and heart failure, with no or limited development of new collateral vessels11. Patients with CAV are often asymptomatic due to graft denervation [@RN2; @RN11], and both epicardial @RN12 and microvascular disease @RN13 were separately found to be prognostic. CAV is believed to be the result of an interplay of immunological and non-immunological factors which contribute to lipid deposition and proliferation of smooth muscle cells and macrophages in the intima2 of both epicardial vessels and the coronary microcirculation (@fig-cav).
 
 ::: {#fig-cav}
-![Typical atherosclerosis and allograft vasculopathy. (Adapted from Avery 2003)](images/phd/cav.png)
+![](images/phd/cav.png)
+
+Typical atherosclerosis and allograft vasculopathy. (Adapted from Avery 2003 @RN9)
 :::
 
 Risk of CAV is associated with graft age, with incidence estimated at 8% at 1 year and 47% at 10 years @RN4. The Stanford classification for CAV is descriptive of the morphological features at angiography. It distinguishes discrete lesions (type A) from distal diffuse concentric narrowing in main vessels (type B) or distal branches (type C) @RN11. CAV grading is based on criteria proposed by the Cardiac Transplant Research Database, a multicenter registry that collected data from 4,637 invasive angiograms across 39 institutions in the 1990s @RN14. This grading has been embraced by the ISHLT @RN10, and defines CAV as pictured in @fig-ishlt.
 
 ::: {#fig-ishlt}
-![CAV grading according to the ISHLT.](images/phd/ishlt.png)
+![](images/phd/ishlt.png)
+
+CAV grading according to the ISHLT.
 :::
 
 Additionally, CAV should be managed in light of the clinical context. Rapidly progressing CAV in the first 2 years since transplantation is believed to be mainly driven by vasculitis and should be managed more aggressively due to its poor prognosis. Instead, a later (\> 2 years) presentation in the presence of preserved graft function is typical of an indolent course. Finally, rapidly progressive CAV is defined as new-onset CAV within 1 year of a previous normal angiogram; this is also associated with poor prognosis @RN10.
@@ -144,7 +174,9 @@ Over the course of 20 years, 15 studies evaluated the use of various CMR compone
 This was a retrospective observational study of all outpatients under surveillance for CAV after orthotopic cardiac transplantation at a large tertiary center (Harefield Hospital, London, United Kingdom), in which stress CMR was clinically indicated by the referring cardiologist. The study included a cross-sectional comparison between stress CMR results and the closest angiographic study findings (ICA or, when unavailable, CTCA), as well as a longitudinal component with follow-up for major adverse cardiovascular events. This study received approval of the local institutional review board at Royal Brompton and Harefield Hospitals, Guys’ & St Thomas NHS Trust. Patient informed consent was waived due to the retrospective nature of the study, which did not affect patient management in any way.
 
 ::: {#fig-flow}
-![Study flow chart.](images/phd/flow.jpg)
+![](images/phd/flow.jpg)
+
+Study flow chart.
 :::
 
 CMR studies performed on orthotopic heart transplant recipients at Royal Brompton and Harefield hospitals between 2015 and 2023 were included if the patient had undergone a complete adenosine stress perfusion CMR study of diagnostic quality. N = 70 stress CMR studies were performed on 60 individual patients; for analyses other than the safety profile, only the index study was considered.
@@ -156,7 +188,9 @@ CMR studies performed on orthotopic heart transplant recipients at Royal Brompto
 #### CMR
 
 ::: {#fig-cmr-protocol}
-![CMR protocol at 1.5 Tesla.](images/phd/cmr-protocol.png)
+![](images/phd/cmr-protocol.png)
+
+CMR protocol at 1.5 Tesla.
 :::
 
 #### Angiography
@@ -180,7 +214,7 @@ CMR studies performed on orthotopic heart transplant recipients at Royal Brompto
 #| error: false
 #| echo: false
 #| output: false
-source("phd/scripts/main_caller.R") 
+source("phd/scripts/main_caller.R")
 data <- data[!is.na(data$stressor), ]
 data <- data[data$stressor.factor=="adenosine", ]
 sample <- length(data$record_id)
@@ -214,12 +248,61 @@ At CMR, mean (SD) left ventricular ejection fraction was 61.7% (12.5%), with sev
 Adenosine dosage of 140 µg/kg/min was utilized in the majority of studies (n = 37, 62%) while 210 µg/kg/min was reached in 8 patients (13%). During adenosine infusion, the haemodynamic response was highly variable (@fig-cmr-feas). Heart rate increased from a mean ± SD of 82 ± 14 to 91 ± 18 beats per minute, while systolic blood pressure decreased from 132 ± 16 to 124 ± 14 mm Hg. Overall, 50.1% patients reported chest tightness or chest pain during infusion, 22.4% reported shortness of breath, 17.2% did not experience any symptoms and 10.3% had hot flush. Haemodynamic and symptom response were not dependent on adenosine dosage subgroup (all p-values \> 0.5). 
 
 ::: {#fig-cmr-feas}
-![Haemodynamic and symptom response to adenosine.](images/phd/cmr-feas.png)
+```{r feasibility}
+library(echarts4r)
+chest <- round((sum(data$stress_symptoms___2)+sum(data$stress_symptoms___2))/sample*100, digits = 1)
+nosymp <- round(sum(data$stress_symptoms___1)/sample*100, digits = 1)
+short <- round(sum(data$stress_symptoms___3)/sample*100, digits = 1)
+hot <- round(sum(data$stress_symptoms___5)/sample*100, digits = 1)
+
+feasibility <- data.frame(
+    symp=c("Chest tightness or pain", "No symptoms", "Shortness of breath", "Hot flush"),
+    occ=c(chest, nosymp, short, hot)
+)
+
+feasibility$symp <- paste0(feasibility$symp, " (", (round(feasibility$occ/sum(feasibility$occ)*100, digits = 1)), "%)")
+
+feasibility[feasibility$occ>0,] %>% 
+  e_charts(symp) %>% 
+  e_pie(occ, radius = c("50%", "70%")) %>% 
+  e_legend(FALSE) %>% e_theme("vintage")
+  # |> e_title("Donut chart")
+```
+
+Haemodynamic and symptom response to adenosine.
 :::
 
 #### Safety
 
-No life-threatening adverse events, nor brief or prolonged atrioventricular block, or major arrythmias occurred during or immediately after adenosine infusion, with one patient having self-reversed sinus pauses. Mild, transient adverse effects were registered: three patients (4.5%) complained of headache, and another reported nausea. @tbl-cmr-safe details safety findings.
+No life-threatening adverse events, nor brief or prolonged atrioventricular block, or major arrythmias occurred during or immediately after adenosine infusion, with one patient having self-reversed sinus pauses. Mild, transient adverse effects were registered: three patients (4.5%) complained of headache, and another reported nausea. @fig-cmr-safe and @tbl-cmr-safe detail safety findings.
+
+::: {#fig-cmr-safe}
+```{r safety}
+require(echarts4r)
+unev <- sum(data$stressor==1)+sum(data$stressor_v2==1, na.rm = T)-sum(death, mi_stress, vtvf, hosp_stress, asystole, sinuspause,
+                        av_block, afib, chest_pain, hypotension, dyspnea, nausea,
+                        headache, allergic, extravas, thrombophleb)
+safety <- data.frame(
+    ae= c("Death", "MI", "Ventricular arrhythmias", "Hospitalisation",
+                        "Asystole", "Sinus pauses", "AV block", "Atrial fibrillation",
+                        "Chest pain", "Hypotension", "Dyspnoea", "Nausea", "Headache",
+                        "Allergic reaction", "Extravasation", "Thrombophlebitis", "Uneventful stress CMR"),
+    occ=c(death, mi_stress, vtvf, hosp_stress, asystole, sinuspause,
+                        av_block, afib, chest_pain, hypotension, dyspnea, nausea,
+                        headache, allergic, extravas, thrombophleb, unev))
+
+safety$ae <- paste0(safety$ae, " (", (round(safety$occ/sum(safety$occ)*100, digits = 1)), "%)")
+
+safety[safety$occ>0,] %>% 
+  e_charts(ae) %>% 
+  e_pie(occ, radius = c("50%", "70%")) %>% 
+  e_legend(FALSE) %>% e_theme("vintage")
+  # |> e_title("Donut chart")
+
+```
+
+Safety of stress perfusion CMR with adenosine after heart transplant.
+:::
 
 ::: {#tbl-cmr-safe}
 | Event                                      | n (%)                                             |
@@ -287,7 +370,7 @@ Stress MBF yielded an AUC of 66.6% with sensitivity 100%, specificity 36.8%, pos
 
 AUC for the rest MBF index was 66.0% with sensitivity 91.9%, specificity 42.9%, positive predictive value of 66.7% and negative predictive value of 81.0%.
 
-Comprehensive results are presented in @tbl-acc. Visual assessment and a strategy based on MPR index were compared for reclassification across the range of pre-test probability of CAV (Figure 7). A quantitative approach based exclusively on the measurement of stress MPR index, where CAV would be adjudicated for MPR index ≥ 2.1, was effective at ruling-in and ruling-out CAV, while qualitative assessment of ischemia offered almost non-existent ruling-out capacity.
+Comprehensive results are presented in @tbl-acc. Visual assessment and a strategy based on MPR index were compared for reclassification across the range of pre-test probability of CAV (@fig-leaf). A quantitative approach based exclusively on the measurement of stress MPR index, where CAV would be adjudicated for MPR index ≥ 2.1, was effective at ruling-in and ruling-out CAV, while qualitative assessment of ischemia offered almost non-existent ruling-out capacity.
 
 ::: {#tbl-acc}
 | |AUC (95%CI)|Sensitivity|Specificity|PPV|NPV|
@@ -302,7 +385,11 @@ Comprehensive results are presented in @tbl-acc. Visual assessment and a strateg
 Discriminative ability of qualitative and quantitative stress CMR parameters for detection of significant CAV on index angiography.
 :::
 
-![Pre- and post-test probability of CAV based on stress CMR results, visual assessment and quantitative assessment with MPR index compared.](images/phd/leaf.png)
+::: {#fig-leaf}
+![](images/phd/leaf.png)
+
+Pre- and post-test probability of CAV based on stress CMR results, visual assessment and quantitative assessment with MPR index compared.
+:::
 
 #### Quantitative stress perfusion CMR and donor-specific antibodies
 
@@ -374,7 +461,7 @@ Tabulated results at 5% increments for probability thresholds. A) at a pre-test 
 
 #### Correction for overfit
 
-Ten-fold cross-validation with 25 repeats was used to evaluate model performance after accounting for overfit. The cross-validated quantitative stress perfusion CMR model yielded similar added benefit to the original model for threshold probabilities from 15% to 40%, while benefit for patients willing to undergo angiography for risk \< 15% was not maintained (Supplemental Figure 1).
+Ten-fold cross-validation with 25 repeats was used to evaluate model performance after accounting for overfit. The cross-validated quantitative stress perfusion CMR model yielded similar added benefit to the original model for threshold probabilities from 15% to 40%, while benefit for patients willing to undergo angiography for risk \< 15% was not maintained (@suppfig-dca).
 
 ### Prognostic yield
 
@@ -386,7 +473,15 @@ Traditional CV risk predictors such as age and presence of diabetes and dyslipid
 
 #### Stress CMR parameters
 
-Among stress CMR parameters, stress MBFi and MPRi, but not qualitative assessment of ischemia, were prognostic (Table 5). Multivariable adjustment was not attempted due to the low sample size. Exploratory plotting of hazard ratios on the spectrum of stress MPR index values and stratification by MPR index for Kaplan Meier curves demonstrated that patients with an MPR index lower than 2.0 were at significantly increased risk of future MACE (Figure 9 and Supplemental Figure 2).
+Among stress CMR parameters, stress MBFi and MPRi, but not qualitative assessment of ischemia, were prognostic (Table 5). Multivariable adjustment was not attempted due to the low sample size. Exploratory plotting of hazard ratios on the spectrum of stress MPR index values and stratification by MPR index for Kaplan Meier curves demonstrated that patients with an MPR index lower than 2.0 were at significantly increased risk of future MACE (@fig-km and @suppfig-mace).
+
+::: {#fig-km}
+![](images/phd/qp-km.png)
+
+Prognostic value of MPR index among outpatient heart transplant recipients.
+:::
+
+At a median follow-up of 1.8 years, eleven patients incurred a MACE. MPR index was found to be a significant predictor of future MACE. A MPR index ≤ 2 was associated with increased CV risk (log-rank p = 0.022).
 
 #### Other CMR parameters
 
@@ -437,7 +532,7 @@ The thesis was compiled with R and Quarto in VS Code. R packages utilized includ
 
 #### Relationship between MBF and the rate-pressure product
 
-Adjustment of CMR-derived MBF and MPR to the rate-pressure product (RPP) is a matter of ongoing debate. The rate-pressure product is the double product of heart rate and systolic blood pressure, with both parameters typically measured at rest. Since its first introduction in 1993, the RPP was utilized for adjustment of the rest MBF @RN96 to account for differences in baseline haemodynamic conditions across patients; it was in fact observed that the significant correlation between RPP and MBF would lose strength and significance when both parameters were measured during vasodilator-induced stress. For this reason, stress MBF was typically not normalized by the RPP. This was also the case in heart transplant recipients @RN76. We tested for the existence of a correlation between RPP and MBF at both rest and stress in the present cohort. As exemplified by Supplemental Figures 3 and 4, a stronger, significant correlation was identified between stress RPP and stress MBF, than it was found with both parameters at rest. One reason why the rationale of adjusting only the rest MBF might not entirely apply to heart transplant recipients is that these patients, besides presenting with different baseline haemodynamic conditions, also show diverse haemodynamic response to pharmacological vasodilation, possibly in keeping with the varying degree of graft reinnervation and thus, autonomic control over the implanted heart @RN97. In their study of heart transplant recipients undergoing stress perfusion CMR published 20 years ago @RN76, Muehling and colleagues found significant correlation between rest MBF and rest RPP, but not between these parameters at stress (personal correspondence, courtesy of Peter Kellman and Michael Jerosch-Herold). They also reported that, in contrast with healthy controls, the RPP in heart transplant recipients was reduced upon vasodilation with adenosine, rather than increased. This was not the case in this cohort. In fact, we show that the RPP modestly increased between rest and stress (10,764±2,413 to 11,309±2,627, p = 0.06 for difference; Supplemental Figure 5). Importantly, our cohort differed significantly from the one investigated by Muehling et al., since they enrolled patients between 2 and 14 years from transplantation, while in our cohort, we reported on patients with graft age ranging from \< 1 to \> 30 years, with the large majority of patients at \> 10 years from graft implantation. We investigated the observed heterogeneity in RPP change between rest and stress. Age and time from transplantation were not significantly associated with change in RPP (p = 0.45 and 0.92, respectively); this plausibly excludes the hypothesis that the haemodynamic response to adenosine after transplantation is explained simply by reinnervation, which remains limited and incomplete long-term after the procedure @RN97. Instead, male sex and positivity to DSA were significant predictors of a positive change in RPP (Supplemental Figures 6–8). Finally, stress MBF index, but not MPR index or rest MBF index, was inversely correlated with graft age, defined as the time between graft implantation and CMR (Supplemental Figure 9). The pathophysiological foundations and possible prognostic implications of such «pseudonormalization» of the RPP response on the lifetime trajectory of cardiac grafts are unknown.
+Adjustment of CMR-derived MBF and MPR to the rate-pressure product (RPP) is a matter of ongoing debate. The rate-pressure product is the double product of heart rate and systolic blood pressure, with both parameters typically measured at rest. Since its first introduction in 1993, the RPP was utilized for adjustment of the rest MBF @RN96 to account for differences in baseline haemodynamic conditions across patients; it was in fact observed that the significant correlation between RPP and MBF would lose strength and significance when both parameters were measured during vasodilator-induced stress. For this reason, stress MBF was typically not normalized by the RPP. This was also the case in heart transplant recipients @RN76. We tested for the existence of a correlation between RPP and MBF at both rest and stress in the present cohort. As exemplified by [@suppfig-rrpp;@suppfig-srpp], a stronger, significant correlation was identified between stress RPP and stress MBF, than it was found with both parameters at rest. One reason why the rationale of adjusting only the rest MBF might not entirely apply to heart transplant recipients is that these patients, besides presenting with different baseline haemodynamic conditions, also show diverse haemodynamic response to pharmacological vasodilation, possibly in keeping with the varying degree of graft reinnervation and thus, autonomic control over the implanted heart @RN97. In their study of heart transplant recipients undergoing stress perfusion CMR published 20 years ago @RN76, Muehling and colleagues found significant correlation between rest MBF and rest RPP, but not between these parameters at stress (personal correspondence, courtesy of Peter Kellman and Michael Jerosch-Herold). They also reported that, in contrast with healthy controls, the RPP in heart transplant recipients was reduced upon vasodilation with adenosine, rather than increased. This was not the case in this cohort. In fact, we show that the RPP modestly increased between rest and stress (10,764±2,413 to 11,309±2,627, p = 0.06 for difference; @suppfig-rpp). Importantly, our cohort differed significantly from the one investigated by Muehling et al., since they enrolled patients between 2 and 14 years from transplantation, while in our cohort, we reported on patients with graft age ranging from \< 1 to \> 30 years, with the large majority of patients at \> 10 years from graft implantation. We investigated the observed heterogeneity in RPP change between rest and stress. Age and time from transplantation were not significantly associated with change in RPP (p = 0.45 and 0.92, respectively); this plausibly excludes the hypothesis that the haemodynamic response to adenosine after transplantation is explained simply by reinnervation, which remains limited and incomplete long-term after the procedure @RN97. Instead, male sex and positivity to DSA were significant predictors of a positive change in RPP ([@suppfig-rpp-sex;@suppfig-rpp-dsa]). Finally, stress MBF index, but not MPR index or rest MBF index, was inversely correlated with graft age, defined as the time between graft implantation and CMR (@suppfig-smbf-age). The pathophysiological foundations and possible prognostic implications of such «pseudonormalization» of the RPP response on the lifetime trajectory of cardiac grafts are unknown.
 
 #### Stress MBF index
 
@@ -451,10 +546,62 @@ The low specificity observed with stress MBF index indicated a high rate of fals
 
 ### Supplemental figures
 
+::: {#suppfig-dca}
+![](images/phd/qp-dca-crossval.png)
+
+10-fold cross-validated prediction model for net benefit.
+:::
+
+::: {#suppfig-mace}
+![](images/phd/mpri-mace.png)
+
+Hazard ratio for MACE as a function of MPR index.
+:::
+
+::: {#suppfig-rrpp}
+![](images/phd/rmbf-rrpp.png)
+
+Relationship between rest RPP and rest MBF.
+:::
+
+::: {#suppfig-srpp}
+![](images/phd/smbf-srpp.png)
+
+Relationship between stress RPP and stress MBF.
+:::
+
+::: {#suppfig-rpp}
+![](images/phd/rpp-stress.png)
+
+The rate-pressure product at rest and stress.
+:::
+
+::: {#suppfig-rpp-sex}
+![](images/phd/rpp-sex.png)
+
+Sex-specific change in rate-pressure product between rest and stress.
+:::
+
+::: {#suppfig-rpp-dsa}
+![](images/phd/rpp-dsa.png)
+
+Change in rate-pressure product between rest and stress in patients with and without DSA.
+:::
+
+::: {#suppfig-smbf-age}
+![](images/phd/smbf-age.png)
+
+Stress MBF index and graft age.
+:::
+
+
+
 ## List of publications
 
 Please find my [list of publications](publist.qmd).
 
+
+
 ## License
 
-The content of this thesis is licensed under a Creative Commons License, Attribution - Noncommercial - NoDerivative Works 4.0 International: see www.creativecommons.org. The text may be reproduced for non-commercial purposes, provided that credit is given to the original author. I hereby declare that the contents and organisation of this dissertation are the product of my own original work and do not compromise in any way the rights of third parties, including those relating to the security of personal data.
+The content of this thesis is licensed under a Creative Commons License, Attribution - Noncommercial - NoDerivative Works 4.0 International: see www.creativecommons.org. The text may be reproduced for non-commercial purposes, provided that credit is given to the original author. I hereby declare that the contents and organisation of this dissertation are the product of my own original work and do not compromise in any way the rights of third parties, including those relating to the security of personal data. 
