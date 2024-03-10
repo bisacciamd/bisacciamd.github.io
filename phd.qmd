@@ -183,9 +183,13 @@ CMR studies performed on orthotopic heart transplant recipients at Royal Brompto
 
 ### Study cases
 
+All stress CMR studies conducted at Royal Brompton and Harefield Hospitals between 2015 and 2023 were reviewed, and orthotopic cardiac transplantation outpatients were included if they underwent a complete stress perfusion CMR study deemed of diagnostic quality, with adenosine as the vasodilator. For the safety analysis, all eligible studies were included, whereas for other analyses the index stress CMR study was included and all subsequent stress CMR studies discarded. For each study patient, baseline characteristics were collected, including age, sex, BMI, BSA, cause for transplantation, date of transplantation and graft ischemic time, along with presence of diabetes mellitus, hypertension, dyslipidemia, smoker status, chronic kidney disease, thyroid dysfunction, chronic obstructive pulmonary disease, tricuspid regurgitation, atrial fibrillation, atrial flutter or other atrial arrhythmias, history of venous thromboembolism, history of pacemaker/defibrillator implantation, autoimmune diseases, anxiety and depression at the time of the stress CMR study. Use of immunosuppressant or other cardiac medications at time of CMR was also noted.
+
 ### Procedures and tests
 
 #### CMR
+
+The multi-parametric CMR (1.5 Tesla Siemens Sola scanner; Erlangen, Germany) protocol for CAV assessment comprised adenosine stress perfusion, rest perfusion, cine imaging for LV function and early (EGE) and late gadolinium enhancement (LGE). CMR data were analysed by level-2 or level-3 readers, using visual analysis according to the standard AHA/ACC 17-segment model. For visual interpretation of the perfusion study («qualitative» stress CMR), motion corrected images were utilized where available, and significant ischemia was reported in the presence of a stress-induced perfusion defect comprising at least 1.5 segments. An automated in-line quantitative perfusion mapping algorithm was utilized to derive global and segmental values for stress and rest myocardial blood flow (MBF) and myocardial perfusion reserve (MPR) («quantitative» stress CMR)@RN78. Global values for stress and rest MBF in mL/min/g, and MPR were collected. Rest MBF and MPR were then indexed to the rest rate-pressure product (heart rate · systolic blood pressure, both collected at baseline). The rate-pressure product is an index of haemodynamic response which has been linked to myocardial oxygen consumption@RN79 and is utilized in nuclear imaging studies to account for differences in haemodynamic conditions@RN80}, particularly heterogeneous in the context of heart transplant@RN81}. All CMR studies were anonymized and re-analyzed specifically for the present investigation, and readers were blinded to angiographic results or other clinical information. Analysis of CMR studies was conducted on Circle CVi42 software workstations (Circle Cardiovascular Imaging Inc., Calgary, Canada). For each study, left and right ventricular, end-diastolic and end-systolic volumes were measured, along with left ventricular, right ventricular and left atrial ejection fraction, and lateral mitral (MAPSE) and tricuspid (TAPSE) annular plane systolic excursion. Volumes were indexed to the body surface area, and LV mass was also measured. Cardiac output and cardiac index were also derived. Myocardial strain was measured with global longitudinal, radial, and circumferential strain. Presence of LGE was assessed visually and, for patients with any LGE, the LGE mass was measured with the 5-SD method. LGE mass was then indexed to LV mass.
 
 ::: {#fig-cmr-protocol}
 ![](images/phd/cmr-protocol.png)
@@ -195,17 +199,31 @@ CMR protocol at 1.5 Tesla.
 
 #### Angiography
 
+For each study case, the closest angiographic study was identified and its date and findings collected. For cases where ICA was not performed, the closest CTCA was utilized as a surrogate. CAV grading was accepted as reported or, where not formally reported, derived based on aforementioned ISHLT criteria @RN10. Significant CAV was defined as CAV grade 2 or 3, in accordance with previous findings of no significant differences in morphofunctional features between patients with no or mild CAV @RN74, and owing to the definition of CAV grade 3, where independently of the severity of epicardial lesions, a severe disease is adjudicated in patients with LV systolic dysfunction. For patients with CAV, lesion sites and, for ICA, stent deployment were noted.
+
 ### Follow-up
+
+The study prognostic endpoint was time to the first major adverse cardiovascular event (MACE), defined as unplanned cardiovascular hospitalization or death from any cause. Causes and dates for unplanned cardiovascular hospitalizations and death were ascertained from hospital electronic health records accessed until 31st December 2023.
 
 ### Data collection
 
+All data relevant to the present study were anonymized upon collection and uploaded on an encrypted electronic data capture server ([REDCap, Vanderbilt University, Nashville, USA](https://projectredcap.org/)). Anonymized CMR data, including results from analysis of all CMR modules, were exported to .XML files. A custom-made Shiny app was developed for extracting data from .XML files and batch transfer them into database entries. Additional study data, including baseline characteristics, angiography results and at during follow-up, were searched in electronic health records and collected by authorized staff (clinical CMR fellows, Harefield Hospital). Baseline characteristics included transplant date and cause, type of heart transplant (orthotopic, heterotopic, or heart-lung), presence of diabetes mellitus, hypertension, dyslipidemia at the time of CMR; smoker status, chronic kidney disease, atrial fibrillation or other atrial arrhythmias. Blood tests at time of CMR, including creatinine and estimated glomerular filtration rate, total cholesterol, HDL cholesterol, and glycated haemoglobin, were also noted. For each study case, the closest-in-time circulating donor-specific antihuman leukocyte antigen antibodies (DSA) blood test was identified, and its date and results noted.
+
 ### Statistics
+
+Baseline characteristics were summarised using descriptive statistics. Wilcoxon rank sum test, Fisher’s exact test, Student’s, and Pearson’s Chi-squared test were used where appropriate. Associations between variables were assessed by linear or logistic regression. Statistical analysis was undertaken using R software, version 4.2.2 ([R Foundation for Statistical Computing, Vienna, Austria](https://www.R-project.org/)) at a 5% significance level. Statistical packages utilized are detailed in the Appendix.
 
 #### Diagnostic accuracy
 
+Sensitivity, specificity, positive and negative predictive values (PPV, NPV), and area under the curve (AUC) were determined for qualitative stress CMR results and quantitative CMR parameters to detect significant CAV on index angiography (ICA or CTCA). Patients were included in the diagnostic analysis if they had complete data from both stress CMR and angiography (ICA or, when unavailable, CTCA). The Youden index was used to adjudicate proposed optimal thresholds for continuous stress CMR parameters to detect significant CAV on angiography.
+
 #### Clinical utility
 
+Decision curve analysis was undertaken to assess for clinical utility of qualitative and quantitative stress CMR across a pre-specified range of threshold probabilities (10% to 40%) considered representative of a sufficiently wide range of clinical scenarios @RN82. The clinical utility of each test was expressed as 1) the net benefit of undergoing CMR rather than referring the patient directly to invasive angiography; and 2) the net reduction in unnecessary angiographies performed @RN83, both calculated at each threshold probability in the pre-specified range. Explanation of decision curves and their analysis and interpretation is offered in the Results section. To account for model overfit, ten-fold cross-validation at 25 repeats was utilized.
+
 #### Prognostic yield
+
+Survival models were constructed based on CMR results and parameters, and Kaplan-Meier curves were used to estimate survival probabilities and compare MACE rates. The log-rank test was used to compare survival curves. Cox proportional hazards regression models were used to estimate hazard ratios (HRs) and 95%CIs for the association between test results and MACE. Restricted cubic splines were employed to model relationships between continuous variables and HRs.
 
 ## Results
 
