@@ -3,7 +3,7 @@ title: "VALUE OF QUANTITATIVE STRESS PERFUSION CARDIOVASCULAR MAGNETIC RESONANCE
 subtitle: PhD thesis, 2024
 author: 
     name: G. Bisaccia
-    degrees: MD, PhD
+    degrees: MD, PhD candidate
     orcid: 0000-0003-4606-3093
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy and Harefield Hospital, London, United Kingdom. PhD in Neuroscience and Imaging (XXXVII Cycle)
 bibliography: phd.bib
@@ -336,7 +336,7 @@ Haemodynamic and symptom response to adenosine.
 
 #### Safety
 
-No life-threatening adverse events, nor brief or prolonged atrioventricular block, or major arrythmias occurred during or immediately after adenosine infusion, with one patient having self-reversed sinus pauses. Mild, transient adverse effects were registered: three patients (4.5%) complained of headache, and another reported nausea. @fig-cmr-safe and @tbl-cmr-safe detail safety findings.
+No life-threatening adverse events, nor brief or prolonged atrioventricular block, or major arrythmias occurred during or immediately after adenosine infusion, with one patient having self-reversed sinus pauses. Mild, transient adverse effects were registered: three patients (4.5%) complained of headache, and another reported nausea. @fig-cmr-safe presents safety findings.
 
 ::: {#fig-cmr-safe}
 ```{r safety}
@@ -366,39 +366,58 @@ safety[safety$occ>0,] %>%
 Safety of stress perfusion CMR with adenosine after heart transplant.
 :::
 
-::: {#tbl-cmr-safe}
-| Event                                      | n (%)                                             |
-|---------------------------------|---------------------------------------|
-| Death                                      | `r death` (`r death/totalcmr*100`%)               |
-| Myocardial infarction                      | `r mi_stress` (`r mi_stress/totalcmr*100`%)       |
-| Ventricular tachycardia or fibrillation    | `r vtvf` (`r vtvf/totalcmr*100`%)                 |
-| Non-elective hospitalization following CMR | `r hosp_stress` (`r hosp_stress/totalcmr*100`%)   |
-| Asystole                                   | `r asystole` (`r asystole/totalcmr*100`%)         |
-| Sinus pause or arrest                      | `r sinuspause` (`r sinuspause/totalcmr*100`%)     |
-| High-grade atrioventricular block          | `r av_block` (`r av_block/totalcmr*100`%)         |
-| Atrial fibrillation                        | `r afib` (`r afib/totalcmr*100`%)                 |
-| Chest pain                                 | `r chest_pain` (`r chest_pain/totalcmr*100`%)     |
-| Symptomatic hypotension                    | `r hypotension` (`r hypotension/totalcmr*100`%)   |
-| Dyspnea                                    | `r dyspnea` (`r dyspnea/totalcmr*100`%)           |
-| Nausea                                     | `r nausea` (`r nausea/totalcmr*100`%)             |
-| Headache                                   | `r headache` (`r headache/totalcmr*100`%)         |
-| Allergic reaction                          | `r allergic` (`r allergic/totalcmr*100`%)         |
-| Contrast extravasation                     | `r extravas` (`r extravas/totalcmr*100`%)         |
-| Thrombophlebitis                           | `r thrombophleb` (`r thrombophleb/totalcmr*100`%) |
-
-Safety of stress CMR with adenosine after heart transplant.
-:::
 Adverse events during or following adenosine stress perfusion CMR among patients with orthotopic cardiac transplantation.
 
 ::: {#tbl-stress}
 ```{r}
+stress <- stress %>% mutate(ado_dose = case_when(
+  stress$ado_dose==1 ~ "140",
+  stress$ado_dose==2 ~ "180",
+  stress$ado_dose==3 ~ "210"))
+
+label(stress$ado_dose) <- "Adenosine dosage (µg/kg/min)"
+label(stress$peaksbp) <- "Peak systolic BP (mm Hg)"
+label(stress$peakhr) <- "Peak HR (bpm)"
+label(stress$resthr) <- "Rest HR (bpm)"
+label(stress$hr_delta) <- "Change in HR (bpm)"
+label(stress$dbp_delta) <- "Change in diastolic BP (mm Hg)"
+label(stress$sbp_delta) <- "Change in systolic BP (mm Hg)"
+label(stress$rpp) <- "Rest rate-pressure product"
+label(stress$srpp) <- "Stress rate-pressure product"
+label(stress$ptt_centroid) <- "Pulmonary transit time, centroid"
+label(stress$ptt_ptp) <- "Pulmonary transit time, peak to peak"
+
 stress$cav <- data$cav
-stress %>% select(-c(age,bsa,stressor,lvef,gls,nosymptom,time_from_tx,time_angio_tx,time_cav_cmr, mace_time, cav_angio,cav_ctca,cav_grade,rejection,death,hosp,mace,tx_old,rmbf, gender, weight, dsa, dsa_fup)) %>% mutate(
+stress %>% select(-c(age,bsa,stressor,lvef,gls,nosymptom,time_from_tx,time_angio_tx,time_cav_cmr, mace_time, cav_angio,cav_ctca,cav_grade,rejection,death,hosp,mace,tx_old,rmbf, gender, weight, dsa, dsa_fup, mbf, mpr, ischemic_burden)) %>% mutate(
+  peaksbp=as.numeric(peaksbp),
+  peakhr=as.numeric(peakhr),
+  resthr=as.numeric(resthr),
+  srpp=as.numeric(srpp),
+  rpp=as.numeric(rpp),
+  #ischemic_burden=as.numeric(ischemic_burden),
   hr_delta=as.numeric(hr_delta),
   dbp_delta=as.numeric(dbp_delta),
   sbp_delta=as.numeric(sbp_delta),
   rpp=as.numeric(rpp)) %>% 
-  tbl_summary(by = cav, missing = "no") %>% add_overall() %>% add_p() %>% as_gt()
+  tbl_summary(by = cav, missing = "no",
+  digits=list(
+    c(mbfi, mpri, rmbfi) ~ c(1,2)
+  ),
+  label=list(
+    ado_dose  ~ "Adenosine dosage (µg/kg/min)",
+    peaksbp  ~ "Peak systolic BP (mm Hg)",
+    peakhr  ~ "Peak HR (bpm)",
+    resthr  ~ "Rest HR (bpm)",
+    hr_delta  ~ "Change in HR (bpm)",
+    dbp_delta  ~ "Change in diastolic BP (mm Hg)", 
+    sbp_delta  ~ "Change in systolic BP (mm Hg)",
+    rpp  ~ "Rest rate-pressure product", 
+    #ischemic_burden ~ "Ischemic burden (%)",
+    srpp  ~ "Stress rate-pressure product", 
+    ptt_centroid  ~ "Pulmonary transit time, centroid", 
+    ptt_ptp  ~ "Pulmonary transit time, peak to peak"
+  )) %>% add_overall() %>% add_p() %>% as_gt()
+
 ```
 :::
 
@@ -609,7 +628,7 @@ In this study, quantitative perfusion was superior to qualitative stress perfusi
 
 ## Limitations
 
-This study has the following limitations. The observational, single-centre, retrospective study design allowed to demonstrate the safety, feasibility and clinical potential, but not the real-world effectiveness of a strategy of stress CMR as gatekeeper to angiography, which should be the objective of future research effort; time between CMR and angiography varied significantly among patients, possibly leading to imperfect comparison between the respective findings; in this study, both ICA and CTCA findings were utilized in a composite angiographic endpoint (and accepted as reported), whereas the latest ISHLT recommendations, despite being more than 12 years old, state that CTCA cannot be seen as an alternative to ICA for its lack of accuracy in assessing branch vessels; additionally, we found evidence of selection bias in referral to ICA versus CTCA, presumably owing to the real-world physician preference of CTCA in low-risk patients; we cannot exclude a biased representation of cardiac transplantation outpatients in this cohort, as patients not undergoing CMR, the stress component of CMR, or angiography for any reason were systematically excluded; additionally, we have not addressed the issue of donor-transmitted coronary artery disease versus new-onset CAV of the graft heart; we have not fully evaluated the additional value of quantitative stress perfusion CMR parameters compared with non-stress CMR parameters; we did not assess the applicability of parametric mapping to CAV assessment, for which there is some initial evidence74; although we confirmed the prognostic value of global longitudinal strain in this cohort as previously demonstrated93, we did not formally compare the diagnostic and prognostic yield of strain and perfusion modules, specifically because this was a study of patients undergoing stress CMR with a limited number of events. The study sample was adequate for detection of differences in quantitative perfusion parameters between patients with and without significant CAV, but may be considered modest for the prognostic analysis. This is reflective of practice of the outpatient surveillance service for cardiac transplantation recipients which does not routinely or exclusively refer patients to CMR.
+This study has the following limitations. The observational, single-centre, retrospective study design allowed to demonstrate the safety, feasibility and clinical potential, but not the real-world effectiveness of a strategy of stress CMR as gatekeeper to angiography, which should be the objective of future research effort; time between CMR and angiography varied significantly among patients, possibly leading to imperfect comparison between the respective findings; in this study, both ICA and CTCA findings were utilized in a composite angiographic endpoint (and accepted as reported), whereas the latest ISHLT recommendations, despite being more than 12 years old, state that CTCA cannot be seen as an alternative to ICA for its lack of accuracy in assessing branch vessels; additionally, we found evidence of selection bias in referral to ICA versus CTCA, presumably owing to the real-world physician preference of CTCA in low-risk patients; we cannot exclude a biased representation of cardiac transplantation outpatients in this cohort, as patients not undergoing CMR, the stress component of CMR, or angiography for any reason were systematically excluded; additionally, we have not addressed the issue of donor-transmitted coronary artery disease versus new-onset CAV of the graft heart; we have not fully evaluated the additional value of quantitative stress perfusion CMR parameters compared with non-stress CMR parameters; we did not assess the applicability of parametric mapping to CAV assessment, for which there is some initial evidence @RN74; although we confirmed the prognostic value of global longitudinal strain in this cohort as previously demonstrated @RN93, we did not formally compare the diagnostic and prognostic yield of strain and perfusion modules, specifically because this was a study of patients undergoing stress CMR with a limited number of events. The study sample was adequate for detection of differences in quantitative perfusion parameters between patients with and without significant CAV, but may be considered modest for the prognostic analysis. This is reflective of practice of the outpatient surveillance service for cardiac transplantation recipients which does not routinely or exclusively refer patients to CMR.
 
 ## Future perspectives
 

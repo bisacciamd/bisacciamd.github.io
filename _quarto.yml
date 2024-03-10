@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "G. Bisaccia, MD, PhD"
+  title: "G. Bisaccia, MD"
   
   navbar:
     logo: images/profile.jpg
@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - href: blog.qmd
-        text: Blog
+        text: Posts
       - text: Me
         menu:
           - about.qmd
@@ -36,9 +36,9 @@ website:
   reader-mode: false
 format:
   html:
-    theme: lux
+    theme: litera
     css: styles.css
     toc: true
-
+csl: jacc-cvi.csl
 
 

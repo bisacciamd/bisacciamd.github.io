@@ -1,5 +1,5 @@
 ---
-title: "G. Bisaccia's Research Endeavours"
+title: "Posts"
 listing:
   contents: posts
   sort: "date"

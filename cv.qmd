@@ -13,6 +13,7 @@ about:
       href: https://scholar.google.com/citations?user=Apav_NgAAAAJ
 bibliography: cv.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
+# should we change to this? -> https://github.com/mps9506/quarto-cv
 ---
 
 ```{r}
@@ -55,7 +56,7 @@ pubs <- length(bib2df("cv.bib")$BIBTEXKEY)
 
 **2021-2024** \| [PhD in Neuroscience and Imaging](phd.qmd), «International Doctorate» G. d’Annunzio University of Chieti and Pescara, Italy. Supervisors: Prof. Sabina Gallina, Prof. Fabrizio Ricci and Prof. Chiara Bucciarelli-Ducci
 
--   Co-authored `r pubs` peer-reviewed publications, including 5 as first author, with focus on disease prevention and use of magnetic resonance imaging to manage patients with cardiovascular disease
+-   Co-authored `r pubs` [peer-reviewed publications](publist.qmd), including 5 as first author, with focus on disease prevention and use of magnetic resonance imaging to manage patients with cardiovascular disease
 -   Analyzed, reported and presented findings for 7 original research studies, including three systematic reviews and meta-analyses, two observational multicenter registries and a randomized clinical trial
 -   Co-supervised research activity of 12 medical students and 3 cardiology trainees
 
