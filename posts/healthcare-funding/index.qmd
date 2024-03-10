@@ -12,6 +12,10 @@ draft: false
 bibliography: references.bib
 reference-location: margin
 image: challenges.png
+execute:
+    echo: false
+    warning: false
+    error: false
 ---
 
 On the path towards universal health coverage, securing adequate funding represents a key contributor to successful implementation (@fig-challenges). Funding influences the priority setting and breadth of coverage while reflecting the needs of several stakeholders. Various strategies have been proposed to fund healthcare, which fall into two main categories: tax-based and social health insurance (SHI)-based funding. In the present essay, I will 1) compare the design and main features of tax- and SHI-based funding schemes, 2) critically appraise their key differences, and 3) evaluate their performance under the UHC framework, with an emphasis on applied real-world examples of the use of resources, equity, and resilience.
@@ -87,6 +91,52 @@ The 2008 global financial crisis and the 2020 COVID-19 pandemic have affected he
 In 2010, more than 3 percent of the world's population incurred catastrophic health spending @RN55. In an analysis of 133 countries, catastrophic spending occurred more frequently in SHI-based systems than in tax-based systems, despite increased health expenditure in the former @RN55. The authors stated that to protect people from catastrophic out-of-pocket payments, what is needed is to increase «the share of total health expenditure that is prepaid», especially «through taxes and mandatory contributions». In other words, to shift towards tax-funded health systems would lead to broader coverage and better population health @RN304.
 
 # Is tax-based funding better?
-The main challenge in appraising the respective advantages and drawbacks of tax- and SHI-based funding schemes lies in the fact that no single country perfectly embodies a model; rather, each country adapted the models developed by Bismarck and Beveridge to their own needs. Each country’s approach to health policy reflects social and cultural values other than economic interests alone @RN620. Another layer of complexity lies in transitions from one system to another over time. Additionally, the literature on the subject is inevitably observational, and residual confounding is very likely as even large consortia such as the OECD rely on pooled self-reported statistics which are prone to error. No two countries have perfectly similar population demographics and burdens of disease, and to what extent the incidence of a disease is a cause or consequence of health policy is largely undetermined. What’s certain is that, given the recent slowdown in UHC progress, greater, focused international efforts in policymaking are warranted to adapt to aging, increasingly morbid populations.
+The main challenge in appraising the respective advantages and drawbacks of tax- and SHI-based funding schemes lies in the fact that no single country perfectly embodies a model; rather, each country adapted the models developed by Bismarck and Beveridge to their own needs (@fig-class). Each country’s approach to health policy reflects social and cultural values other than economic interests alone @RN620. Another layer of complexity lies in transitions from one system to another over time. Additionally, the literature on the subject is inevitably observational, and residual confounding is very likely as even large consortia such as the OECD rely on pooled self-reported statistics which are prone to error. No two countries have perfectly similar population demographics and burdens of disease, and to what extent the incidence of a disease is a cause or consequence of health policy is largely undetermined. What’s certain is that, given the recent slowdown in UHC progress, greater, focused international efforts in policymaking are warranted to adapt to aging, increasingly morbid populations.
+
+::: {#fig-class}
+```{mermaid}
+flowchart TD
+    A[Who finances healthcare?]
+    A --> C[Government]
+    A --> ROW[Rest of the world*]
+    C --> F[Is coverage mandatory?]
+    F -->|yes| a[Government scheme] 
+    F -->|no| b[Voluntary private insurance \n Out-of-pocket pay] 
+    a --> d[Is entitlement based \n on contribution?]
+    d -->|no| h[Government scheme]
+    d -->|no| u[Compulsory prepaid schemes]
+    u --> pooling[Is there interpersonal pooling?]
+    pooling -->|yes| compcontr[Compulsory \n contributory \n schemes]
+    compcontr --> policy[Is insurance\npolicy purchased?]
+    policy -->|no| shi[Social health insurance]
+    policy -->|yes| comppri[Compulsory private\ninsurance scheme]
+    pooling -->|no| cmsa[Compulsory medical \n savings accounts]
+    b --> c[Is prepaid contribution \n required?]
+    c -->|yes| e[Prepaid]
+    c -->|no| oop[Out-of-pocket]
+    oop --> cs[Is cost-sharing compulsory?]
+    oop --> cop[Copayments, user fees] 
+    cs -->|yes| ccs[Compulsory cost sharing]
+    cs -->|no| vhi[Voluntary health insurance \n Out-of-pocket pay]
+    e --> f[Entitlement based on contribution?]
+    f -->|yes| vol[Voluntary health insurance]
+    f -->|no| ent[Enterprises schemes \n Non-profit institutions]
+    ent --> char[Does the programme run \n for charity purposes?]
+    char -->|yes| nonpr[Non-profit institutions]
+    char -->|no| pr[Enterprises schemes]
+    ROW --> cov[Is coverage mandatory?]
+    cov -->|yes| comprow[Compulsory scheme]
+    cov -->|yes| volrow[Voluntary scheme]
+    volrow --> contr[Is entitlement based \n on contribution?]
+    contr -->|yes| q[Insurance]
+    comprow --> contrcomp[Is entitlement based \n on contribution?]
+    contr -->|no| l[Other]
+    contrcomp -->|yes| p[Insurance]
+    contrcomp -->|yes| x[Other]
+
+```
+
+Classification of Health Care Financing Schemes (ICHA-HF) proposed by the OECD, adapted @RN623.
+:::
 
 In countries with tax-based healthcare funding, budgetary pressure and discourse dominate the stage of political discussion, and tax abuse is a serious threat to population health. Governments can leverage funding as needed, and benefit from participatory governance and resilience. This can be a bad thing for healthcare, such as with austerity following the 2008 crisis – or it can be a good thing, as during COVID, where at the cost of increased deficit, people were offered greater protection from catastrophic spending. While they may not be faultless, tax-based systems are less expensive, more inclusive, and offer greater financial protection and preparedness. Wider adoption of prepaid contributions under a tax-based healthcare financing framework appears justified. 
