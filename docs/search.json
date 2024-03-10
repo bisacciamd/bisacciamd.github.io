@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Posts",
     "section": "",
-    "text": "Tax-based or social health insurance funding for healthcare\n\n\nWhich works better?\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
+    "text": "Tax-based or social health insurance funding for healthcare\n\n\nWhich works better for universal health coverage?\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -222,5 +222,82 @@
     "title": "Portfolio",
     "section": "MATLAB software",
     "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.\n\n\nMethods\n\nDiagnostic test accuracy analysis\n\ndiagnostic test accuracy meta-analysis with the split component synthesis method, as used in (1).\n\n\n\nSurvival analysis\n\nsurvival analysis with modeling of the hazard ratio on a continuous variable as in (2).\n\n\n\nDecision curve analysis\nI used this in my PhD thesis to evaluate the clinical utility of quantitative stress perfusion CMR to reduce use of coronary angiography in vasculopathy surveillance after heart transplantation.\n\n\n\nData visualization\n\nSankey chart\nThis was used in (3)."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html",
+    "href": "posts/healthcare-funding/index.html",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "",
+    "text": "On the path towards universal health coverage, securing adequate funding represents a key contributor to successful implementation (Figure 1). Funding influences the priority setting and breadth of coverage while reflecting the needs of several stakeholders. Various strategies have been proposed to fund healthcare, which fall into two main categories: tax-based and social health insurance (SHI)-based funding. In the present essay, I will 1) compare the design and main features of tax- and SHI-based funding schemes, 2) critically appraise their key differences, and 3) evaluate their performance under the UHC framework, with an emphasis on applied real-world examples of the use of resources, equity, and resilience."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#entitlement",
+    "href": "posts/healthcare-funding/index.html#entitlement",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "1. Entitlement",
+    "text": "1. Entitlement\nTax-based systems typically achieve better accessibility, especially for the poorest and sickest segments of the population; SHI schemes, however, can achieve accessibility by providing subsidized care, despite evidence of persisting uninsurance in these systems (3)."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#funding",
+    "href": "posts/healthcare-funding/index.html#funding",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "2. Funding",
+    "text": "2. Funding\nCriticalities also exist regarding funding itself. In tax-based systems, health is not entirely free – as residual price rationing typically occurs. These systems are also vulnerable to tax abuse or avoidance. SHI systems also have their drawbacks. Having employer-sponsored health insurance has been linked to job lock (4) and does not eliminate the problem of adverse selection (1) possibly leading to long-term sustainability issues."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#insurers",
+    "href": "posts/healthcare-funding/index.html#insurers",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "3. Insurers",
+    "text": "3. Insurers\nIn SHI-based countries where multiple agents are at play, higher expenditure is reported, due to multiple reasons. Since providers in these countries operate for profit, they charge more for services, despite providing coverage to fewer people. Additionally, the decentralization of resources relates to higher expenditure (5). It follows that SHI countries where a single insurance fund dominates spend on administration comparably to tax-financed countries (5). In contrast, due to a simpler organizational structure, tax-based systems have historically achieved reduced healthcare expenditure and waste (5). Wasteful expenditure due to poor implementation of the priority setting and inefficient administration amounts to ~20% of the healthcare budget in OECD countries, and up to 40% in developing countries (6); among OECD countries, SHI systems waste significantly more (5). As a result, SHI-based countries have larger healthcare expenditures, but their population does not benefit in terms of overall health and lifespan (7)."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#management",
+    "href": "posts/healthcare-funding/index.html#management",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "4. Management",
+    "text": "4. Management\nAs money is collected through public revenue in tax-financed systems, these countries face almost incessant political debate on healthcare spending. This is the case in countries like Italy (8,9) and the UK (10,11), where political decisions such as increased decentralization and Brexit affected healthcare system performance in the last decade, particularly by hampering workforce planning; this is often tackled by hiring agency workers at the expense of quality of care and reliability (9,12,13). Tax-funded schemes in Europe have also been criticized for their inert bureaucracy (14) that appears resistant to the «information revolution» and has caused delays in the adoption of novel technologies and services. However, the political discourse around healthcare has also demonstrated the potential to improve public participation; in Thailand, where three-quarters of the population receive UHC through a tax-based fund, participatory governance through consistent citizen involvement led to improved access to quality care (15)."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#providers",
+    "href": "posts/healthcare-funding/index.html#providers",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "5. Providers",
+    "text": "5. Providers\nIn tax-based systems, little competition is present between providers (1), which may be seen as a disadvantage over SHI-funded schemes, where the regulations on competition may allow for widespread, affordable coverage. However, there is evidence that aiming for increased competition may affect population health in unexpected ways. In 1991, the UK NHS was the subject of a reform aimed at increasing provider efficiency, the «NHS internal market». In this system, hospitals were encouraged to reduce waiting times and overall price-for-service. This was later shown to have a detrimental effect on the health outcomes of patients presenting with acute myocardial infarction (16). Quasi-private reforms are thus seen as ineffective and reduced competition may be seen as a structural feature of tax-based systems."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#rationing",
+    "href": "posts/healthcare-funding/index.html#rationing",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "6. Rationing",
+    "text": "6. Rationing\nIn tax-based systems, staff or resource shortages introduce queues, which are seen negatively by the general public and may consequently take a central stage in the country’s political debate. Additionally, queues are shown to exacerbate existing socioeconomic inequalities by rendering healthcare less accessible to the poor and sickest (17). On the other hand, in SHI-based countries, queues are not a major issue, and health policy aims to control the larger healthcare spending. To do so, price schedules are utilized, although these may produce clinical distortions by inducing or aggravating a prominence effect (18) on physicians."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#cost-effectiveness",
+    "href": "posts/healthcare-funding/index.html#cost-effectiveness",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "1. Cost-effectiveness",
+    "text": "1. Cost-effectiveness\nUHC promotes efficient use of resources through the exclusion of ineffective services and expansion of high-value care, in an effort to maintain healthcare expenditure at a sustainable level. Evidence from low- and middle-income countries (23) shows that healthcare funding based on tax revenue is a major determinant of UHC progress. This finding was later confirmed in OECD countries, where the promotion of cost-effective services – and, consequently, progress towards UHC – depends largely on the underlying funding scheme, even after accounting for a country’s gross domestic product and socioeconomic gaps, a retrospective analysis showed (24).\nBy observing OECD countries transitioning from a tax- to an SHI-based system, A. Wagstaff demonstrated that the adoption of an SHI scheme increased health expenditure by as much as 4% (2) (Figure 4); increased expenditure not only did not reduce attributable mortality but came at the cost of reduced employment rates – by up to 10% in the healthcare sector. This builds on the concept that employers might be discouraged from hiring new workers in SHI-funded systems. Another important point regarding the cost-effectiveness of healthcare systems is effective resource utilization. As previously pointed out, health expenditure is wasted more in OECD countries with an SHI scheme in place (5), in relation to the multiplicity of providers offering similar services in a decentralized fashion and at greater administrative costs (6).\n\n\n\n\n\n\nFigure 4: Outcomes in OECD countries transitioning from tax-based to SHI-based schemes. Adapted results from Wagstaff A. The World Bank (2)."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#health-equity",
+    "href": "posts/healthcare-funding/index.html#health-equity",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "2. Health equity",
+    "text": "2. Health equity\nUHC mandates a primary focus of healthcare systems on the disadvantaged, poor, and rural segments of the population, as these are most likely to benefit from improved access. SHI schemes, however, prioritize coverage for formal workers, to later expand to informal workers and the unemployed; thus, SHI schemes are in open contrast with UHC’s equity principle (19). SHI-based schemes are also affected by adverse selection, whereas risk adjustment strategies are detrimental to the sickest by overestimating their risk (25)."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#financial-protection",
+    "href": "posts/healthcare-funding/index.html#financial-protection",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "3. Financial protection",
+    "text": "3. Financial protection\nDespite significant advances in the previous 20 years, rates of catastrophic health spending are now increasing worldwide as progress toward UHC has halted since 2015 (26). A systematic review of evidence from 133 countries showed that SHI funding was a significant predictor of increased catastrophic spending (27). The authors concluded that to reduce out-of-pocket pay, countries should increase prepayments, especially channeled through taxes and mandatory contributions. Low financial protection has an interplay with reduced health equity, as 100 million people worldwide are pushed into extreme poverty each year, facing poorer health outcomes as a result (6)."
+  },
+  {
+    "objectID": "posts/healthcare-funding/index.html#shi-countries-are-less-inclusive",
+    "href": "posts/healthcare-funding/index.html#shi-countries-are-less-inclusive",
+    "title": "Tax-based or social health insurance funding for healthcare",
+    "section": "SHI countries are less inclusive",
+    "text": "SHI countries are less inclusive\nIn 2010, more than 3 percent of the world’s population incurred catastrophic health spending (27). In an analysis of 133 countries, catastrophic spending occurred more frequently in SHI-based systems than in tax-based systems, despite increased health expenditure in the former (27). The authors stated that to protect people from catastrophic out-of-pocket payments, what is needed is to increase «the share of total health expenditure that is prepaid», especially «through taxes and mandatory contributions». In other words, to shift towards tax-funded health systems would lead to broader coverage and better population health (22)."
   }
 ]

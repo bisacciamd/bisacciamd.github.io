@@ -1,6 +1,6 @@
 ---
 title: Tax-based or social health insurance funding for healthcare
-subtitle: Which works better?
+subtitle: Which works better for universal health coverage?
 author: 
     name: G. Bisaccia
     orcid: 0000-0003-4606-3093
@@ -11,7 +11,7 @@ date-format: medium
 draft: false
 bibliography: references.bib
 reference-location: margin
-format: docx
+image: challenges.png
 ---
 
 On the path towards universal health coverage, securing adequate funding represents a key contributor to successful implementation (@fig-challenges). Funding influences the priority setting and breadth of coverage while reflecting the needs of several stakeholders. Various strategies have been proposed to fund healthcare, which fall into two main categories: tax-based and social health insurance (SHI)-based funding. In the present essay, I will 1) compare the design and main features of tax- and SHI-based funding schemes, 2) critically appraise their key differences, and 3) evaluate their performance under the UHC framework, with an emphasis on applied real-world examples of the use of resources, equity, and resilience.
@@ -45,7 +45,7 @@ In SHI-based countries where multiple agents are at play, higher expenditure is 
 In contrast, due to a simpler organizational structure, tax-based systems have historically achieved reduced healthcare expenditure and waste @RN100. Wasteful expenditure due to poor implementation of the priority setting and inefficient administration amounts to ~20% of the healthcare budget in OECD countries, and up to 40% in developing countries @RN301; among OECD countries, SHI systems waste significantly more @RN100. As a result, SHI-based countries have larger healthcare expenditures, but their population does not benefit in terms of overall health and lifespan @RN99. 
 
 ## 4. Management
-As money is collected through public revenue in tax-financed systems, these countries face almost incessant political debate on healthcare spending. This is the case in countries like Italy @RN612, 308 and the UK @RN614, 613, where political decisions such as increased decentralization and Brexit affected healthcare system performance in the last decade, particularly by hampering workforce planning; this is often tackled by hiring agency workers at the expense of quality of care and reliability @RN616, 308, 615. Tax-funded schemes in Europe have also been criticized for their inert bureaucracy @RN621 that appears resistant to the «information revolution» and has caused delays in the adoption of novel technologies and services. However, the political discourse around healthcare has also demonstrated the potential to improve public participation; in Thailand, where three-quarters of the population receive UHC through a tax-based fund, participatory governance through consistent citizen involvement led to improved access to quality care @RN622.
+As money is collected through public revenue in tax-financed systems, these countries face almost incessant political debate on healthcare spending. This is the case in countries like Italy [@RN612;@RN308] and the UK [@RN614;@RN613], where political decisions such as increased decentralization and Brexit affected healthcare system performance in the last decade, particularly by hampering workforce planning; this is often tackled by hiring agency workers at the expense of quality of care and reliability [@RN616;@RN308;@RN615]. Tax-funded schemes in Europe have also been criticized for their inert bureaucracy @RN621 that appears resistant to the «information revolution» and has caused delays in the adoption of novel technologies and services. However, the political discourse around healthcare has also demonstrated the potential to improve public participation; in Thailand, where three-quarters of the population receive UHC through a tax-based fund, participatory governance through consistent citizen involvement led to improved access to quality care @RN622.
 
 ## 5. Providers
 In tax-based systems, little competition is present between providers @RN609, which may be seen as a disadvantage over SHI-funded schemes, where the regulations on competition may allow for widespread, affordable coverage. However, there is evidence that aiming for increased competition may affect population health in unexpected ways. In 1991, the UK NHS was the subject of a reform aimed at increasing provider efficiency, the «NHS internal market». In this system, hospitals were encouraged to reduce waiting times and overall price-for-service. This was later shown to have a detrimental effect on the health outcomes of patients presenting with acute myocardial infarction @RN313. Quasi-private reforms are thus seen as ineffective and reduced competition may be seen as a structural feature of tax-based systems.
