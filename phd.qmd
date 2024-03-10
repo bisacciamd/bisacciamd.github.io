@@ -9,99 +9,155 @@ author:
 bibliography: phd.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
 ---
+
 Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc
 
-##
+## 
 
 ![“Making Space”, sculpture by Sir Antony Gormley, Magdi Yacoub Institute, Harefield Hospital © Adobe Stock](images/phd/0.png)
 
 ## Abstract
+
 **Background**: Heart transplantation is the treatment of choice in select patients with advanced heart failure. Since its introduction in the early 1970s, it has delivered significant benefits in survival and quality of life of these patients. However, despite significant progress in the selection of patients, technical aspects of the procedures and long-term outcomes, HT recipients face a significant risk of future complications, namely graft rejection and cardiac allograft vasculopathy, which warrant regular invasive monitoring with cardiac catheterisation. Stress perfusion cardiac magnetic resonance imaging (stress CMR) is recommended in the international guidelines in class I in patients with known or suspected coronary artery disease, but its role in post-HT surveillance is yet to be established. We sought to assess the safety and feasibility profile, as well as the diagnostic and prognostic yield and the overall clinical utility of quantitative stress CMR in HT recipients referred for assessment of cardiac allograft vasculopathy (CAV).
 
-**Methods**: A retrospective study of all orthotopic HT recipients undergoing clinically indicated stress perfusion CMR with adenosine was conducted. The safety and feasibility profile was demonstrated by evaluating any adverse events during or immediately following adenosine infusion and the elicited change in haemodynamic parameters. The diagnostic endpoint was area under the curve (AUC) for angiography-defined graft vasculopathy. The utility endpoint was the net benefit purported by undergoing stress CMR as a gatekeeper to angiography at a prespecified threshold range (10-40%). The prognostic endpoint was time to occurrence of a major adverse cardiac event (unplanned cardiac hospitalization or death from any cause). 
+**Methods**: A retrospective study of all orthotopic HT recipients undergoing clinically indicated stress perfusion CMR with adenosine was conducted. The safety and feasibility profile was demonstrated by evaluating any adverse events during or immediately following adenosine infusion and the elicited change in haemodynamic parameters. The diagnostic endpoint was area under the curve (AUC) for angiography-defined graft vasculopathy. The utility endpoint was the net benefit purported by undergoing stress CMR as a gatekeeper to angiography at a prespecified threshold range (10-40%). The prognostic endpoint was time to occurrence of a major adverse cardiac event (unplanned cardiac hospitalization or death from any cause).
 
 **Results**: 60 HT recipients were identified having stress CMR and angiography. Prevalence of CAV was 30%. Adenosine stress CMR was safe with no serious adverse events noted. Myocardial perfusion reserve index had an AUC for significant CAV of 0.79, with sensitivity 85.7%, specificity 70.3%, positive predictive value of 52.2% and negative predictive value of 92.9% at a Youden threshold of 2.1. A total of 11 patients experienced MACE at a median follow-up of 1.8 years. Myocardial perfusion reserve index, along with stress MBF, was a significant risk predictor. As a gatekeeper to invasive testing, stress CMR with quantitative perfusion showed superior decisional performance than stress CMR alone, allowing as much as 39% of patients to properly avoid angiography.
 
 **Conclusions**: Stress CMR with quantitative perfusion showed excellent safety and feasibility in HT recipients, and superior accuracy, prognostic yield and decisional performance than stress CMR alone. These findings warrant prospective confirmation.
 
 ## Outline
-Stress cardiac magnetic resonance (CMR) perfusion imaging is recommended in international guidelines as class I in patients with known or suspected coronary artery disease @RN1, and is a promising non-invasive technique for the detection of cardiac allograft vasculopathy (CAV) of cardiac transplantation recipients @RN2. Yet, there are concerns regarding the use of vasodilators after heart transplantation @RN3. Further, the clinical utility of stress CMR in cardiac transplantation recipients has not been formally investigated. Finally, the comparative diagnostic accuracy and prognostic yield of fully quantitative versus qualitative stress perfusion CMR in cardiac transplantation have not been previously established. Accordingly, we aimed to assess 1) the safety and feasibility profile, 2) the diagnostic and prognostic yield, and 3) overall clinical utility of adenosine stress CMR perfusion in HT recipients with suspected CAV. 
-This thesis comprises three parts. In *chapter 1*, a literature review is presented on the contemporary use and outcomes of heart transplantation, and current strategies for quality optimisation in long-term CAV surveillance are briefly outlined. Results of a systematic review on use of stress CMR after heart transplantation are presented. In *chapters 2–3*, the methods and findings of the study are shown. In *chapters 4–6*, results are discussed and put into the broader context of research on post-transplantation surveillance; study limitations are addressed, and future developments proposed. Finally, the *Appendix* addresses some open que\stions regarding the haemodynamic response to pharmacological vasodilation in the transplanted heart, and its implications for the measurement and clinical value of myocardial blood flow.
+
+Stress cardiac magnetic resonance (CMR) perfusion imaging is recommended in international guidelines as class I in patients with known or suspected coronary artery disease @RN1, and is a promising non-invasive technique for the detection of cardiac allograft vasculopathy (CAV) of cardiac transplantation recipients @RN2. Yet, there are concerns regarding the use of vasodilators after heart transplantation @RN3. Further, the clinical utility of stress CMR in cardiac transplantation recipients has not been formally investigated. Finally, the comparative diagnostic accuracy and prognostic yield of fully quantitative versus qualitative stress perfusion CMR in cardiac transplantation have not been previously established. Accordingly, we aimed to assess 1) the safety and feasibility profile, 2) the diagnostic and prognostic yield, and 3) overall clinical utility of adenosine stress CMR perfusion in HT recipients with suspected CAV. This thesis comprises three parts. In *chapter 1*, a literature review is presented on the contemporary use and outcomes of heart transplantation, and current strategies for quality optimisation in long-term CAV surveillance are briefly outlined. Results of a systematic review on use of stress CMR after heart transplantation are presented. In *chapters 2–3*, the methods and findings of the study are shown. In *chapters 4–6*, results are discussed and put into the broader context of research on post-transplantation surveillance; study limitations are addressed, and future developments proposed. Finally, the *Appendix* addresses some open que\stions regarding the haemodynamic response to pharmacological vasodilation in the transplanted heart, and its implications for the measurement and clinical value of myocardial blood flow.
 
 # Introduction
-## Cardiac transplantation
-Cardiac transplantation is the selected destination treatment in patients with advanced heart failure @RN4. This procedure, introduced in the late 1960s and originally looked upon with skepticism and suspicion, offers unparalleled improvement in both prognosis and quality of life in patients with ongoing symptoms, its use increasing over time and with improving outcomes @RN5 (Figure 1). Patients referred for cardiac transplantation are required to undergo a significant amount of preprocedural testing @RN4 aimed at identifying potential contraindications. Patients deemed fit for transplantation typically undergo orthotopic heart transplantation, in which the native ventricles and all cardiac valves are excised, and anastomoses are created between the atria, aorta, and pulmonary valves of the donor and the recipient; in contrast, in patients undergoing heterotopic heart transplantation, the recipient heart is left in place and connected to the donor heart. As short-term survival improves (~85-90% at 1 year, and 75% at 5 years @RN5), a growing number of patients are now followed up well beyond the 10th, 20th, or even 30th year since transplantation, which require extensive follow-up for the prevention of long-term complications.
 
-![Figure 1 – Rate of heart transplants worldwide, 2011-2022 (Transplant Observatory, adapted).](images/phd/1.png)
+## Cardiac transplantation
+
+Cardiac transplantation is the selected destination treatment in patients with advanced heart failure @RN4. This procedure, introduced in the late 1960s and originally looked upon with skepticism and suspicion, offers unparalleled improvement in both prognosis and quality of life in patients with ongoing symptoms, its use increasing over time and with improving outcomes @RN5 (@fig-htxrates). Patients referred for cardiac transplantation are required to undergo a significant amount of preprocedural testing @RN4 aimed at identifying potential contraindications. Patients deemed fit for transplantation typically undergo orthotopic heart transplantation, in which the native ventricles and all cardiac valves are excised, and anastomoses are created between the atria, aorta, and pulmonary valves of the donor and the recipient; in contrast, in patients undergoing heterotopic heart transplantation, the recipient heart is left in place and connected to the donor heart. As short-term survival improves (\~85-90% at 1 year, and 75% at 5 years @RN5), a growing number of patients are now followed up well beyond the 10th, 20th, or even 30th year since transplantation, which require extensive follow-up for the prevention of long-term complications.
+
+::: {#fig-htxrates}
+![Rate of heart transplants worldwide, 2011-2022 (Transplant Observatory, adapted).](images/phd/htx-rates.png)
+:::
 
 ### Complications following cardiac transplantation
 
-Notwithstanding the inherent risks of cardiac surgery, heart transplantation recipients are at risk of early- and late-onset complications, which will be briefly outlined (Figure 2). Cardiac allograft vasculopathy, a late-onset complication, will be discussed in detail in a separate section.
+Notwithstanding the inherent risks of cardiac surgery, heart transplantation recipients are at risk of early- and late-onset complications, which will be briefly outlined (@fig-htxcompl). Cardiac allograft vasculopathy, a late-onset complication, will be discussed in detail in a separate section.
 
-![Figure 2 – Main complications following cardiac transplantation. ](images/phd/2.png)
+::: {#fig-htxcompl}
+![Main complications following cardiac transplantation.](images/phd/htx-compl.png)
+:::
 
-In the early days up until the first years following cardiac transplantation, the graft recipient is at risk of developing heart failure and acute rejection, which is the leading cause of death in this period. Immunosuppressive therapy which is required for control of the immune response leads to opportunistic infections which typically occur between 30 days and the first year from the procedure. Cardiac allograft vasculopathy is commonly found in patients at > 2 years from transplantation and is partially addressable with pharmacological treatment. Other late complications of cardiac transplantation include malignancies – mainly as a consequence of viral infections, chronic kidney disease (CKD), and the onset of diabetes, hypertension, dyslipidemia, depression and anxiety, gout, and osteoporosis @RN6.
+In the early days up until the first years following cardiac transplantation, the graft recipient is at risk of developing heart failure and acute rejection, which is the leading cause of death in this period. Immunosuppressive therapy which is required for control of the immune response leads to opportunistic infections which typically occur between 30 days and the first year from the procedure. Cardiac allograft vasculopathy is commonly found in patients at \> 2 years from transplantation and is partially addressable with pharmacological treatment. Other late complications of cardiac transplantation include malignancies – mainly as a consequence of viral infections, chronic kidney disease (CKD), and the onset of diabetes, hypertension, dyslipidemia, depression and anxiety, gout, and osteoporosis @RN6.
 
 #### Primary graft dysfunction
+
 This is defined as the failure of graft function in the first 24 hours after transplantation, which is not caused by concomitant rejection, pulmonary hypertension or procedural complications. Primary graft dysfunction has variable incidence (rates of 3-28% have been reported @RN4) and is associated with poor short-term survival. It manifests itself with diastolic dysfunction and a restrictive pattern, associated with atrioventricular and aortic valve regurgitation which is typically asymptomatic.
 
 #### Graft rejection
+
 Rejection caused by activation of the recipient immune system, and categorised as antibody- or cell-mediated based on the predominant component in the immune response. While cell-mediated rejection occurs acutely in the first after transplantation, antibody-mediated rejection may be developed later on. Incidence of rejection is estimated at 13% in the first year since discharge, and it is recognized a major contributor to mortality @RN7 in the first three years from transplantation. Detection of rejection requires patients to regularly undergo endomyocardial biopsy, and histological grading is based on criteria proposed by the International Society for Heart and Lung Transplantation (ISHLT) @RN8.
 
 #### Infections
-As a consequence of the use of immunosuppressive therapy, infections are the first cause of death between 30 days and 1 year since transplantation @RN9. After the first year, immunosuppression is typically gradually decreased, but infections remain among the top three causes of death in the long term, with an attributable mortality of > 10% @RN7.
+
+As a consequence of the use of immunosuppressive therapy, infections are the first cause of death between 30 days and 1 year since transplantation @RN9. After the first year, immunosuppression is typically gradually decreased, but infections remain among the top three causes of death in the long term, with an attributable mortality of \> 10% @RN7.
 
 #### Other late complications
+
 New onset of a malignancy following cardiac transplantation is estimated at 11% between 1 and 5 years from the procedure @RN4 and is mainly related to viral infections from agents such as the human papilloma virus, Epstein-Barr virus, and human herpes virus 8. Other common late-onset complications include diabetes, hypertension, dyslipidemia, and renal dysfunction, as well as psychological disorders, gout, and osteoporosis @RN6.
 
 ### Cardiac allograft vasculopathy
-Cardiac allograft vasculopathy (CAV) has been labelled the «Achilles heel» of cardiac transplantation @RN10. It consists in the diffuse intimal thickening and luminal narrowing in the coronary tree, possibly leading to focal occlusion and heart failure, with no or limited development of new collateral vessels11. Patients with CAV are often asymptomatic due to graft denervation [@RN2;@RN11], and both epicardial @RN12 and microvascular disease @RN13 were separately found to be prognostic. CAV is believed to be the result of an interplay of immunological and non-immunological factors which contribute to lipid deposition and proliferation of smooth muscle cells and macrophages in the intima2 of both epicardial vessels and the coronary microcirculation (Figure 3).
 
-![Figure 3 – Typical atherosclerosis and allograft vasculopathy. (Adapted from Avery 2003)](images/phd/3.png)
+Cardiac allograft vasculopathy (CAV) has been labelled the «Achilles heel» of cardiac transplantation @RN10. It consists in the diffuse intimal thickening and luminal narrowing in the coronary tree, possibly leading to focal occlusion and heart failure, with no or limited development of new collateral vessels11. Patients with CAV are often asymptomatic due to graft denervation [@RN2; @RN11], and both epicardial @RN12 and microvascular disease @RN13 were separately found to be prognostic. CAV is believed to be the result of an interplay of immunological and non-immunological factors which contribute to lipid deposition and proliferation of smooth muscle cells and macrophages in the intima2 of both epicardial vessels and the coronary microcirculation (@fig-cav).
 
- Risk of CAV is associated with graft age, with incidence estimated at 8% at 1 year and 47% at 10 years @RN4. The Stanford classification for CAV is descriptive of the morphological features at angiography. It distinguishes discrete lesions (type A) from distal diffuse concentric narrowing in main vessels (type B) or distal branches (type C) @RN11. CAV grading is based on criteria proposed by the Cardiac Transplant Research Database, a multicenter registry that collected data from 4,637 invasive angiograms across 39 institutions in the 1990s @RN14. This grading has been embraced by the ISHLT @RN10, and defines CAV as pictured in Figure 4.
+::: {#fig-cav}
+![Typical atherosclerosis and allograft vasculopathy. (Adapted from Avery 2003)](images/phd/cav.png)
+:::
 
-![Figure 4 – CAV grading according to the ISHLT.](images/phd/4.png)
+Risk of CAV is associated with graft age, with incidence estimated at 8% at 1 year and 47% at 10 years @RN4. The Stanford classification for CAV is descriptive of the morphological features at angiography. It distinguishes discrete lesions (type A) from distal diffuse concentric narrowing in main vessels (type B) or distal branches (type C) @RN11. CAV grading is based on criteria proposed by the Cardiac Transplant Research Database, a multicenter registry that collected data from 4,637 invasive angiograms across 39 institutions in the 1990s @RN14. This grading has been embraced by the ISHLT @RN10, and defines CAV as pictured in @fig-ishlt.
 
-Additionally, CAV should be managed in light of the clinical context. Rapidly progressing CAV in the first 2 years since transplantation is believed to be mainly driven by vasculitis and should be managed more aggressively due to its poor prognosis. Instead, a later (> 2 years) presentation in the presence of preserved graft function is typical of an indolent course. Finally, rapidly progressive CAV is defined as new-onset CAV within 1 year of a previous normal angiogram; this is also associated with poor prognosis @RN10.
+::: {#fig-ishlt}
+![CAV grading according to the ISHLT.](images/phd/ishlt.png)
+:::
+
+Additionally, CAV should be managed in light of the clinical context. Rapidly progressing CAV in the first 2 years since transplantation is believed to be mainly driven by vasculitis and should be managed more aggressively due to its poor prognosis. Instead, a later (\> 2 years) presentation in the presence of preserved graft function is typical of an indolent course. Finally, rapidly progressive CAV is defined as new-onset CAV within 1 year of a previous normal angiogram; this is also associated with poor prognosis @RN10.
 
 Due to the diffuse involvement of the coronary tree, revascularization is rarely an option in patients with significant (i.e. moderate or severe) CAV @RN15 and is ultimately considered a palliative treatment with no survival benefit @RN16. However, pharmacological treatment has been proven useful to hamper disease progression. Use of pravastatin reduced progression in intimal thickening in an open-label, randomized clinical trial @RN17. Inhibitors of the mammalian target of rapamycin such as sirolimus have also shown to reduce CAV progression @RN18.
 
 #### Established and proposed strategies for CAV surveillance
+
 Several single-modal or multimodal imaging strategies have been proposed for CAV detection and surveillance following cardiac transplantation. The benefits and drawbacks for each modality will be briefly outlined; a subsequent, specific section will discuss use of stress CMR imaging.
 
 ##### Invasive coronary angiography (ICA)
+
 Due to the extensive evidence available for its use, ICA is considered the gold standard for CAV detection @RN10. ICA is highly accessible to both pediatric and adult patients. However, routine, repeated use of invasive coronary angiography for CAV detection since the first years following cardiac transplantation has long been questioned[@RN15; @RN19; @RN20]. Arguments against the use of invasive coronary angiography include the immediate risk of harm and radiation exposure, the palliative nature of revascularization – CAV being a diffuse, slowly progressing disease – along with the reported reduced sensitivity when compared with other techniques, notably intravascular ultrasound @RN21. Despite these considerations, ICA remains the recommended procedure for CAV detection and surveillance.
 
 ##### Intravascular ultrasound (IVUS)
-Use of IVUS has long been investigated in the transplant outpatient setting @RN22, helping to shed light on CAV pathophysiology @RN10. The 2010 ISHLT statement on CAV shared consensus that IVUS is most useful for its negative predictive value @RN10. Additionally, despite recognizing its high sensitivity, the panel deemed use of IVUS as «investigational» and advocated that ICA should be instead used to guide patient management. However, IVUS has been showed to effectively select patients benefiting from subsequent routine invasive angiography @RN23. 
+
+Use of IVUS has long been investigated in the transplant outpatient setting @RN22, helping to shed light on CAV pathophysiology @RN10. The 2010 ISHLT statement on CAV shared consensus that IVUS is most useful for its negative predictive value @RN10. Additionally, despite recognizing its high sensitivity, the panel deemed use of IVUS as «investigational» and advocated that ICA should be instead used to guide patient management. However, IVUS has been showed to effectively select patients benefiting from subsequent routine invasive angiography @RN23.
 
 ##### Dobutamine stress echocardiography
-Echocardiography with dobutamine stress was found to be prognostic @RN24 and predictive of CAV @RN25 among heart transplant recipients, with impairment in strain parameters observed even in the presence of mild CAV @RN26. However, when compared to CTCA against a reference of ICA, it was shown to be less sensitive @RN27; later on, larger studies were conducted showing variable accuracy[@RN28;@RN29;@RN30] which culminated in a systematic review and meta-analysis finding highly variable sensitivity and variable specificity @RN31. Authors concluded that the modality would be unlikely to yield enough positive and negative predictive value to effectively gatekeep patients to angiography.
+
+Echocardiography with dobutamine stress was found to be prognostic @RN24 and predictive of CAV @RN25 among heart transplant recipients, with impairment in strain parameters observed even in the presence of mild CAV @RN26. However, when compared to CTCA against a reference of ICA, it was shown to be less sensitive @RN27; later on, larger studies were conducted showing variable accuracy[@RN28; @RN29; @RN30] which culminated in a systematic review and meta-analysis finding highly variable sensitivity and variable specificity @RN31. Authors concluded that the modality would be unlikely to yield enough positive and negative predictive value to effectively gatekeep patients to angiography.
 
 ##### Positron emission tomography and single photon emission CT
-Positron emission tomography (PET) and single photon emission CT (SPECT) are perfusion imaging modalities variably implemented in the follow-up of cardiac transplantation. Quantification of MBF by PET was diagnostic for CAV @RN32 and prognostic at mid-term follow-up @RN33. A later study showed superior discriminative ability of MPR over stress MBF @RN34. Similarly, SPECT was found to be diagnostic against ICA @RN35, but later reports found very low (< 10%) sensitivity @RN36 and overall unacceptable accuracy @RN37, warranting against use of SPECT to gatekeep angiography. Finally, a SPECT system utilizing cadmium-zinc-telluride crystals, allowing for direct measurement of MBF and MPR, was recently validated against PET in heart transplant recipients @RN38, but the clinical utility of such technological advance remains unestablished @RN39.
+
+Positron emission tomography (PET) and single photon emission CT (SPECT) are perfusion imaging modalities variably implemented in the follow-up of cardiac transplantation. Quantification of MBF by PET was diagnostic for CAV @RN32 and prognostic at mid-term follow-up @RN33. A later study showed superior discriminative ability of MPR over stress MBF @RN34. Similarly, SPECT was found to be diagnostic against ICA @RN35, but later reports found very low (\< 10%) sensitivity @RN36 and overall unacceptable accuracy @RN37, warranting against use of SPECT to gatekeep angiography. Finally, a SPECT system utilizing cadmium-zinc-telluride crystals, allowing for direct measurement of MBF and MPR, was recently validated against PET in heart transplant recipients @RN38, but the clinical utility of such technological advance remains unestablished @RN39.
 
 ##### CTCA
-To date, several studies have assessed the diagnostic value of CTCA for CAV detection. Upon comparison with coronary MR angiography, it showed superior performance @RN40, and protocols with low radiation burden were validated in transplant recipients[@RN41;  @RN42; @RN43]. In a longitudinal outcomes study, a strategy of CTCA appeared safe and feasible in retrospect @RN44 and use of the modality gained momentum [@RN45;  @RN46], despite the lack of high-level evidence (e.g. randomized trials, prospective comparative trials). Upon diagnostic meta-analysis, CTCA yielded high accuracy, with sensitivity and specificity > 90% for 64-slice CTCA @RN47. In a study on real-world implementation, CTCA granted excellent image quality in heart transplant recipients, however, in 25% of patients the scan was not deemed safe due mainly to renal impairment @RN48. Notably, the literature on accuracy of CTCA mainly focused on epicardial CAV with ICA as the reference test, and no comparative studies assessed the modality against IVUS. A recent study @RN49 evaluated the combination of  anatomical assessment of CTCA with CT-based myocardial perfusion imaging, showing feasible microvascular evaluation with CT. Overall, the literature on CTCA for CAV showed safety and feasibility with some remaining concerns of real-world application. Additionally, use of CTCA for CAV surveillance would require a separate test for detecting allograft rejection. 
+
+To date, several studies have assessed the diagnostic value of CTCA for CAV detection. Upon comparison with coronary MR angiography, it showed superior performance @RN40, and protocols with low radiation burden were validated in transplant recipients[@RN41; @RN42; @RN43]. In a longitudinal outcomes study, a strategy of CTCA appeared safe and feasible in retrospect @RN44 and use of the modality gained momentum [@RN45; @RN46], despite the lack of high-level evidence (e.g. randomized trials, prospective comparative trials). Upon diagnostic meta-analysis, CTCA yielded high accuracy, with sensitivity and specificity \> 90% for 64-slice CTCA @RN47. In a study on real-world implementation, CTCA granted excellent image quality in heart transplant recipients, however, in 25% of patients the scan was not deemed safe due mainly to renal impairment @RN48. Notably, the literature on accuracy of CTCA mainly focused on epicardial CAV with ICA as the reference test, and no comparative studies assessed the modality against IVUS. A recent study @RN49 evaluated the combination of anatomical assessment of CTCA with CT-based myocardial perfusion imaging, showing feasible microvascular evaluation with CT. Overall, the literature on CTCA for CAV showed safety and feasibility with some remaining concerns of real-world application. Additionally, use of CTCA for CAV surveillance would require a separate test for detecting allograft rejection.
 
 #### CMR for CAV surveillance
-We conducted a systematic literature review to appraise the investigation of CMR in the follow-up of heart transplant recipients (PROSPERO: CRD42023435640). Over the last two decades, several studies have evaluated CMR in the context of allograft rejection[@RN50;@RN51;@RN52;@RN53;@RN54;@RN55;@RN56;@RN57;@RN58;@RN59;@RN60;@RN61;@RN62] and CAV[@RN63;@RN64;@RN65;@RN66;@RN67;@RN68;@RN69;@RN70;@RN71;@RN72;@RN73;@RN74]. In total, 15 studies were identified regarding use of CMR in CAV (Table 1).
 
-![Table 1 – Studies evaluating the use of CMR for CAV surveillance.](images/phd/tbl1.png)
+We conducted a systematic literature review to appraise the investigation of CMR in the follow-up of heart transplant recipients (PROSPERO: CRD42023435640). Over the last two decades, several studies have evaluated CMR in the context of allograft rejection[@RN50; @RN51; @RN52; @RN53; @RN54; @RN55; @RN56; @RN57; @RN58; @RN59; @RN60; @RN61; @RN62] and CAV[@RN63; @RN64; @RN65; @RN66; @RN67; @RN68; @RN69; @RN70; @RN71; @RN72; @RN73; @RN74]. In total, 15 studies were identified regarding use of CMR in CAV (@tbl-cmr-cav).
+
+::: {#tbl-cmr-cav}
+| Study                              | Sample size | CMR module(s)                                                   | Main Reference   | Main finding                                                                                                              |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Muehling et al., 2003 @RN76        | 27          | Stress perfusion (semi-quantitative)                            | ICA              | MPR index significantly decreased in heart transplant recipients compared with healthy controls                           |
+| Korosoglou et al., 2009 @RN63      | 69          | Strain, stress perfusion (semi-quantitative)                    | ICA              | MPR, diastolic strain rate have high accuracy\*                                                                           |
+| Nunoda et al., 2010 @RN40          | 22          | Whole-heart MR angiography                                      | ICA              | MR angiography has limited sensitivity                                                                                    |
+| Colvin-Adams et al., 2011 @RN64    | 68          | Stress perfusion (qualitative)                                  | ICA              | Visual assessment has limited sensitivity                                                                                 |
+| Machida et al., 2012 @RN67         | 38          | Cine, LGE                                                       | IVUS             | CAV associated with LV diastolic dysfunction                                                                              |
+| Hussain et al., 2013 @RN66         | 24          | Vessel wall LGE                                                 | IVUS             | Vessel LGE associated with IVUS-derived intimal measures                                                                  |
+| Machida et al., 2013 @RN65         | 46          | Cine, LGE                                                       | IVUS             | LV peak filling rate accurate to detect CAV                                                                               |
+| Braggion-Santos et al., 2014 @RN68 | 132         | Cine, LGE                                                       | ICA              | LGE may guide risk stratification in suspected CAV                                                                        |
+| Miller et al., 2014 @RN54          | 48          | Cine, stress perfusion (fully quantitative), parametric mapping | IVUS             | MPR outperforms ICA for CAV detection on IVUS                                                                             |
+| Mirelis et al., 2015 @RN70         | 8           | Stress perfusion (semi-quantitative)                            | IVUS             | MPR index detects microvascular dysfunction                                                                               |
+| Chih et al., 2016 @RN32            | 29          | Stress perfusion (semi-quantitative)                            | IVUS             | MPR index inversely correlated with maximal intimal thickness, has high rule-out ability                                  |
+| Erbel et al., 2016 @RN72           | 63          | Strain, stress perfusion (semi-quantitative)                    | IVUS, biopsy     | MPR index correlated with microvessel luminal radius, detects high-risk patients with no overt CAV                        |
+| Narang et al., 2018 @RN75          | 20          | Stress perfusion (semi-quantitative)                            | ICA              | MPR index associated with severity of CAV                                                                                 |
+| DeSa et al., 2020 @RN73            | 20          | Stress perfusion (semi-quantitative)                            | ICA              | MPR index associated with presence of CAV                                                                                 |
+| van Heeswijk et al., 2020 @RN77    | 20          | LGE, parametric mapping                                         | ICA, OCT, biopsy | Intima-media thickness ratio associated with increased fibrosis burden on biopsy and extracellular volume fraction on CMR |
+| Abbasi et al., 2022 @RN74          | 77          | Cine, parametric mapping                                        | ICA              | Patients with any CAV (grade 1-3) show reduced LV ejection fraction, increased global and segmental T2 values             |
+
+Studies evaluating the use of CMR for CAV surveillance.
+:::
 
 Over the course of 20 years, 15 studies evaluated the use of various CMR components to adjudicate presence or severity of CAV. Sample size refers to the number of heart transplant recipients enrolled to a study.
 
 ## Methods
-This was a retrospective observational study of all outpatients under surveillance for CAV after orthotopic cardiac transplantation at a large tertiary center (Harefield Hospital, London, United Kingdom), in which stress CMR was clinically indicated by the referring cardiologist. The study included a cross-sectional comparison between stress CMR results and the closest angiographic study findings (ICA or, when unavailable, CTCA), as well as a longitudinal component with follow-up for major adverse cardiovascular events. This study received approval of the local institutional review board at Royal Brompton and Harefield Hospitals, Guys’ & St Thomas NHS Trust. Patient informed consent was waived due to the retrospective nature of the study, which did not affect patient management in any way.
 
 ### Design
+
+This was a retrospective observational study of all outpatients under surveillance for CAV after orthotopic cardiac transplantation at a large tertiary center (Harefield Hospital, London, United Kingdom), in which stress CMR was clinically indicated by the referring cardiologist. The study included a cross-sectional comparison between stress CMR results and the closest angiographic study findings (ICA or, when unavailable, CTCA), as well as a longitudinal component with follow-up for major adverse cardiovascular events. This study received approval of the local institutional review board at Royal Brompton and Harefield Hospitals, Guys’ & St Thomas NHS Trust. Patient informed consent was waived due to the retrospective nature of the study, which did not affect patient management in any way.
+
+::: {#fig-flow}
+![Study flow chart.](images/phd/flow.jpg)
+:::
+
+CMR studies performed on orthotopic heart transplant recipients at Royal Brompton and Harefield hospitals between 2015 and 2023 were included if the patient had undergone a complete adenosine stress perfusion CMR study of diagnostic quality. N = 70 stress CMR studies were performed on 60 individual patients; for analyses other than the safety profile, only the index study was considered.
 
 ### Study cases
 
 ### Procedures and tests
 
 #### CMR
+
+::: {#fig-cmr-protocol}
+![CMR protocol at 1.5 Tesla.](images/phd/cmr-protocol.png)
+:::
 
 #### Angiography
 
@@ -155,12 +211,17 @@ At CMR, mean (SD) left ventricular ejection fraction was 61.7% (12.5%), with sev
 
 #### Feasibility
 
-Adenosine dosage of 140 µg/kg/min was utilized in the majority of studies (n = 37, 62%) while 210 µg/kg/min was reached in 8 patients (13%). During adenosine infusion, the haemodynamic response was highly variable (Figure 5). Heart rate increased from a mean ± SD of 82 ± 14 to 91 ± 18 beats per minute, while systolic blood pressure decreased from 132 ± 16 to 124 ± 14 mm Hg. Overall, 50.1% patients reported chest tightness or chest pain during infusion, 22.4% reported shortness of breath, 17.2% did not experience any symptoms and 10.3% had hot flush. Haemodynamic and symptom response were not dependent on adenosine dosage subgroup (all p-values \> 0.5). **Table** details stress CMR findings.
+Adenosine dosage of 140 µg/kg/min was utilized in the majority of studies (n = 37, 62%) while 210 µg/kg/min was reached in 8 patients (13%). During adenosine infusion, the haemodynamic response was highly variable (@fig-cmr-feas). Heart rate increased from a mean ± SD of 82 ± 14 to 91 ± 18 beats per minute, while systolic blood pressure decreased from 132 ± 16 to 124 ± 14 mm Hg. Overall, 50.1% patients reported chest tightness or chest pain during infusion, 22.4% reported shortness of breath, 17.2% did not experience any symptoms and 10.3% had hot flush. Haemodynamic and symptom response were not dependent on adenosine dosage subgroup (all p-values \> 0.5). 
+
+::: {#fig-cmr-feas}
+![Haemodynamic and symptom response to adenosine.](images/phd/cmr-feas.png)
+:::
 
 #### Safety
 
-No life-threatening adverse events, nor brief or prolonged atrioventricular block, or major arrythmias occurred during or immediately after adenosine infusion, with one patient having self-reversed sinus pauses. Mild, transient adverse effects were registered: three patients (4.5%) complained of headache, and another reported nausea.
+No life-threatening adverse events, nor brief or prolonged atrioventricular block, or major arrythmias occurred during or immediately after adenosine infusion, with one patient having self-reversed sinus pauses. Mild, transient adverse effects were registered: three patients (4.5%) complained of headache, and another reported nausea. @tbl-cmr-safe details safety findings.
 
+::: {#tbl-cmr-safe}
 | Event                                      | n (%)                                             |
 |---------------------------------|---------------------------------------|
 | Death                                      | `r death` (`r death/totalcmr*100`%)               |
@@ -180,11 +241,33 @@ No life-threatening adverse events, nor brief or prolonged atrioventricular bloc
 | Contrast extravasation                     | `r extravas` (`r extravas/totalcmr*100`%)         |
 | Thrombophlebitis                           | `r thrombophleb` (`r thrombophleb/totalcmr*100`%) |
 
-: Adverse events during or following adenosine stress perfusion CMR among patients with orthotopic cardiac transplantation.
+Safety of stress CMR with adenosine after heart transplant.
+:::
+Adverse events during or following adenosine stress perfusion CMR among patients with orthotopic cardiac transplantation.
+
 
 #### Quantitative perfusion CMR
 
-Results from the in-line myocardial perfusion mapping algorithm were deemed diagnostic in 52 patients (86.7%). In the remaining 8 patients, sufficient quality in quantitative myocardial perfusion mapping was not achieved due to ECG mistriggering or failed breath-holding. Stress MBF index was normally distributed across the sample and its mean ± SD was 2.2 ± 0.7, while MPR index was not normally distributed and its median (IQR) was 2.0 (1.5 to 2.8). On logistic regression, stress MBF, MPR and their indices were associated with the presence of significant CAV at angiography (Table 5, Figure 6, and Supplemental Table 1).
+Results from the in-line myocardial perfusion mapping algorithm were deemed diagnostic in 52 patients (86.7%). In the remaining 8 patients, sufficient quality in quantitative myocardial perfusion mapping was not achieved due to ECG mistriggering or failed breath-holding. Stress MBF index was normally distributed across the sample and its mean ± SD was 2.2 ± 0.7, while MPR index was not normally distributed and its median (IQR) was 2.0 (1.5 to 2.8). On logistic regression, stress MBF, MPR and their indices were associated with the presence of significant CAV at angiography (@tbl-cav-regression, @fig-qp-cav, and Supplemental Table 1).
+
+::: {#tbl-cav-regression}
+| |OR (95%CI)|P-value|
+|:----|:----|:----|
+|Ischemia on visual inspection|2.24 (0.56, 8.75)|0.24|
+|Rest MBF (mL/min/g)|3.86 (0.6, 37.1)|0.19|
+|Rest MBF index|10.6 (1.8, 99.2)|0.021|
+|Stress MBF (mL/min/g)|0.35 (0.11, 0.87)|0.043|
+|MPR|0.21 (0.05, 0.61)|0.012|
+|Stress MBF index|0.31 (0.09, 0.82)|0.033|
+|MPR index|0.14 (0.03, 0.46)|0.007|
+
+
+Univariate logistic regression for significant CAV (ISHLT grade 2-3).
+:::
+
+::: {#fig-qp-cav}
+![Figure 6 — Stress MBF  (mL/min/g) and MPR index in patients with and without significant CAV (ISHLT grade 2-3).](images/phd/qp-cav.png)
+:::
 
 ### Diagnostic accuracy
 
@@ -204,7 +287,22 @@ Stress MBF yielded an AUC of 66.6% with sensitivity 100%, specificity 36.8%, pos
 
 AUC for the rest MBF index was 66.0% with sensitivity 91.9%, specificity 42.9%, positive predictive value of 66.7% and negative predictive value of 81.0%.
 
-Comprehensive results are presented in Table 6 and Supplementary Table zzxz. Visual assessment and a strategy based on MPR index were compared for reclassification across the range of pre-test probability of CAV (Figure 7). A quantitative approach based exclusively on the measurement of stress MPR index, where CAV would be adjudicated for MPR index ≥ 2.1, was effective at ruling-in and ruling-out CAV, while qualitative assessment of ischemia offered almost non-existent ruling-out capacity.
+Comprehensive results are presented in @tbl-acc. Visual assessment and a strategy based on MPR index were compared for reclassification across the range of pre-test probability of CAV (Figure 7). A quantitative approach based exclusively on the measurement of stress MPR index, where CAV would be adjudicated for MPR index ≥ 2.1, was effective at ruling-in and ruling-out CAV, while qualitative assessment of ischemia offered almost non-existent ruling-out capacity.
+
+::: {#tbl-acc}
+| |AUC (95%CI)|Sensitivity|Specificity|PPV|NPV|
+|:----|:----|:----|:----|:----|:----|
+|Ischemia on visual inspection|56.6% (44.6-68.5)|27.80%|85.40%|45.50%|72.90%|
+|Rest MBF (mL/min/g)|60.9% (43.1-78.7%)|64.30%|62.20%|39.10%|82.10%|
+|Rest MBF index|66.0% (46.8-85.3)|42.90%|91.90%|66.70%|81%|
+|Stress MBF (mL/min/g)|66.6% (49.6-83.7)|100%|36.80%|36.80%|100%|
+|MPR|75.1% (61-89.2)|92.90%|48.60%|40.60%|94.70%|
+|MPR index|78.8% (64.7-92.8)|85.70%|70.30%|52.20%|92.90%|
+
+Discriminative ability of qualitative and quantitative stress CMR parameters for detection of significant CAV on index angiography.
+:::
+
+![Pre- and post-test probability of CAV based on stress CMR results, visual assessment and quantitative assessment with MPR index compared.](images/phd/leaf.png)
 
 #### Quantitative stress perfusion CMR and donor-specific antibodies
 
@@ -212,7 +310,67 @@ We separately investigated the diagnostic accuracy of quantitative stress perfus
 
 ### Clinical utility
 
-The net benefit purported by stress CMR as a gatekeeper to angiography was evaluated over a span of reasonable threshold probabilities of CAV (10-40%). In such analysis, a strategy of quantitative stress perfusion CMR guided by MPR index (angiography for MPR index \< 2.1, no angiography otherwise) was compared with a strategy where guidance was provided by presence of inducible myocardial perfusion defects («visual» ischemia on stress CMR). Quantitative stress perfusion CMR conferred incremental benefit over visual ischemia across the prespecified spectrum of threshold probabilities. Use of MPR index to gatekeep patients to angiography would lead to as much as 42% net reduction in unnecessary angiographies performed, independently of patient-physician preferences (Figure 8 and Table 4).
+The net benefit purported by stress CMR as a gatekeeper to angiography was evaluated over a span of reasonable threshold probabilities of CAV (10-40%). In such analysis, a strategy of quantitative stress perfusion CMR guided by MPR index (angiography for MPR index \< 2.1, no angiography otherwise) was compared with a strategy where guidance was provided by presence of inducible myocardial perfusion defects («visual» ischemia on stress CMR). Quantitative stress perfusion CMR conferred incremental benefit over visual ischemia across the prespecified spectrum of threshold probabilities. Use of MPR index to gatekeep patients to angiography would lead to as much as 42% net reduction in unnecessary angiographies performed, independently of patient-physician preferences (@fig-dca and @tbl-dca).
+
+::: {.callout-tip collapse=TRUE}
+## Clinical utility and decision curve analysis
+Analysis of decision curves is an increasingly supported method to evaluate the utility of newly-introduced tests over a reference standard (1). This fits in the larger debate around the importance and real-world usefulness of metrics such as test calibration, sensitivity, specificity, or area under the curve, which are considered «statistical abstractions» (1) not inherently informative of a test’s clinical value, and poorly understood by clinicians (2).
+The elemental building block of a decision curve is the net benefit, which captures the trade-off between a test’s true positive rate and false positive rate:
+
+$$
+\text { Net benefit }=\frac{\text { True positives }}{N}-\frac{\text { False positives }}{N}
+$$
+
+As clinicians and/or patients may be comfortable with different levels of risk before deciding to proceed with a test (i.e., pre-test risk thresholds for testing are subjective), there is not such a thing as “one-size-fits-all” risk threshold. To address this, a decision curve is created by assessing the overall advantage or benefit of a test at a range of thresholds that are considered reasonable in a clinical setting. Each point on the decision curve reflects the benefit of the test for a specific probability threshold, taking into account the diverse preferences and perspectives of clinicians and patients. Decision curves are easily interpreted in that the test that confers the greater benefit over the spectrum of threshold probabilities offers greater decisional performance.
+
+A test’s clinical utility can also be expressed as the net reduction in the number of unnecessary downstream tests. In the present study, we measure the net reduction in angiographies deemed unnecessary (i.e. those angiographies conducted in patients in which no CAV was found, ~ 39%) obtained by referring the patient to stress CMR.
+
+1) Andrew JV, Ben Van C, Ewout WS. Net benefit approaches to the evaluation of prediction models, molecular markers, and diagnostic tests. BMJ 2016;352:i6.
+
+2) Whiting PF, Davenport C, Jameson C et al. How well do health professionals interpret diagnostic information? A systematic review. BMJ Open 2015;5:e008155.
+:::
+
+::: {#fig-dca layout-ncol="2"}
+
+![Net benefit](images/phd/dca-netben.png)
+
+![Net reduction in unnecessary angiography](images/phd/dca-netben.png)
+
+:::
+
+Stress CMR is compared with the standard of angiography, and against a strategy of no testing. A strategy of QP-CMR, guided exclusively by a finding of MPR index < 2.1, conferred incremental benefit over visual assessment of inducible ischemia (@tbl-dca). QP-CMR, quantitative stress perfusion CMR.
+
+::: {#tbl-dca layout-nrow="2" collapse=TRUE}
+|Probability threshold|Angiography to all|No testing|QP-CMR|Visual ischemia|
+|:----|:----|:----|:----|:----|
+|10%|16%|0%|16%|16%|
+|15%|11%|0%|12%|11%|
+|20%|6%|0%|11%|6%|
+|25%|-1%|0%|9%|4%|
+|30%|-8%|0%|7%|3%|
+|35%|-16%|0%|5%|2%|
+|40%|-26%|0%|2%|1%|
+
+: Net benefit of undergoing QP-CMR before any angiography decision {#tbl-netben}
+
+|Probability threshold|Angiography to all|No testing|QP-CMR|Visual ischemia|
+|:----|:----|:----|:----|:----|
+|10%|0|0|0|0|
+|15%|0|0|5|0|
+|20%|0|0|20|0|
+|25%|0|2|29|13|
+|30%|0|19|35|25|
+|35%|0|30|39|34|
+|40%|0|39|42|40|
+
+: Net reduction in angiographies per 100 patients. {#tbl-netred}
+
+Decisional performance of a quantitative versus qualitative stress CMR to guide referral to angiography.
+:::
+
+
+Tabulated results at 5% increments for probability thresholds. A) at a pre-test risk threshold of 10%, neither QP-CMR or visual ischemia conferred additional benefit over a referral to angiography. For risk thresholds 15-40%, a strategy of QP-CMR guidance to further angiographic testing would confer incremental benefit over visual assessment of inducible ischemia. B) for patients at intermediate (> 15%) risk of CAV, a QP-CMR would reduce unnecessary angiographies by 20-42%.
+
 
 #### Correction for overfit
 
@@ -236,19 +394,19 @@ The prognostic value of non-stress perfusion CMR parameters was also investigate
 
 ## Discussion
 
-A 2010 consensus statement issued by the ISHLT defined ICA as a «screening tool to grossly detect the presence of CAV» @RN10. This statement may be seen as controversial given earlier reports of limited utility of ICA in the setting of cardiac transplantation @RN15, the radiological risk associated with repeated, typically yearly, testing, and the significant periprocedural complication rate, which is to be balanced against limited, where not not null, interventional benefit @RN16. IVUS has been shown to yield increased sensitivity and might be used to select patients in need of closer mid-term surveillance @RN23, but it does not address the issue of risk and requires additional expertise. It is also subject to variable local availability. 
+A 2010 consensus statement issued by the ISHLT defined ICA as a «screening tool to grossly detect the presence of CAV» @RN10. This statement may be seen as controversial given earlier reports of limited utility of ICA in the setting of cardiac transplantation @RN15, the radiological risk associated with repeated, typically yearly, testing, and the significant periprocedural complication rate, which is to be balanced against limited, where not not null, interventional benefit @RN16. IVUS has been shown to yield increased sensitivity and might be used to select patients in need of closer mid-term surveillance @RN23, but it does not address the issue of risk and requires additional expertise. It is also subject to variable local availability.
 
-To date, dobutamine stress echocardiography had low diagnostic yield for CAV @RN31. SPECT may not be considered as a diagnostic gatekeeper to ICA due to its unacceptable accuracy @RN36, and while novel advances in MBF and MPR quantification were recently validated @RN38, these are far from widespread clinical implementation. Potential noninvasive gatekeeper tests include CTCA, PET and stress CMR @RN39. CTCA currently holds a central role in CAV as it allows to image the coronary arteries with great detail @RN84. However, radiological risk is nonnegligible with CTCA as with ICA @RN85, being especially high in young patients @RN86 and cumulated with repeated scans, which would be recommended at a frequency of every two years in heart transplant recipients @RN44. Despite the growing interest in tissue characterisation and CT perfusion, these remain purely investigational and evidence is lacking that CTCA might offer a “one-stop shop” for CAV surveillance and rejection. Bearing in mind that patients with a previous cardiac transplantation face significant risks for different complications, including graft rejection and CAV, it seems highly unlikely that CTCA might allow to reduce rates of utilization of endomyocardial biopsy and invasive coronary angiography; the same goes for PET, which might have high yield in CAV, but has no established value in the context of graft rejection, confers radiation exposure, and has limited worldwide availability and expertise @RN87. 
+To date, dobutamine stress echocardiography had low diagnostic yield for CAV @RN31. SPECT may not be considered as a diagnostic gatekeeper to ICA due to its unacceptable accuracy @RN36, and while novel advances in MBF and MPR quantification were recently validated @RN38, these are far from widespread clinical implementation. Potential noninvasive gatekeeper tests include CTCA, PET and stress CMR @RN39. CTCA currently holds a central role in CAV as it allows to image the coronary arteries with great detail @RN84. However, radiological risk is nonnegligible with CTCA as with ICA @RN85, being especially high in young patients @RN86 and cumulated with repeated scans, which would be recommended at a frequency of every two years in heart transplant recipients @RN44. Despite the growing interest in tissue characterisation and CT perfusion, these remain purely investigational and evidence is lacking that CTCA might offer a “one-stop shop” for CAV surveillance and rejection. Bearing in mind that patients with a previous cardiac transplantation face significant risks for different complications, including graft rejection and CAV, it seems highly unlikely that CTCA might allow to reduce rates of utilization of endomyocardial biopsy and invasive coronary angiography; the same goes for PET, which might have high yield in CAV, but has no established value in the context of graft rejection, confers radiation exposure, and has limited worldwide availability and expertise @RN87.
 
-We now have high-level evidence from a randomized controlled trial that a CMR strategy is non-inferior to an invasive strategy of endomyocardial biopsy in the setting of graft rejection surveillance @RN62. This raises the bar in terms of patient needs following cardiac transplantation; as we are able to prevent more and more patients from undergoing unnecessary biopsies, it appears just as reasonable to pursue diagnostic strategies that reduce unnecessary angiographies for CAV detection and surveillance. Noninvasive strategies allowing for quantification of myocardial blood flow for CAV assessment include PET [@RN32; @RN33] and CMR[@RN69;@RN73;@RN88;@RN89], with preliminary findings for SPECT @RN90 and CT @RN49. 
+We now have high-level evidence from a randomized controlled trial that a CMR strategy is non-inferior to an invasive strategy of endomyocardial biopsy in the setting of graft rejection surveillance @RN62. This raises the bar in terms of patient needs following cardiac transplantation; as we are able to prevent more and more patients from undergoing unnecessary biopsies, it appears just as reasonable to pursue diagnostic strategies that reduce unnecessary angiographies for CAV detection and surveillance. Noninvasive strategies allowing for quantification of myocardial blood flow for CAV assessment include PET [@RN32; @RN33] and CMR[@RN69; @RN73; @RN88; @RN89], with preliminary findings for SPECT @RN90 and CT @RN49.
 
-In our study, we observed adenosine stress perfusion CMR to be safe and feasible in a substantial cohort of heart transplant recipients, with 25% stressed at < 3 years from transplantation, and able to elicit adequate cardiovascular and symptomatic responses. 
+In our study, we observed adenosine stress perfusion CMR to be safe and feasible in a substantial cohort of heart transplant recipients, with 25% stressed at \< 3 years from transplantation, and able to elicit adequate cardiovascular and symptomatic responses.
 
-We find assessment of quantitative stress perfusion cardiac MRI as a viable, noninvasive, radiation-free alternative to angiography, which provides acceptable rule-in and excellent rule-out ability, has incremental prognostic value, and high decisional performance in a real-world outpatient population of heart transplant recipients. In particular, we found in the MPR index, as measured in-line during the scan, a single parameter which would confer operational accuracy in CAV detection, with limited added value from other parameters such as stress MBF and rest MBF index. Importantly, we confirm results from a previous, non-comparative study in which qualitative assessment of inducible myocardial ischemia had poor diagnostic value in CAV @RN64. We build on that finding by showing not only that quantitative stress perfusion CMR has incremental value over qualitative assessment of ischemia, but also that it might lead to a major reduction in the use of ICA and CTCA, with a net benefit in terms of newly-diagnosed patients which largely outweighs any missed diagnoses and fits well within diverse decision-making frameworks. These results on the clinical utility of quantitative stress perfusion CMR do not consider the additional benefit conferred by reduction in radiation exposure, for both CTCA and ICA, and relative harm and costs of ICA. The single parameter with the greatest accuracy (~79%) was MPR index, while all other parameters at rest and stress had smaller AUCs at ~60-70%. 
+We find assessment of quantitative stress perfusion cardiac MRI as a viable, noninvasive, radiation-free alternative to angiography, which provides acceptable rule-in and excellent rule-out ability, has incremental prognostic value, and high decisional performance in a real-world outpatient population of heart transplant recipients. In particular, we found in the MPR index, as measured in-line during the scan, a single parameter which would confer operational accuracy in CAV detection, with limited added value from other parameters such as stress MBF and rest MBF index. Importantly, we confirm results from a previous, non-comparative study in which qualitative assessment of inducible myocardial ischemia had poor diagnostic value in CAV @RN64. We build on that finding by showing not only that quantitative stress perfusion CMR has incremental value over qualitative assessment of ischemia, but also that it might lead to a major reduction in the use of ICA and CTCA, with a net benefit in terms of newly-diagnosed patients which largely outweighs any missed diagnoses and fits well within diverse decision-making frameworks. These results on the clinical utility of quantitative stress perfusion CMR do not consider the additional benefit conferred by reduction in radiation exposure, for both CTCA and ICA, and relative harm and costs of ICA. The single parameter with the greatest accuracy (\~79%) was MPR index, while all other parameters at rest and stress had smaller AUCs at \~60-70%.
 
 We also evaluated the prognostic value of stress CMR long-term after heart transplantation. Our results on adenosine stress perfusion CMR expand on previous work on risk prediction by qualitative regadenoson stress CMR [@RN88; @RN91] and semi-quantitative MPR index measurement with adenosine @RN92. In their study, Kazmirczak, Shenoy and colleagues88 showed that an abnormal stress CMR was prognostic for a composite endpoint of composite endpoint of myocardial infarction, percutaneous revascularization, cardiac hospitalization, retransplantation or death. However, they reported on prognostic yield of broad CMR assessment, comprehensive of LV function, scarring and inducible myocardial ischemia upon visual inspection. We instead report, for the first time, on the specific prognostic value of fully quantitative perfusion parameters in patients with suspected CAV. These results can be weighed against the corresponding PET literature [@RN33; @RN34]. With the present work, CMR and PET may be nominally equiparable in terms of their diagnostic and prognostic yield, but the current lack of comparative studies justifies the need for future prospective head-to-head evaluation.
 
-We additionally report, for the first time to our knowledge, on a correlation between the rate-pressure product and MBF during stress, which is not observed in the general population or in the first years after cardiac transplantation76 (see [Appendix](#appendix)). In this context, we demonstrate that such relationship is independent of the presence of CAV and might indicate the need for adjustment of the stress MBF for the stress RPP for this parameter to achieve greater diagnostic and prognostic yield. We further evaluated the influence of positivity to donor-specific antibodies on diagnostic accuracy metrics, specifically for stress rate-pressure product-adjusted stress MBF, which is found to be significantly reduced among patients with no significant CAV who are DSA-positive, hinting at possible microvascular dysfunction in relation with subclinical rejection (see [Appendix](#appendix)). 
+We additionally report, for the first time to our knowledge, on a correlation between the rate-pressure product and MBF during stress, which is not observed in the general population or in the first years after cardiac transplantation76 (see [Appendix](#appendix)). In this context, we demonstrate that such relationship is independent of the presence of CAV and might indicate the need for adjustment of the stress MBF for the stress RPP for this parameter to achieve greater diagnostic and prognostic yield. We further evaluated the influence of positivity to donor-specific antibodies on diagnostic accuracy metrics, specifically for stress rate-pressure product-adjusted stress MBF, which is found to be significantly reduced among patients with no significant CAV who are DSA-positive, hinting at possible microvascular dysfunction in relation with subclinical rejection (see [Appendix](#appendix)).
 
 In this study, quantitative perfusion was superior to qualitative stress perfusion CMR for CAV detection and patient prognostication. At present, stress CMR is infrequently utilized for CAV assessment @RN87. Results of this study demonstrate the value of quantitative stress perfusion CMR for CAV surveillance in heart transplant recipients and warrant future validation in a prospective trial.
 
@@ -265,33 +423,38 @@ Our study results pave the way for a future prospective, multi-centre, randomize
 In this retrospective observational study, stress CMR with quantitative perfusion showed excellent safety profile and feasibility in HT recipients. Quantitative stress perfusion CMR, but not qualitative stress CMR, was diagnostic for cardiac allograft vasculopathy and yielded superior decisional and prognostic performance, findings which substantiate its utility as a gatekeeper to invasive testing. These findings warrant prospective and comparative validation.
 
 ## References
+
 ::: {#refs}
 :::
 
-## Appendix
+## Appendix {#appendix}
 
 ### Statistical software and packages
-The thesis was compiled with R and Quarto in VS Code. R packages utilized included ggplot2, ggstatsplot, pROC, dca, dplyr, tidyr, knitr, survival, and gtsummary. 
+
+The thesis was compiled with R and Quarto in VS Code. R packages utilized included ggplot2, ggstatsplot, pROC, dca, dplyr, tidyr, knitr, survival, and gtsummary.
 
 ### Supplemental results
 
 #### Relationship between MBF and the rate-pressure product
-Adjustment of CMR-derived MBF and MPR to the rate-pressure product (RPP) is a matter of ongoing debate. The rate-pressure product is the double product of heart rate and systolic blood pressure, with both parameters typically measured at rest. Since its first introduction in 1993, the RPP was utilized for adjustment of the rest MBF @RN96 to account for differences in baseline haemodynamic conditions across patients; it was in fact observed that the significant correlation between RPP and MBF would lose strength and significance when both parameters were measured during vasodilator-induced stress. For this reason, stress MBF was typically not normalized by the RPP. This was also the case in heart transplant recipients @RN76. We tested for the existence of a correlation between RPP and MBF at both rest and stress in the present cohort. As exemplified by Supplemental Figures 3 and 4, a stronger, significant correlation was identified between stress RPP and stress MBF, than it was found with both parameters at rest. One reason why the rationale of adjusting only the rest MBF might not entirely apply to heart transplant recipients is that these patients, besides presenting with different baseline haemodynamic conditions, also show diverse haemodynamic response to pharmacological vasodilation, possibly in keeping with the varying degree of graft reinnervation and thus, autonomic control over the implanted heart @RN97. In their study of heart transplant recipients undergoing stress perfusion CMR published 20 years ago @RN76, Muehling and colleagues found significant correlation between rest MBF and rest RPP, but not between these parameters at stress (personal correspondence, courtesy of Peter Kellman and Michael Jerosch-Herold). They also reported that, in contrast with healthy controls, the RPP in heart transplant recipients was reduced upon vasodilation with adenosine, rather than increased. This was not the case in this cohort. In fact, we show that the RPP modestly increased between rest and stress (10,764±2,413 to 11,309±2,627, p = 0.06 for difference; Supplemental Figure 5). Importantly, our cohort differed significantly from the one investigated by Muehling et al., since they enrolled patients between 2 and 14 years from transplantation, while in our cohort, we reported on patients with graft age ranging from < 1 to > 30 years, with the large majority of patients at > 10 years from graft implantation. 
-We investigated the observed heterogeneity in RPP change between rest and stress. Age and time from transplantation were not significantly associated with change in RPP (p = 0.45 and 0.92, respectively); this plausibly excludes the hypothesis that the haemodynamic response to adenosine after transplantation is explained simply by reinnervation, which remains limited and incomplete long-term after the procedure @RN97. Instead, male sex and positivity to DSA were significant predictors of a positive change in RPP (Supplemental Figures 6–8). Finally, stress MBF index, but not MPR index or rest MBF index, was inversely correlated with graft age, defined as the time between graft implantation and CMR (Supplemental Figure 9). The pathophysiological foundations and possible prognostic implications of such «pseudonormalization» of the RPP response on the lifetime trajectory of cardiac grafts are unknown.
+
+Adjustment of CMR-derived MBF and MPR to the rate-pressure product (RPP) is a matter of ongoing debate. The rate-pressure product is the double product of heart rate and systolic blood pressure, with both parameters typically measured at rest. Since its first introduction in 1993, the RPP was utilized for adjustment of the rest MBF @RN96 to account for differences in baseline haemodynamic conditions across patients; it was in fact observed that the significant correlation between RPP and MBF would lose strength and significance when both parameters were measured during vasodilator-induced stress. For this reason, stress MBF was typically not normalized by the RPP. This was also the case in heart transplant recipients @RN76. We tested for the existence of a correlation between RPP and MBF at both rest and stress in the present cohort. As exemplified by Supplemental Figures 3 and 4, a stronger, significant correlation was identified between stress RPP and stress MBF, than it was found with both parameters at rest. One reason why the rationale of adjusting only the rest MBF might not entirely apply to heart transplant recipients is that these patients, besides presenting with different baseline haemodynamic conditions, also show diverse haemodynamic response to pharmacological vasodilation, possibly in keeping with the varying degree of graft reinnervation and thus, autonomic control over the implanted heart @RN97. In their study of heart transplant recipients undergoing stress perfusion CMR published 20 years ago @RN76, Muehling and colleagues found significant correlation between rest MBF and rest RPP, but not between these parameters at stress (personal correspondence, courtesy of Peter Kellman and Michael Jerosch-Herold). They also reported that, in contrast with healthy controls, the RPP in heart transplant recipients was reduced upon vasodilation with adenosine, rather than increased. This was not the case in this cohort. In fact, we show that the RPP modestly increased between rest and stress (10,764±2,413 to 11,309±2,627, p = 0.06 for difference; Supplemental Figure 5). Importantly, our cohort differed significantly from the one investigated by Muehling et al., since they enrolled patients between 2 and 14 years from transplantation, while in our cohort, we reported on patients with graft age ranging from \< 1 to \> 30 years, with the large majority of patients at \> 10 years from graft implantation. We investigated the observed heterogeneity in RPP change between rest and stress. Age and time from transplantation were not significantly associated with change in RPP (p = 0.45 and 0.92, respectively); this plausibly excludes the hypothesis that the haemodynamic response to adenosine after transplantation is explained simply by reinnervation, which remains limited and incomplete long-term after the procedure @RN97. Instead, male sex and positivity to DSA were significant predictors of a positive change in RPP (Supplemental Figures 6–8). Finally, stress MBF index, but not MPR index or rest MBF index, was inversely correlated with graft age, defined as the time between graft implantation and CMR (Supplemental Figure 9). The pathophysiological foundations and possible prognostic implications of such «pseudonormalization» of the RPP response on the lifetime trajectory of cardiac grafts are unknown.
 
 #### Stress MBF index
+
 Given our finding of a significant correlation between RPP and MBF at stress, we conducted exploratory analyses on the diagnostic yield of the stress MBF adjusted to the stress rate-pressure product. We found comparable diagnostic and prognostic yield to the more «conventional» MPR index. Stress MBF index was found to significantly discriminate patients with moderate to severe CAV from those without significant coronary disease (p = 0.014). At a diagnostic threshold of 2.2, stress MBF index had a sensitivity of 92.9% and a specificity of 55.3%, and was also prognostic (HR 0.11, 95%CI 0.02-0.54, p = 0.007).
 
 #### Stress MBF index and positivity to donor-specific antibodies
-The low specificity observed with stress MBF index indicated a high rate of false positive tests, or patients with reduced stress MBF index who had no significant CAV on the index angiography. Patients with a false positive result were similar in baseline characteristics to patients with other test results, but they had a significantly higher prevalence of donor-specific antibodies (DSA) (p = 0.029) on blood samples tested within 36 (11-99) days from the CMR study. We separately evaluated the diagnostic accuracy in patients with a negative DSA test, and found no difference in sensitivity (90.0% vs 92.9%) and a nominal increase in specificity (72.7% vs 55.3%), with an overall improvement in AUC from 0.69 to 0.80. 
+
+The low specificity observed with stress MBF index indicated a high rate of false positive tests, or patients with reduced stress MBF index who had no significant CAV on the index angiography. Patients with a false positive result were similar in baseline characteristics to patients with other test results, but they had a significantly higher prevalence of donor-specific antibodies (DSA) (p = 0.029) on blood samples tested within 36 (11-99) days from the CMR study. We separately evaluated the diagnostic accuracy in patients with a negative DSA test, and found no difference in sensitivity (90.0% vs 92.9%) and a nominal increase in specificity (72.7% vs 55.3%), with an overall improvement in AUC from 0.69 to 0.80.
 
 ### Supplemental tables
 
 ### Supplemental figures
 
 ## List of publications
+
 Please find my [list of publications](publist.qmd).
 
 ## License
-The content of this thesis is licensed under a Creative Commons License, Attribution - Noncommercial - NoDerivative Works 4.0 International: see www.creativecommons.org. The text may be reproduced for non-commercial purposes, provided that credit is given to the original author.
-I hereby declare that the contents and organisation of this dissertation are the product of my own original work and do not compromise in any way the rights of third parties, including those relating to the security of personal data.
+
+The content of this thesis is licensed under a Creative Commons License, Attribution - Noncommercial - NoDerivative Works 4.0 International: see www.creativecommons.org. The text may be reproduced for non-commercial purposes, provided that credit is given to the original author. I hereby declare that the contents and organisation of this dissertation are the product of my own original work and do not compromise in any way the rights of third parties, including those relating to the security of personal data.
