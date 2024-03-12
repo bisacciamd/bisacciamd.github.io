@@ -16,7 +16,6 @@ execute:
     echo: false
     warning: false
     error: false
-format: docx
 ---
 
 On the path toward universal health coverage (UHC), securing adequate funding represents a key contributor to successful implementation (@fig-challenges). Funding influences the priority setting and breadth of coverage while reflecting the needs of several stakeholders. Various strategies have been proposed to fund healthcare, which fall into two main categories: tax-based and social health insurance (SHI)-based funding. In the present essay, I will 1) compare the design and main features of tax- and SHI-based funding schemes, 2) critically appraise their key differences, and 3) evaluate their performance under the UHC framework, with an emphasis on applied real-world examples of the use of resources, equity, and resilience.
