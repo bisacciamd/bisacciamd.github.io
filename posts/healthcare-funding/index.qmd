@@ -8,7 +8,7 @@ author:
 date: last-modified
 date-format: medium
 #image: 
-draft: false
+draft: true
 bibliography: references.bib
 reference-location: margin
 image: challenges.png

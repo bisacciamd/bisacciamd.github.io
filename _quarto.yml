@@ -39,8 +39,8 @@ format:
     theme: litera
     css: styles.css
     toc: true
-  docx:
-    reference-doc: custom-reference-doc.docx
+#  docx:
+#    reference-doc: custom-reference-doc.docx
 csl: jacc-cvi.csl
 
 
