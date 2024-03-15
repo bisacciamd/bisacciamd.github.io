@@ -27,9 +27,9 @@ website:
       - text: CV
         href: cv.qmd
       - icon: github
-        href: https://github.com/giandomd
+        href: https://github.com/bisacciamd
       - icon: twitter
-        href: https://x.com/giandomd
+        href: https://x.com/bisacciamd
       - icon: linkedin
         href: https://linkedin.com/in/bisacciamd
   page-footer: "Giandomenico Bisaccia 2024" 
