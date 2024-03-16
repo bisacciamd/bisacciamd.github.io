@@ -24,7 +24,8 @@ website:
       - icon: mortarboard-fill
         text: PhD thesis
         href: phd.qmd
-      - text: CV
+      - icon: file-person
+        text: CV
         href: cv.qmd
       - icon: github
         href: https://github.com/bisacciamd
