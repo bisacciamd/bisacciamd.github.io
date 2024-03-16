@@ -21,12 +21,12 @@ website:
             href: publist.qmd
     right: 
 
-      - icon: mortarboard-fill
-        text: PhD thesis
-        href: phd.qmd
       - icon: file-person
         text: CV
         href: cv.qmd
+      - icon: mortarboard-fill
+        text: PhD thesis
+        href: phd.qmd
       - icon: github
         href: https://github.com/bisacciamd
       - icon: twitter
