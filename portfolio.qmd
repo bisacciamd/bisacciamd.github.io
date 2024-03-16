@@ -28,22 +28,3 @@ Custom-made application for exportation of Circle CVi42 study reports to [Redcap
 ## MATLAB software
 #### DICOM handler
 A script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.
-
-### Methods
-#### Diagnostic test accuracy analysis
-- diagnostic test accuracy meta-analysis with the split component synthesis method, as used in @RN15.
-
-#### Survival analysis
-- survival analysis with modeling of the hazard ratio on a continuous variable as in @RN31.
-
-#### Decision curve analysis
-I used this in my [PhD thesis](phd.qmd#clinical-utility-1) to evaluate the clinical utility of quantitative stress perfusion CMR to reduce use of coronary angiography in vasculopathy surveillance after heart transplantation. 
-
-### Data visualization
-#### Sankey chart
-This was used in @RN21.
-
-#### 
-
-:::{refs}
-:::
