@@ -18,6 +18,8 @@ crossref:
       key: suppfig
       reference-prefix: Supplemental Figure
       space-before-numbering: true
+fig-cap-location: margin
+tbl-cap-location: margin
 ---
 ```{r chart-theme}
 library(echarts4r)

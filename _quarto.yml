@@ -39,6 +39,7 @@ format:
     theme: litera
     css: styles.css
     toc: true
+    toc-location: left
 #  docx:
 #    reference-doc: custom-reference-doc.docx
 csl: jacc-cvi.csl
