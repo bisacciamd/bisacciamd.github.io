@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -131,7 +131,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -164,10 +164,7 @@ window.Quarto = {
  <span class="menu-text">Me</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-me">    
-        <li>
-    <a class="dropdown-item" href="./about.html">
- <span class="dropdown-text">About</span></a>
-  </li>  
+        <li class="dropdown-header">about.qmd</li>
         <li>
     <a class="dropdown-item" href="./portfolio.html">
  <span class="dropdown-text">Portfolio</span></a>
@@ -181,21 +178,22 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> <i class="bi bi-file-person" role="img">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./phd.html"> <i class="bi bi-mortarboard-fill" role="img">
 </i> 
 <span class="menu-text">PhD thesis</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/giandomd"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/bisacciamd"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/giandomd"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://x.com/bisacciamd"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -214,9 +212,12 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -246,7 +247,34 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1710797728000" data-listing-file-modified-sort="1710797728234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2698">
+<div class="thumbnail">
+<p><a href="./posts/healthcare-funding/index.html" class="no-external"></a></p><a href="./posts/healthcare-funding/index.html" class="no-external">
+<p><img src="./posts/healthcare-funding/challenges.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/healthcare-funding/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/healthcare-funding/index.html" class="no-external">Tax-based or social health insurance funding for healthcare</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/healthcare-funding/index.html" class="no-external">Which works better?</a>
+</div>
+<div class="listing-description">
+<a href="./posts/healthcare-funding/index.html" class="no-external">An appraisal of healthcare funding schemes through the lens of universal health coverage.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/healthcare-funding/index.html" class="no-external">
+<div class="listing-date">
+Mar 18, 2024
+</div>
+<div class="listing-author">
+G. Bisaccia
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

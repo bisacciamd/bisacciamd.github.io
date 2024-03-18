@@ -6,6 +6,7 @@ author:
     degrees: MD, PhD
     orcid: 0000-0003-4606-3093
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy. Degree with Honours in Medicine and Surgery (2014-2021)
+lightbox: true
 ---
 Supervisors: Prof. Sabina Gallina MD, Prof. Fabrizio Ricci, MD, PhD, MSc
 

@@ -20,6 +20,7 @@ crossref:
       space-before-numbering: true
 fig-cap-location: margin
 tbl-cap-location: margin
+lightbox: true
 ---
 ```{r chart-theme}
 library(echarts4r)

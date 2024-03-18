@@ -3,5 +3,4 @@ title: "Posts"
 listing:
   contents: posts
   sort: "date"
-
 ---

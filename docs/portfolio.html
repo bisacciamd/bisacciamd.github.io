@@ -21,27 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -93,7 +73,7 @@ div.csl-indent {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -126,10 +106,7 @@ div.csl-indent {
  <span class="menu-text">Me</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-me">    
-        <li>
-    <a class="dropdown-item" href="./about.html">
- <span class="dropdown-text">About</span></a>
-  </li>  
+        <li class="dropdown-header">about.qmd</li>
         <li>
     <a class="dropdown-item" href="./portfolio.html">
  <span class="dropdown-text">Portfolio</span></a>
@@ -143,13 +120,14 @@ div.csl-indent {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> <i class="bi bi-file-person" role="img">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./phd.html"> <i class="bi bi-mortarboard-fill" role="img">
 </i> 
 <span class="menu-text">PhD thesis</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/bisacciamd"> <i class="bi bi-github" role="img">
@@ -176,9 +154,8 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -191,13 +168,13 @@ div.csl-indent {
   <ul class="collapse">
   <li><a href="#cvibaker2042" id="toc-cvibaker2042" class="nav-link" data-scroll-target="#cvibaker2042">cviBaker2042</a></li>
   </ul></li>
-  <li><a href="#matlab-software" id="toc-matlab-software" class="nav-link" data-scroll-target="#matlab-software">MATLAB software</a>
-  <ul class="collapse">
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
-  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data visualization</a></li>
-  </ul></li>
+  <li><a href="#matlab-software" id="toc-matlab-software" class="nav-link" data-scroll-target="#matlab-software">MATLAB software</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -270,55 +247,12 @@ div.csl-indent {
 <section id="dicom-handler" class="level4">
 <h4 class="anchored" data-anchor-id="dicom-handler">DICOM handler</h4>
 <p>A script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.</p>
-</section>
-<section id="methods" class="level3">
-<h3 class="anchored" data-anchor-id="methods">Methods</h3>
-<section id="diagnostic-test-accuracy-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="diagnostic-test-accuracy-analysis">Diagnostic test accuracy analysis</h4>
-<ul>
-<li>diagnostic test accuracy meta-analysis with the split component synthesis method, as used in <span class="citation" data-cites="RN15">(<a href="#ref-RN15" role="doc-biblioref">1</a>)</span>.</li>
-</ul>
-</section>
-<section id="survival-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="survival-analysis">Survival analysis</h4>
-<ul>
-<li>survival analysis with modeling of the hazard ratio on a continuous variable as in <span class="citation" data-cites="RN31">(<a href="#ref-RN31" role="doc-biblioref">2</a>)</span>.</li>
-</ul>
-</section>
-<section id="decision-curve-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="decision-curve-analysis">Decision curve analysis</h4>
-<p>I used this in my <a href="./phd.html#clinical-utility-1">PhD thesis</a> to evaluate the clinical utility of quantitative stress perfusion CMR to reduce use of coronary angiography in vasculopathy surveillance after heart transplantation.</p>
-</section>
-</section>
-<section id="data-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="data-visualization">Data visualization</h3>
-<section id="sankey-chart" class="level4">
-<h4 class="anchored" data-anchor-id="sankey-chart">Sankey chart</h4>
-<p>This was used in <span class="citation" data-cites="RN21">(<a href="#ref-RN21" role="doc-biblioref">3</a>)</span>.</p>
-</section>
-<section id="section" class="level4">
-<h4 class="anchored" data-anchor-id="section"></h4>
-<div class="{refs}">
-
-</div>
-
 
 
 </section>
 </section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-RN15" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Ricci F., Khanji MY., Bisaccia G., et al. Diagnostic and prognostic value of stress cardiovascular magnetic resonance imaging in patients with known or suspected coronary artery disease: A systematic review and meta-analysis. JAMA Cardiol 2023;8(7):662–73. Doi: <a href="https://doi.org/10.1001/jamacardio.2023.1290">10.1001/jamacardio.2023.1290</a>.</div>
-</div>
-<div id="ref-RN31" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Sinigiani G., De Michieli L., Porcari A., et al. Atrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis. Heart Rhythm 2024. Doi: <a href="https://doi.org/10.1016/j.hrthm.2024.01.056">10.1016/j.hrthm.2024.01.056</a>.</div>
-</div>
-<div id="ref-RN21" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Liang K., Bisaccia G., Leo I., et al. CMR reclassifies the majority of patients with suspected MINOCA and non MINOCA. Eur Heart J Cardiovasc Imaging 2023:jead182. Doi: <a href="https://doi.org/10.1093/ehjci/jead182">10.1093/ehjci/jead182</a>.</div>
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
