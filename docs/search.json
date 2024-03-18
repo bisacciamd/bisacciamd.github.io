@@ -11,7 +11,7 @@
     "href": "cv.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "2022-2023 | Clinical Research Fellowship in Cardiovascular Magnetic Resonance, Harefield Hospital, London, UK. Supervisor: Prof. Chiara Bucciarelli-Ducci\n\nInvestigated the value of noninvasive cardiovascular testing in patients with acute1 and stable chest pain2, and following cardiac transplantation\nImproved research productivity among peers in various research groups\n\nDeveloped MATLAB software for automated handling of DICOM studies for extraction of relevant images\nStreamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reducing data collection times by &gt; 4-fold\n\nWas awarded 3 travel grants from major cardiovascular societies\n\n2022 | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK. Course director: Prof. Dudley J. Pennell\n\nUnderwent full-time training in CMR under CMR Level 3 certified experts\nContributed to the CMR service of the hospital"
+    "text": "2022-present | Clinical Research Fellowship in Cardiovascular Magnetic Resonance, Harefield Hospital, London, UK. Supervisor: Prof. Chiara Bucciarelli-Ducci\n\nInvestigated the value of noninvasive cardiovascular testing in patients with acute1 and stable chest pain2, and following cardiac transplantation\nImproved research productivity among peers in various research groups\n\nDeveloped MATLAB software for automated handling of DICOM studies for extraction of relevant images\nStreamlined data extraction from DICOM studies with custom R/Shiny software, eliminating manual error and reducing data collection times by &gt; 4-fold\n\nWas awarded 3 travel grants from major cardiovascular societies\n\n2022 | Training Fellowship in Cardiovascular Magnetic Resonance, Royal Brompton Hospital, London, UK. Course director: Prof. Dudley J. Pennell\n\nUnderwent full-time training in CMR under CMR Level 3 certified experts\nContributed to the CMR service of the hospital"
   },
   {
     "objectID": "cv.html#scientific-societies",
@@ -28,74 +28,11 @@
     "text": "Scientific working groups\n2022-present | SCMR Early Career Group, Fellow in Training ACC, Italian Working groups on Cardiovascular Magnetic Resonance and Gender differences in cardiovascular disease"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "pubs/ehjcvi2023/index.html",
+    "href": "pubs/ehjcvi2023/index.html",
+    "title": "CMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA",
     "section": "",
-    "text": "I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d’Annunzio University of Chieti and Pescara, Italy. I am a current student in the London School of Economics Master’s in Health Economics, Outcomes and Management in Clinical Sciences, class of 2025. My main research interest is cardiology, particularly cardiovascular imaging. I have presented at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). I was a finalist in the Early Career Award clinical track at London CMR 2024."
-  },
-  {
-    "objectID": "publist.html",
-    "href": "publist.html",
-    "title": "List of publications",
-    "section": "",
-    "text": "I have authored or co-authored 17 scientific publications. As first author, I performed literature reviews or statistical analyses (where applicable), prepared the manuscript with feedback from all co-authors, and created visual illustrations and figures. Where a co-author, I participated in any literature review or statistical analyses, revised and approved the manuscript, and/or contributed to figures and/or illustrations.\nSelect contributions are highlighted with graphical abstracts or illustrations."
-  },
-  {
-    "objectID": "publist.html#cardiovascular-imaging",
-    "href": "publist.html#cardiovascular-imaging",
-    "title": "List of publications",
-    "section": "Cardiovascular imaging",
-    "text": "Cardiovascular imaging\nDiagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease: A Systematic Review and Meta-analysis (2023). F. Ricci, M. Y. Khanji, G. Bisaccia, A. Cipriani, A. Di Cesare, L. Ceriello, C. Mantini, M. Zimarino, A. Fedorowski, S. Gallina, S. E. Petersen and C. Bucciarelli-Ducci. JAMA Cardiology. \n\n\n\nFigure from study above.\n\n\nUnderlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance (2024). A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo. Cardiovascular Diabetology. []\nAtrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. Heart Rhythm. \nCMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA (2023). K. Liang, G. Bisaccia, I. Leo, M. G. L. Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson and C. Bucciarelli-Ducci. European Heart Journal - Cardiovascular Imaging. \nCardiovascular Magnetic Resonance in Patients with Cardiac Electronic Devices: Evidence from a Multicenter Study (2023). A. Barison, F. Ricci, A. G. Pavon, G. Muscogiuri, G. Bisaccia, G. Camastra, M. De Lazzari, C. Lanzillo, M. Raguso, L. Monti, S. Vargiu, P. Pedrotti, M. Piacenti, G. Todiere, G. Pontone, C. Indolfi, S. Dellegrottaglie, M. Lombardi, J. Schwitter, G. D. Aquaro, R. on behalf of the Working Group on Cardiovascular Magnetic Resonance of the Italian Society of Cardiology. Journal of Clinical Medicine. \n\n\n\nFigure from study above.\n\n\nPrognostic Significance of Late Gadolinium Enhancement in Fabry Disease-A Systematic Review and Meta-Analysis (2023). F. Ricci, G. Bisaccia, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y. Khanji and S. Gallina. The American Journal of Cardiology. \nCardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort (2021). F. Ricci, N. Aung, S. Gallina, F. Zemrak, K. Fung, G. Bisaccia, J. M. Paiva, M. Y. Khanji, C. Mantini and S. Palermi. Journal of Cardiovascular Magnetic Resonance."
-  },
-  {
-    "objectID": "publist.html#cardiology",
-    "href": "publist.html#cardiology",
-    "title": "List of publications",
-    "section": "Cardiology",
-    "text": "Cardiology\nCardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis (2023). G. Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. Current Problems in Cardiology."
-  },
-  {
-    "objectID": "publist.html#general-medicine",
-    "href": "publist.html#general-medicine",
-    "title": "List of publications",
-    "section": "General medicine",
-    "text": "General medicine\nGuillain–Barré syndrome and COVID-19 vaccination: a systematic review and meta-analysis (2024). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. Journal of Neurology. \nGuillain-Barre syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the ‘Italian factor’ (2023). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. European Journal of Neurology."
-  },
-  {
-    "objectID": "publist.html#cardiovascular-imaging-1",
-    "href": "publist.html#cardiovascular-imaging-1",
-    "title": "List of publications",
-    "section": "Cardiovascular imaging",
-    "text": "Cardiovascular imaging\nImaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA) (2023). I. Leo, G. Bisaccia, N. Miaris, M. C. Procopio, R. Licordari and C. Bucciarelli-Ducci. Heart. \n\n\n\nFigure from study above.\n\n\nThe Role of Multimodality Imaging in Pediatric Cardiomyopathies (2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M. Garofalo, E. G. Milano, G. Bisaccia, F. Iellamo, P. P. Bassareo, A. Pradhan, A. Cimini and M. A. Perrone. Journal of Clinical Medicine. \nThe Role of Advanced Cardiovascular Imaging Modalities in Cardio-Oncology: From Early Detection to Unravelling Mechanisms of Cardiotoxicity (2023). I. Leo, M. Vidula, G. Bisaccia, M. C. Procopio, R. Licordari, M. Perotto, G. La Vecchia, N. Miaris, P. E. Bravo and C. Bucciarelli-Ducci. Journal of Clinical Medicine."
-  },
-  {
-    "objectID": "publist.html#cardiovascular-medicine",
-    "href": "publist.html#cardiovascular-medicine",
-    "title": "List of publications",
-    "section": "Cardiovascular medicine",
-    "text": "Cardiovascular medicine\nPost-Acute Sequelae of COVID-19 and Cardiovascular Autonomic Dysfunction: What Do We Know? (2021). G. Bisaccia, F. Ricci, V. Recce, A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A. Fedorowski and S. Gallina. Journal of Cardiovascular Development and Disease. \n\n\n\nFigure from study above.\n\n\nPrognostic Value of High-Sensitivity Cardiac Troponin in Women (2022). G. Bisaccia, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S. Gallina, A. Di Baldassarre and B. Ghinassi. Biomolecules. \nMitochondrial Dysfunction and Heart Disease: Critical Appraisal of an Overlooked Association (2021). G. Bisaccia, F. Ricci, S. Gallina, A. Di Baldassarre and B. Ghinassi. International Journal of Molecular Sciences. \nNonalcoholic fatty liver disease and cardiovascular disease phenotypes (2020). G. Bisaccia, F. Ricci, C. Mantini, C. Tana, G. L. Romani, C. Schiavone and S. Gallina. SAGE Open Medicine."
-  },
-  {
-    "objectID": "md.html",
-    "href": "md.html",
-    "title": "CARDIOVASCULAR MAGNETIC RESONANCE REFERENCE VALUES OF MITRAL AND TRICUSPID ANNULAR DIMENSIONS: THE UK BIOBANK COHORT",
-    "section": "",
-    "text": "Supervisors: Prof. Sabina Gallina MD, Prof. Fabrizio Ricci, MD, PhD, MSc\n\n\n\n\n\nLeonardo da Vinci, The left ventricle and mitral valve c.1512-13 © The Royal Collection Trust\n\n\n\n\nAbstract\nOver the last century, a sharp transition in the spectrum of valvular heart disease has been recognized, so that most valve pathology is now degenerative. Mitral and tricuspid regurgitation are reported the most common subtypes of valvular heart disease, and the rise of transcatheter valve technology has renewed the interest in atrioventricular valves annular geometry, which is essential to our understanding of the mechanism of regurgitation and planning of intervention.\nWith the aim of accurately characterizing mitral and tricuspid annular geometry, we performed mitral and tricuspid annulus measurements on cardiovascular magnetic resonance imaging scans derived from the UK Biobank, forming a cohort of 721 truly healthy participants.\n\n\nPublication\nRicci, F., Aung, N., Gallina, S. et al. Cardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort. J Cardiovasc Magn Reson 23, 5 (2021). https://doi.org/10.1186/s12968-020-00688-y"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
-    "section": "",
-    "text": "I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d’Annunzio University of Chieti and Pescara, Italy.\nMy primary research interest is in the evaluation of cardiovascular imaging modalities in ischemic heart disease. I have initial supervising and teaching experience and presented my work at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). I was a finalist in the Early Career Award clinical track at London CMR 2024."
-  },
-  {
-    "objectID": "phd.html",
-    "href": "phd.html",
-    "title": "VALUE OF QUANTITATIVE STRESS PERFUSION CARDIOVASCULAR MAGNETIC RESONANCE IN THE LONG-TERM ASSESSMENT OF CARDIAC TRANSPLANTATION RECIPIENTS",
-    "section": "",
-    "text": "Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc"
+    "text": "Table and figure from EHJ Cardiovascular Imaging.\n\n\n\n\nCMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA (2023). K. Liang, G. Bisaccia, I. Leo, M. G. L. Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson and C. Bucciarelli-Ducci. European Heart Journal - Cardiovascular Imaging. \nBackground\nIn approximately 5-15% of all cases of acute coronary syndromes (ACS) have unobstructed coronaries on angiography. Cardiac magnetic resonance (CMR) has proven useful to identify in most patients the underlying diagnosis associated with this presentation. However, the role of CMR to reclassify patients from the initial suspected condition has not been clarified. AIMS: The aim of this study was to assess the proportion of patients with suspected MINOCA, or non-MINOCA, that CMR reclassifies with an alternative diagnosis from the original clinical suspicion.\nMethods and results\nA retrospective cohort of patients in a tertiary cardiology centre was identified from a registry database. Patients who were referred for CMR for investigation of suspected MINOCA, and a diagnosis pre- and post-CMR was recorded to determine the proportion of diagnoses reclassified.A total of 888 patients were identified in the registry. CMR reclassified diagnosis in 78% of patients. Diagnosis of MINOCA was confirmed in only 243 patients (27%), whilst most patients had an alternative diagnosis (73%): myocarditis n = 217 (24%), Takotsubo syndrome n = 115 (13%), cardiomyopathies n = 97 (11%), normal CMR/non-specific n = 216 (24%).\nConclusion\nIn a large single-centre cohort of patients presenting with acute coronary syndrome and unobstructed coronary arteries, most patients had a non-MINOCA diagnosis (73%) (myocarditis, TakoTsubo, cardiomyopathies or normal CMR/non-specific findings), whilst only a minority had confirmed MINOCA (27%). Performing CMR led to reclassifying patients’ diagnosis in 78% of cases, thus confirming its important clinical role and underscoring the clinical challenge in diagnosing MINOCA and non MINOCA conditions.\n\n\n\nTable and figure from EHJ Cardiovascular Imaging."
   },
   {
     "objectID": "phd.html#section",
@@ -196,32 +133,11 @@
     "text": "License\nThe content of this thesis is licensed under a Creative Commons License, Attribution - Noncommercial - NoDerivative Works 4.0 International: see www.creativecommons.org. The text may be reproduced for non-commercial purposes, provided that credit is given to the original author. I hereby declare that the contents and organisation of this dissertation are the product of my own original work and do not compromise in any way the rights of third parties, including those relating to the security of personal data.\n\n\n\n“Making Space”, sculpture by Sir Antony Gormley, Magdi Yacoub Institute, Harefield Hospital © Adobe Stock\nFigure 2: Main complications following cardiac transplantation.\nFigure 3: Typical atherosclerosis and allograft vasculopathy. (Adapted from Avery 20039)\nFigure 4: CAV grading according to the ISHLT.\nFigure 5: Study flow chart.\nFigure 6: CMR protocol at 1.5 Tesla.\nFigure 9: Stress MBF (mL/min/g) and MPR index in patients with and without significant CAV (ISHLT grade 2-3).\nFigure 10: Pre- and post-test probability of CAV based on stress CMR results, visual assessment and quantitative assessment with MPR index compared.\nNet benefit\nNet reduction in unnecessary angiography\nFigure 12: Prognostic value of MPR index among outpatient heart transplant recipients.\nSupplemental Figure 1: 10-fold cross-validated prediction model for net benefit.\nSupplemental Figure 2: Hazard ratio for MACE as a function of MPR index.\nSupplemental Figure 3: Relationship between rest RPP and rest MBF.\nSupplemental Figure 4: Relationship between stress RPP and stress MBF.\nSupplemental Figure 5: The rate-pressure product at rest and stress.\nSupplemental Figure 6: Sex-specific change in rate-pressure product between rest and stress.\nSupplemental Figure 7: Change in rate-pressure product between rest and stress in patients with and without DSA.\nSupplemental Figure 8: Stress MBF index and graft age."
   },
   {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
     "section": "",
-    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
-  },
-  {
-    "objectID": "portfolio.html#quarto-dashboards",
-    "href": "portfolio.html#quarto-dashboards",
-    "title": "Portfolio",
-    "section": "",
-    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
-  },
-  {
-    "objectID": "portfolio.html#shiny-applications",
-    "href": "portfolio.html#shiny-applications",
-    "title": "Portfolio",
-    "section": "Shiny applications",
-    "text": "Shiny applications\n\ncviBaker2042\nCustom-made application for exportation of Circle CVi42 study reports to Redcap import-ready CSV files."
-  },
-  {
-    "objectID": "portfolio.html#matlab-software",
-    "href": "portfolio.html#matlab-software",
-    "title": "Portfolio",
-    "section": "MATLAB software",
-    "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies."
+    "text": "I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d’Annunzio University of Chieti and Pescara, Italy.\nMy primary research interest is in the evaluation of cardiovascular imaging modalities in ischemic heart disease. I have initial supervising and teaching experience and presented my work at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). I was a finalist in the Early Career Award clinical track at London CMR 2024."
   },
   {
     "objectID": "index.html#experience",
@@ -236,6 +152,13 @@
     "title": "About",
     "section": "Education",
     "text": "Education\nExecutive MSc in Health Economics, Outcomes and Management in Clinical Sciences | London School of Economics | London, UK | Dec 2023 - present\nPhD in Neuroscience and Imaging (Doctor Europaeus), G. d’Annunzio University | Chieti, Italy | Oct 2021 - Mar 2024\nDoctor of Medicine (Honours), G. d’Annunzio University | Chieti, Italy | Oct 2014 - Apr 2021"
+  },
+  {
+    "objectID": "md.html",
+    "href": "md.html",
+    "title": "CARDIOVASCULAR MAGNETIC RESONANCE REFERENCE VALUES OF MITRAL AND TRICUSPID ANNULAR DIMENSIONS: THE UK BIOBANK COHORT",
+    "section": "",
+    "text": "Supervisors: Prof. Sabina Gallina MD, Prof. Fabrizio Ricci, MD, PhD, MSc\n\n\n\n\n\nLeonardo da Vinci, The left ventricle and mitral valve c.1512-13 © The Royal Collection Trust\n\n\n\n\nAbstract\nOver the last century, a sharp transition in the spectrum of valvular heart disease has been recognized, so that most valve pathology is now degenerative. Mitral and tricuspid regurgitation are reported the most common subtypes of valvular heart disease, and the rise of transcatheter valve technology has renewed the interest in atrioventricular valves annular geometry, which is essential to our understanding of the mechanism of regurgitation and planning of intervention.\nWith the aim of accurately characterizing mitral and tricuspid annular geometry, we performed mitral and tricuspid annulus measurements on cardiovascular magnetic resonance imaging scans derived from the UK Biobank, forming a cohort of 721 truly healthy participants.\n\n\nPublication\nRicci, F., Aung, N., Gallina, S. et al. Cardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort. J Cardiovasc Magn Reson 23, 5 (2021). https://doi.org/10.1186/s12968-020-00688-y\n\n\n\nLeonardo da Vinci, The left ventricle and mitral valve c.1512-13 © The Royal Collection Trust"
   },
   {
     "objectID": "posts/healthcare-funding/index.html",
@@ -320,5 +243,96 @@
     "title": "Tax-based or social health insurance funding for healthcare",
     "section": "Inclusivity",
     "text": "Inclusivity\nIn 2010, more than 3 percent of the world’s population incurred catastrophic health spending (29). In an analysis of 133 countries, catastrophic spending occurred more frequently in SHI-based systems than in tax-based systems, despite increased health expenditure in the former (29). The authors stated that to protect people from catastrophic out-of-pocket payments, what is needed is to increase «the share of total health expenditure that is prepaid», especially «through taxes and mandatory contributions». In other words, to shift towards tax-funded health systems would lead to broader coverage and better population health (24)."
+  },
+  {
+    "objectID": "publist.html",
+    "href": "publist.html",
+    "title": "List of publications",
+    "section": "",
+    "text": "Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease: A Systematic Review and Meta-analysis (2023). F. Ricci, M. Y. Khanji, G. Bisaccia, A. Cipriani, A. Di Cesare, L. Ceriello, C. Mantini, M. Zimarino, A. Fedorowski, S. Gallina, S. E. Petersen and C. Bucciarelli-Ducci. JAMA Cardiology. \n\n\n\nFigure from study above.\n\n\nUnderlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance (2024). A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo. Cardiovascular Diabetology. []\nAtrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. Heart Rhythm. \nCMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA (2023). K. Liang, G. Bisaccia, I. Leo, M. G. L. Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson and C. Bucciarelli-Ducci. European Heart Journal - Cardiovascular Imaging. \nCardiovascular Magnetic Resonance in Patients with Cardiac Electronic Devices: Evidence from a Multicenter Study (2023). A. Barison, F. Ricci, A. G. Pavon, G. Muscogiuri, G. Bisaccia, G. Camastra, M. De Lazzari, C. Lanzillo, M. Raguso, L. Monti, S. Vargiu, P. Pedrotti, M. Piacenti, G. Todiere, G. Pontone, C. Indolfi, S. Dellegrottaglie, M. Lombardi, J. Schwitter, G. D. Aquaro, R. on behalf of the Working Group on Cardiovascular Magnetic Resonance of the Italian Society of Cardiology. Journal of Clinical Medicine. \n\n\n\nFigure from study above.\n\n\nPrognostic Significance of Late Gadolinium Enhancement in Fabry Disease-A Systematic Review and Meta-Analysis (2023). F. Ricci, G. Bisaccia, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y. Khanji and S. Gallina. The American Journal of Cardiology. \nCardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort (2021). F. Ricci, N. Aung, S. Gallina, F. Zemrak, K. Fung, G. Bisaccia, J. M. Paiva, M. Y. Khanji, C. Mantini and S. Palermi. Journal of Cardiovascular Magnetic Resonance. \n\n\n\nCardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis (2023). G. Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. Current Problems in Cardiology. \n\n\n\nGuillain–Barré syndrome and COVID-19 vaccination: a systematic review and meta-analysis (2024). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. Journal of Neurology. \nGuillain-Barre syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the ‘Italian factor’ (2023). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. European Journal of Neurology."
+  },
+  {
+    "objectID": "publist.html#cardiovascular-imaging",
+    "href": "publist.html#cardiovascular-imaging",
+    "title": "List of publications",
+    "section": "",
+    "text": "Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease: A Systematic Review and Meta-analysis (2023). F. Ricci, M. Y. Khanji, G. Bisaccia, A. Cipriani, A. Di Cesare, L. Ceriello, C. Mantini, M. Zimarino, A. Fedorowski, S. Gallina, S. E. Petersen and C. Bucciarelli-Ducci. JAMA Cardiology. \n\n\n\nFigure from study above.\n\n\nUnderlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance (2024). A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo. Cardiovascular Diabetology. []\nAtrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. Heart Rhythm. \nCMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA (2023). K. Liang, G. Bisaccia, I. Leo, M. G. L. Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson and C. Bucciarelli-Ducci. European Heart Journal - Cardiovascular Imaging. \nCardiovascular Magnetic Resonance in Patients with Cardiac Electronic Devices: Evidence from a Multicenter Study (2023). A. Barison, F. Ricci, A. G. Pavon, G. Muscogiuri, G. Bisaccia, G. Camastra, M. De Lazzari, C. Lanzillo, M. Raguso, L. Monti, S. Vargiu, P. Pedrotti, M. Piacenti, G. Todiere, G. Pontone, C. Indolfi, S. Dellegrottaglie, M. Lombardi, J. Schwitter, G. D. Aquaro, R. on behalf of the Working Group on Cardiovascular Magnetic Resonance of the Italian Society of Cardiology. Journal of Clinical Medicine. \n\n\n\nFigure from study above.\n\n\nPrognostic Significance of Late Gadolinium Enhancement in Fabry Disease-A Systematic Review and Meta-Analysis (2023). F. Ricci, G. Bisaccia, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y. Khanji and S. Gallina. The American Journal of Cardiology. \nCardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort (2021). F. Ricci, N. Aung, S. Gallina, F. Zemrak, K. Fung, G. Bisaccia, J. M. Paiva, M. Y. Khanji, C. Mantini and S. Palermi. Journal of Cardiovascular Magnetic Resonance."
+  },
+  {
+    "objectID": "publist.html#cardiology",
+    "href": "publist.html#cardiology",
+    "title": "List of publications",
+    "section": "",
+    "text": "Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis (2023). G. Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. Current Problems in Cardiology."
+  },
+  {
+    "objectID": "publist.html#general-medicine",
+    "href": "publist.html#general-medicine",
+    "title": "List of publications",
+    "section": "",
+    "text": "Guillain–Barré syndrome and COVID-19 vaccination: a systematic review and meta-analysis (2024). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. Journal of Neurology. \nGuillain-Barre syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the ‘Italian factor’ (2023). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. European Journal of Neurology."
+  },
+  {
+    "objectID": "publist.html#cardiovascular-imaging-1",
+    "href": "publist.html#cardiovascular-imaging-1",
+    "title": "List of publications",
+    "section": "Cardiovascular imaging",
+    "text": "Cardiovascular imaging\n\n\n\nFigure from study above.\n\n\nThe Role of Multimodality Imaging in Pediatric Cardiomyopathies (2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M. Garofalo, E. G. Milano, G. Bisaccia, F. Iellamo, P. P. Bassareo, A. Pradhan, A. Cimini and M. A. Perrone. Journal of Clinical Medicine. \nThe Role of Advanced Cardiovascular Imaging Modalities in Cardio-Oncology: From Early Detection to Unravelling Mechanisms of Cardiotoxicity (2023). I. Leo, M. Vidula, G. Bisaccia, M. C. Procopio, R. Licordari, M. Perotto, G. La Vecchia, N. Miaris, P. E. Bravo and C. Bucciarelli-Ducci. Journal of Clinical Medicine."
+  },
+  {
+    "objectID": "publist.html#cardiovascular-medicine",
+    "href": "publist.html#cardiovascular-medicine",
+    "title": "List of publications",
+    "section": "Cardiovascular medicine",
+    "text": "Cardiovascular medicine\nPost-Acute Sequelae of COVID-19 and Cardiovascular Autonomic Dysfunction: What Do We Know? (2021). G. Bisaccia, F. Ricci, V. Recce, A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A. Fedorowski and S. Gallina. Journal of Cardiovascular Development and Disease. \n\n\n\nFigure from study above.\n\n\nPrognostic Value of High-Sensitivity Cardiac Troponin in Women (2022). G. Bisaccia, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S. Gallina, A. Di Baldassarre and B. Ghinassi. Biomolecules. \nMitochondrial Dysfunction and Heart Disease: Critical Appraisal of an Overlooked Association (2021). G. Bisaccia, F. Ricci, S. Gallina, A. Di Baldassarre and B. Ghinassi. International Journal of Molecular Sciences. \nNonalcoholic fatty liver disease and cardiovascular disease phenotypes (2020). G. Bisaccia, F. Ricci, C. Mantini, C. Tana, G. L. Romani, C. Schiavone and S. Gallina. SAGE Open Medicine."
+  },
+  {
+    "objectID": "pubs.html",
+    "href": "pubs.html",
+    "title": "Publications",
+    "section": "",
+    "text": "I have authored or co-authored 17 scientific publications, where I contributed to literature review, statistical analyses, manuscript drafting, and/or preparation of visual illustrations and figures.\nSelect contributions are presented.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease\n\n\nJAMA Cardiology\n\n\nThis review summarizes 20 years of research on CMR in coronary artery disease.\n\n\n\n\n\nJul 1, 2023\n\n\nF. Ricci, M. Y. Khanji, G. Bisaccia, et al.\n\n\n\n\n\n\n\n\n\n\n\n\nImaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)\n\n\nHeart (BMJ)\n\n\nThis paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries.\n\n\n\n\n\nJul 11, 2023\n\n\nI. Leo, G. Bisaccia, et al.\n\n\n\n\n\n\n\n\n\n\n\n\nCMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA\n\n\nEuropean Heart Journal - Cardiovascular Imaging\n\n\nThis study investigated the diagnostic yield of CMR in ~900 patients with suspected MINOCA.\n\n\n\n\n\nAug 1, 2023\n\n\nK. Liang, G. Bisaccia, et al.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pubs/jamacard2023/index.html",
+    "href": "pubs/jamacard2023/index.html",
+    "title": "Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease",
+    "section": "",
+    "text": "Figure from JAMA Cardiology.\n\n\n\n\nDiagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease: A Systematic Review and Meta-analysis (2023). F. Ricci, M. Y. Khanji, G. Bisaccia, A. Cipriani, A. Di Cesare, L. Ceriello, C. Mantini, M. Zimarino, A. Fedorowski, S. Gallina, S. E. Petersen and C. Bucciarelli-Ducci. JAMA Cardiology. \nObjective\nTo provide contemporary quantitative data synthesis of the diagnostic accuracy and prognostic value of stress CMR in stable chest pain.\nData Sources\nPubMed and Embase databases, the Cochrane Database of Systematic Reviews, PROSPERO, and the ClinicalTrials.gov registry were searched for potentially relevant articles from January 1, 2000, through December 31, 2021.\nStudy Selection\nSelected studies evaluated CMR and reported estimates of diagnostic accuracy and/or raw data of adverse CV events for participants with either positive or negative stress CMR results. Prespecified combinations of keywords related to the diagnostic accuracy and prognostic value of stress CMR were used. A total of 3144 records were evaluated for title and abstract; of those, 235 articles were included in the full-text assessment of eligibility. After exclusions, 64 studies (74 470 total patients) published from October 29, 2002, through October 19, 2021, were included.\nData Extraction and Synthesis\nThis systematic review and meta-analysis adhered to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses.\nMain Outcomes and Measures\nDiagnostic odds ratios (DORs), sensitivity, specificity, area under the receiver operating characteristic curve (AUROC), odds ratio (OR), and annualized event rate (AER) for all-cause death, CV death, and major adverse cardiovascular events (MACEs) defined as the composite of myocardial infarction and CV death.\nResults\nA total of 33 diagnostic studies pooling 7814 individuals and 31 prognostic studies pooling 67 080 individuals (mean [SD] follow-up, 3.5 [2.1] years; range, 0.9-8.8 years; 381 357 person-years) were identified. Stress CMR yielded a DOR of 26.4 (95% CI, 10.6-65.9), a sensitivity of 81% (95% CI, 68%-89%), a specificity of 86% (95% CI, 75%-93%), and an AUROC of 0.84 (95% CI, 0.77-0.89) for the detection of functionally obstructive coronary artery disease. In the subgroup analysis, stress CMR yielded higher diagnostic accuracy in the setting of suspected coronary artery disease (DOR, 53.4; 95% CI, 27.7-103.0) or when using 3-T imaging (DOR, 33.2; 95% CI, 19.9-55.4). The presence of stress-inducible ischemia was associated with higher all-cause mortality (OR, 1.97; 95% CI, 1.69-2.31), CV mortality (OR, 6.40; 95% CI, 4.48-9.14), and MACEs (OR, 5.33; 95% CI, 4.04-7.04). The presence of late gadolinium enhancement (LGE) was associated with higher all-cause mortality (OR, 2.22; 95% CI, 1.99-2.47), CV mortality (OR, 6.03; 95% CI, 2.76-13.13), and increased risk of MACEs (OR, 5.42; 95% CI, 3.42-8.60). After a negative test result, pooled AERs for CV death were less than 1.0%.\nConclusion and Relevance\nIn this study, stress CMR yielded high diagnostic accuracy and delivered robust prognostication, particularly when 3-T scanners were used. While inducible myocardial ischemia and LGE were associated with higher mortality and risk of MACEs, normal stress CMR results were associated with a lower risk of MACEs for at least 3.5 years.\n\n\n\nFigure from JAMA Cardiology."
+  },
+  {
+    "objectID": "pubs/heart2023/index.html",
+    "href": "pubs/heart2023/index.html",
+    "title": "Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)",
+    "section": "",
+    "text": "Figure from Heart (BMJ).\n\n\n\n\nImaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA) (2023). I. Leo, G. Bisaccia, N. Miaris, M. C. Procopio, R. Licordari and C. Bucciarelli-Ducci. Heart. \nAbstract Myocardial infarction with non-obstructive coronary arteries (MINOCA) defines a heterogeneous group of atherosclerotic and non-atherosclerotic conditions, causing myocardial injury in the absence of obstructive coronary artery disease. Unveiling the mechanisms subtended to the acute event is often challenging; a multimodality imaging approach is helpful to aid the diagnosis. Invasive coronary imaging with intravascular ultrasound or optical coherence tomography should be used, when available, during index angiography to detect plaque disruption or spontaneous coronary artery dissection. Cardiovascular magnetic resonance has instead a key role among the non-invasive modalities, allowing the differentiation between MINOCA and its non-ischaemic mimics and providing prognostic information. This educational paper will provide a comprehensive review of the strengths and limitations of each imaging modality in the evaluation of patients with a working diagnosis of MINOCA.\n\n\n\nFigure from Heart (BMJ)."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
+  },
+  {
+    "objectID": "portfolio.html#quarto-dashboards",
+    "href": "portfolio.html#quarto-dashboards",
+    "title": "Portfolio",
+    "section": "",
+    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
+  },
+  {
+    "objectID": "portfolio.html#shiny-applications",
+    "href": "portfolio.html#shiny-applications",
+    "title": "Portfolio",
+    "section": "Shiny applications",
+    "text": "Shiny applications\n\ncviBaker2042\nCustom-made application for exportation of Circle CVi42 study reports to Redcap import-ready CSV files."
+  },
+  {
+    "objectID": "portfolio.html#matlab-software",
+    "href": "portfolio.html#matlab-software",
+    "title": "Portfolio",
+    "section": "MATLAB software",
+    "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies."
   }
 ]

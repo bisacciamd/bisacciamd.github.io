@@ -2,18 +2,9 @@
 title: "List of publications"
 ---
 
-```{r}
-#| echo: false
-#| error: false
-#| warning: false
-#| output: false
-library(bib2df)
-pubs <- length(bib2df("cv.bib")$BIBTEXKEY)
-```
 
-I have authored or co-authored `r pubs` scientific publications. As first author, I performed literature reviews or statistical analyses (where applicable), prepared the manuscript with feedback from all co-authors, and created visual illustrations and figures. Where a co-author, I participated in any literature review or statistical analyses, revised and approved the manuscript, and/or contributed to figures and/or illustrations.
 
-Select contributions are highlighted with graphical abstracts or illustrations.
+
 
 # Original research
 
@@ -54,7 +45,7 @@ A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. 
 
 ## Cardiovascular imaging
 
-**Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)** (2023). I. Leo, G. Bisaccia, N. Miaris, M. C. Procopio, R. Licordari and C. Bucciarelli-Ducci. *Heart*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1136/heartjnl-2023-322835)
+
 
 ![Figure from study above.](images/pubs/heart2023.png)
 

@@ -6,10 +6,11 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/pubs.html",
     "items": [
-      "/md.html",
-      "/phd.html"
+      "/pubs/jamacard2023/index.html",
+      "/pubs/heart2023/index.html",
+      "/pubs/ehjcvi2023/index.html"
     ]
   }
 ]

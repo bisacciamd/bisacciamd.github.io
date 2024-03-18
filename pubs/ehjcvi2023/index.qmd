@@ -1,0 +1,37 @@
+---
+title: "CMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA"
+subtitle: European Heart Journal - Cardiovascular Imaging
+description: "This study investigated the diagnostic yield of CMR in ~900 patients with suspected MINOCA."
+author: 
+    - name: K. Liang, G. Bisaccia
+      orcid: 0000-0003-4606-3093
+    - et al.
+date: 08/01/2023
+date-format: "MMMM YYYY"
+#image: 
+draft: false # change status
+reference-location: margin
+#image: jamacard.png
+execute:
+    echo: false
+    warning: false
+    error: false
+lightbox: true
+---
+![Table and figure from EHJ Cardiovascular Imaging.](ehjcvi.png)
+
+::: {.column-margin}
+**CMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA** (2023). K. Liang, G. Bisaccia, I. Leo, M. G. L. Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson and C. Bucciarelli-Ducci. *European Heart Journal - Cardiovascular Imaging*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1093/ehjci/jead182)
+:::
+
+**Background**
+
+In approximately 5-15% of all cases of acute coronary syndromes (ACS) have unobstructed coronaries on angiography. Cardiac magnetic resonance (CMR) has proven useful to identify in most patients the underlying diagnosis associated with this presentation. However, the role of CMR to reclassify patients from the initial suspected condition has not been clarified. AIMS: The aim of this study was to assess the proportion of patients with suspected MINOCA, or non-MINOCA, that CMR reclassifies with an alternative diagnosis from the original clinical suspicion. 
+
+**Methods and results**
+
+A retrospective cohort of patients in a tertiary cardiology centre was identified from a registry database. Patients who were referred for CMR for investigation of suspected MINOCA, and a diagnosis pre- and post-CMR was recorded to determine the proportion of diagnoses reclassified.A total of 888 patients were identified in the registry. CMR reclassified diagnosis in 78% of patients. Diagnosis of MINOCA was confirmed in only 243 patients (27%), whilst most patients had an alternative diagnosis (73%): myocarditis n = 217 (24%), Takotsubo syndrome n = 115 (13%), cardiomyopathies n = 97 (11%), normal CMR/non-specific n = 216 (24%). 
+
+**Conclusion**
+
+In a large single-centre cohort of patients presenting with acute coronary syndrome and unobstructed coronary arteries, most patients had a non-MINOCA diagnosis (73%) (myocarditis, TakoTsubo, cardiomyopathies or normal CMR/non-specific findings), whilst only a minority had confirmed MINOCA (27%). Performing CMR led to reclassifying patients' diagnosis in 78% of cases, thus confirming its important clinical role and underscoring the clinical challenge in diagnosing MINOCA and non MINOCA conditions.

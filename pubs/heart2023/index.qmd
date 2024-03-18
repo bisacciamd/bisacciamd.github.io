@@ -1,0 +1,28 @@
+---
+title: "Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)"
+subtitle: Heart (BMJ)
+description: "This paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries."
+author: 
+    - name: I. Leo, G. Bisaccia
+      orcid: 0000-0003-4606-3093
+    - et al.
+date: 07/11/2023
+date-format: "MMMM YYYY"
+#image: 
+draft: false # change status
+reference-location: margin
+image: heart2023.png
+execute:
+    echo: false
+    warning: false
+    error: false
+lightbox: true
+---
+![Figure from Heart (BMJ).](heart2023.png)
+
+::: {.column-margin}
+**Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)** (2023). I. Leo, G. Bisaccia, N. Miaris, M. C. Procopio, R. Licordari and C. Bucciarelli-Ducci. *Heart*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1136/heartjnl-2023-322835)
+:::
+
+**Abstract**
+Myocardial infarction with non-obstructive coronary arteries (MINOCA) defines a heterogeneous group of atherosclerotic and non-atherosclerotic conditions, causing myocardial injury in the absence of obstructive coronary artery disease. Unveiling the mechanisms subtended to the acute event is often challenging; a multimodality imaging approach is helpful to aid the diagnosis. Invasive coronary imaging with intravascular ultrasound or optical coherence tomography should be used, when available, during index angiography to detect plaque disruption or spontaneous coronary artery dissection. Cardiovascular magnetic resonance has instead a key role among the non-invasive modalities, allowing the differentiation between MINOCA and its non-ischaemic mimics and providing prognostic information. This educational paper will provide a comprehensive review of the strengths and limitations of each imaging modality in the evaluation of patients with a working diagnosis of MINOCA.

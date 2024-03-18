@@ -1,6 +1,7 @@
 ---
 title: "VALUE OF QUANTITATIVE STRESS PERFUSION CARDIOVASCULAR MAGNETIC RESONANCE IN THE LONG-TERM ASSESSMENT OF CARDIAC TRANSPLANTATION RECIPIENTS"
 subtitle: PhD thesis, 2024
+description: "Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc"
 author: 
     name: G. Bisaccia
     degrees: MD, PhD candidate
@@ -27,7 +28,6 @@ library(echarts4r)
 e_theme_register("vintage")
 ```
 
-Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc
 
 ## 
 

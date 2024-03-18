@@ -27,7 +27,7 @@ pubs <- length(bib2df("cv.bib")$BIBTEXKEY)
 
 # Experience
 
-**2022-2023** \| Clinical Research Fellowship in Cardiovascular Magnetic Resonance, Harefield Hospital, London, UK. Supervisor: Prof. Chiara Bucciarelli-Ducci
+**2022-present** \| Clinical Research Fellowship in Cardiovascular Magnetic Resonance, Harefield Hospital, London, UK. Supervisor: Prof. Chiara Bucciarelli-Ducci
 
 -   Investigated the value of noninvasive cardiovascular testing in patients with acute @RN21 and stable chest pain @RN15, and following [cardiac transplantation](phd.qmd)
 -   Improved research productivity among peers in various research groups
@@ -54,7 +54,7 @@ pubs <- length(bib2df("cv.bib")$BIBTEXKEY)
 
 **2023-present** \| [Executive MSc in Health Economics, Outcomes and Management in Clinical Sciences](https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2024/Executive-MSc-Health-Economics-Outcomes-Management-Clinical-Sciences), London School of Economics, London, UK
 
-**2021-2024** \| [PhD in Neuroscience and Imaging](phd.qmd), «International Doctorate» G. d’Annunzio University of Chieti and Pescara, Italy. Supervisors: Prof. Sabina Gallina, Prof. Fabrizio Ricci and Prof. Chiara Bucciarelli-Ducci
+**2021-2024** \| [PhD in Neuroscience and Imaging](phd.qmd), Doctor Europaeus, G. d’Annunzio University of Chieti and Pescara, Italy. Supervisors: Prof. Sabina Gallina, Prof. Fabrizio Ricci and Prof. Chiara Bucciarelli-Ducci
 
 -   Co-authored `r pubs` [peer-reviewed publications](publist.qmd), including 5 as first author, with focus on disease prevention and use of magnetic resonance imaging to manage patients with cardiovascular disease
 -   Analyzed, reported and presented findings for 7 original research studies, including three systematic reviews and meta-analyses, two observational multicenter registries and a randomized clinical trial

@@ -1,0 +1,18 @@
+---
+title: "Publications"
+listing:
+  contents: pubs
+  sort: "date"
+---
+```{r}
+#| echo: false
+#| error: false
+#| warning: false
+#| output: false
+library(bib2df)
+pubs <- length(bib2df("cv.bib")$BIBTEXKEY)
+```
+
+I have authored or co-authored `r pubs` scientific publications, where I contributed to literature review, statistical analyses, manuscript drafting, and/or preparation of visual illustrations and figures.
+
+Select contributions are presented.

@@ -13,13 +13,10 @@ about:
     - icon: linkedin
       text: linkedin
       href: https://linkedin.com/in/bisacciamd
-listing:
-    contents: 
-        - phd.qmd
-        - md.qmd
-    type: grid
 lightbox: true
 ---
+[{{< bi linkedin >}}](https://linkedin.com/in/bisacciamd)   [{{< bi twitter-x >}}](https://x.com/giandomd)   [{{< bi github >}}](https://github.com/giandomd)   [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=Apav_NgAAAAJ)   [{{< ai orcid >}}](https://orcid.org/0000-0003-4606-3093)
+
 
 I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d'Annunzio University of Chieti and Pescara, Italy.
 

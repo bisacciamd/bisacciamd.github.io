@@ -1,0 +1,53 @@
+---
+title: "Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease"
+subtitle: JAMA Cardiology
+description: "This review summarizes 20 years of research on CMR in coronary artery disease."
+author: 
+    - name: F. Ricci, M. Y. Khanji, G. Bisaccia
+      orcid: 0000-0003-4606-3093
+    - et al.
+date: 07/01/2023
+date-format: "MMMM YYYY"
+#image: 
+draft: false # change status
+reference-location: margin
+#image: jamacard.png
+execute:
+    echo: false
+    warning: false
+    error: false
+lightbox: true
+---
+![Figure from JAMA Cardiology.](jamacard.png)
+
+::: {.column-margin}
+**Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease: A Systematic Review and Meta-analysis** (2023). F. Ricci, M. Y. Khanji, G. Bisaccia, A. Cipriani, A. Di Cesare, L. Ceriello, C. Mantini, M. Zimarino, A. Fedorowski, S. Gallina, S. E. Petersen and C. Bucciarelli-Ducci. *JAMA Cardiology*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1001/jamacardio.2023.1290)
+:::
+
+**Objective**  
+
+To provide contemporary quantitative data synthesis of the diagnostic accuracy and prognostic value of stress CMR in stable chest pain.
+
+**Data Sources**  
+
+PubMed and Embase databases, the Cochrane Database of Systematic Reviews, PROSPERO, and the ClinicalTrials.gov registry were searched for potentially relevant articles from January 1, 2000, through December 31, 2021.
+
+**Study Selection**  
+
+Selected studies evaluated CMR and reported estimates of diagnostic accuracy and/or raw data of adverse CV events for participants with either positive or negative stress CMR results. Prespecified combinations of keywords related to the diagnostic accuracy and prognostic value of stress CMR were used. A total of 3144 records were evaluated for title and abstract; of those, 235 articles were included in the full-text assessment of eligibility. After exclusions, 64 studies (74 470 total patients) published from October 29, 2002, through October 19, 2021, were included.
+
+**Data Extraction and Synthesis**  
+
+This systematic review and meta-analysis adhered to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses.
+
+**Main Outcomes and Measures**  
+
+Diagnostic odds ratios (DORs), sensitivity, specificity, area under the receiver operating characteristic curve (AUROC), odds ratio (OR), and annualized event rate (AER) for all-cause death, CV death, and major adverse cardiovascular events (MACEs) defined as the composite of myocardial infarction and CV death.
+
+**Results**  
+
+A total of 33 diagnostic studies pooling 7814 individuals and 31 prognostic studies pooling 67 080 individuals (mean [SD] follow-up, 3.5 [2.1] years; range, 0.9-8.8 years; 381 357 person-years) were identified. Stress CMR yielded a DOR of 26.4 (95% CI, 10.6-65.9), a sensitivity of 81% (95% CI, 68%-89%), a specificity of 86% (95% CI, 75%-93%), and an AUROC of 0.84 (95% CI, 0.77-0.89) for the detection of functionally obstructive coronary artery disease. In the subgroup analysis, stress CMR yielded higher diagnostic accuracy in the setting of suspected coronary artery disease (DOR, 53.4; 95% CI, 27.7-103.0) or when using 3-T imaging (DOR, 33.2; 95% CI, 19.9-55.4). The presence of stress-inducible ischemia was associated with higher all-cause mortality (OR, 1.97; 95% CI, 1.69-2.31), CV mortality (OR, 6.40; 95% CI, 4.48-9.14), and MACEs (OR, 5.33; 95% CI, 4.04-7.04). The presence of late gadolinium enhancement (LGE) was associated with higher all-cause mortality (OR, 2.22; 95% CI, 1.99-2.47), CV mortality (OR, 6.03; 95% CI, 2.76-13.13), and increased risk of MACEs (OR, 5.42; 95% CI, 3.42-8.60). After a negative test result, pooled AERs for CV death were less than 1.0%.
+
+**Conclusion and Relevance**  
+
+In this study, stress CMR yielded high diagnostic accuracy and delivered robust prognostication, particularly when 3-T scanners were used. While inducible myocardial ischemia and LGE were associated with higher mortality and risk of MACEs, normal stress CMR results were associated with a lower risk of MACEs for at least 3.5 years.
