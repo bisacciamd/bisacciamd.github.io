@@ -1,0 +1,34 @@
+---
+title: "Randomized clinical trial appraisal (RCT)"
+subtitle: Shiny application
+description: "Simplifies evaluation of diagnostic test accuracy and utility."
+categories: [RCT, shiny app]
+author: 
+    - name: G. Bisaccia
+      orcid: 0000-0003-4606-3093
+date: 03/19/2024
+date-format: "MMMM YYYY"
+#image: 
+draft: false # change status
+reference-location: margin
+#image: jamacard.png
+execute:
+    echo: false
+    warning: false
+    error: false
+lightbox: true
+title-block-categories: true
+bibliography: bib.bib
+biblio-style: ../../jacc-cvi.csl
+---
+
+Interpreting published results of randomized clinical trials is challenging. Communicated results often highlight certain aspects of a study while conceiling others. As a result, the final user of the trial-conceived information — the physician — is often left with few tools to actually understand what happened in a particular trial. We have evidence that physicians are generally poor at interpreting clinical research @10.1001/jama.298.9.1010.
+The RCT dashboard provides basic insight into 2-arm RCT results, and can be leveraged to assess efficacy and safety of interventions. [{{< bi box-arrow-up-right >}}](https://nweex5-g-bisaccia.shinyapps.io/rct-appraise/)
+
+
+![The interactive dashboard on Shinyapps.io.](rct-appraise.png)
+
+::: {.column-margin}
+**Randomized clinical trial appraisal (RCT)** (2024). G. Bisaccia. *Shinyapps.io*.
+:::
+

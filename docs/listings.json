@@ -12,5 +12,13 @@
       "/pubs/heart2023/index.html",
       "/pubs/ehjcvi2023/index.html"
     ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/portfolio/cviBaker/index.html",
+      "/portfolio/dta/index.html",
+      "/portfolio/rct/index.html"
+    ]
   }
 ]

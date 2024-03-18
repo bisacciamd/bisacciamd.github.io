@@ -7,7 +7,7 @@ author:
     degrees: MD, PhD candidate
     orcid: 0000-0003-4606-3093
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy and Harefield Hospital, London, United Kingdom. PhD in Neuroscience and Imaging (XXXVII Cycle)
-bibliography: phd.bib
+bibliography: bibs/phd.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
 execute:
     echo: false

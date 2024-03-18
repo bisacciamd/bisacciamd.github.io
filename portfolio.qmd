@@ -5,25 +5,14 @@ author:
     degrees: MD, PhD
     orcid: 0000-0003-4606-3093
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy
-bibliography: cv.bib
-
+bibliography: bibs/cv.bib
+listing:
+    id: main
+    contents: portfolio
 ---
-## Quarto dashboards
-### Diagnostic test assessment
-A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. [{{< bi box-arrow-up-right >}}](https://nweex5-g-bisaccia.shinyapps.io/dta-dashboard/)
 
-![Dashboard available on Shinyapps.io.](images/apps/dta.png)
-
-### Randomized clinical trial appraisal
-A dashboard that provides basic insight into 2-arm RCT results. [{{< bi box-arrow-up-right >}}](https://nweex5-g-bisaccia.shinyapps.io/rct-appraise/)
-
-![Dashboard available on Shinyapps.io.](images/apps/rct-appraise.png)
-
-## Shiny applications
-### cviBaker2042
-Custom-made application for exportation of Circle CVi42 study reports to [Redcap](https://www.project-redcap.org) import-ready CSV files.
-
-![](images/apps/cvibaker2042.png)
+::: {#main}
+:::
 
 ## MATLAB software
 #### DICOM handler

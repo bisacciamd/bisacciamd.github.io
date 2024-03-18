@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 listing:
+  id: mainpubs
   contents: pubs
   sort: "date"
 ---
@@ -16,3 +17,56 @@ pubs <- length(bib2df("cv.bib")$BIBTEXKEY)
 I have authored or co-authored `r pubs` scientific publications, where I contributed to literature review, statistical analyses, manuscript drafting, and/or preparation of visual illustrations and figures.
 
 Select contributions are presented.
+
+# 
+
+:::{#mainpubs}
+
+:::
+
+# Other publications
+
+## Original research
+
+### Cardiovascular imaging
+
+**Underlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance** (2024).
+A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo.
+*Cardiovascular Diabetology*.
+[[{{< bi box-arrow-up-right >}}]](https://doi.org/10.1186/s12933-024-02181-7)
+
+**Atrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis** (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. *Heart Rhythm*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1016/j.hrthm.2024.01.056)
+
+**Cardiovascular Magnetic Resonance in Patients with Cardiac Electronic Devices: Evidence from a Multicenter Study** (2023). A. Barison, F. Ricci, A. G. Pavon, G. Muscogiuri, G. Bisaccia, G. Camastra, M. De Lazzari, C. Lanzillo, M. Raguso, L. Monti, S. Vargiu, P. Pedrotti, M. Piacenti, G. Todiere, G. Pontone, C. Indolfi, S. Dellegrottaglie, M. Lombardi, J. Schwitter, G. D. Aquaro, R. on behalf of the Working Group on Cardiovascular Magnetic Resonance of the Italian Society of Cardiology. *Journal of Clinical Medicine*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/jcm12206673)
+
+**Prognostic Significance of Late Gadolinium Enhancement in Fabry Disease-A Systematic Review and Meta-Analysis** (2023). F. Ricci, G. Bisaccia, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y. Khanji and S. Gallina. *The American Journal of Cardiology*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1016/j.amjcard.2023.06.059)
+
+**Cardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort** (2021). F. Ricci, N. Aung, S. Gallina, F. Zemrak, K. Fung, G. Bisaccia, J. M. Paiva, M. Y. Khanji, C. Mantini and S. Palermi. *Journal of Cardiovascular Magnetic Resonance*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1186/s12968-020-00688-y)
+
+### Cardiology
+
+**Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis** (2023). G. Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. *Current Problems in Cardiology*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1016/j.cpcardiol.2023.101643)
+
+### General medicine
+
+**Guillain–Barré syndrome and COVID-19 vaccination: a systematic review and meta-analysis** (2024). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. *Journal of Neurology*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1007/s00415-024-12186-7)
+
+**Guillain-Barre syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the 'Italian factor'** (2023). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. *European Journal of Neurology*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1111/ene.16094)
+
+## Reviews
+
+### Cardiovascular imaging
+
+**The Role of Multimodality Imaging in Pediatric Cardiomyopathies** (2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M. Garofalo, E. G. Milano, G. Bisaccia, F. Iellamo, P. P. Bassareo, A. Pradhan, A. Cimini and M. A. Perrone. *Journal of Clinical Medicine*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/jcm12144866)
+
+**The Role of Advanced Cardiovascular Imaging Modalities in Cardio-Oncology: From Early Detection to Unravelling Mechanisms of Cardiotoxicity** (2023). I. Leo, M. Vidula, G. Bisaccia, M. C. Procopio, R. Licordari, M. Perotto, G. La Vecchia, N. Miaris, P. E. Bravo and C. Bucciarelli-Ducci. *Journal of Clinical Medicine*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/jcm12154945)
+
+### Cardiovascular medicine
+
+**Post-Acute Sequelae of COVID-19 and Cardiovascular Autonomic Dysfunction: What Do We Know?** (2021). G. Bisaccia, F. Ricci, V. Recce, A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A. Fedorowski and S. Gallina. *Journal of Cardiovascular Development and Disease*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/jcdd8110156)
+
+**Prognostic Value of High-Sensitivity Cardiac Troponin in Women** (2022). G. Bisaccia, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S. Gallina, A. Di Baldassarre and B. Ghinassi. *Biomolecules*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/biom12101496)
+
+**Mitochondrial Dysfunction and Heart Disease: Critical Appraisal of an Overlooked Association** (2021). G. Bisaccia, F. Ricci, S. Gallina, A. Di Baldassarre and B. Ghinassi. *International Journal of Molecular Sciences*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/ijms22020614)
+
+**Nonalcoholic fatty liver disease and cardiovascular disease phenotypes** (2020). G. Bisaccia, F. Ricci, C. Mantini, C. Tana, G. L. Romani, C. Schiavone and S. Gallina. *SAGE Open Medicine*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1177/2050312120933804)

@@ -11,7 +11,7 @@ about:
       href: https://orcid.org/0000-0003-4606-3093 # academicons quarto ext
     - text: "{{< ai google-scholar >}} google scholar"
       href: https://scholar.google.com/citations?user=Apav_NgAAAAJ
-bibliography: cv.bib
+bibliography: bibs/cv.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
 # should we change to this? -> https://github.com/mps9506/quarto-cv
 ---

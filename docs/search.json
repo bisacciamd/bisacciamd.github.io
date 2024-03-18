@@ -291,7 +291,7 @@
     "href": "pubs.html",
     "title": "Publications",
     "section": "",
-    "text": "I have authored or co-authored 17 scientific publications, where I contributed to literature review, statistical analyses, manuscript drafting, and/or preparation of visual illustrations and figures.\nSelect contributions are presented.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease\n\n\nJAMA Cardiology\n\n\nThis review summarizes 20 years of research on CMR in coronary artery disease.\n\n\n\n\n\nJul 1, 2023\n\n\nF. Ricci, M. Y. Khanji, G. Bisaccia, et al.\n\n\n\n\n\n\n\n\n\n\n\n\nImaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)\n\n\nHeart (BMJ)\n\n\nThis paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries.\n\n\n\n\n\nJul 11, 2023\n\n\nI. Leo, G. Bisaccia, et al.\n\n\n\n\n\n\n\n\n\n\n\n\nCMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA\n\n\nEuropean Heart Journal - Cardiovascular Imaging\n\n\nThis study investigated the diagnostic yield of CMR in ~900 patients with suspected MINOCA.\n\n\n\n\n\nAug 1, 2023\n\n\nK. Liang, G. Bisaccia, et al.\n\n\n\n\n\n\nNo matching items"
+    "text": "I have authored or co-authored 17 scientific publications, where I contributed to literature review, statistical analyses, manuscript drafting, and/or preparation of visual illustrations and figures.\nSelect contributions are presented."
   },
   {
     "objectID": "pubs/jamacard2023/index.html",
@@ -312,21 +312,21 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
+    "text": "Shiny application\n\n\nEnables batch-curation of Circle CVi42 XML reports.\n\n\n\n\n\nMar 19, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny application\n\n\nSimplifies evaluation of diagnostic test accuracy and utility.\n\n\n\n\n\nMar 19, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny application\n\n\nSimplifies evaluation of diagnostic test accuracy and utility.\n\n\n\n\n\nMar 19, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio.html#quarto-dashboards",
     "href": "portfolio.html#quarto-dashboards",
     "title": "Portfolio",
     "section": "",
-    "text": "A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nDashboard available on Shinyapps.io.\n\n\n\n\n\nA dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
+    "text": "A dashboard that provides basic insight into 2-arm RCT results. \n\n\n\nDashboard available on Shinyapps.io."
   },
   {
     "objectID": "portfolio.html#shiny-applications",
     "href": "portfolio.html#shiny-applications",
     "title": "Portfolio",
     "section": "Shiny applications",
-    "text": "Shiny applications\n\ncviBaker2042\nCustom-made application for exportation of Circle CVi42 study reports to Redcap import-ready CSV files."
+    "text": "Shiny applications\n\ncviBaker2042\nCustom-made application for exportation of Circle CVi42 study reports to Redcap import-ready CSV files.\n\n\n\n\n\n\n\n\n\n\n\nCViBaker2042\n\n\nShiny application\n\n\nEnables batch-curation of Circle CVi42 XML reports.\n\n\n\n\n\nMar 19, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\n\n\n\n\n\n\nDiagnostic Test Assessment (DTA)\n\n\nShiny application\n\n\nSimplifies evaluation of diagnostic test accuracy and utility.\n\n\n\n\n\nJul 3, 2025\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio.html#matlab-software",
@@ -334,5 +334,75 @@
     "title": "Portfolio",
     "section": "MATLAB software",
     "text": "MATLAB software\n\nDICOM handler\nA script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies."
+  },
+  {
+    "objectID": "pubs.html#cardiovascular-imaging",
+    "href": "pubs.html#cardiovascular-imaging",
+    "title": "Publications",
+    "section": "Cardiovascular imaging",
+    "text": "Cardiovascular imaging\nUnderlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance (2024). A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo. Cardiovascular Diabetology. []\nAtrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. Heart Rhythm. \nCardiovascular Magnetic Resonance in Patients with Cardiac Electronic Devices: Evidence from a Multicenter Study (2023). A. Barison, F. Ricci, A. G. Pavon, G. Muscogiuri, G. Bisaccia, G. Camastra, M. De Lazzari, C. Lanzillo, M. Raguso, L. Monti, S. Vargiu, P. Pedrotti, M. Piacenti, G. Todiere, G. Pontone, C. Indolfi, S. Dellegrottaglie, M. Lombardi, J. Schwitter, G. D. Aquaro, R. on behalf of the Working Group on Cardiovascular Magnetic Resonance of the Italian Society of Cardiology. Journal of Clinical Medicine. \nPrognostic Significance of Late Gadolinium Enhancement in Fabry Disease-A Systematic Review and Meta-Analysis (2023). F. Ricci, G. Bisaccia, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y. Khanji and S. Gallina. The American Journal of Cardiology. \nCardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort (2021). F. Ricci, N. Aung, S. Gallina, F. Zemrak, K. Fung, G. Bisaccia, J. M. Paiva, M. Y. Khanji, C. Mantini and S. Palermi. Journal of Cardiovascular Magnetic Resonance."
+  },
+  {
+    "objectID": "pubs.html#cardiology",
+    "href": "pubs.html#cardiology",
+    "title": "Publications",
+    "section": "Cardiology",
+    "text": "Cardiology\nCardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis (2023). G. Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. Current Problems in Cardiology."
+  },
+  {
+    "objectID": "pubs.html#general-medicine",
+    "href": "pubs.html#general-medicine",
+    "title": "Publications",
+    "section": "General medicine",
+    "text": "General medicine\nGuillain–Barré syndrome and COVID-19 vaccination: a systematic review and meta-analysis (2024). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. Journal of Neurology. \nGuillain-Barre syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the ‘Italian factor’ (2023). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. European Journal of Neurology."
+  },
+  {
+    "objectID": "pubs.html#cardiovascular-imaging-1",
+    "href": "pubs.html#cardiovascular-imaging-1",
+    "title": "Publications",
+    "section": "Cardiovascular imaging",
+    "text": "Cardiovascular imaging\nThe Role of Multimodality Imaging in Pediatric Cardiomyopathies (2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M. Garofalo, E. G. Milano, G. Bisaccia, F. Iellamo, P. P. Bassareo, A. Pradhan, A. Cimini and M. A. Perrone. Journal of Clinical Medicine. \nThe Role of Advanced Cardiovascular Imaging Modalities in Cardio-Oncology: From Early Detection to Unravelling Mechanisms of Cardiotoxicity (2023). I. Leo, M. Vidula, G. Bisaccia, M. C. Procopio, R. Licordari, M. Perotto, G. La Vecchia, N. Miaris, P. E. Bravo and C. Bucciarelli-Ducci. Journal of Clinical Medicine."
+  },
+  {
+    "objectID": "pubs.html#cardiovascular-medicine",
+    "href": "pubs.html#cardiovascular-medicine",
+    "title": "Publications",
+    "section": "Cardiovascular medicine",
+    "text": "Cardiovascular medicine\nPost-Acute Sequelae of COVID-19 and Cardiovascular Autonomic Dysfunction: What Do We Know? (2021). G. Bisaccia, F. Ricci, V. Recce, A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A. Fedorowski and S. Gallina. Journal of Cardiovascular Development and Disease. \nPrognostic Value of High-Sensitivity Cardiac Troponin in Women (2022). G. Bisaccia, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S. Gallina, A. Di Baldassarre and B. Ghinassi. Biomolecules. \nMitochondrial Dysfunction and Heart Disease: Critical Appraisal of an Overlooked Association (2021). G. Bisaccia, F. Ricci, S. Gallina, A. Di Baldassarre and B. Ghinassi. International Journal of Molecular Sciences. \nNonalcoholic fatty liver disease and cardiovascular disease phenotypes (2020). G. Bisaccia, F. Ricci, C. Mantini, C. Tana, G. L. Romani, C. Schiavone and S. Gallina. SAGE Open Medicine."
+  },
+  {
+    "objectID": "pubs.html#original-research",
+    "href": "pubs.html#original-research",
+    "title": "Publications",
+    "section": "Original research",
+    "text": "Original research\n\nCardiovascular imaging\nUnderlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance (2024). A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo. Cardiovascular Diabetology. []\nAtrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. Heart Rhythm. \nCardiovascular Magnetic Resonance in Patients with Cardiac Electronic Devices: Evidence from a Multicenter Study (2023). A. Barison, F. Ricci, A. G. Pavon, G. Muscogiuri, G. Bisaccia, G. Camastra, M. De Lazzari, C. Lanzillo, M. Raguso, L. Monti, S. Vargiu, P. Pedrotti, M. Piacenti, G. Todiere, G. Pontone, C. Indolfi, S. Dellegrottaglie, M. Lombardi, J. Schwitter, G. D. Aquaro, R. on behalf of the Working Group on Cardiovascular Magnetic Resonance of the Italian Society of Cardiology. Journal of Clinical Medicine. \nPrognostic Significance of Late Gadolinium Enhancement in Fabry Disease-A Systematic Review and Meta-Analysis (2023). F. Ricci, G. Bisaccia, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y. Khanji and S. Gallina. The American Journal of Cardiology. \nCardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort (2021). F. Ricci, N. Aung, S. Gallina, F. Zemrak, K. Fung, G. Bisaccia, J. M. Paiva, M. Y. Khanji, C. Mantini and S. Palermi. Journal of Cardiovascular Magnetic Resonance. \n\n\nCardiology\nCardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis (2023). G. Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. Current Problems in Cardiology. \n\n\nGeneral medicine\nGuillain–Barré syndrome and COVID-19 vaccination: a systematic review and meta-analysis (2024). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. Journal of Neurology. \nGuillain-Barre syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the ‘Italian factor’ (2023). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. European Journal of Neurology."
+  },
+  {
+    "objectID": "pubs.html#reviews",
+    "href": "pubs.html#reviews",
+    "title": "Publications",
+    "section": "Reviews",
+    "text": "Reviews\n\nCardiovascular imaging\nThe Role of Multimodality Imaging in Pediatric Cardiomyopathies (2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M. Garofalo, E. G. Milano, G. Bisaccia, F. Iellamo, P. P. Bassareo, A. Pradhan, A. Cimini and M. A. Perrone. Journal of Clinical Medicine. \nThe Role of Advanced Cardiovascular Imaging Modalities in Cardio-Oncology: From Early Detection to Unravelling Mechanisms of Cardiotoxicity (2023). I. Leo, M. Vidula, G. Bisaccia, M. C. Procopio, R. Licordari, M. Perotto, G. La Vecchia, N. Miaris, P. E. Bravo and C. Bucciarelli-Ducci. Journal of Clinical Medicine. \n\n\nCardiovascular medicine\nPost-Acute Sequelae of COVID-19 and Cardiovascular Autonomic Dysfunction: What Do We Know? (2021). G. Bisaccia, F. Ricci, V. Recce, A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A. Fedorowski and S. Gallina. Journal of Cardiovascular Development and Disease. \nPrognostic Value of High-Sensitivity Cardiac Troponin in Women (2022). G. Bisaccia, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S. Gallina, A. Di Baldassarre and B. Ghinassi. Biomolecules. \nMitochondrial Dysfunction and Heart Disease: Critical Appraisal of an Overlooked Association (2021). G. Bisaccia, F. Ricci, S. Gallina, A. Di Baldassarre and B. Ghinassi. International Journal of Molecular Sciences. \nNonalcoholic fatty liver disease and cardiovascular disease phenotypes (2020). G. Bisaccia, F. Ricci, C. Mantini, C. Tana, G. L. Romani, C. Schiavone and S. Gallina. SAGE Open Medicine."
+  },
+  {
+    "objectID": "portfolio/dta/index.html",
+    "href": "portfolio/dta/index.html",
+    "title": "Diagnostic Test Assessment (DTA)",
+    "section": "",
+    "text": "The app home page.\n\n\n\n\nDiagnostic test assessment (2024). G. Bisaccia. Shinyapps.io.\nA dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. \n\n\n\nThe app home page."
+  },
+  {
+    "objectID": "portfolio/cviBaker/index.html",
+    "href": "portfolio/cviBaker/index.html",
+    "title": "CViBaker2042",
+    "section": "",
+    "text": "The app running on a local Shiny server. Online implementation is underway.\n\n\n\n\ncviBaker2042 (2024). G. Bisaccia. Under active development.\nCustom-made application for exportation of Circle CVi42 study reports to Redcap import-ready CSV files. A local version of this app was used in my PhD thesis.\n\n\n\nThe app running on a local Shiny server. Online implementation is underway."
+  },
+  {
+    "objectID": "portfolio/rct/index.html",
+    "href": "portfolio/rct/index.html",
+    "title": "Randomized clinical trial appraisal (RCT)",
+    "section": "",
+    "text": "Interpreting published results of randomized clinical trials is challenging. Communicated results often highlight certain aspects of a study while conceiling others. As a result, the final user of the trial-conceived information — the physician — is often left with few tools to actually understand what happened in a particular trial. We have evidence that physicians are generally poor at interpreting clinical research (1). The RCT dashboard provides basic insight into 2-arm RCT results, and can be leveraged to assess efficacy and safety of interventions. \n\n\n\nThe interactive dashboard on Shinyapps.io.\n\n\n\n\n\n\nRandomized clinical trial appraisal (RCT) (2024). G. Bisaccia. Shinyapps.io.\n\nThe interactive dashboard on Shinyapps.io.\n\n\n\nReferences\n\n1. Windish DM., Huot SJ., Green ML. Medicine Residents’ Understanding of the Biostatistics and Results in the Medical Literature. JAMA 2007;298(9):1010–22. Doi: 10.1001/jama.298.9.1010."
   }
 ]

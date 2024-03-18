@@ -1,0 +1,27 @@
+---
+title: "CViBaker2042"
+subtitle: Shiny application
+description: "Enables batch-curation of Circle CVi42 XML reports."
+categories: [cmr, postprocessing, shiny app]
+author: 
+    - name: G. Bisaccia
+      orcid: 0000-0003-4606-3093
+date: 03/19/2024
+date-format: "MMMM YYYY"
+#image: 
+draft: false # change status
+reference-location: margin
+execute:
+    echo: false
+    warning: false
+    error: false
+lightbox: true
+title-block-categories: true
+---
+![The app running on a local Shiny server. Online implementation is underway.](cvibaker2042.png)
+
+::: {.column-margin}
+**cviBaker2042** (2024). G. Bisaccia. *Under active development*.
+:::
+
+Custom-made application for exportation of Circle CVi42 study reports to [Redcap](https://www.project-redcap.org) import-ready CSV files. A local version of this app was used in my [PhD thesis](../../phd.qmd).

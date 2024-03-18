@@ -1,0 +1,28 @@
+---
+title: "Diagnostic Test Assessment (DTA)"
+subtitle: Shiny application
+description: "Simplifies evaluation of diagnostic test accuracy and utility."
+categories: [diagnostic accuracy, clinical utility, shiny app]
+author: 
+    - name: G. Bisaccia
+      orcid: 0000-0003-4606-3093
+date: 03/19/2024
+date-format: "MMMM YYYY"
+#image: 
+draft: false # change status
+reference-location: margin
+#image: jamacard.png
+execute:
+    echo: false
+    warning: false
+    error: false
+lightbox: true
+title-block-categories: true
+---
+![The app home page.](dta.png)
+
+::: {.column-margin}
+**Diagnostic test assessment** (2024). G. Bisaccia. *Shinyapps.io*.
+:::
+
+A dasboard for evaluating the diagnostic accuracy and clinical utility of a diagnostic test against a reference standard. [{{< bi box-arrow-up-right >}}](https://nweex5-g-bisaccia.shinyapps.io/dta-dashboard/)
