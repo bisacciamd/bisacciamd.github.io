@@ -2,6 +2,7 @@
 title: "CMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA"
 subtitle: European Heart Journal - Cardiovascular Imaging
 description: "This study investigated the diagnostic yield of CMR in ~900 patients with suspected MINOCA."
+categories: [MINOCA, CMR, registry]
 author: 
     - name: K. Liang, G. Bisaccia
       orcid: 0000-0003-4606-3093

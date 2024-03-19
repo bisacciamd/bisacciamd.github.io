@@ -12,6 +12,7 @@ draft: false # change status
 bibliography: references.bib
 reference-location: margin
 image: challenges.png
+categories: [health economics, universal health coverage]
 execute:
     echo: false
     warning: false

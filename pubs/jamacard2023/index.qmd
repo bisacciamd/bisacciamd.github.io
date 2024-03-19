@@ -2,6 +2,7 @@
 title: "Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease"
 subtitle: JAMA Cardiology
 description: "This review summarizes 20 years of research on CMR in coronary artery disease."
+categories: [cmr, meta-analysis, systematic review, coronary artery disease]
 author: 
     - name: F. Ricci, M. Y. Khanji, G. Bisaccia
       orcid: 0000-0003-4606-3093

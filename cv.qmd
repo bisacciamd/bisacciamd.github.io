@@ -22,7 +22,7 @@ csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nat
 #| warning: false
 #| output: false
 library(bib2df)
-pubs <- length(bib2df("cv.bib")$BIBTEXKEY)
+pubs <- length(bib2df("bibs/cv.bib")$BIBTEXKEY)
 ```
 
 # Experience
