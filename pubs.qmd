@@ -30,11 +30,6 @@ Select contributions are presented.
 
 ### Cardiovascular imaging
 
-**Underlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance** (2024).
-A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo.
-*Cardiovascular Diabetology*.
-[[{{< bi box-arrow-up-right >}}]](https://doi.org/10.1186/s12933-024-02181-7)
-
 **Atrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis** (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. *Heart Rhythm*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1016/j.hrthm.2024.01.056)
 
 **Cardiovascular Magnetic Resonance in Patients with Cardiac Electronic Devices: Evidence from a Multicenter Study** (2023). A. Barison, F. Ricci, A. G. Pavon, G. Muscogiuri, G. Bisaccia, G. Camastra, M. De Lazzari, C. Lanzillo, M. Raguso, L. Monti, S. Vargiu, P. Pedrotti, M. Piacenti, G. Todiere, G. Pontone, C. Indolfi, S. Dellegrottaglie, M. Lombardi, J. Schwitter, G. D. Aquaro, R. on behalf of the Working Group on Cardiovascular Magnetic Resonance of the Italian Society of Cardiology. *Journal of Clinical Medicine*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/jcm12206673)
@@ -56,6 +51,10 @@ A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. 
 ## Reviews
 
 ### Cardiovascular imaging
+**Underlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance** (2024).
+A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo.
+*Cardiovascular Diabetology*.
+[[{{< bi box-arrow-up-right >}}]](https://doi.org/10.1186/s12933-024-02181-7)
 
 **The Role of Multimodality Imaging in Pediatric Cardiomyopathies** (2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M. Garofalo, E. G. Milano, G. Bisaccia, F. Iellamo, P. P. Bassareo, A. Pradhan, A. Cimini and M. A. Perrone. *Journal of Clinical Medicine*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.3390/jcm12144866)
 

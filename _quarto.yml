@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "G. Bisaccia, MD"
+  title: "Giandomenico Bisaccia, MD"
   
   navbar:
     logo: images/profile.jpg
