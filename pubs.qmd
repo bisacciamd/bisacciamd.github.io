@@ -4,6 +4,8 @@ listing:
   id: mainpubs
   contents: pubs
   sort: "date"
+  categories: true
+
 ---
 ```{r}
 #| echo: false

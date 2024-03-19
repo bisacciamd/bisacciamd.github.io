@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -229,7 +229,7 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="CMR">CMR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="MINOCA">MINOCA <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmr">cmr <span class="quarto-category-count">(1)</span></div><div class="category" data-category="coronary artery disease">coronary artery disease <span class="quarto-category-count">(1)</span></div><div class="category" data-category="imaging">imaging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meta-analysis">meta-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="registry">registry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="systematic review">systematic review <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -271,6 +271,20 @@ window.Quarto = {
 <div class="listing-subtitle">
 <a href="./pubs/jamacard2023/index.html" class="no-external">JAMA Cardiology</a>
 </div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cmr'); return false;">
+cmr
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('meta-analysis'); return false;">
+meta-analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('systematic review'); return false;">
+systematic review
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('coronary artery disease'); return false;">
+coronary artery disease
+</div>
+</div>
 <div class="listing-description">
 <a href="./pubs/jamacard2023/index.html" class="no-external">This review summarizes 20 years of research on CMR in coronary artery disease.</a>
 </div>
@@ -299,6 +313,17 @@ F. Ricci, M. Y. Khanji, G. Bisaccia, et al.
 <div class="listing-subtitle">
 <a href="./pubs/heart2023/index.html" class="no-external">Heart (BMJ)</a>
 </div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MINOCA'); return false;">
+MINOCA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('imaging'); return false;">
+imaging
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
+review
+</div>
+</div>
 <div class="listing-description">
 <a href="./pubs/heart2023/index.html" class="no-external">This paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries.</a>
 </div>
@@ -326,6 +351,17 @@ I. Leo, G. Bisaccia, et al.
 </h3>
 <div class="listing-subtitle">
 <a href="./pubs/ehjcvi2023/index.html" class="no-external">European Heart Journal - Cardiovascular Imaging</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MINOCA'); return false;">
+MINOCA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('CMR'); return false;">
+CMR
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('registry'); return false;">
+registry
+</div>
 </div>
 <div class="listing-description">
 <a href="./pubs/ehjcvi2023/index.html" class="no-external">This study investigated the diagnostic yield of CMR in ~900 patients with suspected MINOCA.</a>

@@ -1,0 +1,8 @@
+div.abstract-title {
+    visibility: hidden;
+  }
+  
+  div.abstract-title:before {
+    content: "How to cite";
+    visibility: visible;
+  }
