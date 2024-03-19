@@ -1,5 +1,5 @@
 ---
-title: "CARDIOVASCULAR MAGNETIC RESONANCE REFERENCE VALUES OF MITRAL AND TRICUSPID ANNULAR DIMENSIONS: THE UK BIOBANK COHORT"
+title: "CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort"
 subtitle: MD thesis, 2021
 author: 
     name: G. Bisaccia

@@ -1,7 +1,8 @@
 ---
-title: "VALUE OF QUANTITATIVE STRESS PERFUSION CARDIOVASCULAR MAGNETIC RESONANCE IN THE LONG-TERM ASSESSMENT OF CARDIAC TRANSPLANTATION RECIPIENTS"
+title: "Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients"
 subtitle: PhD thesis, 2024
 description: "Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc"
+categories: [CMR, pharmacological stress, heart transplant]
 author: 
     name: G. Bisaccia
     degrees: MD, PhD candidate
