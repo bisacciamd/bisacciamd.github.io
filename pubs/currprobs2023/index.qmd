@@ -1,0 +1,40 @@
+---
+title: "Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis"
+subtitle: Current Problems in Cardiology
+description: "This meta-analysis summarizes the literature on NAFLD and cardiovascular risk."
+categories: [MINOCA, CMR, registry]
+author: 
+    - name: G. Bisaccia
+      orcid: 0000-0003-4606-3093
+    - et al.
+date: 06/01/2023
+date-format: "MMMM YYYY"
+#image: 
+draft: false # change status
+reference-location: margin
+#image: jamacard.png
+execute:
+    echo: false
+    warning: false
+    error: false
+lightbox: true
+---
+![Figure from Current Problems in Cardiology.](nafld.png)
+
+::: {.column-margin}
+**Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis** (2023).
+G. Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. *Current Problems in Cardiology*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1016/j.cpcardiol.2023.101643)
+
+:::
+
+**Background**
+
+Whether non-alcoholic fatty liver disease (NAFLD) is a cardiovascular (CV) risk factor is debated. We performed a systematic review and meta-analysis to assess the CV morbidity and mortality related to NAFLD in the general population, and to determine whether CV risk is comparable between lean and non-lean NAFLD phenotypes. 
+
+**Methods and results**
+
+We searched multiple databases, including PubMed, Embase, and the Cochrane Library, for observational studies published through 2022 that reported the risk of CV events and mortality. Pooled odds ratios (ORs) and 95% confidence intervals (CIs) for all-cause mortality, CV mortality, myocardial infarction (MI), stroke, atrial fibrillation (AF), and major adverse cardiovascular and cerebrovascular events (MACCE) were assessed through random-effect meta-analysis. We identified 33 studies and a total study population of 10,592,851 individuals (mean age 53+/-8; male sex 50%; NAFLD 2, 9%). Mean follow-up was 10+/-6 years. Pooled ORs for all-cause and CV mortality were respectively 1.14 (95% CI, 0.78-1.67) and 1.13 (95% CI, 0.57-2.23), indicating no significant association between NAFLD and mortality. NAFLD was associated with increased risk of MI (OR 1.6; 95% CI, 1.5-1.7), stroke (OR: 1.6; 95% CI, 1.2-2.1), atrial fibrillation (OR: 1.7; 95% CI, 1.2-2.3), and MACCE (OR: 2.3; 95% CI, 1.3-4.2). Compared with non-lean NAFLD, lean NAFLD was associated with increased CV mortality (OR: 1.50; 95% CI, 1.1-2.0), but similar all-cause mortality and risk of MACCE.
+
+**Conclusion**
+
+While NAFLD may not be a risk factor for total and CV mortality, it is associated with excess risk of non-fatal CV events. Lean and non-lean NAFLD phenotypes exhibit distinct prognostic profiles and should receive equitable clinical care.
