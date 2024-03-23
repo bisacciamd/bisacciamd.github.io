@@ -724,7 +724,7 @@ Stress MBF index and graft age.
 
 ## List of publications
 
-Please find my [list of publications](publist.qmd).
+Please find my [list of publications](pubs.qmd).
 
 
 
