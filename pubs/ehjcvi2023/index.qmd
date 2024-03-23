@@ -17,6 +17,7 @@ execute:
     echo: false
     warning: false
     error: false
+    freeze: auto
 lightbox: true
 ---
 ![Table and figure from EHJ Cardiovascular Imaging.](ehjcvi.png)

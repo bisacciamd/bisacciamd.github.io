@@ -14,6 +14,7 @@ execute:
     echo: false
     warning: false
     error: false
+    freeze: auto
 crossref:
   custom:
     - kind: float

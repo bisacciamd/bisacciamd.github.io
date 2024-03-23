@@ -22,6 +22,8 @@ about:
     - text: "{{< ai google-scholar >}} google scholar"
       href: https://scholar.google.com/citations?user=Apav_NgAAAAJ
 # should we change to this? -> https://github.com/mps9506/quarto-cv
+execute: 
+  freeze: auto
 ---
 \thispagestyle{firstpage}
 ```{r}

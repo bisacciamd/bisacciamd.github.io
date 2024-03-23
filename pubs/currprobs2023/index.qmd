@@ -17,6 +17,7 @@ execute:
     echo: false
     warning: false
     error: false
+    freeze: auto
 lightbox: true
 ---
 ![Figure from Current Problems in Cardiology.](nafld.png)
