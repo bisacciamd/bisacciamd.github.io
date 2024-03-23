@@ -2,7 +2,7 @@
 title: "Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis"
 subtitle: Current Problems in Cardiology
 description: "This meta-analysis summarizes the literature on NAFLD and cardiovascular risk."
-categories: [MINOCA, CMR, registry]
+categories: [NAFLD, CVD, meta-analysis, systematic review]
 author: 
     - name: G. Bisaccia
       orcid: 0000-0003-4606-3093
