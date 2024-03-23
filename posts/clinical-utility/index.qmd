@@ -12,7 +12,7 @@ draft: true
 bibliography: references.bib
 ---
 
-The current landscape of scientific literature is flooded with innovation. We now have AI models acing myocardial infarction ECG interpretation[@herman2023], an Amazon software that [reads into your brain MRI and prepares a finalized report in Armenian](https://aws.amazon.com/it/blogs/machine-learning/automatically-generate-impressions-from-findings-in-radiology-reports-using-generative-ai-on-aws/) (or just about any language you could possibly think of), and a plethora of prediction models which promise to personalize diagnosis and management of just about any body condition.
+The current landscape of scientific literature is flooded with innovation. We now have AI models acing myocardial infarction ECG interpretation[@herman2023], an Amazon software that [reads into your brain MRI and prepares a finalized report in Armenian (or just about any language you can think of)](https://aws.amazon.com/it/blogs/machine-learning/automatically-generate-impressions-from-findings-in-radiology-reports-using-generative-ai-on-aws/) (or just about any language you could possibly think of), and a plethora of prediction models which promise to personalize diagnosis and management of just about any body condition.
 
 Do we actually need such abundance of progress? When focusing on cardiovascular disease and metabolic disorders, it appears that we don't. Just validating and implementing prediction models that we already have available is challenging [@lucaroni2019] . We still fail to make patients take their blood pressure pills consistently[@burnier2019], indulge in prescribing tests and treatments of dubious value[@kini2022]; and we must do better than that.
 
