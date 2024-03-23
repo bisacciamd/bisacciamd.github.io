@@ -41,5 +41,5 @@ format:
 #    reference-doc: custom-reference-doc.docx
 csl: jacc-cvi.csl
 exectue: 
-  freeze: auto
+  freeze: true
 
