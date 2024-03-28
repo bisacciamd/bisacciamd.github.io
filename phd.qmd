@@ -332,7 +332,7 @@ feasibility$symp <- paste0(feasibility$symp, " (", (round(feasibility$occ/sum(fe
 feasibility[feasibility$occ>0,] %>% 
   e_charts(symp) %>% 
   e_pie(occ, radius = c("50%", "70%")) %>% 
-  e_legend(FALSE) %>% e_theme("vintage")
+  e_legend(FALSE) %>% e_theme("vintage") %>% e_text_style(fontSize=20)
   # |> e_title("Donut chart")
 ```
 
@@ -363,7 +363,7 @@ safety$ae <- paste0(safety$ae, " (", (round(safety$occ/sum(safety$occ)*100, digi
 safety[safety$occ>0,] %>% 
   e_charts(ae) %>% 
   e_pie(occ, radius = c("50%", "70%")) %>% 
-  e_legend(FALSE) %>% e_theme("vintage")
+  e_legend(FALSE) %>% e_theme("vintage") %>% e_text_style(fontSize=20)
   # |> e_title("Donut chart")
 
 ```
@@ -424,6 +424,7 @@ stress %>% select(-c(age,bsa,stressor,lvef,gls,nosymptom,time_from_tx,time_angio
   )) %>% add_overall() %>% add_p() %>% as_gt()
 
 ```
+
 :::
 
 #### Quantitative perfusion CMR

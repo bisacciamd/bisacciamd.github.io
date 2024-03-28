@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Posts",
     "section": "",
-    "text": "Tax-based or social health insurance funding for healthcare\n\n\nWhich works better?\n\n\nAn appraisal of healthcare funding schemes through the lens of universal health coverage.\n\n\n\n\n\nMar 23, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
+    "text": "Tax-based or social health insurance funding for healthcare\n\n\nWhich works better?\n\n\nAn appraisal of healthcare funding schemes through the lens of universal health coverage.\n\n\n\n\n\nMar 23, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\n\n\n\n\n\n\nPublication-ready tables with {gt} in R\n\n\nI do love tables.\n\n\nFrom zero to hero with tables\n\n\n\n\n\nMar 23, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
@@ -166,6 +166,13 @@
     "title": "About",
     "section": "Education",
     "text": "Education\nExecutive MSc in Health Economics, Outcomes and Management in Clinical Sciences | London School of Economics | London, UK | Dec 2023 - present\nPhD in Neuroscience and Imaging (Doctor Europaeus), G. d’Annunzio University | Chieti, Italy | Oct 2021 - Mar 2024\nDoctor of Medicine (Honours), G. d’Annunzio University | Chieti, Italy | Oct 2014 - Apr 2021"
+  },
+  {
+    "objectID": "posts/gt-tables/index.html",
+    "href": "posts/gt-tables/index.html",
+    "title": "Publication-ready tables with {gt} in R",
+    "section": "",
+    "text": "Sure we all love ggplot2. It allows to create visualizations by simply thinking about them — provided that you are willing to learn the syntax.\nBut what about tables?\nR packages gt and gtExtras have you covered.\nLet’s turn a simple data.frame into a gt table. This will require familiarity with the Tidyverse.\n\nlibrary(gt)\nlibrary(tidyverse)\ndata &lt;- data.frame(\n    text = c(\"Eufemia\", \"Antonia\", \"Michele\", \"Gerardo\"),\n    year = c(\"1955\", \"1967\", \"1968\", \"1972\")\n    ) %&gt;% gt()\n\ndata\n\n\n\n\n\n\n\n\ntext\nyear\n\n\n\n\nEufemia\n1955\n\n\nAntonia\n1967\n\n\nMichele\n1968\n\n\nGerardo\n1972"
   },
   {
     "objectID": "posts/healthcare-funding/index.html",

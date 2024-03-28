@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="G. Bisaccia">
-<meta name="description" content="Moving away from dichotomania of diagnostic and prognostic value">
+<meta name="description" content="From zero to hero with tables">
 
-<title>G. Bisaccia, MD - What is clinical utility and why does it matter?</title>
+<title>G. Bisaccia, MD - Publication-ready tables with {gt} in R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -115,6 +129,21 @@ div.csl-indent {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bisacciamd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/bisacciamd"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/bisacciamd"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
@@ -130,21 +159,6 @@ div.csl-indent {
   <li class="nav-item">
     <a class="nav-link" href="../../pubs.html"> 
 <span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/bisacciamd"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/bisacciamd"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/bisacciamd"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -165,14 +179,19 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">What is clinical utility and why does it matter?</h1>
-            <p class="subtitle lead">A discussion around net benefit and decision curves.</p>
+      <h1 class="title">Publication-ready tables with {gt} in R</h1>
+            <p class="subtitle lead">I do love tables.</p>
                   <div>
         <div class="description">
-          Moving away from dichotomania of diagnostic and prognostic value
+          From zero to hero with tables
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">gt</div>
+                <div class="quarto-category">tidyverse</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -188,7 +207,7 @@ div.csl-indent {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Mar 15, 2024</p>
+        <p class="date">Mar 23, 2024</p>
       </div>
     </div>
     
@@ -199,13 +218,7 @@ div.csl-indent {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#low-value-care-wastes-money-and-distracts-from-true-priorities" id="toc-low-value-care-wastes-money-and-distracts-from-true-priorities" class="nav-link active" data-scroll-target="#low-value-care-wastes-money-and-distracts-from-true-priorities">Low-value care wastes money and distracts from true priorities</a></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -218,30 +231,497 @@ div.csl-indent {
 
 
 
-<p>The current landscape of scientific literature is flooded with innovation. We now have AI models acing myocardial infarction ECG interpretation<span class="citation" data-cites="herman2023">(<a href="#ref-herman2023" role="doc-biblioref">1</a>)</span>, an Amazon software that <a href="https://aws.amazon.com/it/blogs/machine-learning/automatically-generate-impressions-from-findings-in-radiology-reports-using-generative-ai-on-aws/">reads into your brain MRI and prepares a finalized report in Armenian</a> (or just about any language you could possibly think of), and a plethora of prediction models which promise to personalize diagnosis and management of just about any body condition.</p>
-<p>Do we actually need such abundance of progress? When focusing on cardiovascular disease and metabolic disorders, it appears that we don’t. Just validating and implementing prediction models that we already have available is challenging <span class="citation" data-cites="lucaroni2019">(<a href="#ref-lucaroni2019" role="doc-biblioref">2</a>)</span> . We still fail to make patients take their blood pressure pills consistently<span class="citation" data-cites="burnier2019">(<a href="#ref-burnier2019" role="doc-biblioref">3</a>)</span>, indulge in prescribing tests and treatments of dubious value<span class="citation" data-cites="kini2022">(<a href="#ref-kini2022" role="doc-biblioref">4</a>)</span>; and we must do better than that.</p>
-<section id="low-value-care-wastes-money-and-distracts-from-true-priorities" class="level2">
-<h2 class="anchored" data-anchor-id="low-value-care-wastes-money-and-distracts-from-true-priorities">Low-value care wastes money and distracts from true priorities</h2>
-<p>As we keep spending on things like PCI for stable angina, left atrial appendage occlusion devices for stroke prevention, and</p>
+<p>Sure we all love <code>ggplot2</code>. It allows to create visualizations by simply <em>thinking</em> about them — provided that you are willing to learn the syntax.</p>
+<p>But what about <strong>tables</strong>?</p>
+<p>R packages <code>gt</code> and <code>gtExtras</code> have you covered.</p>
+<p>Let’s turn a simple data.frame into a <code>gt</code> table. This will require familiarity with the <a href="https://www.tidyverse.org">Tidyverse</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">text =</span> <span class="fu">c</span>(<span class="st">"Eufemia"</span>, <span class="st">"Antonia"</span>, <span class="st">"Michele"</span>, <span class="st">"Gerardo"</span>),</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">year =</span> <span class="fu">c</span>(<span class="st">"1955"</span>, <span class="st">"1967"</span>, <span class="st">"1968"</span>, <span class="st">"1972"</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">%&gt;%</span> <span class="fu">gt</span>()</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<div id="nvajtqheyt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#nvajtqheyt table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#nvajtqheyt thead, #nvajtqheyt tbody, #nvajtqheyt tfoot, #nvajtqheyt tr, #nvajtqheyt td, #nvajtqheyt th {
+  border-style: none;
+}
+
+#nvajtqheyt p {
+  margin: 0;
+  padding: 0;
+}
+
+#nvajtqheyt .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#nvajtqheyt .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#nvajtqheyt .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#nvajtqheyt .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#nvajtqheyt .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#nvajtqheyt .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#nvajtqheyt .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#nvajtqheyt .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#nvajtqheyt .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#nvajtqheyt .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#nvajtqheyt .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#nvajtqheyt .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#nvajtqheyt .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#nvajtqheyt .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#nvajtqheyt .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nvajtqheyt .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#nvajtqheyt .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#nvajtqheyt .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#nvajtqheyt .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nvajtqheyt .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#nvajtqheyt .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nvajtqheyt .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#nvajtqheyt .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nvajtqheyt .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#nvajtqheyt .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nvajtqheyt .gt_left {
+  text-align: left;
+}
+
+#nvajtqheyt .gt_center {
+  text-align: center;
+}
+
+#nvajtqheyt .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#nvajtqheyt .gt_font_normal {
+  font-weight: normal;
+}
+
+#nvajtqheyt .gt_font_bold {
+  font-weight: bold;
+}
+
+#nvajtqheyt .gt_font_italic {
+  font-style: italic;
+}
+
+#nvajtqheyt .gt_super {
+  font-size: 65%;
+}
+
+#nvajtqheyt .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#nvajtqheyt .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#nvajtqheyt .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#nvajtqheyt .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#nvajtqheyt .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#nvajtqheyt .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#nvajtqheyt .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings">
+<th id="text" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">text</th>
+<th id="year" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">year</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="text">Eufemia</td>
+<td class="gt_row gt_right" headers="year">1955</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="text">Antonia</td>
+<td class="gt_row gt_right" headers="year">1967</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="text">Michele</td>
+<td class="gt_row gt_right" headers="year">1968</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="text">Gerardo</td>
+<td class="gt_row gt_right" headers="year">1972</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
 
 
 
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-herman2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Herman R., Meyers HP., Smith SW., et al. International evaluation of an artificial intelligence<span></span>powered electrocardiogram model detecting acute coronary occlusion myocardial infarction. European Heart Journal - Digital Health 2023. Doi: <a href="https://doi.org/10.1093/ehjdh/ztad074">10.1093/ehjdh/ztad074</a>.</div>
-</div>
-<div id="ref-lucaroni2019" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Lucaroni F., Cicciarella Modica D., Macino M., et al. Can risk be predicted? An umbrella systematic review of current risk prediction models for cardiovascular diseases, diabetes and hypertension. BMJ Open 2019;9(12):e030234. Doi: <a href="https://doi.org/10.1136/bmjopen-2019-030234">10.1136/bmjopen-2019-030234</a>.</div>
-</div>
-<div id="ref-burnier2019" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Burnier M., Egan BM. Adherence in Hypertension. Circulation Research 2019;124(7):1124–40. Doi: <a href="https://doi.org/10.1161/circresaha.118.313220">10.1161/circresaha.118.313220</a>.</div>
-</div>
-<div id="ref-kini2022" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Kini V., Breathett K., Groeneveld PW., et al. Strategies to Reduce Low-Value Cardiovascular Care: A Scientific Statement From the American Heart Association. Circulation: Cardiovascular Quality and Outcomes 2022;15(3). Doi: <a href="https://doi.org/10.1161/hcq.0000000000000105">10.1161/hcq.0000000000000105</a>.</div>
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -8,6 +8,12 @@ website:
   navbar:
     logo: images/profile.jpg
     left:
+      - icon: github
+        href: https://github.com/bisacciamd
+      - icon: twitter-x
+        href: https://x.com/bisacciamd
+      - icon: linkedin
+        href: https://linkedin.com/in/bisacciamd
       - href: index.qmd
         text: Home
       - href: blog.qmd
@@ -16,12 +22,7 @@ website:
         text: Portfolio
       - href: pubs.qmd
         text: Publications
-      - icon: github
-        href: https://github.com/bisacciamd
-      - icon: twitter
-        href: https://x.com/bisacciamd
-      - icon: linkedin
-        href: https://linkedin.com/in/bisacciamd
+
     right: 
       - icon: file-person
         text: CV
