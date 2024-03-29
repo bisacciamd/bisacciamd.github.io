@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/healthcare-funding/index.html",
-      "/posts/gt-tables/index.html"
-    ]
-  },
-  {
     "listing": "/pubs.html",
     "items": [
       "/pubs/currprobs2023/index.html",
@@ -21,6 +14,13 @@
       "/portfolio/cviBaker/index.html",
       "/portfolio/dta/index.html",
       "/portfolio/rct/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/gt-tables/index.html",
+      "/posts/healthcare-funding/index.html"
     ]
   }
 ]

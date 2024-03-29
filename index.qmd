@@ -18,17 +18,10 @@ lightbox: true
 [{{< bi linkedin >}}](https://linkedin.com/in/bisacciamd)   [{{< bi twitter-x >}}](https://x.com/giandomd)   [{{< bi github >}}](https://github.com/giandomd)   [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=Apav_NgAAAAJ)   [{{< ai orcid >}}](https://orcid.org/0000-0003-4606-3093)
 
 
-I am an early career medical researcher. I earned my MD (2021) and PhD (2024) from the G. d'Annunzio University of Chieti and Pescara, Italy.
+I am an early career medical researcher with interest in cardiology. I earned my MD (2021) and PhD (2024) from the "G. d'Annunzio" University of Chieti and Pescara, Italy.
 
-My primary research interest is in the evaluation of cardiovascular imaging modalities in ischemic heart disease. I have initial supervising and teaching experience and presented my work at several international cardiology conferences, including the European Society of Cardiology Congress (2020-2022) and American Heart Association Scientific Sessions (2023). I was a finalist in the Early Career Award clinical track at London CMR 2024.
+I am primarily focused on studying the yield of non-invasive cardiovascular imaging in patients with chest pain. I presented my work at major international cardiology and imaging conferences. I have initial supervising and teaching experience. 
 
-## Experience
+Have a look at my [publications](pubs.qmd) or download a copy of my [CV](cv.qmd). 
 
-Honorary Fellow | Royal Brompton and Harefield Hospitals, Part of Guys' & St Thomas NHS Trust | London, UK | Sep 2022 - Present
-
-## Education
-[Executive MSc in Health Economics, Outcomes and Management in Clinical Sciences](https://www.lse.ac.uk/study-at-lse/Graduate/degree-programmes-2024/Executive-MSc-Health-Economics-Outcomes-Management-Clinical-Sciences) | London School of Economics | London, UK | Dec 2023 - present
-
-[PhD in Neuroscience and Imaging](phd.qmd) (Doctor Europaeus), G. d'Annunzio University | Chieti, Italy | Oct 2021 - Mar 2024
-
-[Doctor of Medicine](md.qmd) (Honours), G. d'Annunzio University | Chieti, Italy | Oct 2014 - Apr 2021
+You can get in touch with me on [LinkedIn](https://linkedin.com/in/bisacciamd).
