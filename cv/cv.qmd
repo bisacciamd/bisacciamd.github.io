@@ -1,0 +1,102 @@
+---
+#title: Giandomenico Bisaccia
+format:
+  html: default
+  quarto-cv-pdf:
+    hyperrefoptions: draft
+author: Giandomenico Bisaccia, MD, PhD
+date: last-modified
+email: bisacciagiandomenico@gmail.com
+fontsize: 11pt
+#fontfamily: ebgaramond-maths # default font LaTeX package https://tug.org/FontCatalogue/about.html
+#mainfont: Ubuntu # if you want to use a different locally installed font
+orcid: 0000-0003-4606-3093 # orcid identifier
+linkedin: https://linkedin.com/in/bisacciamd
+#twitter: twitter # twitter handle
+#web: bisacciamd.github.io
+fontawesome: yes
+nocite: '@*'
+bibliography: 
+  peer: peer_bib.bib
+  other: other_bib.bib
+validate-yaml: false
+csl: apa-cv.csl
+---
+
+# Experience
+
+*Harefield Hospital, Guys' & St Thomas NHS Trust, London, UK*
+
+Clinical fellowship with research duty in CMR \hfill Sept 2022—Feb 2024
+
+- Assisted and prepared the initial report for 250+ clinical CMR scans
+- Investigated the clinical value of cardiovascular magnetic resonance in patients with chest pain, cardiomyopathies, and long term after cardiac transplantation
+- Improved research productivity among peers in various research groups
+- Developed MATLAB software for automated handling of DICOM studies for extraction of relevant sequence images
+- Streamlined data extraction from Circle CVi42 DICOM analysis software with a user-friendly Shiny application, eliminating manual error in data collection and reducing collection times by \> 4-fold
+- Was awarded 4 travel grants from major cardiovascular societies between 2022 and 2024
+
+# Education
+
+*London School of Economics, London, UK*
+
+MSc in Health Economics, Outcomes and Management in Clinical Sciences \hfill Class of 2025
+
+- Relevant courses: Economic Analysis for Health Policy (distinction), Quality and Outcomes in Clinical Sciences (distinction)
+
+*Royal Brompton Hospital, London, UK* 
+
+Clinical CMR training course \hfill Oct—Dec 2022
+
+-   Underwent full-time training in cardiac MR under CMR Level 3 certified experts
+-   Contributed to the CMR service of the hospital
+
+*G. d’Annunzio University of Chieti and Pescara, Italy*
+
+PhD in Neuroscience and Imaging (Doctor Europaeus) \hfill Oct 2021—Mar 2024
+
+ - Thesis \space "Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients" (Supervisors: Prof. Sabina Gallina, Prof. Chiara Bucciarelli-Ducci, Prof. Fabrizio Ricci)
+
+Master's Degree in Medicine (summa cum laude, equivalent to MD) \hfill Oct 2014—Apr 2021
+
+ - Thesis \space "CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort" (Supervisors: Prof. Sabina Gallina, Prof. Prof. Fabrizio Ricci)
+
+- «Path of Excellence» track (Supervisor: Prof. Gian Luca Romani)
+
+\newpage
+
+# Professional licenses
+
+UK General Medical Council (reference number 8023039) \hfill Feb 2023
+
+Good Clinical Practice certification. *National Institute for Health and Care Research*, London, UK \hfill Oct 2022
+
+Basic Life Support Provider, American Heart Association. *“Dinamica” Training Center*, Rome, Italy \hfill Jun 2021
+
+Ordine dei Medici-Chirurghi ed Odontoiatri, Chieti, Italy, reference number 5690. \hfill May 2021
+
+# Language certifications
+
+International English Language Testing System (IELTS) \hfill Nov 2023
+
+- Academic english. Listening 9.0; Reading 9.0; Speaking 8.5; Writing 7.5 (scored 1 to 10)
+
+Occupational English Test (OET) \hfill Feb 2023
+
+- Medical english. Listening A; Reading A; Speaking B; Writing B (scored E to A) 
+
+
+# Publications
+
+::: {#refs-peer}
+:::
+
+# Technical Reports
+
+::: {#refs-other}
+:::
+
+
+# References
+
+Available upon request.
