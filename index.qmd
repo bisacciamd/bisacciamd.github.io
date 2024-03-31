@@ -22,6 +22,6 @@ I am an early career medical researcher with interest in cardiology. I earned my
 
 I am primarily focused on studying the yield of non-invasive cardiovascular imaging in patients with chest pain. I presented my work at major international cardiology and imaging conferences. I have initial supervising and teaching experience. 
 
-Have a look at my [publications](pubs.qmd) or download a copy of my [CV](cv.qmd). 
+Have a look at my [publications](pubs.qmd) or download a copy of my [CV](cv/cv.qmd). 
 
 You can get in touch with me on [LinkedIn](https://linkedin.com/in/bisacciamd).
