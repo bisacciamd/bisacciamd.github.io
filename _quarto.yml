@@ -26,7 +26,7 @@ website:
     right: 
       - icon: file-person
         text: CV
-        href: cv.qmd
+        href: cv/cv.qmd
       - icon: mortarboard-fill
   page-footer: "Giandomenico Bisaccia 2024" 
   reader-mode: false
