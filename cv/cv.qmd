@@ -68,10 +68,6 @@ csl: apa-cv.csl
   - Completed the «Path of Excellence» on electrophysiology between 2016 and 2019, with focus on surface electromyography (Supervisor: Prof. Gian Luca Romani)
     - First student to be enrolled in the local MD-PhD track
 
-*Liceo Scientifico Carlo Levi, Irsina (Matera), Italy* \hfill Sep 2009—Jun 2014
-
-- Scientific High School Diploma
-
 # Teaching
 
 *University of Padua, Italy* \hfill Jan 2024
