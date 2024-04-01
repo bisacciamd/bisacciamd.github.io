@@ -93,9 +93,14 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
 
 - Data science 
   - Strong data modelling skills, R
-  - Creation and maintainance of RedCAP projects and Git repositories
+  - Data visualizations
   - Dynamic, reproducible reporting in Quarto
-  - Shiny application development and deployment
+  - Development and deployment of server-based Shiny applications
+
+- IT
+  - Proficient in Word, Excel, Powerpoint
+  - Creation and maintainance of RedCAP projects and Git repositories
+  - Basic Adobe Illustrator
   - Prior experience in MATLAB
   - Basic LaTeX
 
