@@ -1,6 +1,11 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+
+profile:
+  default: english
+  group: 
+    - [english, italian]
 
 website:
   title: "G. Bisaccia, MD, PhD"
@@ -26,7 +31,7 @@ website:
     right: 
       - icon: file-person
         text: CV
-        href: cv/cv.qmd
+        href: cv/index.qmd
       - icon: mortarboard-fill
   page-footer: "Giandomenico Bisaccia 2024" 
   reader-mode: false
