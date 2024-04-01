@@ -33,7 +33,7 @@ csl: apa-cv.csl
 
 # Education
 
-*London School of Economics, London, UK* \hfill Dec 2023—present
+*London School of Economics, London, UK* \hfill Dec 2023—Dec 2025
 
 - MSc in Health Economics, Outcomes and Management in Clinical Sciences (class of 2025)
   - Modules included Economic Analysis for Health Policy (distinction), Quality and Outcomes in Clinical Sciences (distinction)
@@ -47,7 +47,7 @@ csl: apa-cv.csl
 
 *G. d’Annunzio University of Chieti and Pescara, Chieti, Italy*
 
-- PhD in Neuroscience and Imaging (Doctor Europaeus) \hfill Oct 2021—Mar 2024
+- PhD in Neuroscience and Imaging (MED/11, Doctor Europaeus) \hfill Oct 2021—Mar 2024
 
    Thesis title: *Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients*
    
