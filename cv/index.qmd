@@ -189,7 +189,7 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
 :::
 
 ::: {.content-visible when-profile="italian"}
-# Professional skills
+# Competenze professionali
 
 - Ricerca clinica
   - revisione sistematica e meta-analisi (5 pubblicate)
