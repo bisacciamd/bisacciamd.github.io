@@ -182,7 +182,7 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
 
 - IT
   - Proficient in Word, Excel, Powerpoint
-  - Creation and maintainance of RedCAP projects and Git repositories
+  - Creation and maintainance of REDCap projects and Git repositories
   - Basic Adobe Illustrator
   - Prior experience in MATLAB
   - Basic LaTeX
@@ -204,7 +204,7 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
 
 - Competenze informatiche
   - Utente esperto di Word, Excel, Powerpoint
-  - Creazione e manutenzione di progetti RedCAP e repository Git
+  - Creazione e manutenzione di progetti REDCap e repository Git
   - Adobe Illustrator base
   - Esperienza pregressa di MATLAB
   - LaTeX base
