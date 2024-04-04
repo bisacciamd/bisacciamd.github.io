@@ -1,20 +1,29 @@
 ---
 title: "CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort"
 subtitle: MD thesis, 2021
-author: 
+description: "Supervisors: Prof. Sabina Gallina MD, Prof. Fabrizio Ricci, MD, PhD, MSc"
+categories: [CMR, thesis, UK Biobank, heart valve disease]
+author:
     name: G. Bisaccia
     degrees: MD, PhD
     orcid: 0000-0003-4606-3093
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy. Degree with Honours in Medicine and Surgery (2014-2021)
-execute: 
-  freeze: auto
+date: 13/04/2021
+date-format: "MMMM YYYY"
+reference-location: margin
+execute:
+    echo: false
+    warning: false
+    error: false
+    freeze: auto
 lightbox: true
+title-block-categories: true
+draft: false # change status
 ---
-Supervisors: Prof. Sabina Gallina MD, Prof. Fabrizio Ricci, MD, PhD, MSc
 
 # 
 
-![Leonardo da Vinci, The left ventricle and mitral valve c.1512-13 © The Royal Collection Trust](images/md/0.jpg)
+![Leonardo da Vinci, The left ventricle and mitral valve c.1512-13 © The Royal Collection Trust](0.jpg)
 
 # Abstract
 Over the last century, a sharp transition in the spectrum of valvular heart disease has been recognized, so that most valve pathology is now degenerative. Mitral and tricuspid regurgitation are reported the most common subtypes of valvular heart disease, and the rise of transcatheter valve technology has renewed the interest in atrioventricular valves annular geometry, which is essential to our understanding of the mechanism of regurgitation and planning of intervention. 

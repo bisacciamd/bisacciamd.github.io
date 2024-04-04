@@ -2,7 +2,7 @@
 title: "Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients"
 subtitle: PhD thesis, 2024
 description: "Supervisors: Prof. Sabina Gallina MD, Prof. Chiara Bucciarelli-Ducci, MD, PhD, Prof. Fabrizio Ricci, MD, PhD, MSc"
-categories: [CMR, pharmacological stress, heart transplant]
+categories: [CMR, pharmacological stress, heart transplant, thesis]
 author: 
     name: G. Bisaccia
     degrees: MD, PhD candidate
@@ -24,6 +24,10 @@ crossref:
 fig-cap-location: margin
 tbl-cap-location: margin
 lightbox: true
+title-block-categories: true
+date: 25/03/2024
+date-format: "MMMM YYYY"
+draft: false # change status
 ---
 ```{r chart-theme}
 library(echarts4r)

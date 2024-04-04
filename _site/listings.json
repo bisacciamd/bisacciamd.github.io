@@ -11,6 +11,7 @@
   {
     "listing": "/portfolio.html",
     "items": [
+      "/portfolio/md/index.html",
       "/portfolio/cviBaker/index.html",
       "/portfolio/dta/index.html",
       "/portfolio/rct/index.html",
