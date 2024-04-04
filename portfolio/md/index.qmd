@@ -8,7 +8,7 @@ author:
     degrees: MD, PhD
     orcid: 0000-0003-4606-3093
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy. Degree with Honours in Medicine and Surgery (2014-2021)
-date: 13/04/2021
+date: 04/13/2021
 date-format: "MMMM YYYY"
 reference-location: margin
 execute:

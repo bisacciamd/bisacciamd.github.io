@@ -25,7 +25,7 @@ fig-cap-location: margin
 tbl-cap-location: margin
 lightbox: true
 title-block-categories: true
-date: 25/03/2024
+date: 03/25/2024
 date-format: "MMMM YYYY"
 draft: false # change status
 ---

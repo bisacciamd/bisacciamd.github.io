@@ -3,7 +3,7 @@ title: "Publications"
 listing:
   id: mainpubs
   contents: pubs
-  sort: "date"
+  sort: "date desc"
   categories: true
 
 ---

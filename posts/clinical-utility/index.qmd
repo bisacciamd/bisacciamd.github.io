@@ -1,10 +1,10 @@
 ---
 title: What is clinical utility and why does it matter?
-subtitle: A discussion around net benefit and decision curves. 
+subtitle: The debate around diagnostic research studies
+description: Moving from ROC curves to decision curves in medical research.
 author: 
     name: G. Bisaccia
     orcid: 0000-0003-4606-3093
-description: Moving away from dichotomania of diagnostic and prognostic value
 date: last-modified
 date-format: medium
 #image: 

@@ -9,6 +9,7 @@ bibliography: bibs/cv.bib
 listing:
     id: main
     contents: portfolio
+    sort: "date desc"
 ---
 
 ::: {#main}
