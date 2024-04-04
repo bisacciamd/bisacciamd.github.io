@@ -2,5 +2,5 @@
 #remotes::install_github('OuhscBbmc/REDCapR')
 library(REDCapR)
 api_url <- "https://redcap.synology.me/api/"
-token <- "E8065DC34088541188300BACBC7ACDF7"  # Replace with your actual API token
+token <- "E8065DC34088541188300BACBC7ACDF7"
 data <- redcap_read(redcap_uri = api_url, token = token)$data # uncomment to wrap
