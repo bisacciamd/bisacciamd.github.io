@@ -1,3 +1,4 @@
 /.quarto/
 /phd/data/
 /.luarc.json
+*.secret
