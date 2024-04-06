@@ -33,7 +33,7 @@ website:
         text: CV
         href: cv/index.qmd
       - icon: mortarboard-fill
-  page-footer: "Giandomenico Bisaccia 2024" 
+  page-footer: "Developed with Quarto by Giandomenico Bisaccia — 2024" 
   reader-mode: false
 format:
   html:

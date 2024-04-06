@@ -15,7 +15,7 @@ fontsize: 11pt
 orcid: 0000-0003-4606-3093 # orcid identifier
 linkedin: bisacciamd
 #twitter: twitter # twitter handle
-web: 'bisacciamd.github.io'
+web: 'bisacciamd.com'
 fontawesome: yes
 nocite: '@*'
 validate-yaml: false
