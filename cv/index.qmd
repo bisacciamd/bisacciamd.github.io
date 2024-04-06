@@ -8,7 +8,7 @@ author: Giandomenico Bisaccia, MD, PhD
 date: last-modified
 #jobtitle: Early career medical researcher
 email: bisacciagiandomenico@gmail.com
-phone: '+39 350 533 1123'
+#phone: '+39 350 533 1123'
 fontsize: 11pt
 #fontfamily: ebgaramond-maths # default font LaTeX package https://tug.org/FontCatalogue/about.html
 #mainfont: Ubuntu # if you want to use a different locally installed font
