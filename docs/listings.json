@@ -12,9 +12,9 @@
     "listing": "/portfolio.html",
     "items": [
       "/portfolio/phd/index.html",
-      "/portfolio/cviBaker/index.html",
       "/portfolio/dta/index.html",
       "/portfolio/rct/index.html",
+      "/portfolio/cviBaker/index.html",
       "/portfolio/md/index.html"
     ]
   },

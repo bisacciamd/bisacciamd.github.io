@@ -18,7 +18,7 @@ pubs <- length(bib2df("bibs/cv.bib")$BIBTEXKEY)
 
 I have authored or co-authored `r pubs` scientific publications, where I contributed to literature review, statistical analyses, manuscript drafting, and/or preparation of visual illustrations and figures.
 
-Select contributions are presented.
+Select contributions are presented in this section. You can also view my publications on [NCBI](https://www.ncbi.nlm.nih.gov/myncbi/giandomenico.bisaccia.1/bibliography/public/).
 
 # 
 

@@ -268,11 +268,14 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
     - Differenze di genere
 :::
 
+\newpage
+
 ::: {.content-visible when-profile="english"}
 # Grants, prizes and awards
 
 - Finalist, Early career award (clinical track), CMR 2024, London, UK \hfill Jan 2024
 - Early Career Investigator Travel Grant, AHA Scientific Sessions, Philadelphia, USA \hfill November 2023
+- Participant to research unit for the "ULTRALIGHT-HCM" study, funded by the Italian Ministry of Public Education (PRIN PNRR) \hfill July 2023
 - Educational Grant, EACVI Conference, Barcelona, Spain \hfill May 2023
 - Travel Grant, SCMR Conference, San Diego, USA \hfill Jan 2023
 :::
@@ -282,6 +285,7 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
 
 - Finalista, Early career award (clinical track), CMR 2024, Londra, Regno Unito \hfill Gennaio 2024
 - Early Career Investigator Travel Grant, AHA Scientific Sessions, Philadelphia, USA \hfill Novembre 2023
+- Partecipante ad unità di ricerca per lo studio ULTRALIGHT-HCM, progetto finanziato PRIN PNRR \hfill Luglio 2023
 - Educational Grant, EACVI Conference, Barcelona, Spain \hfill Maggio 2023
 - Travel Grant, SCMR Conference, San Diego, USA \hfill Gennaio 2023
 :::
