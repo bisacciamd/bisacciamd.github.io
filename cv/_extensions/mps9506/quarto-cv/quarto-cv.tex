@@ -39,7 +39,7 @@ $endif$
 $if(strikeout)$
 \usepackage[normalem]{ulem}
 % avoid problems with \sout in headers with hyperref:
-\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+%\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
 $endif$
 $if(indent)$
 $else$
@@ -128,8 +128,8 @@ $endif$
 \chead{}
 \rhead{}
 \lfoot{$author-meta$}
-\cfoot{\scriptsize $if(updated)$$else$$if(rdateformat)$$rdateformat$$else$\apstylekinda\today$endif$$endif$}
-\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+\cfoot{$if(updated)$$else$$if(rdateformat)$$rdateformat$$else$\apstylekinda\today$endif$$endif$}
+\rfoot{\thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
 
 % Always load hyperref last.
 \usepackage{hyperref}
