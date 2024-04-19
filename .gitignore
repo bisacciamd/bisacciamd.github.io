@@ -2,3 +2,5 @@
 /phd/data/
 /.luarc.json
 *.secret
+.Rproj.user
+.DS_Store
