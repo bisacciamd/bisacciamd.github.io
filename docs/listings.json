@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/repro-report-quarto/index.html",
+      "/posts/healthcare-funding/index.html"
+    ]
+  },
+  {
     "listing": "/pubs.html",
     "items": [
       "/pubs/ehjcvi2023/index.html",
@@ -16,12 +23,6 @@
       "/portfolio/rct/index.html",
       "/portfolio/cviBaker/index.html",
       "/portfolio/md/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/healthcare-funding/index.html"
     ]
   }
 ]
