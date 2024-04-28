@@ -1,7 +1,7 @@
 ---
 title: Reproducible R Computing 
 subtitle: A framework for good R practice with RStudio and Quarto
-#description: "A reproducibility framework is proposed for data analysis with R and reporting in Quarto"
+description: "Reproducibility can be ensured by adhering to opinionated standards for project manaagement."
 author: 
     name: G. Bisaccia
     orcid: 0000-0003-4606-3093
