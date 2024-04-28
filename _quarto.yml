@@ -22,7 +22,7 @@ website:
       - href: index.qmd
         text: Home
       - href: blog.qmd
-        text: Posts
+        text: Blog
       - href: portfolio.qmd
         text: Portfolio
       - href: pubs.qmd
@@ -48,4 +48,3 @@ format:
 csl: jacc-cvi.csl
 execute: 
   freeze: true
-
