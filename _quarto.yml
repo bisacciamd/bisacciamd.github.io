@@ -13,12 +13,12 @@ website:
   navbar:
     logo: images/profile.jpg
     left:
-      - icon: github
-        href: https://github.com/bisacciamd
-      - icon: twitter-x
-        href: https://x.com/bisacciamd
       - icon: linkedin
         href: https://linkedin.com/in/bisacciamd
+      - icon: twitter-x
+        href: https://x.com/bisacciamd
+      - icon: github
+        href: https://github.com/bisacciamd
       - href: index.qmd
         text: Home
       - href: blog.qmd
@@ -48,3 +48,5 @@ format:
 csl: jacc-cvi.csl
 execute: 
   freeze: true
+resources:
+  - CNAME
