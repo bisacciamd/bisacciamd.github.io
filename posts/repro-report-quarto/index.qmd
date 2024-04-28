@@ -1,20 +1,20 @@
 ---
-title: Reproducible R Reporting 
-subtitle: Collating tools for good computing practices with RStudio and Quarto
-description: "A reproducibility framework is proposed for data analysis with R and reporting in Quarto"
+title: Reproducible R Computing 
+subtitle: A framework for good R practice with RStudio and Quarto
+#description: "A reproducibility framework is proposed for data analysis with R and reporting in Quarto"
 author: 
     name: G. Bisaccia
     orcid: 0000-0003-4606-3093
-date: last-modified
+date: 2024/04/27
+date-modified: last-modified
 date-format: medium
 format: 
   html:
     number-sections: true
-#image: 
 draft: false # change status
 bibliography: references.bib
 reference-location: margin
-image: challenges.png
+image: "R-r-R.png"
 categories: [quarto, R, data analysis, reproducibility]
 execute:
     echo: true
@@ -26,11 +26,7 @@ execute:
 ---
 
 -   Among best practices in science, aiming for *reproducibility* is primarily important because it ensures methodological rigor and the consistency of findings[@RN643].
-
-<!-- -->
-
 -   I am convinced that reproducibility is best achieved through automation of certain processes and adherence to (opinionated) standards[@RN644].
-
 -   What follows is a personal project workflow implementing various external tools in an R environment to obtain and maintain reproducibility.
 
 This guide is aimed at intermediate R users and was developed with Rstudio in mind. Much wider coverage and further resources on reproducible R workflows can be found at [Prof. Harrell's website](https://hbiostat.org/rflow/).

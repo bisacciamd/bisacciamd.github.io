@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Posts",
     "section": "",
-    "text": "Reproducible R Reporting\n\n\nCollating tools for good computing practices with RStudio and Quarto\n\n\nA reproducibility framework is proposed for data analysis with R and reporting in Quarto\n\n\n\n\n\nApr 27, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\n\n\n\n\n\n\nTax-based or social health insurance funding for healthcare\n\n\nWhich works better?\n\n\nAn appraisal of healthcare funding schemes through the lens of universal health coverage.\n\n\n\n\n\nMar 23, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
+    "text": "Reproducible R Computing\n\n\nA framework for good R practice with RStudio and Quarto\n\n\n\n\n\n\n\n\nApr 27, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\n\n\n\n\n\n\nTax-based or social health insurance funding for healthcare\n\n\nWhich works better?\n\n\nAn appraisal of healthcare funding schemes through the lens of universal health coverage.\n\n\n\n\n\nMar 23, 2024\n\n\nG. Bisaccia\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/LICENSE.html",
@@ -79,42 +79,42 @@
   {
     "objectID": "posts/repro-report-quarto/index.html",
     "href": "posts/repro-report-quarto/index.html",
-    "title": "Reproducible R Reporting",
+    "title": "Reproducible R Computing",
     "section": "",
-    "text": "Among best practices in science, aiming for reproducibility is primarily important because it ensures methodological rigor and the consistency of findings(1).\nThis guide is aimed at intermediate R users and was developed with Rstudio in mind. Much wider coverage and further resources on reproducible R workflows can be found at Prof. Harrell’s website."
+    "text": "Among best practices in science, aiming for reproducibility is primarily important because it ensures methodological rigor and the consistency of findings(1).\nI am convinced that reproducibility is best achieved through automation of certain processes and adherence to (opinionated) standards(2).\nWhat follows is a personal project workflow implementing various external tools in an R environment to obtain and maintain reproducibility.\nThis guide is aimed at intermediate R users and was developed with Rstudio in mind. Much wider coverage and further resources on reproducible R workflows can be found at Prof. Harrell’s website."
   },
   {
     "objectID": "posts/repro-report-quarto/index.html#install-projecttemplate",
     "href": "posts/repro-report-quarto/index.html#install-projecttemplate",
-    "title": "Reproducible R Reporting",
+    "title": "Reproducible R Computing",
     "section": "1.1 Install ProjectTemplate",
     "text": "1.1 Install ProjectTemplate\nProjectTemplate is an R package allowing for automated organization of R projects. It works by creating an opinionated project structure, pre-loading all packages and data sets used, and pre-processing data where needed.\nYou can install the package by running\n\ninstall.packages('ProjectTemplate')"
   },
   {
     "objectID": "posts/repro-report-quarto/index.html#load-projecttemplate",
     "href": "posts/repro-report-quarto/index.html#load-projecttemplate",
-    "title": "Reproducible R Reporting",
+    "title": "Reproducible R Computing",
     "section": "1.2 Load ProjectTemplate",
     "text": "1.2 Load ProjectTemplate\nLoad the package and create a new minimal project structure:\n\nrequire('ProjectTemplate')\ncreate.project(project.name = 'projectname',\n               template = 'minimal')\n\n\n\n\n\n\n\nNote\n\n\n\ncreate.project() is the function that takes care of creating the project structure. It needs a project.name (or will create the project in a “new-project” folder). Optionally, the user can specify a project template (currently, options 'full' and 'minimal' are available; custom templates are also supported)."
   },
   {
     "objectID": "posts/repro-report-quarto/index.html#choose-a-useful-project-name",
     "href": "posts/repro-report-quarto/index.html#choose-a-useful-project-name",
-    "title": "Reproducible R Reporting",
+    "title": "Reproducible R Computing",
     "section": "1.3 Choose a useful project name",
     "text": "1.3 Choose a useful project name\nBe mindful of recommendations for naming things.\n\n\n\n\n\n\nNote\n\n\n\nGenerally, you want your project (and any files and folders you’re working with) to be named consistently, so that any files (loaded or generated) are immediately recognizable. File names (especially for plots, tables, and exported data sets) should often include a date. Names of R scripts (and Quarto reports) should be self-explaining."
   },
   {
     "objectID": "posts/repro-report-quarto/index.html#load-your-project",
     "href": "posts/repro-report-quarto/index.html#load-your-project",
-    "title": "Reproducible R Reporting",
+    "title": "Reproducible R Computing",
     "section": "3.1 Load your project",
     "text": "3.1 Load your project\nYou can load the whole project (data, R scripts) with:\n\nload.project('projectname')\n\n\ndata sets in data will be loaded as data.frames.\n\nProjectTemplate can load a bunch of different file formats, including compressed and uncompressed CSV, Excel and RDS."
   },
   {
     "objectID": "posts/repro-report-quarto/index.html#getting-to-know-the-project-folders",
     "href": "posts/repro-report-quarto/index.html#getting-to-know-the-project-folders",
-    "title": "Reproducible R Reporting",
+    "title": "Reproducible R Computing",
     "section": "3.2 Getting to know the project folders",
     "text": "3.2 Getting to know the project folders\nA minimal project structure includes the following folders. Each folder comes with an explanatory README file, but they will be summarized here, in reasonable order:\n\ndata/ contains the project’s data sets.\n\nRaw data sets should be backed up in multiple locations outside the project.\nRaw data should never be edited or overwritten. This is because you can never be sure all edits are respectful of the original data.\n\nmunge/ includes scripts for pre-processing the data (e.g. adding custom columns, re-assigning variable classes, etc.).\n\nPre-processed data should be generated in the cache folder.\n\ncache/ includes data sets generated through pre-processing steps.\n\nIn this folder, transformed data are placed.\nWhen a data set is available in both cache/ and data/, load.project() will only load the cached version.\n\nsrc/ contains R scripts for data analysis.\n\neach script should start with the same line:\n\nlibrary('ProjectTemplate')\nload.project()\n\nany code that’s shared between different R scripts should be placed in the munge directory instead."
   },
