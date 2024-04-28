@@ -24,4 +24,4 @@ title-block-categories: true
 **cviBaker2042** (2024). G. Bisaccia. *Under active development*.
 :::
 
-Custom-made application for exportation of Circle CVi42 study reports to [Redcap](https://www.project-redcap.org) import-ready CSV files. A local version of this app was used in my [PhD thesis](../../phd.qmd).
+Custom-made application for exportation of Circle CVi42 study reports to [Redcap](https://www.project-redcap.org) import-ready CSV files. A local version of this app was used in my [PhD thesis](../../portfolio/phd/index.qmd).
