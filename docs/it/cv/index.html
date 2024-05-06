@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="G. Bisaccia">
-<meta name="description" content="Reproducibility can be ensured by adhering to (opinionated) standards for project management and data analysis.">
+<meta name="author" content="Giandomenico Bisaccia, MD, PhD">
+<meta name="dcterms.date" content="2024-05-06">
 
-<title>G. Bisaccia, MD, PhD - Reproducible R Computing</title>
+<title>G. Bisaccia, MD, PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,81 +22,28 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -126,20 +73,20 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/profile.jpg" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/profile.jpg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">G. Bisaccia, MD, PhD</span>
     </a>
   </div>
@@ -165,25 +112,25 @@ div.csl-indent {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../portfolio.html"> 
+    <a class="nav-link" href="../portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../pubs.html"> 
+    <a class="nav-link" href="../pubs.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../cv/index.html"> <i class="bi bi-file-earmark-text" role="img">
+    <a class="nav-link active" href="../cv/index.html" aria-current="page"> <i class="bi bi-file-earmark-text" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -196,206 +143,268 @@ div.csl-indent {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Reproducible R Computing</h1>
-            <p class="subtitle lead">A framework for good R practice with RStudio and Quarto</p>
-                  <div>
-        <div class="description">
-          Reproducibility can be ensured by adhering to (opinionated) standards for project management and data analysis.
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">quarto</div>
-                <div class="quarto-category">R</div>
-                <div class="quarto-category">data analysis</div>
-                <div class="quarto-category">reproducibility</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>G. Bisaccia <a href="https://orcid.org/0000-0003-4606-3093" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">Apr 27, 2024</p>
-      </div>
-    </div>
-    
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">Apr 28, 2024</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#install-and-load-projecttemplate" id="toc-install-and-load-projecttemplate" class="nav-link active" data-scroll-target="#install-and-load-projecttemplate"><span class="header-section-number">1</span> Install and load ProjectTemplate</a>
-  <ul class="collapse">
-  <li><a href="#install-projecttemplate" id="toc-install-projecttemplate" class="nav-link" data-scroll-target="#install-projecttemplate"><span class="header-section-number">1.1</span> Install ProjectTemplate</a></li>
-  <li><a href="#load-projecttemplate" id="toc-load-projecttemplate" class="nav-link" data-scroll-target="#load-projecttemplate"><span class="header-section-number">1.2</span> Load ProjectTemplate</a></li>
-  <li><a href="#choose-a-useful-project-name" id="toc-choose-a-useful-project-name" class="nav-link" data-scroll-target="#choose-a-useful-project-name"><span class="header-section-number">1.3</span> Choose a useful project name</a></li>
-  </ul></li>
-  <li><a href="#open-the-project-in-rstudio" id="toc-open-the-project-in-rstudio" class="nav-link" data-scroll-target="#open-the-project-in-rstudio"><span class="header-section-number">2</span> Open the project in RStudio</a></li>
-  <li><a href="#using-your-structured-project" id="toc-using-your-structured-project" class="nav-link" data-scroll-target="#using-your-structured-project"><span class="header-section-number">3</span> Using your structured project</a>
-  <ul class="collapse">
-  <li><a href="#load-your-project" id="toc-load-your-project" class="nav-link" data-scroll-target="#load-your-project"><span class="header-section-number">3.1</span> Load your project</a></li>
-  <li><a href="#getting-to-know-the-project-folders" id="toc-getting-to-know-the-project-folders" class="nav-link" data-scroll-target="#getting-to-know-the-project-folders"><span class="header-section-number">3.2</span> Getting to know the project folders</a></li>
-  </ul></li>
+  <li><a href="#esperienza" id="toc-esperienza" class="nav-link active" data-scroll-target="#esperienza">Esperienza</a></li>
+  <li><a href="#istruzione" id="toc-istruzione" class="nav-link" data-scroll-target="#istruzione">Istruzione</a></li>
+  <li><a href="#attività-di-insegnamento" id="toc-attività-di-insegnamento" class="nav-link" data-scroll-target="#attività-di-insegnamento">Attività di insegnamento</a></li>
+  <li><a href="#licenze-professionali" id="toc-licenze-professionali" class="nav-link" data-scroll-target="#licenze-professionali">Licenze professionali</a></li>
+  <li><a href="#competenze-professionali" id="toc-competenze-professionali" class="nav-link" data-scroll-target="#competenze-professionali">Competenze professionali</a></li>
+  <li><a href="#certificazioni-di-lingua" id="toc-certificazioni-di-lingua" class="nav-link" data-scroll-target="#certificazioni-di-lingua">Certificazioni di lingua</a></li>
+  <li><a href="#affiliazioni" id="toc-affiliazioni" class="nav-link" data-scroll-target="#affiliazioni">Affiliazioni</a></li>
+  <li><a href="#grant" id="toc-grant" class="nav-link" data-scroll-target="#grant">Grant</a></li>
+  <li><a href="#premi-e-riconoscimenti" id="toc-premi-e-riconoscimenti" class="nav-link" data-scroll-target="#premi-e-riconoscimenti">Premi e riconoscimenti</a></li>
+  <li><a href="#pubblicazioni" id="toc-pubblicazioni" class="nav-link" data-scroll-target="#pubblicazioni">Pubblicazioni</a></li>
+  <li><a href="#presentazioni-orali-a-congressi-internazionali" id="toc-presentazioni-orali-a-congressi-internazionali" class="nav-link" data-scroll-target="#presentazioni-orali-a-congressi-internazionali">Presentazioni orali a congressi internazionali</a></li>
+  <li><a href="#lettere-di-referenza" id="toc-lettere-di-referenza" class="nav-link" data-scroll-target="#lettere-di-referenza">Lettere di referenza</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF (quarto-cv)</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Giandomenico Bisaccia, MD, PhD </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 6, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<section id="esperienza" class="level1">
+<h1>Esperienza</h1>
+<p><em>Royal Brompton Hospital, Londra, Regno Unito</em> Mag 2023—presente</p>
 <ul>
-<li>Among best practices in science, aiming for <em>reproducibility</em> is primarily important because it ensures methodological rigor and the consistency of findings<span class="citation" data-cites="RN643">(<a href="#ref-RN643" role="doc-biblioref">1</a>)</span>.</li>
-<li>I am convinced that reproducibility is best achieved through automation of certain processes and adherence to (opinionated) standards<span class="citation" data-cites="RN644">(<a href="#ref-RN644" role="doc-biblioref">2</a>)</span>.</li>
-<li>What follows is a personal project workflow implementing various external tools in an R environment to obtain and maintain reproducibility.</li>
-</ul>
-<p>This guide is aimed at intermediate R users and was developed with Rstudio in mind. Much wider coverage and further resources on reproducible R workflows can be found at <a href="https://hbiostat.org/rflow/">Prof.&nbsp;Harrell’s website</a>.</p>
-<section id="install-and-load-projecttemplate" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Install and load ProjectTemplate</h1>
-<section id="install-projecttemplate" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="install-projecttemplate"><span class="header-section-number">1.1</span> Install ProjectTemplate</h2>
-<p><a href="http://projecttemplate.net/index.html">ProjectTemplate</a> is an R package allowing for automated organization of R projects. It works by creating an opinionated project structure, pre-loading all packages and data sets used, and pre-processing data where needed.</p>
-<p>You can install the package by running</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">'ProjectTemplate'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="load-projecttemplate" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="load-projecttemplate"><span class="header-section-number">1.2</span> Load ProjectTemplate</h2>
-<p>Load the package and create a new <em>minimal</em> project structure:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(<span class="st">'ProjectTemplate'</span>)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">create.project</span>(<span class="at">project.name =</span> <span class="st">'projectname'</span>,</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>               <span class="at">template =</span> <span class="st">'minimal'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><code>create.project()</code> is the function that takes care of creating the project structure. It needs a <code>project.name</code> (or will create the project in a “new-project” folder). Optionally, the user can specify a project <code>template</code> (currently, options <code>'full'</code> and <code>'minimal'</code> are available; custom templates are also <a href="http://projecttemplate.net/custom_templates.html">supported</a>).</p>
-</div>
-</div>
-</section>
-<section id="choose-a-useful-project-name" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="choose-a-useful-project-name"><span class="header-section-number">1.3</span> Choose a useful project name</h2>
-<p>Be mindful of recommendations for <a href="https://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf">naming things</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Generally, you want your project (and any files and folders you’re working with) to be named consistently, so that any files (loaded or generated) are immediately recognizable. File names (especially for plots, tables, and exported data sets) should often include a date. Names of R scripts (and Quarto reports) should be self-explaining.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="open-the-project-in-rstudio" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Open the project in RStudio</h1>
-<ol type="1">
-<li>Open Rstudio</li>
-<li>Go to <em>File &gt; Open Project…</em></li>
-</ol>
-</section>
-<section id="using-your-structured-project" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Using your structured project</h1>
-<section id="load-your-project" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="load-your-project"><span class="header-section-number">3.1</span> Load your project</h2>
-<p>You can load the whole project (data, R scripts) with:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">load.project</span>(<span class="st">'projectname'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<li>Honorary clinical research fellowship (part-time)
 <ul>
-<li><p>data sets in <code>data</code> will be loaded as data.frames.</p>
+<li>Attività di ricerca clinica
 <ul>
-<li>ProjectTemplate can load <a href="http://projecttemplate.net/file_formats.html">a bunch of different file formats</a>, including compressed and uncompressed CSV, Excel and RDS.</li>
+<li>Risonanza magnetica da stress con valutazione quantitativa della perfusione miocardica</li>
+<li>Cardiomiopatie ischemiche e nonischemiche</li>
+<li>Utilizzo della risonanza magnetica per l’indicazione a terapia di rivascolarizzazione miocardica percutanea</li>
 </ul></li>
-<li></li>
-</ul>
-</section>
-<section id="getting-to-know-the-project-folders" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="getting-to-know-the-project-folders"><span class="header-section-number">3.2</span> Getting to know the project folders</h2>
-<p>A minimal project structure includes the following folders. Each folder comes with an explanatory README file, but they will be summarized here, in reasonable order:</p>
-<ul>
-<li><p><code>data/</code> contains the project’s data sets.</p>
-<ul>
-<li><p>Raw data sets should be backed up in multiple locations outside the project.</p></li>
-<li><p><u>Raw data should never be edited or overwritten</u>. This is because you can <strong>never</strong> be sure all edits are respectful of the original data.</p></li>
-</ul></li>
-<li><p><code>munge/</code> includes scripts for pre-processing the data (e.g.&nbsp;adding custom columns, re-assigning variable classes, etc.).</p>
-<ul>
-<li>Pre-processed data should be generated in the <code>cache</code> folder.</li>
-</ul></li>
-<li><p><code>cache/</code> includes data sets generated through pre-processing steps.</p>
-<ul>
-<li><p>In this folder, transformed data are placed.</p></li>
-<li><p>When a data set is available in both <code>cache/</code> and <code>data/</code>, <code>load.project()</code> will only load the <em>cached</em> version.</p></li>
-</ul></li>
-<li><p><code>src/</code> contains R scripts for data analysis.</p>
-<ul>
-<li><p>each script should start with the same line:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'ProjectTemplate'</span>)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">load.project</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></li>
-<li><p>any code that’s shared between different R scripts should be placed in the <code>munge</code> directory instead.</p></li>
 </ul></li>
 </ul>
-
+<p><em>Harefield Hospital, Londra, Regno Unito</em> Settembre 2022—Mag 2023</p>
+<ul>
+<li>Honorary clinical research fellowship (a tempo pieno)
+<ul>
+<li>Preparazione di 250+ report preliminari di studi clinici di risonanza magnetica cardiaca</li>
+<li>Conduzione di un audit clinico sul profilo di <em>safety</em> e <em>feasibility</em> della risonanza magnetica cardiaca da stress nei pazienti con pregresso trapianto cardiaco</li>
+<li>Attività di ricerca clinica:
+<ul>
+<li>valore clinico della risonanza magnetica cardiaca in pazienti con dolore toracico, cardiomiopatie, e a lungo termine dopo trapianto cardiaco</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="istruzione" class="level1">
+<h1>Istruzione</h1>
+<p><em>London School of Economics, Londra, Regno Unito</em> Dicembre 2023—Dicembre 2025</p>
+<ul>
+<li>MSc in Health Economics, Outcomes and Management in Clinical Sciences (classe del 2025)
+<ul>
+<li>I corsi frequentati includono Economic Analysis for Health Policy (voto finale: distinction), Quality and Outcomes in Clinical Sciences (voto finale: distinction)</li>
+<li>Rappresentante di classe volontario per l’anno accademico 2023/24</li>
+</ul></li>
+</ul>
+<p><em>Royal Brompton Hospital, Londra, Regno Unito</em> Ottobre—Dicembre 2022</p>
+<ul>
+<li>Corso trimestrale di risonanza magnetica cardiaca
+<ul>
+<li>Training a tempo pieno in risonanza magnetica cardiaca sotto la supervisione di esperti CMR di livello 3</li>
+<li>Contributo all’attività di refertazione dell’ospedale</li>
+</ul></li>
+</ul>
+<p><em>Università G. d’Annunzio di Chieti e Pescara, Chieti, Italia</em></p>
+<ul>
+<li><p>Dottorato in Neuroscienze e Imaging (Doctor Europaeus) Ottobre 2021—Marzo 2024</p>
+<p>Tesi: <em>Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients</em></p>
+<p>SSD: MED/11</p>
+<p>Qualifica aggiuntiva: <em>Doctor Europaeus</em> (internazionalità del progetto, dei supervisori e dei revisori; tesi discussa in lingua inglese)</p>
+<p>Supervisori: Prof.ssa Sabina Gallina, Prof.ssa Chiara Bucciarelli-Ducci, e Prof.&nbsp;Fabrizio Ricci</p>
+<ul>
+<li>Autore o coautore di 17 pubblicazioni peer-reviewed</li>
+<li>Correlatore di 12 laureandi e 4 medici in formazione specialistica</li>
+</ul></li>
+<li><p>Laurea magistrale in Medicina e Chirurgia (LM-41, 110 e lode) Ottobre 2014—Aprile 2021</p>
+<p>Tesi: <em>CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort</em></p>
+<p>SSD: MED/11</p>
+<p>Supervisori: Prof.ssa Sabina Gallina, Prof.&nbsp;Fabrizio Ricci</p></li>
+<li><p>Percorso di Eccellenza in Medicina Ott 2016—Ott 2019</p>
+<ul>
+<li>Formazione applicata in metodologia medico-scientifica</li>
+<li>Attività di ricerca in segnali elettrofisiologici, con focus su elettromiografia di superficie</li>
+<li>Supervisore: Prof.&nbsp;Gian Luca Romani</li>
+<li>Primo studente del Percorso ad essere selezionato per la track MD-PhD</li>
+</ul></li>
+</ul>
+</section>
+<section id="attività-di-insegnamento" class="level1">
+<h1>Attività di insegnamento</h1>
+<p><em>Università di Padova, Italia</em> Gennaio 2024</p>
+<ul>
+<li>Lezione a tema “Sicurezza in ambiente di risonanza magnetica”, Master in Risonanza Magnetica Cardiaca</li>
+</ul>
+</section>
+<section id="licenze-professionali" class="level1">
+<h1>Licenze professionali</h1>
+<p>Good Clinical Practice certification. <em>National Institute for Health and Care Research</em>, Londra, Regno Unito Ottobre 2022</p>
+<p>Basic Life Support Provider, American Heart Association. <em>“Dinamica” Training Center</em>, Roma, Italia Giugno 2021</p>
+<ul>
+<li>Abilitazione alla professione di medico-chirurgo
+<ul>
+<li>Regno Unito: General Medical Council, numero di iscrizione 8023039 Febbraio 2023</li>
+<li>Italia: Ordine dei Medici-Chirurghi ed Odontoiatri di Chieti, numero di iscrizione 5690 Maggio 2021</li>
+</ul></li>
+</ul>
+</section>
+<section id="competenze-professionali" class="level1">
+<h1>Competenze professionali</h1>
+<ul>
+<li>Ricerca clinica
+<ul>
+<li>revisione sistematica e meta-analisi (5 pubblicate)</li>
+<li>studi diagnostici (accuratezza, utilità clinica)</li>
+<li>studi prognostici (data scraping, analisi di sopravvivenza)</li>
+</ul></li>
+<li>Data science
+<ul>
+<li>Competenze avanzate di data modelling in R</li>
+<li>Visualizzazione dati in ggplot2</li>
+<li>Reporting dinamico, riproducibile in Quarto</li>
+<li>Sviluppo di applicazioni server-based in Shiny</li>
+</ul></li>
+<li>Competenze informatiche
+<ul>
+<li>Utente esperto di Word, Excel, Powerpoint</li>
+<li>Creazione e manutenzione di progetti REDCap e repository Git</li>
+<li>Adobe Illustrator base</li>
+<li>Esperienza pregressa di MATLAB</li>
+<li>LaTeX base</li>
+</ul></li>
+</ul>
+</section>
+<section id="certificazioni-di-lingua" class="level1">
+<h1>Certificazioni di lingua</h1>
+<ul>
+<li>International English Language Testing System (IELTS) Novembre 2023
+<ul>
+<li>Inglese accademico. Listening 9.0; Reading 9.0; Speaking 8.5; Writing 7.5 (scored 1 to 10)</li>
+</ul></li>
+<li>Occupational English Test (OET) Febbraio 2023
+<ul>
+<li>Inglese medico. Listening A; Reading A; Speaking B; Writing B (scored E to A)</li>
+</ul></li>
+</ul>
+</section>
+<section id="affiliazioni" class="level1">
+<h1>Affiliazioni</h1>
+<ul>
+<li>Affiliazione a società scientifiche
+<ul>
+<li>American Heart Association 2023—presente</li>
+<li>American College of Cardiology 2022—presente</li>
+<li>Society for Cardiovascular Magnetic Resonance 2022—presente</li>
+<li>European Society of Cardiology 2021—presente</li>
+<li>European Association of Cardiovascular Imaging 2021—presente</li>
+<li>Società Italiana di Cardiologia 2021—presente</li>
+</ul></li>
+<li>Partecipazione a working group
+<ul>
+<li>SCMR Early career 2022—presente</li>
+<li>ACC Fellow in training 2022—presente</li>
+<li>Società Italiana di Cardiologia
+<ul>
+<li>Applicazioni della RM</li>
+<li>Differenze di genere</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="grant" class="level1">
+<h1>Grant</h1>
+<ul>
+<li>Partecipante ad unità di ricerca per lo studio ULTRALIGHT-HCM, progetto finanziato PRIN PNRR (€ 299.604) Luglio 2023</li>
+</ul>
+</section>
+<section id="premi-e-riconoscimenti" class="level1">
+<h1>Premi e riconoscimenti</h1>
+<ul>
+<li>Finalista, Early career award (clinical track), CMR 2024, Londra, Regno Unito Gennaio 2024</li>
+<li>Early Career Investigator Travel Grant, AHA Scientific Sessions, Philadelphia, USA Novembre 2023</li>
+<li>Educational Grant, EACVI Conference, Barcelona, Spain Maggio 2023</li>
+<li>Travel Grant, SCMR Conference, San Diego, USA Gennaio 2023</li>
+</ul>
+</section>
+<section id="pubblicazioni" class="level1">
+<h1>Pubblicazioni</h1>
+<p><em>Atrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis</em> (2024). G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, <strong>G. Bisaccia</strong>, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani. <em>Heart Rhythm</em>. <a href="https://doi.org/10.1016/j.hrthm.2024.01.056"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Underlying mechanisms and cardioprotective effects of SGLT2i and GLP-1Ra: insights from cardiovascular magnetic resonance</em> (2024). A. Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, <strong>G. Bisaccia</strong>, S. De Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo. <em>Cardiovascular Diabetology</em>. <a href="https://doi.org/10.1186/s12933-024-02181-7"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Guillain–Barré syndrome and COVID-19 vaccination: a systematic review and meta-analysis</em> (2024). S. Censi, <strong>G. Bisaccia</strong>, S. Gallina, V. Tomassini and A. Uncini. <em>Journal of Neurology</em>. <a href="https://doi.org/10.1007/s00415-024-12186-7"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease: A Systematic Review and Meta-analysis</em> (2023). F. Ricci, M. Y. Khanji, <strong>G. Bisaccia</strong>, A. Cipriani, A. Di Cesare, L. Ceriello, C. Mantini, M. Zimarino, A. Fedorowski, S. Gallina, S. E. Petersen and C. Bucciarelli-Ducci. <em>JAMA Cardiology</em>. <a href="https://doi.org/10.1001/jamacardio.2023.1290"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Prognostic Significance of Late Gadolinium Enhancement in Fabry Disease-A Systematic Review and Meta-Analysis</em> (2023). F. Ricci, <strong>G. Bisaccia</strong>, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y. Khanji and S. Gallina. <em>The American Journal of Cardiology</em>. <a href="https://doi.org/10.1016/j.amjcard.2023.06.059"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>The Role of Multimodality Imaging in Pediatric Cardiomyopathies</em> (2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M. Garofalo, E. G. Milano, <strong>G. Bisaccia</strong>, F. Iellamo, P. P. Bassareo, A. Pradhan, A. Cimini and M. A. Perrone. <em>Journal of Clinical Medicine</em>. <a href="https://doi.org/10.3390/jcm12144866"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>CMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA</em> (2023). K. Liang, <strong>G. Bisaccia</strong>, I. Leo, M. G. L. Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson and C. Bucciarelli-Ducci. <em>European Heart Journal - Cardiovascular Imaging</em>. <a href="https://doi.org/10.1093/ehjci/jead182"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>The Role of Advanced Cardiovascular Imaging Modalities in Cardio-Oncology: From Early Detection to Unravelling Mechanisms of Cardiotoxicity</em> (2023). I. Leo, M. Vidula, <strong>G. Bisaccia</strong>, M. C. Procopio, R. Licordari, M. Perotto, G. La Vecchia, N. Miaris, P. E. Bravo and C. Bucciarelli-Ducci. <em>Journal of Clinical Medicine</em>. <a href="https://doi.org/10.3390/jcm12154945"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)</em> (2023). I. Leo, <strong>G. Bisaccia</strong>, N. Miaris, M. C. Procopio, R. Licordari and C. Bucciarelli-Ducci. <em>Heart</em>. <a href="https://doi.org/10.1136/heartjnl-2023-322835"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Guillain-Barre syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the ‘Italian factor’</em> (2023). S. Censi, <strong>G. Bisaccia</strong>, S. Gallina, V. Tomassini and A. Uncini. <em>European Journal of Neurology</em>. <a href="https://doi.org/10.1111/ene.16094"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis</em> (2023). <strong>G. Bisaccia</strong>, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G. Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A. Fedorowski, R. De Caterina and S. Gallina. <em>Current Problems in Cardiology</em>. <a href="https://doi.org/10.1016/j.cpcardiol.2023.101643"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Prognostic Value of High-Sensitivity Cardiac Troponin in Women</em> (2022). <strong>G. Bisaccia</strong>, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S. Gallina, A. Di Baldassarre and B. Ghinassi. <em>Biomolecules</em>. <a href="https://doi.org/10.3390/biom12101496"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Cardiovascular magnetic resonance reference values of mitral and tricuspid annular dimensions: the UK Biobank cohort</em> (2021). F. Ricci, N. Aung, S. Gallina, F. Zemrak, K. Fung, <strong>G. Bisaccia</strong>, J. M. Paiva, M. Y. Khanji, C. Mantini and S. Palermi. <em>Journal of Cardiovascular Magnetic Resonance</em>. <a href="https://doi.org/10.1186/s12968-020-00688-y"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Post-Acute Sequelae of COVID-19 and Cardiovascular Autonomic Dysfunction: What Do We Know?</em> (2021). <strong>G. Bisaccia</strong>, F. Ricci, V. Recce, A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A. Fedorowski and S. Gallina. <em>Journal of Cardiovascular Development and Disease</em>. <a href="https://doi.org/10.3390/jcdd8110156"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Mitochondrial Dysfunction and Heart Disease: Critical Appraisal of an Overlooked Association</em> (2021). <strong>G. Bisaccia</strong>, F. Ricci, S. Gallina, A. Di Baldassarre and B. Ghinassi. <em>International Journal of Molecular Sciences</em>. <a href="https://doi.org/10.3390/ijms22020614"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+<p><em>Nonalcoholic fatty liver disease and cardiovascular disease phenotypes</em> (2020). <strong>G. Bisaccia</strong>, F. Ricci, C. Mantini, C. Tana, G. L. Romani, C. Schiavone and S. Gallina. <em>SAGE Open Medicine</em>. <a href="https://doi.org/10.1177/2050312120933804"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+</section>
+<section id="presentazioni-orali-a-congressi-internazionali" class="level1">
+<h1>Presentazioni orali a congressi internazionali</h1>
+<p><em>Prognostic Value of Myocardial Blood Flow Index Among Heart Transplant Recipients</em>. <strong>G. Bisaccia</strong>, R. Licordari, I. Leo, G. La Vecchia, M. Perotto, M. C. Procopio, F. Ricci, S. Gallina, J. Wong and C. Bucciarelli-Ducci. <span>Presentata a CMR 2024 (Gennaio 2024).</span></p>
+<p><em>Safety and Feasibility of Adenosine Stress CMR for CAV Detection in Orthotopic Heart Transplant Recipients</em>. <strong>G. Bisaccia</strong>, R. Licordari, I. Leo, G. La Vecchia, M. Perotto, M. C. Procopio, F. Ricci, S. Gallina, J. Wong and C. Bucciarelli-Ducci. <span>Presentata a CMR 2024 (Gennaio 2024).</span></p>
+<p><em>Comparative and Incremental Diagnostic and Prognostic Yield of Exercise ECG, CMR and SPECT in Patients With Suspected Ischaemic Heart Disease: A CE-MARC Sub-Study</em>. <strong>G. Bisaccia</strong>, P. P. Swoboda, C. Bucciarelli-Ducci, S. Plein and J. Greenwood. <span>Presentata a AHA Scientific Sessions, Philadelphia, USA (Novembre 2023)</span></p>
+<p><em>CMR reclassifies patients with suspected myocardial infarction with non-obstructive coronary arteries (MINOCA)</em>. <strong>G. Bisaccia</strong>, K. Liang, M. G. L. Williams, I. Leo, A. Dastidar, E. Sammut, T. Johnson and C. Bucciarelli-Ducci. <span>Presentata a EACVI, Barcellona, Spagna (Maggio 2023)</span></p>
+<p><em>Prognostic yield of stress CMR to evaluate chronic coronary syndromes: a systematic review and meta-analysis</em>. <strong>G. Bisaccia</strong>, M. Khanji, S. Gallina, S. Petersen, C. Bucciarelli-Ducci and F. Ricci. <span>Presentata a ESC Congress, Barcellona, Spagna (Agosto 2022)</span></p>
+<p><em>Diagnostic accuracy of stress CMR to evaluate chronic coronary syndromes: an updated meta-analysis</em>. <strong>G. Bisaccia</strong>, M. Khanji, S. Gallina, S. Petersen, C. Bucciarelli-Ducci and F. Ricci. <span>Presentata a ESC Congress, Barcellona, Spagna (Agosto 2022)</span></p>
+<p><em>Cardiovascular morbidity and mortality related to non-alcoholic fatty liver disease: a systematic review and meta-analysis of prospective studies</em>. <strong>G. Bisaccia</strong>, F. Ricci, E. Melchiorre, C. Tana, G. Renda, M. Khanji, A. Fedorowski, R. De Caterina and S. Gallina. <span>Presentata a ESC Congress (The Digital Experience) (Agosto 2021)</span></p>
+</section>
+<section id="lettere-di-referenza" class="level1">
+<h1>Lettere di referenza</h1>
+<p>Fornite su richiesta.</p>
 
 
 </section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-RN643" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">The Stanford Psychology Department Open Science Community. <a href="https://poldrack.github.io/psych-open-science-guide/">Stanford psychology guide to doing open science</a> 2020.</div>
-</div>
-<div id="ref-RN644" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Wilson G., Bryan J., Cranston K., Kitzes J., Nederbragt L., Teal TK. Good enough practices in scientific computing. PLOS Computational Biology 2017;13(6):e1005510. Doi: <a href="https://doi.org/10.1371/journal.pcbi.1005510">10.1371/journal.pcbi.1005510</a>.</div>
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -948,8 +957,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://utteranc.es/client.js" repo="bisacciamd/bisacciamd.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">

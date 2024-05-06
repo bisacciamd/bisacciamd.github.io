@@ -27,7 +27,7 @@ csl: apa-cv.csl
 *Royal Brompton Hospital, London, UK* \hfill May 2023—present
 
 - Honorary clinical research fellowship (part-time)
-   - Research topics:
+   - Investigated the research topics:
       - quantitative stress perfusion cardiovascular magnetic resonance (CMR)
       - ischaemic and nonischaemic cardiomyopathies
       - CMR guidance to percutaneous revascularization
@@ -36,8 +36,9 @@ csl: apa-cv.csl
 
 - Honorary clinical research fellowship (full time)
   - Prepared the initial report for 250+ clinical CMR scans
+  - Conducted a clinical audit on the safety and feasibility of adenosine stress CMR after heart transplantation
   - Investigated the research topics:
-      - clinical value of cardiovascular magnetic resonance in patients with chest pain, cardiomyopathies, and long term after cardiac transplantation
+      - clinical value of CMR in patients with chest pain, cardiomyopathies, and long term after cardiac transplantation
   - Improved research productivity among peers in various research groups
 :::
 
@@ -53,8 +54,9 @@ csl: apa-cv.csl
 
 *Harefield Hospital, Londra, Regno Unito* \hfill Settembre 2022—Mag 2023
 
-- Clinical research fellowship (a tempo pieno)
+- Honorary clinical research fellowship (a tempo pieno)
   - Preparazione di 250+ report preliminari di studi clinici di risonanza magnetica cardiaca
+  - Conduzione di un audit clinico sul profilo di *safety* e *feasibility* della risonanza magnetica cardiaca da stress nei pazienti con pregresso trapianto cardiaco
   - Attività di ricerca clinica:
     - valore clinico della risonanza magnetica cardiaca in pazienti con dolore toracico, cardiomiopatie, e a lungo termine dopo trapianto cardiaco
 
@@ -135,7 +137,7 @@ csl: apa-cv.csl
    Supervisori: Prof.ssa Sabina Gallina, Prof.ssa Chiara Bucciarelli-Ducci, e Prof. Fabrizio Ricci
 
    - Autore o coautore di 17 pubblicazioni peer-reviewed
-   - Correlatore di 12 laureandi e 4 specializzandi
+   - Correlatore di 12 laureandi e 4 medici in formazione specialistica
    
 - Laurea magistrale in Medicina e Chirurgia (LM-41, 110 e lode) \hfill Ottobre 2014—Aprile 2021
   

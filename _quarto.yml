@@ -29,10 +29,9 @@ website:
         text: Publications
 
     right: 
-      - icon: file-person
+      - icon: file-earmark-text
         text: CV
         href: cv/index.qmd
-      - icon: mortarboard-fill
   page-footer: "Developed with Quarto by Giandomenico Bisaccia — 2024" 
   reader-mode: false
 format:
