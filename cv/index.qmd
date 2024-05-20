@@ -24,11 +24,18 @@ csl: apa-cv.csl
 
 ::: {.content-visible when-profile="english"}
 # Experience
+
+*G. d’Annunzio University of Chieti and Pescara, Chieti, Italy* \hfill May 2024-present
+
+- Research fellow in cardiology
+  - Conducting supervised research activity with focus on clinical applications of cardiovascular magnetic resonance (CMR)
+  - Coordinating undergraduate and postgraduate students undertaking clinical research duties
+
 *Royal Brompton Hospital, London, UK* \hfill May 2023—present
 
 - Honorary clinical research fellowship (part-time)
    - Investigated the research topics:
-      - quantitative stress perfusion cardiovascular magnetic resonance (CMR)
+      - quantitative stress perfusion CMR
       - ischaemic and nonischaemic cardiomyopathies
       - CMR guidance to percutaneous revascularization
 
@@ -44,11 +51,20 @@ csl: apa-cv.csl
 
 ::: {.content-visible when-profile="italian"}
 # Esperienza
+
+*Università G. d’Annunzio di Chieti e Pescara, Chieti, Italia* \hfill Maggio 2024-presente
+
+- Assegnista di ricerca in malattie dell'apparato cardiovascolare (SSD MED/11)
+  - Attività di ricerca clinica
+    - Risonanza magnetica da stress
+    - Cardiomiopatie ischemiche e nonischemiche
+  - Supervisione e coordinamento di tesisti e specializzandi
+
 *Royal Brompton Hospital, Londra, Regno Unito* \hfill Mag 2023—presente
 
 - Honorary clinical research fellowship (part-time)
    - Attività di ricerca clinica
-      - Risonanza magnetica da stress con valutazione quantitativa della perfusione miocardica
+      - Risonanza magnetica da stress
       - Cardiomiopatie ischemiche e nonischemiche
       - Utilizzo della risonanza magnetica per l'indicazione a terapia di rivascolarizzazione miocardica percutanea
 
@@ -158,6 +174,9 @@ csl: apa-cv.csl
 
 ::: {.content-visible when-profile="english"}
 # Teaching
+*G. d’Annunzio University of Chieti and Pescara, Chieti, Italy* \hfill May 2024
+
+- Honorary teaching assistant in clinical applications of CMR, Undergraduate radiographer course
 
 *University of Padua, Italy* \hfill Jan 2024
 
@@ -166,6 +185,9 @@ csl: apa-cv.csl
 
 ::: {.content-visible when-profile="italian"}
 # Attività di insegnamento
+*Università G. d'Annunzio di Chieti e Pescara, Chieti, Italia* \hfill Maggio 2024
+
+- Cultore della materia, Attività didattica opzionale "Applicazioni cliniche della risonanza magnetica cardiaca", Corso di Laurea in Tecniche di Radiologia Medica, per Immagini e Radioterapia
 
 *Università di Padova, Italia* \hfill Gennaio 2024
 
@@ -446,6 +468,6 @@ Available upon request.
 :::
 
 ::: {.content-visible when-profile="italian"}
-# Lettere di referenza
+# Referenze
 Fornite su richiesta.
 :::
