@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
 
 profile:
   default: english
@@ -47,5 +49,3 @@ format:
 csl: jacc-cvi.csl
 execute: 
   freeze: true
-resources:
-  - CNAME
