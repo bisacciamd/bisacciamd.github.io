@@ -20,6 +20,6 @@ lightbox: true
 
 I am an early career medical researcher with interest in cardiology. I earned my MD (2021) and PhD (2024) from the "G. d'Annunzio" University of Chieti and Pescara, Italy.
 
-I am primarily focused on studying non-invasive cardiovascular imaging in patients with chest pain with diagnostic test evaluation and health technology assessment methods. I presented my work at major international cardiology and imaging conferences, and have initial supervising and teaching experience. 
+I am primarily focused on studying non-invasive cardiovascular imaging in patients with chest pain with diagnostic test evaluation and health technology assessment. 
 
 I am up for collaboration. Have a look at my [publications](pubs.qmd), download a copy of my [CV](cv/index.qmd), or drop me an e-mail at bisacciagiandomenico (at) gmail (dot) com.
