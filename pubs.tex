@@ -1,0 +1,264 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Publications},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Publications}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+I have authored or co-authored 17 scientific publications, where I
+contributed to literature review, statistical analyses, manuscript
+drafting, and/or preparation of visual illustrations and figures.
+
+Select contributions are presented in this section. You can also view my
+publications on
+\href{https://www.ncbi.nlm.nih.gov/myncbi/giandomenico.bisaccia.1/bibliography/public/}{NCBI}.
+
+\section{}\label{section}
+
+\phantomsection\label{mainpubs}
+
+\section{All my publications}\label{all-my-publications}
+
+\subsection{Original research}\label{original-research}
+
+\textbf{Atrial electro-functional predictors of incident atrial
+fibrillation in cardiac amyloidosis} (2024). G. Sinigiani, L. De
+Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, G. Bisaccia, A.
+De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S.
+Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A.
+Cipriani. \emph{Heart Rhythm}.
+\href{https://doi.org/10.1016/j.hrthm.2024.01.056}{}
+
+\textbf{Guillain--Barré syndrome and COVID-19 vaccination: a systematic
+review and meta-analysis} (2024). S. Censi, G. Bisaccia, S. Gallina, V.
+Tomassini and A. Uncini. \emph{Journal of Neurology}.
+\href{https://doi.org/10.1007/s00415-024-12186-7}{}
+
+\textbf{Diagnostic and Prognostic Value of Stress Cardiovascular
+Magnetic Resonance Imaging in Patients With Known or Suspected Coronary
+Artery Disease: A Systematic Review and Meta-analysis} (2023). F. Ricci,
+M. Y. Khanji, G. Bisaccia, A. Cipriani, A. Di Cesare, L. Ceriello, C.
+Mantini, M. Zimarino, A. Fedorowski, S. Gallina, S. E. Petersen and C.
+Bucciarelli-Ducci. \emph{JAMA Cardiology}.
+\href{https://doi.org/10.1001/jamacardio.2023.1290}{}
+
+\textbf{Prognostic Significance of Late Gadolinium Enhancement in Fabry
+Disease-A Systematic Review and Meta-Analysis} (2023). F. Ricci, G.
+Bisaccia, D. Mansour, L. V. Molinari, M. Di Mauro, G. Renda, M. Y.
+Khanji and S. Gallina. \emph{The American Journal of Cardiology}.
+\href{https://doi.org/10.1016/j.amjcard.2023.06.059}{}
+
+\textbf{CMR Reclassifies the Majority of Patients with Suspected MINOCA
+and non MINOCA} (2023). K. Liang, G. Bisaccia, I. Leo, M. G. L.
+Williams, A. Dastidar, J. W. Strange, E. Sammut, T. W. Johnson and C.
+Bucciarelli-Ducci. \emph{European Heart Journal - Cardiovascular
+Imaging}. \href{https://doi.org/10.1093/ehjci/jead182}{}
+
+\textbf{Guillain-Barre syndrome and SARS-CoV-2 infection: a systematic
+review and meta-analysis on a debated issue and evidence for the
+`Italian factor'} (2023). S. Censi, G. Bisaccia, S. Gallina, V.
+Tomassini and A. Uncini. \emph{European Journal of Neurology}.
+\href{https://doi.org/10.1111/ene.16094}{}
+
+\textbf{Cardiovascular Morbidity and Mortality Related to Non-alcoholic
+Fatty Liver Disease: A Systematic Review and Meta-analysis} (2023). G.
+Bisaccia, F. Ricci, M. Y. Khanji, A. Sorella, E. Melchiorre, G.
+Iannetti, K. Galanti, C. Mantini, A. D. Pizzi, C. Tana, G. Renda, A.
+Fedorowski, R. De Caterina and S. Gallina. \emph{Current Problems in
+Cardiology}. \href{https://doi.org/10.1016/j.cpcardiol.2023.101643}{}
+
+\textbf{Cardiovascular magnetic resonance reference values of mitral and
+tricuspid annular dimensions: the UK Biobank cohort} (2021). F. Ricci,
+N. Aung, S. Gallina, F. Zemrak, K. Fung, G. Bisaccia, J. M. Paiva, M. Y.
+Khanji, C. Mantini and S. Palermi. \emph{Journal of Cardiovascular
+Magnetic Resonance}. \href{https://doi.org/10.1186/s12968-020-00688-y}{}
+
+\subsection{Reviews}\label{reviews}
+
+\textbf{Underlying mechanisms and cardioprotective effects of SGLT2i and
+GLP-1Ra: insights from cardiovascular magnetic resonance} (2024). A.
+Cersosimo, N. Salerno, J. Sabatino, A. Scatteia, G. Bisaccia, S. De
+Rosa, S. Dellegrottaglie, C. Bucciarelli-Ducci, D. Torella and I. Leo.
+\emph{Cardiovascular Diabetology}.
+\href{https://doi.org/10.1186/s12933-024-02181-7}{}
+
+\textbf{The Role of Multimodality Imaging in Pediatric Cardiomyopathies}
+(2023). S. Moscatelli, I. Leo, F. Bianco, N. Borrelli, M. Beltrami, M.
+Garofalo, E. G. Milano, G. Bisaccia, F. Iellamo, P. P. Bassareo, A.
+Pradhan, A. Cimini and M. A. Perrone. \emph{Journal of Clinical
+Medicine}. \href{https://doi.org/10.3390/jcm12144866}{}
+
+\textbf{The Role of Advanced Cardiovascular Imaging Modalities in
+Cardio-Oncology: From Early Detection to Unravelling Mechanisms of
+Cardiotoxicity} (2023). I. Leo, M. Vidula, G. Bisaccia, M. C. Procopio,
+R. Licordari, M. Perotto, G. La Vecchia, N. Miaris, P. E. Bravo and C.
+Bucciarelli-Ducci. \emph{Journal of Clinical Medicine}.
+\href{https://doi.org/10.3390/jcm12154945}{}
+
+\textbf{Imaging patients with myocardial infarction with non-obstructive
+coronary arteries (MINOCA)} (2023). I. Leo, G. Bisaccia, N. Miaris, M.
+C. Procopio, R. Licordari and C. Bucciarelli-Ducci. \emph{Heart}.
+\href{https://doi.org/10.1136/heartjnl-2023-322835}{}
+
+\textbf{Prognostic Value of High-Sensitivity Cardiac Troponin in Women}
+(2022). G. Bisaccia, F. Ricci, M. Y. Khanji, G. Gaggi, A. Di Credico, S.
+Gallina, A. Di Baldassarre and B. Ghinassi. \emph{Biomolecules}.
+\href{https://doi.org/10.3390/biom12101496}{}
+
+\textbf{Post-Acute Sequelae of COVID-19 and Cardiovascular Autonomic
+Dysfunction: What Do We Know?} (2021). G. Bisaccia, F. Ricci, V. Recce,
+A. Serio, G. Iannetti, A. A. Chahal, M. Stahlberg, M. Y. Khanji, A.
+Fedorowski and S. Gallina. \emph{Journal of Cardiovascular Development
+and Disease}. \href{https://doi.org/10.3390/jcdd8110156}{}
+
+\textbf{Mitochondrial Dysfunction and Heart Disease: Critical Appraisal
+of an Overlooked Association} (2021). G. Bisaccia, F. Ricci, S. Gallina,
+A. Di Baldassarre and B. Ghinassi. \emph{International Journal of
+Molecular Sciences}. \href{https://doi.org/10.3390/ijms22020614}{}
+
+\textbf{Nonalcoholic fatty liver disease and cardiovascular disease
+phenotypes} (2020). G. Bisaccia, F. Ricci, C. Mantini, C. Tana, G. L.
+Romani, C. Schiavone and S. Gallina. \emph{SAGE Open Medicine}.
+\href{https://doi.org/10.1177/2050312120933804}{}
+
+
+
+\end{document}
