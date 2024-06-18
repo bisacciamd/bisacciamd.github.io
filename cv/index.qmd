@@ -353,6 +353,11 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
 # Pubblicazioni
 :::
 
+*Moderate aortic stenosis: Navigating the uncharted* (2024).
+M. V. Caprio, F. De Donno, **G. Bisaccia**, C. Mantini, A. Di Baldassarre, S. Gallina, M. Y. Khanji and F. Ricci.
+*Echocardiography*.
+[{{< bi box-arrow-up-right >}}](https://doi.org/https://doi.org/10.1111/echo.15859)
+
 *Atrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis* (2024).
 G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, **G. Bisaccia**, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani.
 *Heart Rhythm*.
