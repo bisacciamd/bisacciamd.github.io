@@ -1,7 +1,7 @@
 ---
 title: "Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)"
 subtitle: Heart (BMJ)
-description: "This paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries."
+description: "This educational paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries."
 categories: [MINOCA, imaging, review] 
 author: 
     - name: I. Leo, G. Bisaccia

@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="jamacard.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Figure from JAMA Cardiology."><img src="jamacard.png" class="img-fluid figure-img" alt="Figure from JAMA Cardiology."></a></p>
+<p><a href="jamacard.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Figure from JAMA Cardiology."><img src="jamacard.png" class="img-fluid figure-img" alt="Figure from JAMA Cardiology."></a></p>
 <figcaption>Figure from JAMA Cardiology.</figcaption>
 </figure>
 </div>
@@ -801,7 +801,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
