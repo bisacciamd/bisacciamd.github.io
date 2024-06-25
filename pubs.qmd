@@ -29,18 +29,6 @@ My publications may also be accessed on [NCBI](https://www.ncbi.nlm.nih.gov/mync
 
 :::
 
-# NCBI
-
-```{=html}
-<object data="https://www.ncbi.nlm.nih.gov/myncbi/giandomenico.bisaccia.1/bibliography/public/"
-width="700"
-height="700"
-type="text/html">
-    Alternative Content
-</object>
-```
-
-
 ## Original research
 
 **Atrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis** (2024).
