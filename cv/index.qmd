@@ -85,7 +85,11 @@ csl: apa-cv.csl
 *London School of Economics, London, UK* \hfill Dec 2023—Dec 2025
 
 - MSc in Health Economics, Outcomes and Management in Clinical Sciences (class of 2025)
-  - Modules included Economic Analysis for Health Policy (distinction), Quality and Outcomes in Clinical Sciences (distinction)
+  - Taught modules included:
+    - Economic Analysis for Health Policy (distinction)
+    - Quality and Outcomes in Clinical Sciences (distinction)
+    - Economic Evaluation in Health Care (under assessment)
+    - Fundamentals of Management and Leadership (under assessment)
   - Volunteered as the class Clinical Student Representative for 2023/24
 
 *Royal Brompton Hospital, London, UK*  \hfill Oct—Dec 2022
@@ -102,7 +106,7 @@ csl: apa-cv.csl
    
    Supervisors: Prof. Sabina Gallina, Prof. Chiara Bucciarelli-Ducci, and Prof. Fabrizio Ricci
 
-   Additional qualification: *Doctor Europaeus* (international supervision, revision and examination; PhD defended in the English language)
+   Additional qualification: *Doctor Europaeus* (international supervision, revision and examination; PhD defended in English)
 
    - Established an international collaboration between the University of Chieti, Italy and Harefield Hospital, London, UK 
    - Co-authored 17 peer-reviewed publications
@@ -131,7 +135,11 @@ csl: apa-cv.csl
 *London School of Economics, Londra, Regno Unito* \hfill Dicembre 2023—Dicembre 2025
 
 - MSc in Health Economics, Outcomes and Management in Clinical Sciences (classe del 2025)
-  - I corsi frequentati includono Economic Analysis for Health Policy (voto finale: distinction), Quality and Outcomes in Clinical Sciences (voto finale: distinction)
+  - I corsi frequentati includono:
+    - Economic Analysis for Health Policy (distinction)
+    - Quality and Outcomes in Clinical Sciences (distinction)
+    - Economic Evaluation in Health Care (valutazione in atto)
+    - Fundamentals of Management and Leadership (valutazione in atto)
   - Rappresentante di classe volontario per l'anno accademico 2023/24
 
 *Royal Brompton Hospital, Londra, Regno Unito*  \hfill Ottobre—Dicembre 2022
@@ -227,6 +235,7 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
   - systematic review and meta-analysis (5 published)
   - diagnostic studies (accuracy, clinical utility)
   - prognostic studies (data scraping, survival analysis)
+  - cost-effectiveness analysis and health technology assessment
 
 - Data science 
   - Strong data modelling skills, R
@@ -249,6 +258,7 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
   - revisione sistematica e meta-analisi (5 pubblicate)
   - studi diagnostici (accuratezza, utilità clinica)
   - studi prognostici (data scraping, analisi di sopravvivenza)
+  - analisi di costo-efficacia e health technology assessment
 
 - Data science 
   - Competenze avanzate di data modelling in R
@@ -352,6 +362,12 @@ Basic Life Support Provider, American Heart Association. *“Dinamica” Trainin
 ::: {.content-visible when-profile="italian"}
 # Pubblicazioni
 :::
+
+*Prevention of cardiotoxicity in childhood cancer survivors: in physical exercise, we trust* (2024).
+V. Bucciarelli, F. Bianco, **G. Bisaccia**, K. Galanti, A. Arata, M. Ricci, B. Bucciarelli, M. Marinelli, G. Renda, A. Farinetti, A. V. Mattioli and S. Gallina.
+*Current Problems in Cardiology*.
+[{{< bi box-arrow-up-right >}}](https://doi.org/10.1016/j.cpcardiol.2024.102722)
+
 
 *Moderate aortic stenosis: Navigating the uncharted* (2024).
 M. V. Caprio, F. De Donno, **G. Bisaccia**, C. Mantini, A. Di Baldassarre, S. Gallina, M. Y. Khanji and F. Ricci.

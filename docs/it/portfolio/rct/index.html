@@ -223,7 +223,7 @@ div.csl-indent {
 <p>Interpreting published results of randomized clinical trials is challenging. Communicated results often highlight certain aspects of a study while conceiling others. As a result, the final user of the trial-conceived information — the physician — is often left with few tools to actually understand what happened in a particular trial. We have evidence that physicians are generally poor at interpreting clinical research <span class="citation" data-cites="10.1001/jama.298.9.1010">(<a href="#ref-10.1001/jama.298.9.1010" role="doc-biblioref">1</a>)</span>. The RCT dashboard provides basic insight into 2-arm RCT results, and can be leveraged to assess efficacy and safety of interventions. <a href="https://nweex5-g-bisaccia.shinyapps.io/rct-appraise/"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="rct-appraise.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="The interactive dashboard on Shinyapps.io."><img src="rct-appraise.png" class="img-fluid figure-img" alt="The interactive dashboard on Shinyapps.io."></a></p>
+<p><a href="rct-appraise.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="The interactive dashboard on Shinyapps.io."><img src="rct-appraise.png" class="img-fluid figure-img" alt="The interactive dashboard on Shinyapps.io."></a></p>
 <figcaption>The interactive dashboard on Shinyapps.io.</figcaption>
 </figure>
 </div>
@@ -809,7 +809,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
