@@ -18,8 +18,8 @@ lightbox: true
 [{{< bi linkedin >}}](https://linkedin.com/in/bisacciamd)   [{{< bi twitter-x >}}](https://x.com/bisacciamd)   [{{< bi github >}}](https://github.com/bisacciamd)   [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=Apav_NgAAAAJ)   [{{< ai orcid >}}](https://orcid.org/0000-0003-4606-3093)
 
 
-I am an early career medical researcher with interest in cardiology. I earned my MD (2021) and PhD (2024) from the "G. d'Annunzio" University of Chieti and Pescara, Italy.
+Passionate about EBM, clinical research, and HTA, I earned my MD and PhD at the University of Chieti and Pescara, Italy. At present, I am studying an MSc in Health Economics, Outcomes and Management at the London School of Economics (class of 2025). 
 
-I am primarily focused on studying non-invasive cardiovascular imaging in patients with chest pain with diagnostic test evaluation and health technology assessment. 
+During an international PhD, I have researched extensively on cardiac MRI with particular focus on its diagnostic and prognostic value in patients with angina, cardiomyopathies, and following heart transplantation. 
 
 I am up for collaboration. Have a look at my [publications](pubs.qmd), download a copy of my [CV](cv/index.qmd), or drop me an e-mail at bisacciagiandomenico (at) gmail (dot) com.

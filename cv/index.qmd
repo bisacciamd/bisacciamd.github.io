@@ -28,13 +28,13 @@ csl: apa-cv.csl
 *G. d’Annunzio University of Chieti and Pescara, Chieti, Italy* \hfill May 2024-present
 
 - Research fellow in cardiology
-  - Conducting supervised research activity with focus on clinical applications of cardiovascular magnetic resonance (CMR)
-  - Coordinating undergraduate and postgraduate students undertaking clinical research duties
+  - Conducting supervised clinical research with focus on clinical applications of cardiovascular magnetic resonance (CMR)
+  - Coordinating undergraduate and postgraduate students
 
 *Royal Brompton Hospital, London, UK* \hfill May 2023—present
 
 - Honorary clinical research fellowship (part-time)
-   - Investigated the research topics:
+   - Investigating the following research topics:
       - quantitative stress perfusion CMR
       - ischaemic and nonischaemic cardiomyopathies
       - CMR guidance to percutaneous revascularization
@@ -42,11 +42,10 @@ csl: apa-cv.csl
 *Harefield Hospital, London, UK* \hfill Sept 2022—May 2023
 
 - Honorary clinical research fellowship (full time)
-  - Prepared the initial report for 250+ clinical CMR scans
+  - Prepared initial reports for 250+ clinical CMR scans
   - Conducted a clinical audit on the safety and feasibility of adenosine stress CMR after heart transplantation
-  - Investigated the research topics:
-      - clinical value of CMR in patients with chest pain, cardiomyopathies, and long term after cardiac transplantation
-  - Improved research productivity among peers in various research groups
+  - Researched the clinical value of CMR in patients with angina, cardiomyopathies, and after cardiac transplantation
+  - Improved research productivity among peers
 :::
 
 ::: {.content-visible when-profile="italian"}
@@ -58,7 +57,7 @@ csl: apa-cv.csl
   - Attività di ricerca clinica
     - Risonanza magnetica da stress
     - Cardiomiopatie ischemiche e nonischemiche
-  - Supervisione e coordinamento di tesisti e specializzandi
+  - Supervisione e coordinamento di tesisti e medici in formazione
 
 *Royal Brompton Hospital, Londra, Regno Unito* \hfill Mag 2023—presente
 
@@ -95,16 +94,14 @@ csl: apa-cv.csl
 *Royal Brompton Hospital, London, UK*  \hfill Oct—Dec 2022
 
 - Clinical CMR training course
-  - Underwent full-time training in cardiac MR under CMR Level 3 certified experts
+  - Underwent full-time training in CMR under Level 3 certified experts
   - Contributed to the CMR service of the hospital
 
 *G. d’Annunzio University of Chieti and Pescara, Chieti, Italy*
 
-- PhD in Neuroscience and Imaging (MED/11) \hfill Oct 2021—Mar 2024
+- PhD in Neuroscience and Imaging \hfill Oct 2021—Mar 2024
 
-   Thesis title: *Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients*
-   
-   Supervisors: Prof. Sabina Gallina, Prof. Chiara Bucciarelli-Ducci, and Prof. Fabrizio Ricci
+   - Thesis title: *Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients*
 
    Additional qualification: *Doctor Europaeus* (international supervision, revision and examination; PhD defended in English)
 
@@ -115,17 +112,11 @@ csl: apa-cv.csl
    - Was a finalist in the CMR 2024 Early Career Award, clinical track (2024)
 
 - Master's Degree in Medicine (summa cum laude) \hfill Oct 2014—Apr 2021
-  
-  Thesis title: *CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort* 
-  
-  Supervisors: Prof. Sabina Gallina, Prof. Fabrizio Ricci
+    
+    - Thesis title: *CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort* 
   
 - «Path of Excellence» research track in Medicine \hfill Oct 2016—Oct 2019
 
-  - Course on research methodology
-  - Research activity with focus on surface electromyography
-  - Supervisor: Prof. Gian Luca Romani
-  - First student to be enrolled in the local MD-PhD track
 :::
 
 ::: {.content-visible when-profile="italian"}
@@ -150,15 +141,11 @@ csl: apa-cv.csl
 
 *Università G. d'Annunzio di Chieti e Pescara, Chieti, Italia*
 
-- Dottorato in Neuroscienze e Imaging (Doctor Europaeus) \hfill Ottobre 2021—Marzo 2024
+- Dottorato in Neuroscienze e Imaging (Doctor Europaeus, SSD: MED/11) \hfill Ottobre 2021—Marzo 2024
 
    Tesi: *Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients*
-
-   SSD: MED/11
    
    Qualifica aggiuntiva: *Doctor Europaeus* (internazionalità del progetto, dei supervisori e dei revisori; tesi discussa in lingua inglese)
-
-   Supervisori: Prof.ssa Sabina Gallina, Prof.ssa Chiara Bucciarelli-Ducci, e Prof. Fabrizio Ricci
 
    - Autore o coautore di 17 pubblicazioni peer-reviewed
    - Correlatore di 12 laureandi e 4 medici in formazione specialistica
@@ -168,15 +155,8 @@ csl: apa-cv.csl
   Tesi: *CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort* 
 
   SSD: MED/11
-
-  Supervisori: Prof.ssa Sabina Gallina, Prof. Fabrizio Ricci
   
 - Percorso di Eccellenza in Medicina \hfill Ott 2016—Ott 2019
-
-    - Formazione applicata in metodologia medico-scientifica
-    - Attività di ricerca in segnali elettrofisiologici, con focus su elettromiografia di superficie
-    - Supervisore: Prof. Gian Luca Romani
-    - Primo studente del Percorso ad essere selezionato per la track MD-PhD
 
 :::
 
