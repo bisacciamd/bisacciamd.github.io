@@ -216,7 +216,7 @@ csl: apa-cv.csl
 ::: {.content-visible when-profile="english"}
 # Professional affiliations
 
-- \tinyMember of the American Heart Association (2023-present), American College of Cardiology (Fellow in Training, 2022-present), Society for Cardiovascular Magnetic Resonance (Early Career WG, 2022-present), European Society of Cardiology (Professional member, 2021-present), European Association of Cardiovascular Imaging (2021-present), and of the Italian Society of Cardiology (CMR, Sex differences WG, 2021-present)
+- Member of the American Heart Association (2023-present), American College of Cardiology (Fellow in Training, 2022-present), Society for Cardiovascular Magnetic Resonance (Early Career WG, 2022-present), European Society of Cardiology (Professional member, 2021-present), European Association of Cardiovascular Imaging (2021-present), and of the Italian Society of Cardiology (CMR, Sex differences WG, 2021-present)
 
 - Other affiliations
   - NHS-R Community \hfill 2024-present
@@ -234,10 +234,8 @@ csl: apa-cv.csl
 :::
 
 ::: {.content-visible when-profile="english"}
-# Grants
+# Grants, prizes and awards
 - Participant to research unit for the "ULTRALIGHT-HCM" study, funded by the Italian Ministry of Public Education (PRIN PNRR) for € 299,604 \hfill July 2023
-
-# Prizes and awards
 - Finalist, Early career award (clinical track), CMR 2024, London, UK \hfill January 2024
 - Early Career Investigator Travel Grant, AHA Scientific Sessions, Philadelphia, USA \hfill November 2023
 - Educational Grant, EACVI Conference, Barcelona, Spain \hfill May 2023
@@ -246,11 +244,9 @@ csl: apa-cv.csl
 :::
 
 ::: {.content-visible when-profile="italian"}
-# Grant
+# Grant, premi e riconoscimenti
+
 - Partecipante ad unità di ricerca per lo studio ULTRALIGHT-HCM, progetto finanziato PRIN PNRR (€ 299.604) \hfill Luglio 2023
-
-# Premi e riconoscimenti
-
 - Finalista, Early career award (clinical track), CMR 2024, Londra, Regno Unito \hfill Gennaio 2024
 - Early Career Investigator Travel Grant, AHA Scientific Sessions, Philadelphia, USA \hfill Novembre 2023
 - Educational Grant, EACVI Conference, Barcelona, Spain \hfill Maggio 2023
