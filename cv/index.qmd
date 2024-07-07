@@ -235,8 +235,8 @@ csl: apa-cv.csl
 
 ::: {.content-visible when-profile="english"}
 # Grants, prizes and awards
-- Participant to research unit for the "ULTRALIGHT-HCM" study, funded by the Italian Ministry of Public Education (PRIN PNRR) for € 299,604 \hfill July 2023
 - Finalist, Early career award (clinical track), CMR 2024, London, UK \hfill January 2024
+- Participant to research unit, ULTRALIGHT-HCM study, Italian Ministry of Public Education (€ 299,604) \hfill July 2023
 - Early Career Investigator Travel Grant, AHA Scientific Sessions, Philadelphia, USA \hfill November 2023
 - Educational Grant, EACVI Conference, Barcelona, Spain \hfill May 2023
 - Travel Grant, SCMR Conference, San Diego, USA \hfill January 2023
@@ -246,8 +246,8 @@ csl: apa-cv.csl
 ::: {.content-visible when-profile="italian"}
 # Grant, premi e riconoscimenti
 
-- Partecipante ad unità di ricerca per lo studio ULTRALIGHT-HCM, progetto finanziato PRIN PNRR (€ 299.604) \hfill Luglio 2023
 - Finalista, Early career award (clinical track), CMR 2024, Londra, Regno Unito \hfill Gennaio 2024
+- Partecipante ad unità di ricerca, studio ULTRALIGHT-HCM finanziato PRIN PNRR (€ 299.604) \hfill Luglio 2023
 - Early Career Investigator Travel Grant, AHA Scientific Sessions, Philadelphia, USA \hfill Novembre 2023
 - Educational Grant, EACVI Conference, Barcelona, Spain \hfill Maggio 2023
 - Travel Grant, SCMR Conference, San Diego, USA \hfill Gennaio 2023
