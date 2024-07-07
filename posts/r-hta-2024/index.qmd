@@ -1,0 +1,20 @@
+---
+title: "My account for the R-HTA Workshop 2024"
+subtitle: I do love tables.
+description: "From zero to hero with tables"
+author: 
+    name: G. Bisaccia
+    orcid: 0000-0003-4606-3093
+date: last-modified
+date-format: medium
+#image: 
+draft: true # change status
+reference-location: margin
+image: challenges.png
+categories: [R, gt, tidyverse]
+execute:
+#   echo: false
+    warning: false
+    error: false
+    freeze: auto
+---
