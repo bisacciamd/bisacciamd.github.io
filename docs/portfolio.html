@@ -99,6 +99,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-mainpubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-mainpubs'] = new List('listing-mainpubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -181,16 +209,17 @@ window.Quarto = {
     <a class="nav-link active" href="./portfolio.html" aria-current="page"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./pubs.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./cv/index.html"> <i class="bi bi-file-earmark-text" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications/index.html"> <i class="bi bi-paperclip" role="img">
+</i> 
+<span class="menu-text">Publications</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -208,7 +237,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#matlab-software" id="toc-matlab-software" class="nav-link active" data-scroll-target="#matlab-software">MATLAB software</a></li>
+  <li><a href="#academic-work" id="toc-academic-work" class="nav-link active" data-scroll-target="#academic-work">Academic work</a></li>
+  <li><a href="#scientific-publications" id="toc-scientific-publications" class="nav-link" data-scroll-target="#scientific-publications">Scientific publications</a></li>
   </ul>
 </nav>
 </nav>
@@ -251,6 +281,8 @@ window.Quarto = {
 </header>
 
 
+<section id="academic-work" class="level1">
+<h1>Academic work</h1>
 <div id="listing-main" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="CMR,pharmacological stress,heart transplant,thesis" data-listing-date-sort="1711321200000" data-listing-file-modified-sort="1712585563388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="63" data-listing-word-count-sort="12476">
@@ -260,7 +292,7 @@ window.Quarto = {
 </a><p><a href="./portfolio/phd/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<h3 class="no-anchor listing-title">
+<h3 class="no-anchor listing-title" data-anchor-id="academic-work">
 <a href="./portfolio/phd/index.html" class="no-external">Value of Quantitative Stress Perfusion CMR in the Long-Term Assessment of Cardiac Transplantation Recipients</a>
 </h3>
 <div class="listing-subtitle">
@@ -398,15 +430,131 @@ G. Bisaccia
 No matching items
 </div>
 </div>
-<section id="matlab-software" class="level2">
-<h2 class="anchored" data-anchor-id="matlab-software">MATLAB software</h2>
-<section id="dicom-handler" class="level4">
-<h4 class="anchored" data-anchor-id="dicom-handler">DICOM handler</h4>
-<p>A script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.</p>
-
-
-
 </section>
+<section id="scientific-publications" class="level1">
+<h1>Scientific publications</h1>
+<div id="listing-mainpubs" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="MINOCA,CMR,registry" data-listing-date-sort="1690840800000" data-listing-file-modified-sort="1711200985473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
+<div class="thumbnail">
+<p><a href="./pubs/ehjcvi2023/index.html" class="no-external"></a></p><a href="./pubs/ehjcvi2023/index.html" class="no-external">
+<p class="card-img-top"><img src="pubs/ehjcvi2023/ehjcvi.png" alt="Table and figure from EHJ Cardiovascular Imaging."  class="thumbnail-image card-img"/></p>
+</a><p><a href="./pubs/ehjcvi2023/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="scientific-publications">
+<a href="./pubs/ehjcvi2023/index.html" class="no-external">CMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./pubs/ehjcvi2023/index.html" class="no-external">European Heart Journal - Cardiovascular Imaging</a>
+</div>
+<div class="listing-description">
+<a href="./pubs/ehjcvi2023/index.html" class="no-external">This study investigated the diagnostic yield of CMR in ~900 patients with suspected MINOCA.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./pubs/ehjcvi2023/index.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2023
+</div>
+<div class="listing-author">
+K. Liang, G. Bisaccia, et al.
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="MINOCA,imaging,review" data-listing-date-sort="1689026400000" data-listing-file-modified-sort="1716979365632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
+<div class="thumbnail">
+<p><a href="./pubs/heart2023/index.html" class="no-external"></a></p><a href="./pubs/heart2023/index.html" class="no-external">
+<p><img src="./pubs/heart2023/heart2023.png" class="thumbnail-image"></p>
+</a><p><a href="./pubs/heart2023/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./pubs/heart2023/index.html" class="no-external">Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./pubs/heart2023/index.html" class="no-external">Heart (BMJ)</a>
+</div>
+<div class="listing-description">
+<a href="./pubs/heart2023/index.html" class="no-external">This educational paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./pubs/heart2023/index.html" class="no-external">
+<div class="listing-date">
+Jul 11, 2023
+</div>
+<div class="listing-author">
+I. Leo, G. Bisaccia, et al.
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="cmr,meta-analysis,systematic review,coronary artery disease" data-listing-date-sort="1688162400000" data-listing-file-modified-sort="1711200998549" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="506">
+<div class="thumbnail">
+<p><a href="./pubs/jamacard2023/index.html" class="no-external"></a></p><a href="./pubs/jamacard2023/index.html" class="no-external">
+<p class="card-img-top"><img src="pubs/jamacard2023/jamacard.png" alt="Figure from JAMA Cardiology."  class="thumbnail-image card-img"/></p>
+</a><p><a href="./pubs/jamacard2023/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./pubs/jamacard2023/index.html" class="no-external">Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./pubs/jamacard2023/index.html" class="no-external">JAMA Cardiology</a>
+</div>
+<div class="listing-description">
+<a href="./pubs/jamacard2023/index.html" class="no-external">This review summarizes 20 years of research on CMR in coronary artery disease.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./pubs/jamacard2023/index.html" class="no-external">
+<div class="listing-date">
+Jul 1, 2023
+</div>
+<div class="listing-author">
+F. Ricci, M. Y. Khanji, G. Bisaccia, et al.
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="NAFLD,CVD,meta-analysis,systematic review" data-listing-date-sort="1685570400000" data-listing-file-modified-sort="1711200978458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
+<div class="thumbnail">
+<p><a href="./pubs/currprobs2023/index.html" class="no-external"></a></p><a href="./pubs/currprobs2023/index.html" class="no-external">
+<p class="card-img-top"><img src="pubs/currprobs2023/nafld.png" alt="Figure from Current Problems in Cardiology."  class="thumbnail-image card-img"/></p>
+</a><p><a href="./pubs/currprobs2023/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./pubs/currprobs2023/index.html" class="no-external">Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./pubs/currprobs2023/index.html" class="no-external">Current Problems in Cardiology</a>
+</div>
+<div class="listing-description">
+<a href="./pubs/currprobs2023/index.html" class="no-external">This meta-analysis summarizes the literature on NAFLD and cardiovascular risk.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./pubs/currprobs2023/index.html" class="no-external">
+<div class="listing-date">
+Jun 1, 2023
+</div>
+<div class="listing-author">
+G. Bisaccia, et al.
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
 </section>
 
 </main> <!-- /main -->

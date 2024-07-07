@@ -7,15 +7,21 @@ author:
     affiliation: Gabriele d’Annunzio University of Chieti and Pescara, Italy
 bibliography: bibs/cv.bib
 listing:
-    id: main
-    contents: portfolio
-    sort: "date desc"
+    - id: main
+      contents: portfolio
+      sort: "date desc"
+    - id: mainpubs
+      contents: pubs
+      sort: "date desc"
 ---
+
+# Academic work
 
 ::: {#main}
 :::
 
-## MATLAB software
-#### DICOM handler
-A script allowing batch extraction of selected images (stress and rest perfusion, late gadolinium enhancement) from cardiac MRI studies.
+# Scientific publications
 
+:::{#mainpubs}
+
+:::
