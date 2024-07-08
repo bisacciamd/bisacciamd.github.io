@@ -183,7 +183,7 @@ csl: apa-cv.csl
   - Strong modelling and data visualization skills in R 
   - Dynamic, reproducible reporting in Quarto
   - Development and deployment of server-based Shiny applications
-  - Proficient in using Word, Excel, Powerpoint, REDCap and Git, basic use of MATLAB, LaTeX, Adobe Illustrator
+  - Proficient in using Word, Excel, Powerpoint, REDCap and Git
 
 - English language 
   - International English Language Testing System (IELTS) \hfill Nov 2023
@@ -204,7 +204,7 @@ csl: apa-cv.csl
   - Competenze avanzate di visualizzazione dati e modelling in R
   - Reporting dinamico, riproducibile in Quarto
   - Sviluppo di applicazioni Shiny
-  - Utente esperto di Word, Excel, Powerpoint, REDCap e Git, utente base di MATLAB, LaTeX, Adobe Illustrator
+  - Utente esperto di Word, Excel, Powerpoint, REDCap e Git
 
 - Lingua inglese
   - International English Language Testing System (IELTS) \hfill Novembre 2023

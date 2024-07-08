@@ -126,16 +126,17 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../pubs.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../cv/index.html"> <i class="bi bi-file-earmark-text" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications/index.html"> <i class="bi bi-paperclip" role="img">
+</i> 
+<span class="menu-text">Publications</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -203,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="dta.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="The app home page."><img src="dta.png" class="img-fluid figure-img" alt="The app home page."></a></p>
+<p><a href="dta.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="The app home page."><img src="dta.png" class="img-fluid figure-img" alt="The app home page."></a></p>
 <figcaption>The app home page.</figcaption>
 </figure>
 </div>
@@ -785,7 +786,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -127,16 +127,17 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../pubs.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../cv/index.html"> <i class="bi bi-file-earmark-text" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications/index.html"> <i class="bi bi-paperclip" role="img">
+</i> 
+<span class="menu-text">Publications</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -205,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="ehjcvi.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Table and figure from EHJ Cardiovascular Imaging."><img src="ehjcvi.png" class="img-fluid figure-img" alt="Table and figure from EHJ Cardiovascular Imaging."></a></p>
+<p><a href="ehjcvi.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Table and figure from EHJ Cardiovascular Imaging."><img src="ehjcvi.png" class="img-fluid figure-img" alt="Table and figure from EHJ Cardiovascular Imaging."></a></p>
 <figcaption>Table and figure from EHJ Cardiovascular Imaging.</figcaption>
 </figure>
 </div>
@@ -792,7 +793,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
