@@ -47,6 +47,11 @@ La lista delle mie pubblicazioni è disponibile online su [NCBI](https://www.ncb
 
 ### Studi originali
 :::
+**Safety and feasibility of adenosine stress cardiac MRI in heart transplant recipients** (2024).
+**G. Bisaccia**, R. Licordari, I. Leo, G. La Vecchia, M. Perotto, M. C. Procopio, N. Miaris, F. Ricci, S. Gallina, J. Wong, P. Kellman and C. Bucciarelli-Ducci.
+*European Heart Journal - Cardiovascular Imaging*.
+[{{< bi box-arrow-up-right >}}](https://doi.org/10.1093/ehjci/jeae174)
+
 
 **Atrial electro-functional predictors of incident atrial fibrillation in cardiac amyloidosis** (2024).
 G. Sinigiani, L. De Michieli, A. Porcari, C. Zocchi, A. Sorella, C. Mazzoni, **G. Bisaccia**, A. De Luca, G. Di Bella, D. Gregori, F. Perfetto, M. Merlo, G. Sinagra, S. Iliceto, M. Perazzolo Marra, D. Corrado, F. Ricci, F. Cappelli and A. Cipriani.
