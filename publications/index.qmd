@@ -21,6 +21,8 @@ fontawesome: yes
 nocite: '@*'
 validate-yaml: false
 csl: apa-cv.csl
+execute: 
+  freeze: false
 ---
 
 ```{r}
