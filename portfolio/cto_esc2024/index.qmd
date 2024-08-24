@@ -101,7 +101,7 @@ Included studies are described in @tbl-1.
 
 : Baseline characteristics in included studies. {#tbl-1}
 
-*MVD, multivessel disease; NR, data not reported; NROS, nonrandomized observational study; RCT, randomized clinical trial. For RCTs on CTO-PCI, J-CTO score refers to the PCI cohort. * for these referenced publications reporting on the same cohort, different outcomes were extracted from each.*
+*MVD, multivessel disease; NR, data not reported; NROS, nonrandomized observational study; RCT, randomized clinical trial. For RCTs on CTO-PCI, J-CTO score refers to the PCI cohort.* For referenced publications reporting on the same cohort, different outcomes were extracted from each.
 
 # Primary endpoint
 

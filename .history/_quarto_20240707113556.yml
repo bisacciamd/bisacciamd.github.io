@@ -31,10 +31,10 @@ website:
     right: 
       - icon: file-earmark-text
         text: CV
-        href: https://cv.bisacciamd.com/
+        href: cv/index.qmd
       - icon: paperclip
         text: Publications
-        href: https://cv.bisacciamd.com/publications/
+        href: publications/index.qmd
   page-footer: "Developed with Quarto by Giandomenico Bisaccia — 2024" 
   reader-mode: false
 format:
