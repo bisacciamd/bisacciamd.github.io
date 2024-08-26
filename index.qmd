@@ -22,4 +22,4 @@ Passionate about EBM, clinical research, and HTA, I earned my MD and PhD at the 
 
 During an international PhD, I have researched extensively on cardiac MRI with particular focus on its diagnostic and prognostic value in patients with angina, cardiomyopathies, and following heart transplantation. 
 
-I am up for collaboration. Have a look at my [publications](publications/index.qmd), download a copy of my [CV](cv/index.qmd), or drop me an e-mail at bisacciagiandomenico (at) gmail (dot) com.
+I am up for collaboration. Have a look at my [publications](https://cv.bisacciamd.com/publications/), download a copy of my [CV](https://cv.bisacciamd.com/), or drop me an e-mail at bisacciagiandomenico (at) gmail (dot) com.
