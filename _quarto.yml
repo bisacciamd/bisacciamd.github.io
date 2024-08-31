@@ -23,7 +23,7 @@ website:
         href: https://github.com/bisacciamd
       - href: index.qmd
         text: Home
-      - href: blog.qmd
+      - href: https://blog.bisacciamd.com/
         text: Blog
       - href: portfolio.qmd
         text: Portfolio
