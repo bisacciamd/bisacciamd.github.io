@@ -31,8 +31,6 @@ website:
         text: CV
         href: https://cv.bisacciamd.com/
       - icon: paperclip
-        text: Publications
-        href: https://cv.bisacciamd.com/publications/
       - icon: file-post
         href: https://blog.bisacciamd.com/
         text: Blog
