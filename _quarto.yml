@@ -17,8 +17,6 @@ website:
     left:
       - icon: linkedin
         href: https://linkedin.com/in/bisacciamd
-      - icon: twitter-x
-        href: https://x.com/bisacciamd
       - icon: github
         href: https://github.com/bisacciamd
       - href: index.qmd
