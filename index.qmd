@@ -15,7 +15,7 @@ lightbox: true
 [{{< bi linkedin >}}](https://linkedin.com/in/bisacciamd)   [{{< bi twitter-x >}}](https://x.com/bisacciamd)   [{{< bi github >}}](https://github.com/bisacciamd)   [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=Apav_NgAAAAJ)   [{{< ai orcid >}}](https://orcid.org/0000-0003-4606-3093)
 
 
-Passionate about EBM, clinical research, and HTA, I earned my MD and PhD at the University of Chieti and Pescara, Italy. At present, I am studying an MSc in Health Economics, Outcomes and Management at the London School of Economics (class of 2025). 
+Passionate about evidence generation & appraisal, clinical research, and health technology, I earned my MD and PhD at the University of Chieti and Pescara, Italy. I am studying an MSc in Health Economics, Outcomes and Management at the London School of Economics (class of 2025). 
 
 During an international PhD, I have researched extensively on cardiac MRI with particular focus on its diagnostic and prognostic value in patients with angina, cardiomyopathies, and following heart transplantation. 
 
