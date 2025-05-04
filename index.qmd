@@ -17,6 +17,6 @@ lightbox: true
 
 Passionate about evidence generation & appraisal, clinical research, and health technology, I earned my MD and PhD at the University of Chieti and Pescara, Italy. I am studying an MSc in Health Economics, Outcomes and Management at the London School of Economics (class of 2025). 
 
-During an international PhD, I have researched extensively on cardiac MRI with particular focus on its diagnostic and prognostic value in patients with angina, cardiomyopathies, and following heart transplantation. 
+Since undertaking an international PhD, I have researched extensively on cardiac MRI with particular focus on its diagnostic and prognostic value in patients with angina, cardiomyopathies, and following heart transplantation. At present, I am a Resident in Cardiology at my home University.
 
-I am up for collaboration. Have a look at my [publications](portfolio.qmd), download a copy of my [CV](https://cv.bisacciamd.com/), or drop me an e-mail at bisacciagiandomenico (at) gmail (dot) com.
+You can visit my [portfolio](portfolio.qmd), read my [CV](https://cv.bisacciamd.com/), or drop me an e-mail at bisacciagiandomenico (at) gmail (dot) com.
