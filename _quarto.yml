@@ -32,7 +32,7 @@ website:
       - icon: file-post
         href: https://blog.bisacciamd.com/
         text: Blog
-  page-footer: "Developed with Quarto by Giandomenico Bisaccia — 2024" 
+  page-footer: "Developed with Quarto by Giandomenico Bisaccia — © 2024-2025" 
   reader-mode: false
 format:
   html:
