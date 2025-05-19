@@ -37,7 +37,7 @@ website:
 format:
   html:
     theme: 
-      light: [litera, styles.scss]
+      light: [flatly, styles.scss]
       dark: [superhero, styles.scss]
     css: styles.css
     toc: true
