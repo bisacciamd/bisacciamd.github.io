@@ -1,6 +1,6 @@
 ---
 title: "Randomized clinical trial appraisal (RCT)"
-subtitle: Shiny application
+subtitle: Shiny dashboard
 description: "Simplifies evaluation of clinical trial results."
 categories: [RCT, shiny app]
 title-block-categories: true

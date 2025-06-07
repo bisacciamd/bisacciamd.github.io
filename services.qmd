@@ -17,7 +17,7 @@ I deliver rigorous evidence synthesis and economic evaluations that inform healt
 - 21 peer-reviewed publications in leading journals
 - As a research officer at LSE Health, I am currently developing economic evaluation tools for EU-funded [HYPERMARKER project](https://www.hypermarker.eu/)
 
-::: {.callout-tip appearance="minimal" style="background-color: #f8f9fa; border-left: 5px solid #0d6efd; margin: 40px 0;"}
+::: {.callout-tip appearance="minimal" style="background-color: #f8f9fa; border-left: 5px solid #ff6b35; margin: 40px 0;"}
 ###
 ### For Researchers & Academics
 Strengthen your research impact with rigorous methodology, transparent reporting, and economic modeling meeting the highest publication standards.
@@ -52,7 +52,7 @@ Transform scattered research into clear, actionable insights through systematic 
 - **Deliverables**: Network plots, league tables, SUCRA rankings, comprehensive reports
 
 ::: {style="text-align: center; margin: 50px 0;"}
-[**Discuss Your Evidence Synthesis Needs**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em;"}
+[**Discuss Your Evidence Synthesis Needs**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em; background-color: #ff6b35; border-color: #ff6b35;"}
 :::
 
 # Health Economics and Outcomes Research
@@ -87,7 +87,29 @@ Quantify value propositions and optimize healthcare resource allocation with adv
 - **Deliverables**: Net benefit curves, clinical impact plots, decision thresholds
 
 ::: {style="text-align: center; margin: 50px 0;"}
-[**Explore Health Economics Solutions**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em;"}
+[**Explore Health Economics Solutions**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em; background-color: #ff6b35; border-color: #ff6b35;"}
+:::
+
+# Interactive Data Visualization
+
+Transform complex analyses into intuitive, interactive experiences with custom Shiny applications.
+
+## R/Shiny Dashboard Development
+**Interactive tools that bring your data to life**
+
+I create custom interactive dashboards that enable real-time exploration of:
+
+- **Clinical Trial Data**: [Interactive sample size calculations](portfolio/rct/index.qmd) with power analysis
+- **Diagnostic Test Evaluation**: [Dynamic diagnostic accuracy assessments](portfolio/dta/index.qmd) with ROC curves
+- **Economic Models**: Sensitivity analysis dashboards for cost-effectiveness results
+- **Evidence Synthesis**: Interactive forest plots and network visualizations
+
+**Technical Expertise**: R/Shiny, reactive programming, custom UI/UX design, deployment to ShinyApps.io or private servers
+
+**Deliverables**: Fully functional web applications, source code, deployment support, user documentation
+
+::: {style="text-align: center; margin: 50px 0;"}
+[**See Interactive Examples**](portfolio.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em; background-color: #ff6b35; border-color: #ff6b35;"}
 :::
 
 # Research Support Services
@@ -121,7 +143,7 @@ I provide thorough critical review and constructive feedback for:
 
 **✓ Free 30-minute consultation** • **✓ Response within 24 hours** • **✓ Flexible engagement models**
 
-[**Schedule a Free Consultation**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 18px 45px; font-size: 1.3em; border-radius: 30px;"}
+[**Schedule a Free Consultation**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 18px 45px; font-size: 1.3em; border-radius: 30px; background-color: #ff6b35; border-color: #ff6b35;"}
 :::
 
 ## Recent Publications
@@ -135,3 +157,21 @@ I provide thorough critical review and constructive feedback for:
 :::
 
 ---
+
+<style>
+/* Override button colors to orange */
+.btn-primary {
+  background-color: #ff6b35 !important;
+  border-color: #ff6b35 !important;
+}
+
+.btn-primary:hover {
+  background-color: #e55a2b !important;
+  border-color: #e55a2b !important;
+}
+
+/* Make sure callout uses orange */
+.callout-tip {
+  border-left-color: #ff6b35 !important;
+}
+</style>

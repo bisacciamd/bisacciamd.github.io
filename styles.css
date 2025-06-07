@@ -11,6 +11,10 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 
+// Set link color to cyan/teal
+$link-color:    $cyan !default;
+$link-hover-color: darken($cyan, 15%) !default;
+
 // Button styling
 $btn-border-radius:           0em !default;
 $btn-border-radius-lg:        0em !default;
@@ -33,6 +37,15 @@ div.quarto-about-trestles .about-entity .about-link {
 
 /* css styles */
 b,strong {font-weight: bold}
+
+// Ensure links use cyan/teal color
+a {
+  color: $cyan;
+  
+  &:hover {
+    color: darken($cyan, 15%);
+  }
+}
 
 // Custom CTA Footer
 .custom-cta-footer {

@@ -10,7 +10,7 @@ profile:
     - [english, italian]
 
 website:
-  title: "G. Bisaccia, MD, PhD"
+  title: "G. Bisaccia, MD-PhD"
   
   navbar:
     logo: images/profile.jpg
@@ -43,8 +43,7 @@ website:
 format:
   html:
     theme: 
-      light: [flatly, styles.scss]
-      dark: [superhero, styles.scss]
+      light: [flatly, styles.css]
     css: styles.css
     toc: true
     toc-location: left

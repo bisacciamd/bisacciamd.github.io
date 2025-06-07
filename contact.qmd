@@ -1,5 +1,5 @@
 ---
-title: "Start Your Project"
+title: "Kickstart Your Project"
 page-footer: false
 ---
 

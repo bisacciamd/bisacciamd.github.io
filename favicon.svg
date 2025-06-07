@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="4" fill="#4f6aa2"/>
+  <!-- Heartbeat line -->
+  <path d="M4 16 L8 16 L10 12 L12 20 L14 16 L20 16" stroke="white" stroke-width="2" fill="none"/>
+  <!-- Data point -->
+  <circle cx="24" cy="14" r="2" fill="white"/>
+</svg>

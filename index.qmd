@@ -1,22 +1,61 @@
 ---
-title: "About"
+title: "Giandomenico Bisaccia, MD-PhD"
+subtitle: "Evidence Synthesis & Health Economics Consultant"
 about:
   template: jolla
   image: images/profile.jpg
   links:
     - icon: linkedin
-      text: linkedin
+      text: LinkedIn
       href: https://linkedin.com/in/bisacciamd
     - icon: github
-      text: github
+      text: GitHub
       href: https://github.com/bisacciamd
 lightbox: true
+toc: false
 ---
-[{{< bi linkedin >}}](https://linkedin.com/in/bisacciamd)   [{{< bi twitter-x >}}](https://x.com/bisacciamd)   [{{< bi github >}}](https://github.com/bisacciamd)   [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=Apav_NgAAAAJ)   [{{< ai orcid >}}](https://orcid.org/0000-0003-4606-3093)
+::: {style="text-align: center; margin-top: -30px; font-size: 0.9em; color: #6c757d;"}
+[Recent Publications](pubs.qmd) • [PROSPERO Registrations](portfolio/prospero/index.qmd) • [Blog](https://blog.bisacciamd.com/)
+:::
 
+::: {style="text-align: center; margin-top: 30px;"}
+[**Explore My Services**](services.qmd){.btn .btn-primary .btn-lg style="margin-right: 15px;"}
+[**View Portfolio**](portfolio.qmd){.btn .btn-outline-primary .btn-lg style="margin-right: 15px;"}
+[**Download CV**](https://cv.bisacciamd.com/){.btn .btn-outline-primary .btn-lg}
+:::
 
-Passionate about evidence generation & appraisal, clinical research, and health technology, I earned my MD-PhD at the University of Chieti and Pescara, Italy. I am studying an MSc in Health Economics, Outcomes and Management at the London School of Economics (class of 2025). 
+## Transforming Healthcare Data into Strategic Insights
 
-Since undertaking an international PhD (London, UK), I have researched extensively on cardiac MRI with particular focus on its diagnostic and prognostic value in patients with angina, cardiomyopathies, and following heart transplantation. At present, I am a Resident in Cardiology at my home University.
+I deliver rigorous **evidence synthesis** and **health economic evaluations** that inform healthcare decisions. With an MD-PhD from Italy and ongoing MSc in Health Economics at the London School of Economics, I bridge clinical expertise with health economics and data science.
 
-You can visit my [portfolio](portfolio.qmd), read my [CV](https://cv.bisacciamd.com/), or drop me an e-mail at bisacciagiandomenico (at) gmail (dot) com.
+### Impact That Matters
+
+::: {style="text-align: left;"}
+- In my international doctoral research (Chieti, Italy and London, UK), I have studied the diagnostic and prognostic value of cardiac MRI in patients with angina, cardiomyopathies, and following heart transplantation.
+- My systematic review in [JAMA Cardiology](pubs/jamacard2023/index.qmd) has been incorporated into the 2024 **ESC Clinical Guidelines**, demonstrating translation of methodological rigour into real-world impact. 
+- Currently, as a research officer at LSE Health, I'm developing economic evaluation tools for the EU-funded [HYPERMARKER project](https://www.hypermarker.eu/).
+
+:::
+
+### What I Offer
+
+:::::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+**Evidence Synthesis**  
+Systematic reviews, meta-analyses, and network meta-analyses that meet publication and regulatory standards
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Health Economics**  
+Cost-effectiveness analyses, budget impact models, and survival analysis for reimbursement decisions
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Research Support**  
+Critical review of grants, protocols, and manuscripts, plus professional medical writing services
+:::
+::::::
+
+# Let's Work Together
+
+Whether you're advancing academic research or making strategic business decisions, I provide the evidence-based insights you need.
