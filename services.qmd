@@ -1,0 +1,137 @@
+---
+title: Evidence Synthesis & Health Economics Consulting
+listing:
+    - id: main
+      contents: portfolio
+      sort: "date desc"
+    - id: mainpubs
+      contents: pubs
+      sort: "date desc"
+---
+
+I deliver rigorous evidence synthesis and economic evaluations that inform healthcare decisions. My [systematic review in JAMA Cardiology](pubs/jamacard2023/index.qmd) has been incorporated into the **ESC Clinical Guidelines** and cited 17 times, demonstrating real-world impact.
+
+**Credentials:**
+
+- MD-PhD (University of Chieti, Italy) + MSc Health Economics (LSE)
+- 21 peer-reviewed publications in leading journals
+- As a research officer at LSE Health, I am currently developing economic evaluation tools for EU-funded [HYPERMARKER project](https://www.hypermarker.eu/)
+
+::: {.callout-tip appearance="minimal" style="background-color: #f8f9fa; border-left: 5px solid #0d6efd; margin: 40px 0;"}
+###
+### For Researchers & Academics
+Strengthen your research impact with rigorous methodology, transparent reporting, and economic modeling meeting the highest publication standards.
+
+### For Industry & Healthcare Organizations
+Make evidence-based strategic decisions with comprehensive clinical and economic analysis tailored to your business needs.
+:::
+
+# Evidence Synthesis
+
+Transform scattered research into clear, actionable insights through systematic and transparent methodology and reporting.
+
+## Systematic Reviews
+**PRISMA-compliant comprehensive evidence assessment**
+
+- **Applications**: PhD dissertations, grant applications, clinical guidelines, competitive landscape analysis, regulatory submissions
+- **Deliverables**: Protocol with PROSPERO registration, full manuscript, PRISMA flow diagram, quality assessment, evidence tables
+- **Timeline**: 8-12 weeks
+
+## Meta-Analysis
+**Statistical synthesis for precise effect estimates**
+
+- **Applications**: Publications, research synthesis, demonstrating product superiority, market access dossiers
+- **Expertise**: Fixed/random effects models, subgroup analysis, meta-regression, publication bias assessment
+- **Deliverables**: Forest plots, funnel plots, sensitivity analyses, technical reports
+
+## Network Meta-Analysis
+**Compare multiple interventions simultaneously**
+
+- **Applications**: Treatment rankings for guidelines, indirect comparisons for HTA, competitive positioning
+- **Methods**: Bayesian and frequentist approaches, consistency assessment, GRADE certainty ratings
+- **Deliverables**: Network plots, league tables, SUCRA rankings, comprehensive reports
+
+::: {style="text-align: center; margin: 50px 0;"}
+[**Discuss Your Evidence Synthesis Needs**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em;"}
+:::
+
+# Health Economics and Outcomes Research
+
+Quantify value propositions and optimize healthcare resource allocation with advanced economic modeling.
+
+## Cost-Effectiveness Analysis
+**Full economic evaluation for decision-making**
+
+- **Applications**: Reimbursement submissions, formulary applications, pricing strategy, policy evaluation
+- **Modeling**: Markov models, decision trees, discrete event simulation, partitioned survival
+- **Outputs**: ICERs, cost-effectiveness planes, acceptability curves, value of information analysis
+
+## Budget Impact Analysis
+**Real-world affordability and resource planning**
+
+- **Applications**: Hospital formulary decisions, payer negotiations, healthcare planning
+- **Capabilities**: Multi-year projections, scenario analysis, population modeling
+- **Deliverables**: Excel-based models, executive summaries, presentation decks
+
+## Survival Analysis
+**Time-to-event modeling and extrapolation**
+
+- **Applications**: Overall survival, progression-free survival, lifetime cost projections
+- **Methods**: Kaplan-Meier, Cox regression, parametric survival models, flexible spline models
+- **Software**: R (survival, flexsurv packages)
+
+## Decision Curve Analysis
+**Clinical utility assessment for predictive models**
+
+- **Applications**: Biomarker evaluation, risk prediction models, diagnostic test evaluation
+- **Deliverables**: Net benefit curves, clinical impact plots, decision thresholds
+
+::: {style="text-align: center; margin: 50px 0;"}
+[**Explore Health Economics Solutions**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em;"}
+:::
+
+# Research Support Services
+
+Enhance your research quality and impact with expert review and professional medical writing.
+
+## Critical Document Review
+**Expert assessment to strengthen your research outputs**
+
+I provide thorough critical review and constructive feedback for:
+
+- **Grant Applications**: Methodology, feasibility, and impact assessment
+- **Research Proposals**: Study design, statistical planning, and coherence
+- **Study Protocols**: PROSPERO registrations, ethics applications, analysis plans
+- **Manuscripts**: Pre-submission review for clarity, methodology, and journal fit
+
+**Deliverables**: Detailed written feedback, track-changes document, strategic recommendations
+
+## Medical Writing Services
+**Professional writing that communicates complex research clearly**
+
+- **Systematic Review Manuscripts**: Full manuscript preparation from protocol to submission
+- **Technical Reports**: HTA dossiers, white papers, evidence summaries
+- **Grant Writing Support**: Methodology sections, statistical analysis plans
+- **Regulatory Documents**: Clinical study reports, regulatory submissions
+
+**Expertise**: Publication in high-impact journals, adherence to reporting guidelines (PRISMA, STROBE, CONSORT)
+
+::: {.callout-note appearance="simple" icon=false style="margin: 50px 0; text-align: center;"}
+## Start Your Project Today
+
+**✓ Free 30-minute consultation** • **✓ Response within 24 hours** • **✓ Flexible engagement models**
+
+[**Schedule a Free Consultation**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 18px 45px; font-size: 1.3em; border-radius: 30px;"}
+:::
+
+## Recent Publications
+
+:::{#mainpubs}
+:::
+
+## Portfolio
+
+:::{#main}
+:::
+
+---

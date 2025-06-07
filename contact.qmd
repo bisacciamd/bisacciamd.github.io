@@ -1,0 +1,65 @@
+---
+title: "Start Your Project"
+page-footer: false
+---
+
+## Free 30-Minute Consultation
+
+Let's discuss how clinical research, evidence synthesis, and health economics tools and methods can support your objectives.
+
+<div id="contact-form-container"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('contact-form-container').innerHTML = `
+        <form action="https://formspree.io/f/mdkzavlj" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name *</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="organization" class="form-label">Organization</label>
+                <input type="text" class="form-control" id="organization" name="organization">
+            </div>
+            
+            <div class="mb-3">
+                <label for="project-type" class="form-label">Project Type *</label>
+                <select class="form-control" id="project-type" name="project-type" required>
+                    <option value="">Select...</option>
+                    <option value="systematic-review">Systematic Review</option>
+                    <option value="meta-analysis">Meta-Analysis</option>
+                    <option value="network-meta-analysis">Network Meta-Analysis</option>
+                    <option value="cost-effectiveness">Cost-Effectiveness Analysis</option>
+                    <option value="budget-impact">Budget Impact Analysis</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label for="timeline" class="form-label">Timeline</label>
+                <select class="form-control" id="timeline" name="timeline">
+                    <option value="">Select...</option>
+                    <option value="urgent">Urgent (< 4 weeks)</option>
+                    <option value="standard">Standard (2-3 months)</option>
+                    <option value="flexible">Flexible (> 3 months)</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <label for="message" class="form-label">Project Description *</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-lg">Submit Request</button>
+        </form>
+        
+        <p class="text-muted mt-3">* Required fields. You'll receive a response within 24 hours.</p>
+    `;
+});
+</script>

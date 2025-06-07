@@ -20,6 +20,12 @@ execute:
     freeze: auto
 lightbox: true
 ---
+
+::: {.callout-tip appearance="minimal" style="background-color: #f8f9fa; border-left: 5px solid #0d6efd; margin: 40px 0;"}
+
+This work has been referenced in the 2025 **[ European Society of Cardiology (ESC) Guidelines for the Management of Patients with Chronic Coronary Syndromes](https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Chronic-Coronary-Syndromes)**. It has been cited 17 times in the literature (up to June 2025).
+:::
+
 ![Figure from JAMA Cardiology.](jamacard.png)
 
 ::: {.column-margin}

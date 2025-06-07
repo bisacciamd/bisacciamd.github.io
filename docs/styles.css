@@ -1,7 +1,6 @@
 /*-- scss:defaults --*/
 
 // Colors
-
 $red:     #d9534f !default;
 $yellow:  #ffc107 !default;
 $green:   #5cb85c !default;
@@ -17,6 +16,9 @@ $btn-border-radius:           0em !default;
 $btn-border-radius-lg:        0em !default;
 $btn-border-radius-sm:        0em !default;
 
+// CTA Colors
+$cta-bg: #4f6aa2 !default;
+
 /*-- scss:rules --*/
 
 // remove radius of the large buttons on the about page
@@ -31,3 +33,50 @@ div.quarto-about-trestles .about-entity .about-link {
 
 /* css styles */
 b,strong {font-weight: bold}
+
+// Custom CTA Footer
+.custom-cta-footer {
+  background-color: $cta-bg;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 60px 0 0 0;
+  border-radius: 10px 10px 0 0;
+  
+  h2 {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    padding: 15px 50px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    
+    &:hover {
+      transform: translateY(-2px);
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+// Ensure proper styling for both themes
+html[data-bs-theme="light"] .custom-cta-footer .btn-light,
+html[data-bs-theme="dark"] .custom-cta-footer .btn-light {
+  color: $cta-bg;
+  background-color: white;
+  border-color: white;
+  
+  &:hover {
+    color: $cta-bg;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+}

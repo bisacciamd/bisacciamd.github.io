@@ -21,8 +21,12 @@ website:
         href: https://github.com/bisacciamd
       - href: index.qmd
         text: Home
+      - href: services.qmd
+        text: Services
       - href: portfolio.qmd
         text: Portfolio
+      - href: contact.qmd
+        text: Contact
 
     right: 
       - icon: file-earmark-text
@@ -32,8 +36,10 @@ website:
       - icon: file-post
         href: https://blog.bisacciamd.com/
         text: Blog
+        
   page-footer: "Developed with Quarto by Giandomenico Bisaccia — © 2024-2025" 
   reader-mode: false
+
 format:
   html:
     theme: 
@@ -42,8 +48,8 @@ format:
     css: styles.css
     toc: true
     toc-location: left
-#  docx:
-#    reference-doc: custom-reference-doc.docx
+    include-after-body: _footer.html
+
 csl: jacc-cvi.csl
 execute: 
   freeze: true
