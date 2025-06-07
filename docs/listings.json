@@ -2,9 +2,9 @@
   {
     "listing": "/portfolio.html",
     "items": [
-      "/portfolio/dta/index.html",
       "/portfolio/prospero/index.html",
       "/portfolio/cto_esc2024/index.html",
+      "/portfolio/dta/index.html",
       "/portfolio/rct/index.html",
       "/portfolio/cviBaker/index.html",
       "/portfolio/md/index.html",
@@ -17,9 +17,9 @@
   {
     "listing": "/services.html",
     "items": [
-      "/portfolio/dta/index.html",
       "/portfolio/prospero/index.html",
       "/portfolio/cto_esc2024/index.html",
+      "/portfolio/dta/index.html",
       "/portfolio/rct/index.html",
       "/portfolio/cviBaker/index.html",
       "/portfolio/md/index.html",

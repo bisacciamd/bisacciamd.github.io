@@ -1,6 +1,6 @@
 ---
 title: "Diagnostic Test Assessment (DTA)"
-subtitle: Shiny application
+subtitle: Shiny dashboard
 description: "Simplifies evaluation of diagnostic test accuracy and utility."
 categories: [diagnostic accuracy, clinical utility, shiny app]
 author: 

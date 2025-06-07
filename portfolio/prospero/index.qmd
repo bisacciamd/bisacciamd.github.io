@@ -3,7 +3,7 @@ title: "PROSPERO Registrations"
 subtitle: "Systematic Review Protocols"
 page-layout: article
 toc: false
-date: modified
+date: last-modified
 date-format: "MMMM YYYY"
 reference-location: margin
 execute:
