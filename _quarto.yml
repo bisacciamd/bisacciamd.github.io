@@ -21,10 +21,10 @@ website:
         href: https://github.com/bisacciamd
       - href: index.qmd
         text: Home
-      - href: services.qmd
-        text: Services
       - href: portfolio.qmd
         text: Portfolio
+      - href: services.qmd
+        text: Services
       - href: contact.qmd
         text: Contact
 

@@ -1,20 +1,16 @@
 ---
 title: Evidence Synthesis & Health Economics Consulting
-listing:
-    - id: main
-      contents: portfolio
-      sort: "date desc"
-    - id: mainpubs
-      contents: pubs
-      sort: "date desc"
+format:
+  html:
+    page-footer: false
 ---
 
-I deliver rigorous evidence synthesis and economic evaluations that inform healthcare decisions. My [systematic review in JAMA Cardiology](pubs/jamacard2023/index.qmd) has been incorporated into the **ESC Clinical Guidelines** and cited 17 times, demonstrating real-world impact.
+I deliver rigorous evidence synthesis and economic evaluations that inform healthcare decisions. My [systematic review in JAMA Cardiology](pubs/jamacard2023/index.qmd) has been incorporated into the **ESC Clinical Guidelines** and cited 18+ times, demonstrating real-world impact.
 
 **Credentials:**
 
-- MD-PhD (University of Chieti, Italy) + MSc Health Economics (LSE)
-- 21 peer-reviewed publications in leading journals
+- MD-PhD (G. d'Annunzio University, Italy) + MSc Health Economics (London School of Economics)
+- 21+ peer-reviewed publications in leading journals
 - As a research officer at LSE Health, I am currently developing economic evaluation tools for EU-funded [HYPERMARKER project](https://www.hypermarker.eu/)
 
 ::: {.callout-tip appearance="minimal" style="background-color: #f8f9fa; border-left: 5px solid #ff6b35; margin: 40px 0;"}
@@ -33,7 +29,7 @@ Transform scattered research into clear, actionable insights through systematic 
 ## Systematic Reviews
 **PRISMA-compliant comprehensive evidence assessment**
 
-- **Applications**: PhD dissertations, grant applications, clinical guidelines, competitive landscape analysis, regulatory submissions
+- **Applications**: grant applications, clinical guidelines, competitive landscape analysis, regulatory submissions
 - **Deliverables**: Protocol with PROSPERO registration, full manuscript, PRISMA flow diagram, quality assessment, evidence tables
 - **Timeline**: 8-12 weeks
 
@@ -108,9 +104,6 @@ I create custom interactive dashboards that enable real-time exploration of:
 
 **Deliverables**: Fully functional web applications, source code, deployment support, user documentation
 
-::: {style="text-align: center; margin: 50px 0;"}
-[**See Interactive Examples**](portfolio.qmd){.btn .btn-primary .btn-lg style="padding: 15px 40px; font-size: 1.2em; background-color: #ff6b35; border-color: #ff6b35;"}
-:::
 
 # Research Support Services
 
@@ -146,32 +139,10 @@ I provide thorough critical review and constructive feedback for:
 [**Schedule a Free Consultation**](contact.qmd){.btn .btn-primary .btn-lg style="padding: 18px 45px; font-size: 1.3em; border-radius: 30px; background-color: #ff6b35; border-color: #ff6b35;"}
 :::
 
-## Recent Publications
-
-:::{#mainpubs}
-:::
-
-## Portfolio
-
-:::{#main}
-:::
-
----
-
 <style>
-/* Override button colors to orange */
-.btn-primary {
-  background-color: #ff6b35 !important;
-  border-color: #ff6b35 !important;
-}
-
-.btn-primary:hover {
-  background-color: #e55a2b !important;
-  border-color: #e55a2b !important;
-}
-
-/* Make sure callout uses orange */
-.callout-tip {
-  border-left-color: #ff6b35 !important;
+/* Hide only the custom CTA footer */
+.custom-cta-footer,
+div[style*="background-color: #2c3d50"] {
+  display: none !important;
 }
 </style>

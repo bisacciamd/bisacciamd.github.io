@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,93 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-main .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-main'] = new List('listing-main', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-mainpubs .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-mainpubs'] = new List('listing-mainpubs', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -194,12 +106,12 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./services.html" aria-current="page"> 
-<span class="menu-text">Services</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./services.html" aria-current="page"> 
+<span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
@@ -253,8 +165,6 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#critical-document-review" id="toc-critical-document-review" class="nav-link" data-scroll-target="#critical-document-review">Critical Document Review</a></li>
   <li><a href="#medical-writing-services" id="toc-medical-writing-services" class="nav-link" data-scroll-target="#medical-writing-services">Medical Writing Services</a></li>
-  <li><a href="#recent-publications" id="toc-recent-publications" class="nav-link" data-scroll-target="#recent-publications">Recent Publications</a></li>
-  <li><a href="#portfolio" id="toc-portfolio" class="nav-link" data-scroll-target="#portfolio">Portfolio</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -285,11 +195,11 @@ window.Quarto = {
 </header>
 
 
-<p>I deliver rigorous evidence synthesis and economic evaluations that inform healthcare decisions. My <a href="./pubs/jamacard2023/index.html">systematic review in JAMA Cardiology</a> has been incorporated into the <strong>ESC Clinical Guidelines</strong> and cited 17 times, demonstrating real-world impact.</p>
+<p>I deliver rigorous evidence synthesis and economic evaluations that inform healthcare decisions. My <a href="./pubs/jamacard2023/index.html">systematic review in JAMA Cardiology</a> has been incorporated into the <strong>ESC Clinical Guidelines</strong> and cited 18+ times, demonstrating real-world impact.</p>
 <p><strong>Credentials:</strong></p>
 <ul>
-<li>MD-PhD (University of Chieti, Italy) + MSc Health Economics (LSE)</li>
-<li>21 peer-reviewed publications in leading journals</li>
+<li>MD-PhD (G. d’Annunzio University, Italy) + MSc Health Economics (London School of Economics)</li>
+<li>21+ peer-reviewed publications in leading journals</li>
 <li>As a research officer at LSE Health, I am currently developing economic evaluation tools for EU-funded <a href="https://www.hypermarker.eu/">HYPERMARKER project</a></li>
 </ul>
 <div class="callout callout-style-simple callout-tip no-icon" style="background-color: #f8f9fa; border-left: 5px solid #ff6b35; margin: 40px 0;">
@@ -316,7 +226,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="systematic-reviews">Systematic Reviews</h2>
 <p><strong>PRISMA-compliant comprehensive evidence assessment</strong></p>
 <ul>
-<li><strong>Applications</strong>: PhD dissertations, grant applications, clinical guidelines, competitive landscape analysis, regulatory submissions</li>
+<li><strong>Applications</strong>: grant applications, clinical guidelines, competitive landscape analysis, regulatory submissions</li>
 <li><strong>Deliverables</strong>: Protocol with PROSPERO registration, full manuscript, PRISMA flow diagram, quality assessment, evidence tables</li>
 <li><strong>Timeline</strong>: 8-12 weeks</li>
 </ul>
@@ -400,9 +310,6 @@ window.Quarto = {
 </ul>
 <p><strong>Technical Expertise</strong>: R/Shiny, reactive programming, custom UI/UX design, deployment to ShinyApps.io or private servers</p>
 <p><strong>Deliverables</strong>: Fully functional web applications, source code, deployment support, user documentation</p>
-<div style="text-align: center; margin: 50px 0;">
-<p><a href="./portfolio.html" class="btn btn-primary btn-lg" style="padding: 15px 40px; font-size: 1.2em; background-color: #ff6b35; border-color: #ff6b35;"><strong>See Interactive Examples</strong></a></p>
-</div>
 </section>
 </section>
 <section id="research-support-services" class="level1">
@@ -444,322 +351,13 @@ Start Your Project Today
 <p><a href="./contact.html" class="btn btn-primary btn-lg" style="padding: 18px 45px; font-size: 1.3em; border-radius: 30px; background-color: #ff6b35; border-color: #ff6b35;"><strong>Schedule a Free Consultation</strong></a></p>
 </div>
 </div>
-</section>
-<section id="recent-publications" class="level2">
-<h2 class="anchored" data-anchor-id="recent-publications">Recent Publications</h2>
-<div id="listing-mainpubs" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="MINOCA,CMR,registry" data-listing-date-sort="1690844400000" data-listing-file-modified-sort="1711200985473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
-<div class="thumbnail">
-<p><a href="./pubs/ehjcvi2023/index.html" class="no-external"></a></p><a href="./pubs/ehjcvi2023/index.html" class="no-external">
-<p class="card-img-top"><img src="pubs/ehjcvi2023/ehjcvi.png" alt="Table and figure from EHJ Cardiovascular Imaging."  class="thumbnail-image card-img"/></p>
-</a><p><a href="./pubs/ehjcvi2023/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pubs/ehjcvi2023/index.html" class="no-external">CMR Reclassifies the Majority of Patients with Suspected MINOCA and non MINOCA</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pubs/ehjcvi2023/index.html" class="no-external">European Heart Journal - Cardiovascular Imaging</a>
-</div>
-<div class="listing-description">
-<a href="./pubs/ehjcvi2023/index.html" class="no-external">This study investigated the diagnostic yield of CMR in ~900 patients with suspected MINOCA.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./pubs/ehjcvi2023/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2023
-</div>
-<div class="listing-author">
-K. Liang, G. Bisaccia, et al.
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="MINOCA,imaging,review" data-listing-date-sort="1689030000000" data-listing-file-modified-sort="1716979365632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
-<div class="thumbnail">
-<p><a href="./pubs/heart2023/index.html" class="no-external"></a></p><a href="./pubs/heart2023/index.html" class="no-external">
-<p><img loading="lazy" src="./pubs/heart2023/heart2023.png" class="thumbnail-image"></p>
-</a><p><a href="./pubs/heart2023/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pubs/heart2023/index.html" class="no-external">Imaging patients with myocardial infarction with non-obstructive coronary arteries (MINOCA)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pubs/heart2023/index.html" class="no-external">Heart (BMJ)</a>
-</div>
-<div class="listing-description">
-<a href="./pubs/heart2023/index.html" class="no-external">This educational paper provides an overview of imaging strategies in patients with MI and non-obstructive coronary arteries.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./pubs/heart2023/index.html" class="no-external">
-<div class="listing-date">
-Jul 11, 2023
-</div>
-<div class="listing-author">
-I. Leo, G. Bisaccia, et al.
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cmr,meta-analysis,systematic review,coronary artery disease" data-listing-date-sort="1688166000000" data-listing-file-modified-sort="1749314704317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="553">
-<div class="thumbnail">
-<p><a href="./pubs/jamacard2023/index.html" class="no-external"></a></p><a href="./pubs/jamacard2023/index.html" class="no-external">
-<p class="card-img-top"><img src="pubs/jamacard2023/jamacard.png" alt="Figure from JAMA Cardiology."  class="thumbnail-image card-img"/></p>
-</a><p><a href="./pubs/jamacard2023/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pubs/jamacard2023/index.html" class="no-external">Diagnostic and Prognostic Value of Stress Cardiovascular Magnetic Resonance Imaging in Patients With Known or Suspected Coronary Artery Disease</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pubs/jamacard2023/index.html" class="no-external">JAMA Cardiology</a>
-</div>
-<div class="listing-description">
-<a href="./pubs/jamacard2023/index.html" class="no-external">This review summarizes 20 years of research on CMR in coronary artery disease.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./pubs/jamacard2023/index.html" class="no-external">
-<div class="listing-date">
-Jul 1, 2023
-</div>
-<div class="listing-author">
-F. Ricci, M. Y. Khanji, G. Bisaccia, et al.
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="NAFLD,CVD,meta-analysis,systematic review" data-listing-date-sort="1685574000000" data-listing-file-modified-sort="1711200978458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
-<div class="thumbnail">
-<p><a href="./pubs/currprobs2023/index.html" class="no-external"></a></p><a href="./pubs/currprobs2023/index.html" class="no-external">
-<p class="card-img-top"><img src="pubs/currprobs2023/nafld.png" alt="Figure from Current Problems in Cardiology."  class="thumbnail-image card-img"/></p>
-</a><p><a href="./pubs/currprobs2023/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./pubs/currprobs2023/index.html" class="no-external">Cardiovascular Morbidity and Mortality Related to Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./pubs/currprobs2023/index.html" class="no-external">Current Problems in Cardiology</a>
-</div>
-<div class="listing-description">
-<a href="./pubs/currprobs2023/index.html" class="no-external">This meta-analysis summarizes the literature on NAFLD and cardiovascular risk.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./pubs/currprobs2023/index.html" class="no-external">
-<div class="listing-date">
-Jun 1, 2023
-</div>
-<div class="listing-author">
-G. Bisaccia, et al.
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="portfolio" class="level2">
-<h2 class="anchored" data-anchor-id="portfolio">Portfolio</h2>
-<div id="listing-main" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1749332026000" data-listing-file-modified-sort="1749332026426" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1022">
-<div class="thumbnail">
-<p><a href="./portfolio/prospero/index.html" class="no-external"></a></p><a href="./portfolio/prospero/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./portfolio/prospero/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio/prospero/index.html" class="no-external">PROSPERO Registrations</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio/prospero/index.html" class="no-external">Systematic Review Protocols</a>
-</div>
-<div class="listing-description">
-<a href="./portfolio/prospero/index.html" class="no-external">I maintain a commitment to transparency of methods and reporting through prospective registration of systematic review protocols on PROSPERO, the international database of…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./portfolio/prospero/index.html" class="no-external">
-<div class="listing-date">
-Jun 7, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cmr,chronic total occlusion,meta-analysis,systematic review" data-listing-date-sort="1722294000000" data-listing-file-modified-sort="1722360094350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4276">
-<div class="thumbnail">
-<p><a href="./portfolio/cto_esc2024/index.html" class="no-external"></a></p><a href="./portfolio/cto_esc2024/index.html" class="no-external">
-<p class="card-img-top"><img src="portfolio/cto_esc2024/images/PRISMA.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./portfolio/cto_esc2024/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio/cto_esc2024/index.html" class="no-external">Non-invasive Imaging to Guide Percutaneous Coronary Revascularization in Chronic Total Occlusion: a Systematic Review and Meta-Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio/cto_esc2024/index.html" class="no-external">ESC 2024, London</a>
-</div>
-<div class="listing-description">
-<a href="./portfolio/cto_esc2024/index.html" class="no-external">A companion to the on-site study presentation</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./portfolio/cto_esc2024/index.html" class="no-external">
-<div class="listing-date">
-Jul 30, 2024
-</div>
-<div class="listing-author">
-G. Bisaccia
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="diagnostic accuracy,clinical utility,shiny app" data-listing-date-sort="1710806400000" data-listing-file-modified-sort="1749332020574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./portfolio/dta/index.html" class="no-external"></a></p><a href="./portfolio/dta/index.html" class="no-external">
-<p class="card-img-top"><img src="portfolio/dta/dta.png" alt="The app home page."  class="thumbnail-image card-img"/></p>
-</a><p><a href="./portfolio/dta/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio/dta/index.html" class="no-external">Diagnostic Test Assessment (DTA)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio/dta/index.html" class="no-external">Shiny dashboard</a>
-</div>
-<div class="listing-description">
-<a href="./portfolio/dta/index.html" class="no-external">Simplifies evaluation of diagnostic test accuracy and utility.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./portfolio/dta/index.html" class="no-external">
-<div class="listing-date">
-Mar 19, 2024
-</div>
-<div class="listing-author">
-G. Bisaccia
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="RCT,shiny app" data-listing-date-sort="1710806400000" data-listing-file-modified-sort="1749335406422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<div class="thumbnail">
-<p><a href="./portfolio/rct/index.html" class="no-external"></a></p><a href="./portfolio/rct/index.html" class="no-external">
-<p class="card-img-top"><img src="portfolio/rct/rct-appraise.png" alt="The interactive dashboard on Shinyapps.io."  class="thumbnail-image card-img"/></p>
-</a><p><a href="./portfolio/rct/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio/rct/index.html" class="no-external">Randomized clinical trial appraisal (RCT)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio/rct/index.html" class="no-external">Shiny dashboard</a>
-</div>
-<div class="listing-description">
-<a href="./portfolio/rct/index.html" class="no-external">Simplifies evaluation of clinical trial results.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./portfolio/rct/index.html" class="no-external">
-<div class="listing-date">
-Mar 19, 2024
-</div>
-<div class="listing-author">
-G. Bisaccia
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="cmr,postprocessing,shiny app" data-listing-date-sort="1710806400000" data-listing-file-modified-sort="1714296762042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
-<div class="thumbnail">
-<p><a href="./portfolio/cviBaker/index.html" class="no-external"></a></p><a href="./portfolio/cviBaker/index.html" class="no-external">
-<p class="card-img-top"><img src="portfolio/cviBaker/cvibaker2042.png" alt="The app running on a local Shiny server. Online implementation is underway."  class="thumbnail-image card-img"/></p>
-</a><p><a href="./portfolio/cviBaker/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio/cviBaker/index.html" class="no-external">CViBaker2042</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio/cviBaker/index.html" class="no-external">Shiny application</a>
-</div>
-<div class="listing-description">
-<a href="./portfolio/cviBaker/index.html" class="no-external">Enables batch-curation of Circle CVi42 XML reports.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./portfolio/cviBaker/index.html" class="no-external">
-<div class="listing-date">
-Mar 19, 2024
-</div>
-<div class="listing-author">
-G. Bisaccia
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="CMR,thesis,UK Biobank,heart valve disease" data-listing-date-sort="1618268400000" data-listing-file-modified-sort="1712585563340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
-<div class="thumbnail">
-<p><a href="./portfolio/md/index.html" class="no-external"></a></p><a href="./portfolio/md/index.html" class="no-external">
-<p class="card-img-top"><img src="portfolio/md/0.jpg" alt="Leonardo da Vinci, The left ventricle and mitral valve c.1512-13 © The Royal Collection Trust"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./portfolio/md/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./portfolio/md/index.html" class="no-external">CMR Reference Values of Mitral and Tricuspid Annular Dimensions: the UK BioBank Cohort</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./portfolio/md/index.html" class="no-external">MD thesis, 2021</a>
-</div>
-<div class="listing-description">
-<a href="./portfolio/md/index.html" class="no-external">Supervisors: Prof.&nbsp;Sabina Gallina MD, Prof.&nbsp;Fabrizio Ricci, MD, PhD, MSc</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./portfolio/md/index.html" class="no-external">
-<div class="listing-date">
-Apr 13, 2021
-</div>
-<div class="listing-author">
-G. Bisaccia
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<hr>
 <style>
-/* Override button colors to orange */
-.btn-primary {
-  background-color: #ff6b35 !important;
-  border-color: #ff6b35 !important;
-}
-
-.btn-primary:hover {
-  background-color: #e55a2b !important;
-  border-color: #e55a2b !important;
-}
-
-/* Make sure callout uses orange */
-.callout-tip {
-  border-left-color: #ff6b35 !important;
+/* Hide only the custom CTA footer */
+.custom-cta-footer,
+div[style*="background-color: #2c3d50"] {
+  display: none !important;
 }
 </style>
-
 
 
 </section>

@@ -1,0 +1,39 @@
+---
+title: "Guillain-Barré syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the 'Italian factor'"
+subtitle: European Journal of Neurology
+description: "A systematic review examining the association between COVID-19 and Guillain-Barré syndrome, revealing geographical variations in incidence."
+categories: [Guillain-Barré syndrome, COVID-19, meta-analysis, systematic review] 
+author: 
+    - name: S. Censi, G. Bisaccia
+      orcid: 0000-0003-4606-3093
+    - et al.
+date: 12/10/2023
+date-format: "MMMM YYYY"
+draft: false
+reference-location: margin
+image: ejn2024.png
+execute:
+    echo: false
+    warning: false
+    error: false
+    freeze: auto
+lightbox: true
+---
+![Figure from European Journal of Neurology.](ejneurol.jpg)
+
+::: {.column-margin}
+**Guillain-Barré syndrome and SARS-CoV-2 infection: a systematic review and meta-analysis on a debated issue and evidence for the 'Italian factor'** (2024). S. Censi, G. Bisaccia, S. Gallina, V. Tomassini and A. Uncini. *European Journal of Neurology*. [{{< bi box-arrow-up-right >}}](https://doi.org/10.1111/ene.16094)
+:::
+
+**Abstract**
+## Background and purpose
+The association between Guillain−Barré syndrome (GBS) and severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is debated. This study reappraises, after three pandemic years, the epidemiological data and the features of GBS in SARS-CoV-2 patients.
+
+## Methods
+A systematic review and meta-analysis of case reports/series and cohort studies published between 1 January 2020 and 19 April 2023 was performed.
+
+## Results
+In all, 209 case reports/series (304 patients) and 26 cohort studies were included. The risk of GBS in northern Italy during the first pandemic wave was 2.85 times increased (95% confidence interval [CI] 1.54; 5.25) whereas in some countries the risk during the first pandemic year was 0.17 times reduced (risk ratio 0.83, 95% CI 0.75; 0.93). The incidence of GBS in SARS-CoV-2 Italian hospitalized cohorts was 8.55 per 1000 (95% CI 5.33; 12.49) with an estimated incidence of 0.13 GBS per 1000 in the SARS-CoV-2 infected population. In European cohorts the pooled rate of GBS with SARS-CoV-2 infection was 61.3% of the total. GBS patients with SARS-CoV-2 infection showed more frequently, but not differently from non-infected patients, the classical clinical presentation and the demyelinating subtype. Cranial nerves were more frequently involved in SARS-CoV-2 infected patients.
+
+## Conclusions
+An increased risk of GBS occurred in northern Italy during early COVID-19 pandemic. The recognition of the ‘Italian factor’ reconciles contrasting results of the epidemiological studies. The slightly reduced GBS risk in other countries and the relatively high frequency of GBS associated with SARS-CoV-2 infection can be explained by the adopted health measures that decreased the circulation of other GBS infective antecedents.

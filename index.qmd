@@ -4,26 +4,9 @@ subtitle: "Evidence Synthesis & Health Economics Consultant"
 about:
   template: jolla
   image: images/profile.jpg
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/bisacciamd
-    - icon: github
-      text: GitHub
-      href: https://github.com/bisacciamd
 lightbox: true
 toc: false
 ---
-::: {style="text-align: center; margin-top: -30px; font-size: 0.9em; color: #6c757d;"}
-[Recent Publications](pubs.qmd) • [PROSPERO Registrations](portfolio/prospero/index.qmd) • [Blog](https://blog.bisacciamd.com/)
-:::
-
-::: {style="text-align: center; margin-top: 30px;"}
-[**Explore My Services**](services.qmd){.btn .btn-primary .btn-lg style="margin-right: 15px;"}
-[**View Portfolio**](portfolio.qmd){.btn .btn-outline-primary .btn-lg style="margin-right: 15px;"}
-[**Download CV**](https://cv.bisacciamd.com/){.btn .btn-outline-primary .btn-lg}
-:::
-
 ## Transforming Healthcare Data into Strategic Insights
 
 I deliver rigorous **evidence synthesis** and **health economic evaluations** that inform healthcare decisions. With an MD-PhD from Italy and ongoing MSc in Health Economics at the London School of Economics, I bridge clinical expertise with health economics and data science.
