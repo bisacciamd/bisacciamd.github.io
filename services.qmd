@@ -6,6 +6,7 @@ format:
 ---
 
 I deliver rigorous evidence synthesis and economic evaluations that inform healthcare decisions and have real-world impact. 
+
 - My [systematic review in JAMA Cardiology](pubs/jamacard2023/index.qmd) has been incorporated into the **ESC Clinical Guidelines** and cited 18+ times. 
 - My [two sister systematic reviews](https://bisacciamd.com/portfolio.html#category=Guillain-Barr%C3%A9%20syndrome) on risk of Guillain-Barré syndrome after COVID-19 and COVID-19 vaccination have been cited 35+ times.
 - I have presented my research at 10+ international cardiovascular conferences in Europe and the USA.
