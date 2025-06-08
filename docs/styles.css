@@ -93,3 +93,25 @@ html[data-bs-theme="dark"] .custom-cta-footer .btn-light {
     border-color: #f8f9fa;
   }
 }
+
+// Style the Contact link as a button
+.navbar-nav a[href*="contact"] {
+  background-color: #ff6b35 !important;
+  color: white !important;
+  padding: 6px 16px !important;
+  border-radius: 4px !important;
+  margin-left: 8px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: #e55a2b !important;
+    color: white !important;
+    text-decoration: none !important;
+    transform: translateY(-1px);
+  }
+}
+
+// Adjust spacing for the contact button
+.navbar-nav li:has(a[href*="contact"]) {
+  margin-top: 3px;
+}

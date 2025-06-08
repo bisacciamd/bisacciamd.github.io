@@ -27,7 +27,6 @@ website:
         text: Services
       - href: contact.qmd
         text: Contact
-
     right: 
       - icon: file-earmark-text
         text: CV
