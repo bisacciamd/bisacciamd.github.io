@@ -19,7 +19,7 @@ listing:
 
 :::
 
-# Scholarly work
+# Other scholarly work
 
 ::: {#main}
 :::
