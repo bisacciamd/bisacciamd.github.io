@@ -14,13 +14,14 @@ listing:
       sort: "date desc"
 ---
 
-# Academic work
-
-::: {#main}
-:::
-
 # Scientific publications
 
 :::{#mainpubs}
 
 :::
+
+# Scholarly work
+
+::: {#main}
+:::
+
