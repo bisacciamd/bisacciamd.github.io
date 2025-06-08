@@ -1,0 +1,499 @@
+---
+title: "Publication-ready tables with {gt} in R"
+subtitle: I do love tables.
+description: "From zero to hero with tables"
+author: 
+    name: G. Bisaccia
+    orcid: 0000-0003-4606-3093
+date: last-modified
+date-format: medium
+#image: 
+draft: true # change status
+reference-location: margin
+image: challenges.png
+categories: [R, gt, tidyverse]
+execute:
+#   echo: false
+    warning: false
+    error: false
+    freeze: auto
+---
+
+Sure we all love `ggplot2`. It allows to create visualizations by simply *conceptualizing* them — as long as you learn the syntax.
+
+But what about **tables**?
+
+R packages `gt` and `gtExtras` have you covered.
+
+Let's turn a simple data.frame into a `gt` table. This will require familiarity with the [Tidyverse](https://www.tidyverse.org).
+
+```{r}
+library(gt)
+library(tidyverse)
+data <- data.frame(
+    text = c("Eufemia", "Antonia", "Michele", "Gerardo"),
+    year = c("1955", "1967", "1968", "1972")
+    ) %>% gt()
+
+data
+```
+
+# Understanding the gt philosophy
+
+The `gt` package follows a *grammar of tables* approach, similar to how `ggplot2` implements the grammar of graphics. Every table has distinct components that can be styled and modified independently.
+
+## Table anatomy
+
+A `gt` table consists of several parts:
+
+- **Table header**: Title and subtitle
+- **Column labels**: Column headers and spanners
+- **Table body**: The actual data
+- **Summary rows**: Aggregated data
+- **Table footer**: Source notes and footnotes
+
+```{r}
+# Let's build a more complete example
+clinical_data <- tribble(
+  ~Treatment, ~N, ~Response_Rate, ~CI_Lower, ~CI_Upper, ~p_value,
+  "Drug A",   125, 0.72,          0.64,      0.80,      0.001,
+  "Drug B",   130, 0.65,          0.57,      0.73,      0.023,
+  "Placebo",  128, 0.45,          0.37,      0.53,      NA
+)
+
+clinical_data %>%
+  gt() %>%
+  tab_header(
+    title = "Clinical Trial Results",
+    subtitle = "Phase III Randomized Controlled Trial"
+  )
+```
+
+# Essential formatting
+
+## Column formatting
+
+The power of `gt` lies in its formatting functions. Let's properly format our clinical data:
+
+```{r}
+clinical_table <- clinical_data %>%
+  gt() %>%
+  tab_header(
+    title = "Clinical Trial Results",
+    subtitle = "Phase III Randomized Controlled Trial"
+  ) %>%
+  fmt_percent(
+    columns = c(Response_Rate, CI_Lower, CI_Upper),
+    decimals = 1
+  ) %>%
+  fmt_number(
+    columns = p_value,
+    decimals = 3
+  ) %>%
+  sub_missing(
+    columns = everything(),
+    missing_text = "—"
+  )
+
+clinical_table
+```
+
+## Column labels
+
+Professional tables need clear, formatted column labels:
+
+```{r}
+clinical_table <- clinical_table %>%
+  cols_label(
+    Treatment = "Treatment Group",
+    N = "Sample Size",
+    Response_Rate = "Response Rate",
+    CI_Lower = "95% CI",
+    CI_Upper = "",  # Empty label for upper CI bound
+    p_value = "p-value"
+  ) %>%
+  cols_merge(
+    columns = c(CI_Lower, CI_Upper),
+    pattern = "{1}–{2}"
+  )
+
+clinical_table
+```
+
+# Advanced styling
+
+## Conditional formatting
+
+Highlight significant results and add visual hierarchy:
+
+```{r}
+clinical_table <- clinical_table %>%
+  tab_style(
+    style = list(
+      cell_text(weight = "bold"),
+      cell_fill(color = "#E8F4F8")
+    ),
+    locations = cells_body(
+      columns = everything(),
+      rows = p_value < 0.05
+    )
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels(everything())
+  )
+
+clinical_table
+```
+
+## Adding summary rows
+
+Include summary statistics directly in your table:
+
+```{r}
+# Create a grouped dataset for summary rows
+grouped_data <- tibble(
+  Group = c("Active", "Active", "Control"),
+  Treatment = c("Drug A", "Drug B", "Placebo"),
+  N = c(125, 130, 128),
+  Response_Rate = c(0.72, 0.65, 0.45)
+)
+
+summary_table <- grouped_data %>%
+  gt(groupname_col = "Group") %>%
+  summary_rows(
+    groups = "Active",
+    columns = N,
+    fns = list(
+      Total = ~sum(., na.rm = TRUE)
+    ),
+    formatter = fmt_number,
+    decimals = 0
+  ) %>%
+  summary_rows(
+    groups = "Active",
+    columns = Response_Rate,
+    fns = list(
+      Mean = ~mean(., na.rm = TRUE)
+    ),
+    formatter = fmt_percent,
+    decimals = 1
+  ) %>%
+  tab_header(
+    title = "Treatment Group Summary"
+  )
+
+summary_table
+```
+
+# Real-world example: Systematic review table
+
+Let's create a publication-ready table for a systematic review:
+
+```{r}
+# Simulate systematic review data
+systematic_review <- tribble(
+  ~Study, ~Year, ~Design, ~N, ~Intervention, ~Outcome, ~Effect_Size, ~CI_95, ~Quality,
+  "Smith et al.", 2020, "RCT", 250, "Drug A", "Mortality", 0.85, "0.72–0.99", "High",
+  "Jones et al.", 2021, "RCT", 180, "Drug A", "Mortality", 0.78, "0.65–0.93", "High",
+  "Brown et al.", 2019, "Cohort", 500, "Drug A", "Mortality", 0.91, "0.83–1.01", "Moderate",
+  "Davis et al.", 2022, "RCT", 320, "Drug A", "Mortality", 0.82, "0.71–0.95", "High",
+  "Wilson et al.", 2021, "Cohort", 450, "Drug A", "Mortality", 0.88, "0.77–1.02", "Moderate"
+)
+
+systematic_review %>%
+  gt() %>%
+  tab_header(
+    title = md("**Systematic Review of Drug A for Mortality Reduction**"),
+    subtitle = "Studies published 2019–2022"
+  ) %>%
+  cols_label(
+    Study = "Study",
+    Year = "Year",
+    Design = "Study Design",
+    N = "Sample Size",
+    Intervention = "Intervention",
+    Outcome = "Primary Outcome",
+    Effect_Size = "Hazard Ratio",
+    CI_95 = "95% CI",
+    Quality = "Quality Assessment"
+  ) %>%
+  tab_spanner(
+    label = "Study Characteristics",
+    columns = c(Study, Year, Design, N)
+  ) %>%
+  tab_spanner(
+    label = "Results",
+    columns = c(Intervention, Outcome, Effect_Size, CI_95)
+  ) %>%
+  fmt_number(
+    columns = N,
+    sep_mark = ",",
+    decimals = 0
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#F0F0F0"),
+    locations = cells_body(rows = Design == "Cohort")
+  ) %>%
+  tab_footnote(
+    footnote = "RCT = Randomized Controlled Trial",
+    locations = cells_column_labels(columns = Design)
+  ) %>%
+  tab_source_note(
+    source_note = "Quality assessment based on Cochrane Risk of Bias tool"
+  )
+```
+
+# Integration with gtExtras
+
+The `gtExtras` package extends `gt` with additional functionality:
+
+```{r}
+library(gtExtras)
+
+# Create a table with sparklines
+trend_data <- tibble(
+  Metric = c("Enrollment", "Retention", "Compliance"),
+  Current = c(125, 0.85, 0.92),
+  Trend = list(
+    c(100, 105, 110, 115, 120, 125),
+    c(0.80, 0.82, 0.83, 0.84, 0.84, 0.85),
+    c(0.90, 0.91, 0.91, 0.92, 0.92, 0.92)
+  ),
+  Change = c("+25%", "+5%", "+2%")
+)
+
+trend_table <- trend_data %>%
+  gt() %>%
+  # Format Current column based on row content
+  text_transform(
+    locations = cells_body(columns = Current),
+    fn = function(x) {
+      ifelse(
+        trend_data$Metric %in% c("Retention", "Compliance"),
+        paste0(as.numeric(x) * 100, "%"),
+        x
+      )
+    }
+  ) %>%
+  gt_plt_sparkline(
+    column = Trend
+  ) %>%
+  tab_header(
+    title = "Clinical Trial Metrics Dashboard",
+    subtitle = "6-Month Performance Summary"
+  ) %>%
+  tab_style(
+    style = cell_text(color = "#28A745", weight = "bold"),
+    locations = cells_body(
+      columns = Change
+    )
+  )
+
+trend_table
+```
+
+Alternatively, create a simpler example with bar charts:
+
+```{r}
+# Example with gt_plt_bar
+performance_data <- tibble(
+  Department = c("Cardiology", "Oncology", "Neurology", "Pediatrics"),
+  Enrollment_Rate = c(85, 92, 78, 88),
+  Target = rep(80, 4)
+)
+
+performance_data %>%
+  gt() %>%
+  gt_plt_bar(
+    column = Enrollment_Rate,
+    color = "#1E88E5",
+    width = 50
+  ) %>%
+  fmt_number(
+    columns = c(Enrollment_Rate, Target),
+    decimals = 0,
+    suffix = "%"
+  ) %>%
+  tab_header(
+    title = "Department Enrollment Performance",
+    subtitle = "Q4 2023 Results vs. Target"
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#E8F4F8"),
+    locations = cells_body(
+      columns = everything(),
+      rows = Enrollment_Rate >= Target
+    )
+  )
+```
+
+# Export options
+
+## Save as image
+
+For manuscripts and presentations:
+
+```{r}
+#| eval: false
+
+# First install webshot2 if needed
+# install.packages("webshot2")
+
+# Save as PNG
+clinical_table %>%
+  gtsave("clinical_results_table.png", expand = 10)
+
+# Save as PDF
+clinical_table %>%
+  gtsave("clinical_results_table.pdf")
+```
+
+::: callout-note
+Saving tables as images requires the `webshot2` package. Install it with `install.packages("webshot2")` if you haven't already.
+:::
+
+## HTML output
+
+For web publishing and interactive documents:
+
+```{r}
+# Save as standalone HTML
+clinical_table %>%
+  gtsave("clinical_results_table.html")
+
+# Or get the HTML code
+html_code <- clinical_table %>%
+  as_raw_html()
+```
+
+## Word and LaTeX
+
+For journal submissions:
+
+```{r}
+#| eval: false
+
+# Export to RTF (which can be opened in Word)
+clinical_table %>%
+  gtsave("clinical_results.rtf")
+
+# For LaTeX
+latex_code <- clinical_table %>%
+  as_latex()
+
+# Save to file
+writeLines(latex_code, "clinical_results.tex")
+```
+
+::: callout-tip
+For Word documents, the RTF format provides the best compatibility. Most word processors can open RTF files while preserving table formatting.
+:::
+
+# Best practices
+
+## Design principles
+
+1. **Less is more**: Remove unnecessary gridlines and borders
+2. **Hierarchy matters**: Use visual weight to guide the reader
+3. **Consistency**: Maintain uniform formatting throughout
+
+```{r}
+# Clean, publication-ready style
+clean_table <- clinical_data %>%
+  gt() %>%
+  tab_header(
+    title = "Clinical Trial Results"
+  ) %>%
+  fmt_percent(columns = c(Response_Rate, CI_Lower, CI_Upper)) %>%
+  fmt_number(columns = p_value, decimals = 3) %>%
+  cols_merge(
+    columns = c(CI_Lower, CI_Upper),
+    pattern = "{1}–{2}"
+  ) %>%
+  tab_options(
+    table.border.top.width = px(0),
+    table.border.bottom.width = px(2),
+    table.border.bottom.color = "black",
+    column_labels.border.top.width = px(2),
+    column_labels.border.top.color = "black",
+    column_labels.border.bottom.width = px(2),
+    column_labels.border.bottom.color = "black",
+    data_row.padding = px(6),
+    heading.align = "left"
+  ) %>%
+  opt_table_lines(extent = "none")
+
+clean_table
+```
+
+## Performance considerations
+
+For large tables with many rows:
+
+```{r}
+# Example with a larger dataset
+large_data <- tibble(
+  ID = 1:100,
+  Group = rep(c("A", "B"), 50),
+  Value1 = rnorm(100, mean = 10, sd = 2),
+  Value2 = rnorm(100, mean = 20, sd = 5),
+  Value3 = rnorm(100, mean = 30, sd = 8)
+)
+
+# Use opt_css for custom styling
+large_data %>%
+  head(20) %>%  # Show first 20 rows for example
+  gt() %>%
+  fmt_number(
+    columns = c(Value1, Value2, Value3),
+    decimals = 2
+  ) %>%
+  opt_css(
+    css = "
+    .gt_table {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .gt_col_heading {
+      font-weight: 600;
+    }
+    .gt_row {
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    "
+  ) %>%
+  tab_options(
+    container.height = px(400),
+    container.overflow.y = "auto"
+  )
+```
+
+::: callout-tip
+For very large tables, consider using `tab_options()` with `container.height` to create a scrollable table, or paginate your results.
+:::
+
+# Conclusion
+
+The `gt` package transforms R data frames into publication-quality tables with a coherent grammar-based approach. Key takeaways:
+
+- **Start simple**: Basic `gt()` creates a functional table
+- **Layer complexity**: Add formatting, styling, and annotations progressively
+- **Think about your audience**: Academic vs. business tables have different conventions
+- **Export appropriately**: Choose the right format for your medium
+
+## Resources
+
+- [gt documentation](https://gt.rstudio.com/): Official documentation
+- [gtExtras](https://jthomasmock.github.io/gtExtras/): Extended functionality
+- [gt cookbook](https://themockup.blog/static/gt-cookbook.html): Practical examples
+
+Tables deserve as much attention as plots in your data communication toolkit. With `gt`, you have the power to create tables that are not just functional, but beautiful.
+
+::: callout-tip
+Remember: A well-designed table can often communicate complex relationships more effectively than a plot. Choose your medium wisely.
+:::
+
+::: {style="text-align: center;"}
+*Happy table-making!*
+:::

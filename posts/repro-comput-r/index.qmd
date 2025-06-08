@@ -1,0 +1,362 @@
+---
+title: Reproducible R Computing 
+subtitle: A framework for good R practice with RStudio and Quarto
+description: "Reproducibility can be ensured by adhering to (opinionated) standards for project management and data analysis."
+author: 
+    name: G. Bisaccia
+    orcid: 0000-0003-4606-3093
+date: 2024/04/27
+date-modified: last-modified
+date-format: medium
+format: 
+  html:
+    number-sections: true
+draft: false # change status
+bibliography: references.bib
+reference-location: margin
+image: "R-r-R.png"
+categories: [quarto, R, data analysis, reproducibility]
+execute:
+    echo: true
+    eval: false
+    warning: false
+    error: false
+    freeze: false
+    output: false
+---
+
+-   Among best practices in science, aiming for *reproducibility* is primarily important because it ensures methodological rigor and the consistency of findings[@RN643].
+-   I am convinced that reproducibility is best achieved through automation of certain processes and adherence to (opinionated) standards[@RN644].
+-   What follows is a personal project workflow implementing various external tools in an R environment to obtain and maintain reproducibility.
+
+This guide is aimed at intermediate R users and was developed with Rstudio in mind. Much wider coverage and further resources on reproducible R workflows can be found at [Prof. Harrell's website](https://hbiostat.org/rflow/).
+
+# Install and load ProjectTemplate
+
+## Install ProjectTemplate
+
+[ProjectTemplate](http://projecttemplate.net/index.html) is an R package allowing for automated organization of R projects. It works by creating an opinionated project structure, pre-loading all packages and data sets used, and pre-processing data where needed.
+
+You can install the package by running
+
+```{r}
+install.packages('ProjectTemplate')
+```
+
+## Load ProjectTemplate
+
+Load the package and create a new *minimal* project structure:
+
+```{r}
+require('ProjectTemplate')
+create.project(project.name = 'projectname',
+               template = 'minimal')
+```
+
+::: callout-note
+`create.project()` is the function that takes care of creating the project structure. It needs a `project.name` (or will create the project in a "new-project" folder). Optionally, the user can specify a project `template` (currently, options `'full'` and `'minimal'` are available; custom templates are also [supported](http://projecttemplate.net/custom_templates.html)).
+:::
+
+## Choose a useful project name
+
+Be mindful of recommendations for [naming things](https://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf).
+
+::: callout-note
+Generally, you want your project (and any files and folders you're working with) to be named consistently, so that any files (loaded or generated) are immediately recognizable. File names (especially for plots, tables, and exported data sets) should often include a date. Names of R scripts (and Quarto reports) should be self-explaining.
+:::
+
+# Open the project in RStudio
+
+1.  Open Rstudio
+2.  Go to *File \> Open Project...*
+
+# Using your structured project
+
+## Load your project
+
+You can load the whole project (data, R scripts) with:
+
+```{r}
+load.project('projectname')
+```
+
+-   data sets in `data` will be loaded as data.frames.
+
+    -   ProjectTemplate can load [a bunch of different file formats](http://projecttemplate.net/file_formats.html), including compressed and uncompressed CSV, Excel and RDS.
+
+-   
+
+## Getting to know the project folders
+
+A minimal project structure includes the following folders. Each folder comes with an explanatory README file, but they will be summarized here, in reasonable order:
+
+-   `data/` contains the project's data sets.
+
+    -   Raw data sets should be backed up in multiple locations outside the project.
+
+    -   [Raw data should never be edited or overwritten]{.underline}. This is because you can **never** be sure all edits are respectful of the original data.
+
+-   `munge/` includes scripts for pre-processing the data (e.g. adding custom columns, re-assigning variable classes, etc.).
+
+    -   Pre-processed data should be generated in the `cache` folder.
+
+-   `cache/` includes data sets generated through pre-processing steps.
+
+    -   In this folder, transformed data are placed.
+
+    -   When a data set is available in both `cache/` and `data/`, `load.project()` will only load the *cached* version.
+
+-   `src/` contains R scripts for data analysis.
+
+    -   each script should start with the same line:
+
+        ```{r}
+        library('ProjectTemplate')
+        load.project()
+        ```
+
+    -   any code that's shared between different R scripts should be placed in the `munge` directory instead.
+
+# Version control and collaboration
+
+## Initialize Git repository
+
+After creating your project structure, initialize version control immediately:
+
+```{r}
+# In the terminal or Git Bash
+git init
+git add .
+git commit -m "Initial project structure"
+```
+
+::: callout-note
+Version control is non-negotiable for reproducible research. It tracks changes, enables collaboration, and provides a safety net for your work[@RN645].
+:::
+
+## Create a `.gitignore` file
+
+ProjectTemplate creates a basic `.gitignore`, but you should expand it:
+
+```{r}
+# Data files too large for Git
+data/*.csv
+data/*.xlsx
+cache/*
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+```
+
+# Data management best practices
+
+## Raw data preservation
+
+Your `data/` folder should follow these principles:
+
+1. **Read-only access**: Never modify files in `data/`
+2. **Documentation**: Include a `data/README.md` describing each dataset
+3. **Backup strategy**: Maintain copies in at least two other locations
+
+```{r}
+# Example data documentation structure
+# data/README.md
+# Dataset: patient_outcomes.csv
+# Source: Clinical trial NCT12345678
+# Date acquired: 2024-04-15
+# Variables: 25 columns, see codebook.xlsx
+# N observations: 1,250
+```
+
+## Data preprocessing workflow
+
+Create numbered scripts in `munge/` to ensure correct execution order:
+
+```{r}
+# munge/01-clean-data.R
+# Remove duplicates and handle missing values
+df_clean <- df_raw %>%
+  distinct() %>%
+  filter(!is.na(primary_outcome))
+
+# munge/02-transform-variables.R
+# Create derived variables
+df_clean <- df_clean %>%
+  mutate(
+    age_group = cut(age, 
+                    breaks = c(0, 40, 60, Inf),
+                    labels = c("Young", "Middle", "Older"))
+  )
+```
+
+# Analysis and reporting
+
+## Organizing analysis scripts
+
+Structure your `src/` folder by analysis type:
+
+```{r}
+# src/01-descriptive-statistics.R
+# src/02-primary-analysis.R
+# src/03-sensitivity-analysis.R
+# src/04-figures-tables.R
+```
+
+::: callout-note
+Number your scripts to indicate execution order. This helps collaborators understand your analytical flow[@RN646].
+:::
+
+## Integrating Quarto documents
+
+For reproducible reports, create a `reports/` folder:
+
+```{r}
+# Create reports directory
+dir.create("reports")
+
+# reports/main-analysis.qmd
+# reports/supplementary-material.qmd
+```
+
+Your Quarto documents should source the analysis scripts:
+
+```{r}
+#| label: setup
+#| include: false
+
+library('ProjectTemplate')
+load.project()
+
+# Source specific analyses
+source("src/02-primary-analysis.R")
+```
+
+# Advanced reproducibility features
+
+## Package management with `renv`
+
+Ensure consistent package versions across environments:
+
+```{r}
+# Initialize renv for the project
+install.packages("renv")
+renv::init()
+
+# Snapshot current package versions
+renv::snapshot()
+```
+
+## Automated testing
+
+Create a `tests/` folder for unit tests:
+
+```{r}
+# tests/test-data-integrity.R
+library(testthat)
+
+test_that("No missing values in key variables", {
+  load.project()
+  expect_true(all(!is.na(df_clean$primary_outcome)))
+  expect_true(all(!is.na(df_clean$treatment_group)))
+})
+```
+
+## Configuration management
+
+Modify `config/global.dcf` for project-specific settings:
+
+```{r}
+# config/global.dcf
+data_loading: TRUE
+data_loading_header: TRUE
+data_ignore: ""
+cache_loading: TRUE
+recursive_loading: FALSE
+munging: TRUE
+logging: FALSE
+logging_level: INFO
+load_libraries: TRUE
+libraries: tidyverse, ggplot2, survival
+as_factors: FALSE
+tables_type: tibble
+attach_internal_libraries: FALSE
+cache_loaded_data: TRUE
+sticky_variables: NONE
+```
+
+# Best practices for collaboration
+
+## Documentation standards
+
+Every project should include:
+
+1. **README.md**: Project overview and setup instructions
+2. **CONTRIBUTING.md**: Guidelines for collaborators
+3. **CHANGELOG.md**: Track major changes
+4. **requirements.txt**: System dependencies
+
+## Code style consistency
+
+Adopt a style guide (e.g., tidyverse style) and enforce it:
+
+```{r}
+# Use styler package for automatic formatting
+install.packages("styler")
+styler::style_dir("src/")
+styler::style_dir("munge/")
+```
+
+# Troubleshooting common issues
+
+## Memory management
+
+For large datasets:
+
+```{r}
+# Use data.table for efficient memory usage
+libraries: data.table, tidyverse
+
+# In munge scripts, clean up intermediate objects
+rm(temp_df)
+gc()
+```
+
+## Path management
+
+Always use relative paths:
+
+```{r}
+# Good
+read_csv("data/patient_outcomes.csv")
+
+# Bad
+read_csv("/Users/username/projects/projectname/data/patient_outcomes.csv")
+```
+
+::: callout-warning
+Absolute paths break reproducibility across different systems. ProjectTemplate's structure ensures relative paths work consistently[@RN647].
+:::
+
+# Conclusion
+
+This workflow combines ProjectTemplate's organizational structure with modern reproducibility tools. The key principles are:
+
+- **Separation of concerns**: Data, preprocessing, analysis, and reporting in distinct folders
+- **Version control**: Track all changes with Git
+- **Environment management**: Use `renv` for package versioning
+- **Documentation**: Comprehensive documentation at every level
+- **Automation**: Let tools handle repetitive tasks
+
+By following these practices, your R projects will be more maintainable, shareable, and—most importantly—reproducible.
+
+## Further resources
+
+- [The Turing Way](https://the-turing-way.netlify.app/): Community handbook for reproducible research
+- [R for Data Science](https://r4ds.had.co.nz/): Modern R workflows
+- [Happy Git with R](https://happygitwithr.com/): Version control for R users
