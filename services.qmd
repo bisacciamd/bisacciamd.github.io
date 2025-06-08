@@ -37,6 +37,7 @@ Transform scattered research into clear, actionable insights through systematic 
 - **Applications**: grant applications, clinical guidelines, competitive landscape analysis, regulatory submissions
 - **Deliverables**: Protocol with PROSPERO registration, full manuscript, PRISMA flow diagram, quality assessment, evidence tables
 - **Timeline**: 8-12 weeks
+- See [published examples](https://bisacciamd.com/portfolio.html#category=systematic%20review)
 
 ## Meta-Analysis
 **Statistical synthesis for precise effect estimates**
@@ -44,6 +45,7 @@ Transform scattered research into clear, actionable insights through systematic 
 - **Applications**: Publications, research synthesis, demonstrating product superiority, market access dossiers
 - **Expertise**: Fixed/random effects models, subgroup analysis, meta-regression, publication bias assessment
 - **Deliverables**: Forest plots, funnel plots, sensitivity analyses, technical reports
+- See [published examples](https://bisacciamd.com/portfolio.html#category=meta-analysis)
 
 ## Network Meta-Analysis
 **Compare multiple interventions simultaneously**
