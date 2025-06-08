@@ -9,7 +9,7 @@ author:
     - et al.
 date: 08/01/2023
 date-format: "MMMM YYYY"
-#image: 
+image: cover.jpg
 draft: false # change status
 reference-location: margin
 #image: jamacard.png
