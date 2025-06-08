@@ -39,6 +39,10 @@ Critical review of grants, protocols, and manuscripts, plus professional medical
 :::
 ::::::
 
+::: {style="text-align: center; margin: 40px 0;"}
+[**Explore All Services**](services.qmd){.btn .btn-lg style="background-color: #ff6b35; border-color: #ff6b35; color: white; padding: 12px 36px; font-size: 1.1em;"}
+:::
+
 # Let's Work Together
 
 Whether you're advancing academic research or making strategic business decisions, I provide the evidence-based insights you need.
