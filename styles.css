@@ -115,3 +115,23 @@ html[data-bs-theme="dark"] .custom-cta-footer .btn-light {
 .navbar-nav li:has(a[href*="contact"]) {
   margin-top: 3px;
 }
+
+/* Reset container margins */
+.quarto-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Fix Bootstrap container issues */
+.container, .container-fluid {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Reset any problematic margins */
+.content-container {
+  margin: 0 auto !important;
+  max-width: none !important;
+}

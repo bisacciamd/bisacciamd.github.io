@@ -7,7 +7,7 @@ author:
     orcid: 0000-0003-4606-3093
 date: last-modified
 date-format: medium
-#image: 
+image: cover.png
 draft: false # change status
 reference-location: margin
 image: challenges.png

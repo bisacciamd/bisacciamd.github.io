@@ -5,7 +5,6 @@ page-layout: article
 toc: false
 date: last-modified
 date-format: "MMMM YYYY"
-reference-location: margin
 execute:
     echo: false
     warning: false
@@ -13,124 +12,95 @@ execute:
     freeze: auto
 lightbox: true
 title-block-categories: true
-draft: false # change status
+draft: false
 ---
+
+
+```{r setup}
+#| include: false
+library(gt)
+library(tidyverse)
+
+# Read data from Excel file
+prospero_data <- read.csv("prospero-registrations.csv") %>%
+  mutate(
+    year = as.numeric(year),
+    highlight = replace_na(highlight, FALSE)
+  )
+```
 
 ## Registered Systematic Reviews
 
-I maintain a commitment to transparency of methods and reporting through prospective registration of systematic review protocols on [PROSPERO](https://www.crd.york.ac.uk/prospero/), the international database of systematic reviews. Below are my registered protocols, demonstrating expertise across a broad range of topics, including cardiovascular imaging, heart disease, and interventional cardiology.
+I maintain a commitment to transparency of methods and reporting through prospective registration of systematic review protocols on [PROSPERO](https://www.crd.york.ac.uk/prospero/), the international database of systematic reviews. Below are my registered protocols.
 
-```{=html}
-<div class="table-responsive">
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">Registration</th>
-      <th scope="col">Title</th>
-      <th scope="col" style="width: 120px;">Status</th>
-      <th scope="col" style="width: 100px;">Year</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42025106331" target="_blank" class="text-decoration-none">
-          <i class="bi bi-box-arrow-up-right"></i> CRD42025106331
-        </a>
-      </td>
-      <td>
-        <strong>Health outcomes, quality of life, and surveillance strategies for recurrent pericarditis: A systematic review</strong>
-        <br>
-        <small class="text-muted">Focus: Pericardial Disease Management</small>
-      </td>
-      <td>
-        <span class="badge bg-success">Published</span>
-      </td>
-      <td>2025</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42025105745" target="_blank" class="text-decoration-none">
-          <i class="bi bi-box-arrow-up-right"></i> CRD42025105745
-        </a>
-      </td>
-      <td>
-        <strong>The Prognostic Value of Global Longitudinal Strain in Patients with Moderate Aortic Stenosis: A Systematic Review and Meta-Analysis</strong>
-        <br>
-        <small class="text-muted">Focus: Valvular Heart Disease</small>
-      </td>
-      <td>
-        <span class="badge bg-success">Published</span>
-      </td>
-      <td>2025</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023450622" target="_blank" class="text-decoration-none">
-          <i class="bi bi-box-arrow-up-right"></i> CRD42023450622
-        </a>
-      </td>
-      <td>
-        <strong>Safety, Efficacy and Prognostic Value of Vasodilator and Dobutamine Stress Testing in Orthotopic Heart Transplant Recipients</strong>
-        <br>
-        <small class="text-muted">Focus: Heart Transplantation</small>
-      </td>
-      <td>
-        <span class="badge bg-success">Published</span>
-      </td>
-      <td>2023</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023435640" target="_blank" class="text-decoration-none">
-          <i class="bi bi-box-arrow-up-right"></i> CRD42023435640
-        </a>
-      </td>
-      <td>
-        <strong>Accuracy of Noninvasive Imaging Strategies for Allograft Rejection and Vasculopathy Surveillance After Heart Transplantation: a Systematic Review and Meta-analysis</strong>
-        <br>
-        <small class="text-muted">Focus: Transplant Surveillance</small>
-      </td>
-      <td>
-        <span class="badge bg-success">Published</span>
-      </td>
-      <td>2023</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023417014" target="_blank" class="text-decoration-none">
-          <i class="bi bi-box-arrow-up-right"></i> CRD42023417014
-        </a>
-      </td>
-      <td>
-        <strong>Myocardial ischemia and viability guidance to percutaneous revascularization in coronary chronic total occlusion: a systematic review and meta-analysis</strong>
-        <br>
-        <small class="text-muted">Focus: Interventional Cardiology</small>
-      </td>
-      <td>
-        <span class="badge bg-success">Published</span>
-      </td>
-      <td>2023</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42022299275" target="_blank" class="text-decoration-none">
-          <i class="bi bi-box-arrow-up-right"></i> CRD42022299275
-        </a>
-      </td>
-      <td>
-        <strong>Stress cardiovascular magnetic resonance imaging to evaluate coronary syndromes: a systematic review and meta-analysis</strong>
-        <br>
-        <small class="text-muted">Focus: Cardiovascular Imaging • <span class="badge bg-warning text-dark">Cited in ESC Guidelines</span></small>
-      </td>
-      <td>
-        <span class="badge bg-success">Published</span>
-      </td>
-      <td>2022</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+```{r prospero-table}
+prospero_data %>%
+  arrange(desc(year), desc(registration)) %>%
+  mutate(
+    # Clean registration display
+    registration_clean = registration,
+    # Clean title with focus
+    title_clean = paste0("**", title, "**"),
+    focus_clean = paste0("*", focus, "*"),
+    # Status with emojis
+    status_clean = case_when(
+      status == "Published" ~ "✅Published",
+      status == "Ongoing" ~ "🔄Ongoing", 
+      status == "Completed" ~ "✅ Completed",
+      TRUE ~ status
+    ),
+    # Add highlight if needed
+    highlight_text = if_else(highlight, " 🏆", "")
+  ) %>%
+  select(registration_clean, title_clean, focus_clean, status_clean, year, url) %>%
+  gt() %>%
+  cols_label(
+    registration_clean = "Registration",
+    title_clean = "Title",
+    focus_clean = "Focus Area",
+    status_clean = "Status", 
+    year = "Year",
+    url = "Link"
+  ) %>%
+  fmt_markdown(columns = c(title_clean, focus_clean)) %>%
+  fmt_url(columns = url, label = "View") %>%
+  cols_align(
+    align = "center",
+    columns = c(status_clean, year)
+  ) %>%
+  cols_width(
+    registration_clean ~ px(140),
+    title_clean ~ px(300),
+    focus_clean ~ px(140),
+    status_clean ~ px(100),
+    year ~ px(60),
+    url ~ px(60)
+  ) %>%
+  tab_options(
+    table.font.size = px(13),
+    data_row.padding = px(12),
+    column_labels.font.weight = "bold",
+    column_labels.background.color = "#f8f9fa",
+    column_labels.padding = px(8),
+    table.border.top.style = "solid",
+    table.border.top.width = px(1),
+    table.border.top.color = "#dee2e6",
+    table.width = pct(100),
+    table.margin.left = px(0),
+    table.margin.right = px(0)
+  ) %>%
+  tab_style(
+    style = cell_borders(
+      sides = "bottom",
+      color = "#f1f3f4",
+      weight = px(1)
+    ),
+    locations = cells_body()
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#fafbfc"),
+    locations = cells_body(rows = seq(2, nrow(prospero_data), 2))
+  )
 ```
 
 ## Research Areas
@@ -139,7 +109,7 @@ I maintain a commitment to transparency of methods and reporting through prospec
 ::: {.g-col-12 .g-col-md-4}
 ### Cardiovascular Imaging
 - Stress CMR protocols
-- Diagnostic accuracy studies
+- Diagnostic accuracy studies  
 - Prognostic evaluations
 :::
 
@@ -158,36 +128,11 @@ I maintain a commitment to transparency of methods and reporting through prospec
 :::
 :::
 
-## Methodological Expertise
+## Methodological Excellence
 
-All protocols follow international standards for systematic review conduct:
+All protocols adhere to international standards:
 
-- **PRISMA** guidelines for reporting
-- **GRADE** methodology for evidence assessment
-- **Cochrane** risk of bias tools
-- **Meta-analysis** using state-of-the-art statistical methods
-
----
-
-<style>
-.table td {
-  vertical-align: middle;
-}
-
-.badge {
-  font-weight: normal;
-}
-
-@media (max-width: 768px) {
-  .table {
-    font-size: 0.875rem;
-  }
-  
-  .table td:nth-child(3),
-  .table td:nth-child(4),
-  .table th:nth-child(3),
-  .table th:nth-child(4) {
-    display: none;
-  }
-}
-</style>
+- **PRISMA** guidelines for transparent reporting
+- **GRADE** methodology for evidence assessment  
+- **Cochrane** risk of bias evaluation tools
+- **Advanced meta-analysis** using contemporary statistical methods
