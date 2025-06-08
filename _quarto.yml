@@ -31,6 +31,8 @@ website:
       - icon: file-earmark-text
         text: CV
         href: Bisaccia_CV_2025-06-07.pdf
+        target: _blank
+        rel: "download"
       - icon: paperclip
       - icon: file-post
         href: blog.qmd
