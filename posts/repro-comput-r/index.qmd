@@ -21,8 +21,9 @@ execute:
     eval: false
     warning: false
     error: false
-    freeze: false
+    freeze: auto
     output: false
+    cache: true
 ---
 
 -   Among best practices in science, aiming for *reproducibility* is primarily important because it ensures methodological rigor and the consistency of findings[@RN643].
@@ -131,7 +132,7 @@ git commit -m "Initial project structure"
 ```
 
 ::: callout-note
-Version control is non-negotiable for reproducible research. It tracks changes, enables collaboration, and provides a safety net for your work[@RN645].
+Version control is non-negotiable for reproducible research. It tracks changes, enables collaboration, and provides a safety net for your work.
 :::
 
 ## Create a `.gitignore` file
@@ -209,7 +210,7 @@ Structure your `src/` folder by analysis type:
 ```
 
 ::: callout-note
-Number your scripts to indicate execution order. This helps collaborators understand your analytical flow[@RN646].
+Number your scripts to indicate execution order. This helps collaborators understand your analytical flow.
 :::
 
 ## Integrating Quarto documents
@@ -340,7 +341,7 @@ read_csv("/Users/username/projects/projectname/data/patient_outcomes.csv")
 ```
 
 ::: callout-warning
-Absolute paths break reproducibility across different systems. ProjectTemplate's structure ensures relative paths work consistently[@RN647].
+Absolute paths break reproducibility across different systems. ProjectTemplate's structure ensures relative paths work consistently.
 :::
 
 # Conclusion

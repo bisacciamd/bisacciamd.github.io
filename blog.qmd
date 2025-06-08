@@ -1,0 +1,14 @@
+---
+title: Blog
+author: 
+    name: G. Bisaccia
+    degrees: MD, PhD
+    orcid: 0000-0003-4606-3093
+listing:
+    - id: main
+      contents: posts
+      sort: "date desc"
+---
+
+::: {#main}
+:::

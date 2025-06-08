@@ -11,7 +11,7 @@ date: 17/01/2024
 date-format: "MMMM YYYY"
 draft: false
 reference-location: margin
-image: jneuro2024.png
+image: jneurol.webp
 execute:
     echo: false
     warning: false
@@ -19,6 +19,12 @@ execute:
     freeze: auto
 lightbox: true
 ---
+
+::: {.callout-tip appearance="minimal" style="background-color: #f8f9fa; border-left: 5px solid #0d6efd; margin: 40px 0;"}
+
+This work, part of my doctoral research, has been referenced 18+ times in the literature (up to June 2025).
+:::
+
 ![Figure from Journal of Neurology.](jneurol.webp)
 
 ::: {.column-margin}
