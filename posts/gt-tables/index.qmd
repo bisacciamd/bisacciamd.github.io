@@ -8,7 +8,7 @@ author:
 date: last-modified
 date-format: medium
 #image: 
-draft: true # change status
+draft: false # change status
 reference-location: margin
 image: challenges.png
 categories: [R, gt, tidyverse]
