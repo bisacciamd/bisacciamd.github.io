@@ -15,7 +15,6 @@ title-block-categories: true
 draft: false
 ---
 
-
 ```{r setup}
 #| include: false
 library(gt)
