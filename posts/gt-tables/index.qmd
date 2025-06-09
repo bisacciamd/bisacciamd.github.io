@@ -10,7 +10,6 @@ date-format: medium
 image: cover.png
 draft: false # change status
 reference-location: margin
-image: challenges.png
 categories: [R, gt, tidyverse]
 execute:
 #   echo: false
