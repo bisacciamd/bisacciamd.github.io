@@ -1,0 +1,52 @@
+---
+title: "Appointed as Task Force Member of the European Heart Academy"
+subtitle: "Advancing cardiovascular education through the European Society of Cardiology"
+description: "Reflections on joining the EHA Task Force and its mission to foster future leaders in cardiovascular medicine"
+author: 
+    name: G. Bisaccia
+    orcid: 0000-0003-4606-3093
+date: last-modified
+date-format: medium
+image: "pic-1.jpg"
+draft: false
+reference-location: margin
+categories: [cardiology, medical education, health equity]
+execute:
+    warning: false
+    error: false
+    freeze: auto
+---
+
+I am pleased to share that I have been appointed as Task Force Member of the European Heart Academy (EHA) under the **European Society of Cardiology** **#AcademyESC**, as part of my MSc studies at **The London School of Economics and Political Science (LSE)**. 
+
+The EHA held its inaugural Research Symposium during the ESC Congress in London last August. This gathering brought together cardiovascular professionals from varied backgrounds to address the evolving landscape of cardiac medicine and education.
+
+![EHA Inaugural Research Symposium at ESC Congress London](pic-1.jpg)
+
+## The Academy's mission
+
+The Academy's mission is clear: *"To champion excellence and innovation by fostering future leaders in Cardiovascular medicine."*
+
+While advances in cardiovascular science continue, our field faces persistent challenges in translating evidence into practice. The gaps in implementation, inequitable access to care, and the impact of social determinants on cardiovascular outcomes shape our daily practice. The EHA recognizes that tomorrow's cardiac leaders need excellent clinical training—and they must be equipped to address structural barriers in preserving health and delivering care.
+
+## Educational programmes and partnerships
+
+The EHA collaborates with universities in London, Zurich, Maastricht, and Oxford to offer postgraduate programmes developed specifically for practicing cardiologists. These programmes integrate implementation science, health equity frameworks, and systems thinking alongside advanced clinical and research training.
+
+You can find out about the programmes here: [https://www.escardio.org/Education/Postgraduate-Programmes](https://www.escardio.org/Education/Postgraduate-Programmes)
+
+## Building connections at LSE
+
+My Year 2 class at LSE welcomed Professor **Dan Atar** along with amazing team representatives from the ESC, **Radu Huculeci** and **Beatriz Zanetti**.
+
+![LSE Year 2 class with Professor Dan Atar and ESC representatives](pic-2.jpg)
+
+## Looking ahead
+
+As we work to reduce the burden of cardiovascular disease, educational initiatives must prepare cardiologists to excel clinically while navigating the social and structural factors that determine patient outcomes. The EHA seeks to develop leaders who can bridge these domains effectively.
+
+![Additional photo from the EHA programme](pic-3.png)
+
+---
+
+*The official hashtag for the EHA is #AcademyESC*.

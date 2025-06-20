@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/eha-2025/index.html",
       "/posts/gt-tables/index.html",
       "/posts/r-hta-2024/index.html",
       "/posts/repro-comput-r/index.html",
