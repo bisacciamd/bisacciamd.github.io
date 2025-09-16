@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="G. Bisaccia">
-<meta name="description" content="Enables batch-curation of Circle CVi42 XML reports.">
+<meta name="author" content="et al.">
+<meta name="description" content="In a real-world head-to-head comparison study for diagnostic accuracy and prognostic yield, a strategy of CMR alone outperformed SPECT and exercise ECG, as well as their combination, in patients with stable chest pain. Use of CMR following an inconclusive exercise ECG was superior to use of SPECT, and comparable to a strategy of CMR alone.">
 
-<title>CViBaker2042 – G. Bisaccia, MD-PhD</title>
+<title>Diagnostic and prognostic comparison of stress ECG, CMR and SPECT, alone and sequentially, in stable chest pain – G. Bisaccia, MD-PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,6 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -145,17 +147,20 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">CViBaker2042</h1>
-            <p class="subtitle lead">Shiny application</p>
+      <h1 class="title">Diagnostic and prognostic comparison of stress ECG, CMR and SPECT, alone and sequentially, in stable chest pain</h1>
+            <p class="subtitle lead">Journal of Cardiovascular Magnetic Resonance</p>
                   <div>
         <div class="description">
-          Enables batch-curation of Circle CVi42 XML reports.
+          In a real-world head-to-head comparison study for diagnostic accuracy and prognostic yield, a strategy of CMR alone outperformed SPECT and exercise ECG, as well as their combination, in patients with stable chest pain. Use of CMR following an inconclusive exercise ECG was superior to use of SPECT, and comparable to a strategy of CMR alone.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">cmr</div>
-                <div class="quarto-category">postprocessing</div>
-                <div class="quarto-category">shiny app</div>
+                <div class="quarto-category">CMR</div>
+                <div class="quarto-category">original research</div>
+                <div class="quarto-category">stable angina</div>
+                <div class="quarto-category">clinical utility</div>
+                <div class="quarto-category">diagnostic accuracy</div>
+                <div class="quarto-category">prognostic yield</div>
               </div>
                   </div>
   </div>
@@ -164,16 +169,17 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
       <div>
-      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Authors</div>
       <div class="quarto-title-meta-contents">
                <p>G. Bisaccia <a href="https://orcid.org/0000-0003-4606-3093" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+               <p>et al. </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 2024</p>
+        <p class="date">September 2025</p>
       </div>
     </div>
     
@@ -197,16 +203,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="callout callout-style-simple callout-tip no-icon" style="background-color: #f8f9fa; border-left: 5px solid #0d6efd; margin: 40px 0;">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>This work was part of my doctoral research.</p>
+</div>
+</div>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="cvibaker2042.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The app running on a local Shiny server. Online implementation is underway."><img src="cvibaker2042.png" class="img-fluid figure-img" alt="The app running on a local Shiny server. Online implementation is underway."></a></p>
-<figcaption>The app running on a local Shiny server. Online implementation is underway.</figcaption>
+<p><a href="jcmr-ga.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure from Journal of Cardiovascular Magnetic Resonance."><img src="jcmr-ga.jpg" class="img-fluid figure-img" alt="Figure from Journal of Cardiovascular Magnetic Resonance."></a></p>
+<figcaption>Figure from Journal of Cardiovascular Magnetic Resonance.</figcaption>
 </figure>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><strong>cviBaker2042</strong> (2024). G. Bisaccia. <em>Under active development</em>.</p>
-</div></div><p>Custom-made application for exportation of Circle CVi42 study reports to <a href="https://www.project-redcap.org">Redcap</a> import-ready CSV files. A local version of this app was used in my PhD thesis.</p>
+<p><strong>Diagnostic and prognostic comparison of stress ECG, CMR and SPECT, alone and sequentially, in stable chest pain</strong> (2025). G. Bisaccia, P. P. Swoboda, J. F. Younger, N. Maredia, C. J. Dickinson, J. M. Brown, C. Bucciarelli-Ducci, S. Plein and J. P. Greenwood. <em>Journal of Cardiovascular Magnetic Resonance</em>. <a href="https://doi.org/10.1016/j.jocmr.2025.101960"><i class="bi-box-arrow-up-right " style="" role="img" aria-hidden="true"></i></a></p>
+</div></div><p><strong>Background</strong> Exercise ECG remains widely performed in the assessment of patients with suspected cardiac chest pain. We aimed to assess the comparative diagnostic and prognostic yield of exercise ECG, single photon emission computed tomography (SPECT) and cardiovascular magnetic resonance (CMR), in a large prospective patient population.</p>
+<p><strong>Methods</strong> Patients recruited to CE-MARC who had exercise ECG were included and followed up to a median(IQR) of 6.3(0.1,6.8) years. Sensitivity, specificity, positive (PPV) and negative (NPV) predictive values, and area under the curve (AUC) for diagnostic accuracy were derived and hazard ratios of MACE for prognostic significance calculated.</p>
+<p><strong>Results</strong> Of 752 patients in the CE-MARC trial, 580 had exercise ECG and invasive coronary angiography, of which 503 also had SPECT and CMR. At follow-up, a total of 91(15.7%) patients experienced MACE. Using invasive angiography as the reference test, the sensitivity, specificity, PPV and NPV(95%CI) of exercise ECG were 68.3(61.9,74.0), 72.5(67.6,76.9), 61.0(54.8,66.8), 78.4(73.7,82.5). Exercise ECG was significantly less sensitive than CMR and less specific than both CMR and SPECT. A positive exercise ECG result was not predictive of MACE at follow-up (HR 1.14[0.75,1.72], p=0.53). CMR had both a greater diagnostic and prognostic yield than exercise ECG, SPECT and their combination. Sequential CMR following inconclusive exercise ECG was comparable to CMR alone as the first-line test.</p>
+<p><strong>Conclusions</strong> In patients with suspected angina, CMR alone as the first-line test was more sensitive and prognostically accurate than exercise ECG, SPECT, or sequential combination of both tests.</p>
 
 
 
@@ -664,7 +683,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
