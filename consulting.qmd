@@ -1,0 +1,14 @@
+---
+title: "Consulting & collaboration"
+toc: false
+---
+
+Alongside my research roles, I take on a limited amount of consulting work. Areas where I can help:
+
+- **Evidence synthesis** — systematic reviews, meta-analyses, and network meta-analyses, from protocol and PROSPERO registration to manuscript.
+- **Health economic evaluation** — cost-effectiveness and budget impact analysis, survival modelling, decision curve analysis.
+- **Methodological review** — critical appraisal of study protocols, grant applications, and manuscripts.
+
+I am also open to academic collaboration on cardiovascular imaging and health economics and outcomes research topics.
+
+If this fits your project, [email me](mailto:bisacciagiandomenico@gmail.com) with a short description of what you have in mind, or use the [contact form](contact.qmd).

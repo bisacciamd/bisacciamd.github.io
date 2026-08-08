@@ -20,9 +20,6 @@ $btn-border-radius:           0em !default;
 $btn-border-radius-lg:        0em !default;
 $btn-border-radius-sm:        0em !default;
 
-// CTA Colors
-$cta-bg: #4f6aa2 !default;
-
 /*-- scss:rules --*/
 
 // remove radius of the large buttons on the about page
@@ -47,73 +44,14 @@ a {
   }
 }
 
-// Custom CTA Footer
-.custom-cta-footer {
-  background-color: $cta-bg;
-  color: white;
-  padding: 60px 20px;
+// Minimal site footer
+.site-footer {
+  margin-top: 60px;
+  padding: 20px 0 30px 0;
+  border-top: 1px solid #dee2e6;
   text-align: center;
-  margin: 60px 0 0 0;
-  border-radius: 10px 10px 0 0;
-  
-  h2 {
-    color: white;
-    margin-bottom: 1rem;
-  }
-  
-  p {
-    color: white;
-    margin-bottom: 1.5rem;
-  }
-  
-  .cta-button {
-    padding: 15px 50px;
-    font-size: 1.2em;
-    margin-top: 20px;
-    text-decoration: none;
-    border-radius: 30px;
-    
-    &:hover {
-      transform: translateY(-2px);
-      transition: all 0.3s ease;
-    }
-  }
-}
-
-// Ensure proper styling for both themes
-html[data-bs-theme="light"] .custom-cta-footer .btn-light,
-html[data-bs-theme="dark"] .custom-cta-footer .btn-light {
-  color: $cta-bg;
-  background-color: white;
-  border-color: white;
-  
-  &:hover {
-    color: $cta-bg;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
-  }
-}
-
-// Style the Contact link as a button
-.navbar-nav a[href*="contact"] {
-  background-color: #ff6b35 !important;
-  color: white !important;
-  padding: 6px 16px !important;
-  border-radius: 4px !important;
-  margin-left: 8px;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    background-color: #e55a2b !important;
-    color: white !important;
-    text-decoration: none !important;
-    transform: translateY(-1px);
-  }
-}
-
-// Adjust spacing for the contact button
-.navbar-nav li:has(a[href*="contact"]) {
-  margin-top: 3px;
+  font-size: 0.9em;
+  color: #6c757d;
 }
 
 /* Reset container margins */

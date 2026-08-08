@@ -1,0 +1,16 @@
+---
+title: Publications
+author:
+    name: G. Bisaccia
+    degrees: MD, PhD
+    orcid: 0000-0003-4606-3093
+listing:
+    - id: mainpubs
+      contents: pubs
+      sort: "date desc"
+---
+
+A selection of my peer-reviewed work. My full publication record is on [ORCID](https://orcid.org/0000-0003-4606-3093).
+
+:::{#mainpubs}
+:::

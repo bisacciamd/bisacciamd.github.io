@@ -1,48 +1,36 @@
 ---
 title: "Giandomenico Bisaccia, MD-PhD"
-subtitle: "Evidence Synthesis & Health Economics Consultant"
+subtitle: "Clinician-researcher · Cardiovascular MRI · Health Economics"
 about:
   template: jolla
   image: images/profile.jpg
+  links:
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0003-4606-3093
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/bisacciamd
+    - icon: github
+      text: GitHub
+      href: https://github.com/bisacciamd
+    - icon: envelope
+      text: Email
+      href: mailto:bisacciagiandomenico@gmail.com
 lightbox: true
 toc: false
 ---
-## Transforming Healthcare Data into Strategic Insights
 
-I deliver rigorous **evidence synthesis** and **health economic evaluations** that inform healthcare decisions. With an MD-PhD from Italy and ongoing MSc in Health Economics at the London School of Economics, I bridge clinical expertise with health economics and data science.
+I am a cardiologist by training (MD-PhD, "G. d'Annunzio" University of Chieti–Pescara, with doctoral research in Chieti and London) and my research has focused on the diagnostic and prognostic value of cardiovascular magnetic resonance in angina, cardiomyopathies, and heart transplantation.
 
-### Impact That Matters
+I now work as a research officer at LSE Health, London School of Economics, where I completed an MSc in Health Economics. My work sits at the intersection of cardiovascular imaging and economic evaluation — asking not only whether a test or treatment works, but whether it is worth using.
+
+### Selected highlights
 
 ::: {style="text-align: left;"}
-- In my international doctoral research (Chieti, Italy and London, UK), I have studied the diagnostic and prognostic value of cardiac MRI in patients with angina, cardiomyopathies, and following heart transplantation.
-- My systematic review in [JAMA Cardiology](pubs/jamacard2023/index.qmd) has been incorporated into the 2024 **ESC Clinical Guidelines**, demonstrating translation of methodological rigour into real-world impact. 
-- Currently, as a research officer at LSE Health, I'm developing economic evaluation tools for the EU-funded [HYPERMARKER project](https://www.hypermarker.eu/).
-
+- My [systematic review in JAMA Cardiology](pubs/jamacard2023/index.qmd) is cited in the 2024 ESC Guidelines on chronic coronary syndromes.
+- At LSE Health, I develop economic evaluation tools for the EU-funded [HYPERMARKER project](https://www.hypermarker.eu/).
+- I serve as a Task Force member of the [European Heart Academy](posts/eha-2025/index.qmd) and edit the SCMR Journal Watch for the Society for Cardiovascular Magnetic Resonance.
 :::
 
-### What I Offer
-
-:::::: {.grid}
-::: {.g-col-12 .g-col-md-4}
-**Evidence Synthesis**  
-Systematic reviews, meta-analyses, and network meta-analyses that meet publication and regulatory standards
-:::
-
-::: {.g-col-12 .g-col-md-4}
-**Health Economics**  
-Cost-effectiveness analyses, budget impact models, and survival analysis for reimbursement decisions
-:::
-
-::: {.g-col-12 .g-col-md-4}
-**Research Support**  
-Critical review of grants, protocols, and manuscripts, plus professional medical writing services
-:::
-::::::
-
-::: {style="text-align: center; margin: 40px 0;"}
-[**Explore All Services**](services.qmd){.btn .btn-lg style="background-color: #ff6b35; border-color: #ff6b35; color: white; padding: 12px 36px; font-size: 1.1em;"}
-:::
-
-# Let's Work Together
-
-Whether you're advancing academic research or making strategic business decisions, I provide the evidence-based insights you need.
+Browse my [publications](publications.qmd), [research and tools](research.qmd), and [blog](blog.qmd), or see my full [CV](https://cv.bisacciamd.com).
