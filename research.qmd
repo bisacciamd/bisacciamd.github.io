@@ -1,0 +1,16 @@
+---
+title: Research & Tools
+author:
+    name: G. Bisaccia
+    degrees: MD, PhD
+    orcid: 0000-0003-4606-3093
+listing:
+    - id: main
+      contents: portfolio
+      sort: "date desc"
+---
+
+Research projects, conference work, protocol registrations, and interactive methodological tools.
+
+::: {#main}
+:::
